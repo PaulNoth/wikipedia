@@ -1,0 +1,28 @@
+  <page>
+    <title>Epimetheus</title>
+    <ns>0</ns>
+    <id>10121</id>
+    <revision>
+      <id>539365352</id>
+      <parentid>484363056</parentid>
+      <timestamp>2013-02-21T05:10:44Z</timestamp>
+      <contributor>
+        <username>Legobot</username>
+        <id>7304691</id>
+      </contributor>
+      <minor />
+      <comment>Bot: Migrating langlinks to [[WP:Wikidata]] - [[d:q227368]]</comment>
+      <text xml:space="preserve">'''Epimetheus''' may mean one of several things:
+
+*[[Epimetheus (mythology)]], the Titan from Greek mythology
+*[[Epimetheus (moon)]], the moon of Saturn
+*[[1810 Epimetheus]], an asteroid
+*[[Epimetheus Society]], a [[high-IQ society]]
+
+{{disambiguation}}</text>
+      <sha1>py74le5040pvonqjlbv8x55mlc59jgd</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  
