@@ -1,8 +1,14 @@
 package sk.fiit.nemecek.jolana.server.services.database.service;
 
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.io.Writer;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
@@ -11,16 +17,21 @@ import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.stream.XMLInputFactory;
 import javax.xml.stream.XMLStreamConstants;
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamReader;
+import javax.xml.transform.TransformerException;
+import javax.xml.transform.TransformerFactoryConfigurationError;
 
 import org.apache.commons.io.FileUtils;
 import org.springframework.stereotype.Service;
+import org.xml.sax.SAXException;
 
 import sk.fiit.nemecek.jolana.server.services.database.data.KorpusItem;
-import sk.fiit.nemecek.jolana.server.services.database.data.KorpusItemList;
 import sk.fiit.nemecek.jolana.server.utils.MyFileUtils;
 
 import com.aliasi.tokenizer.IndoEuropeanTokenizerFactory;
@@ -29,21 +40,22 @@ import com.aliasi.tokenizer.TokenizerFactory;
 
 @Service
 public class DatabaseDefaultService implements DatabaseService {
-    
-    @Override
-    public void marshallDataToXMLFile(KorpusItemList list) throws JAXBException {
-       
-    }
 
+    public static final String TRAINED_DATA = System.getProperty("user.dir") + File.separator + MyFileUtils.LETTERSLOCATION + File.separator + MyFileUtils.LETTERSFILENAME;
+    public static final String LETTERS_TREE_LOCATION = System.getProperty("user.dir") + File.separator + MyFileUtils.LETTERSLOCATION + File.separator + "letters";
+
+    /**
+     * Method for searching subtree in trained data.
+     */
     @Override
     public KorpusItem findSubTreeByLetter(String character) throws JAXBException, XMLStreamException, IOException {
-        File f = new File(MyFileUtils.FILENAME);
-        if(!f.canRead()){
+        File f = new File(MyFileUtils.LETTERSFILENAME);
+        if (!f.canRead()) {
             return null;
         }
         // find subtree by character
         XMLInputFactory factory = XMLInputFactory.newInstance();
-        XMLStreamReader reader = factory.createXMLStreamReader(new FileInputStream(MyFileUtils.FILENAME));
+        XMLStreamReader reader = factory.createXMLStreamReader(new FileInputStream(MyFileUtils.LETTERSFILENAME));
 
         boolean breaking = false;
         while (reader.hasNext()) {
@@ -61,13 +73,13 @@ public class DatabaseDefaultService implements DatabaseService {
                     }
                 }
             }
-            if(breaking){
+            if (breaking) {
                 break;
             }
         }
-        
-        if(breaking == false){
-            reader = factory.createXMLStreamReader(new FileInputStream(MyFileUtils.FILENAME));
+
+        if (breaking == false) {
+            reader = factory.createXMLStreamReader(new FileInputStream(MyFileUtils.LETTERSFILENAME));
             reader.next();
         }
         // deserialize subtree
@@ -80,9 +92,12 @@ public class DatabaseDefaultService implements DatabaseService {
         // return list;
         return item;
     }
-    
+
+    /**
+     * Method for preparing train data for stemming from MediaWiki page-text
+     */
     @Override
-    public String extractMediaWikiTextForLearning() throws Exception {
+    public void extractMediaWikiTextForLearning() throws Exception {
 
         // find subtree by character
         XMLInputFactory factory = XMLInputFactory.newInstance();
@@ -93,30 +108,39 @@ public class DatabaseDefaultService implements DatabaseService {
             switch (event) {
             case XMLStreamConstants.START_ELEMENT:
                 if ("text".equals(reader.getLocalName())) {
-                    //process data to SuffixTree ;
+                    // process data to SuffixTree ;
                     prepareSuffixStructure(reader.getElementText());
                 }
             }
         }
-        return null;
+
+        // merge created suffix subtrees
+        String[] extensions = { "xml" };
+        Collection<File> files = FileUtils.listFiles(new File(LETTERS_TREE_LOCATION), extensions, false);
+        mergeXMLLetters(files);
     }
 
+    /**
+     * Method for processing text from page data into subtree structure
+     * @param text
+     * @return
+     * @throws IOException
+     * @throws InterruptedException
+     */
     private KorpusItem prepareSuffixStructure(String text) throws IOException, InterruptedException {
         text = text.replaceAll("\\[\\[Súbor:.+\\]\\]", "");
         List<String> tokenList = new ArrayList<String>();
         TokenizerFactory tokenizerFactory = new IndoEuropeanTokenizerFactory();
         Tokenizer tokenizer = tokenizerFactory.tokenizer(text.toCharArray(), 0, text.length());
-        tokenizer.tokenize(tokenList,new ArrayList<String>());
-        
-        for(String s : tokenList){
+        tokenizer.tokenize(tokenList, new ArrayList<String>());
+
+        for (String s : tokenList) {
             s = s.replaceAll("\\p{Punct}", "");
             s = s.replaceAll("\\p{Digit}", "");
-            if(s.length() > 3){
+            if (s.length() > 3) {
                 KorpusItem root = processWord(s);
-                KorpusItemList list = new KorpusItemList();
-                list.addItem(root);
                 try {
-                    marshallDataToXMLSuffixTree(list);
+                    marshallDataToXMLSuffixTree(root);
                 } catch (JAXBException e) {
                     e.printStackTrace();
                 }
@@ -125,34 +149,34 @@ public class DatabaseDefaultService implements DatabaseService {
         return null;
     }
 
-    private void marshallDataToXMLSuffixTree(KorpusItemList list) throws JAXBException {
-        //create dir for suffix trees
+    /**
+     * Method for marshaling prepared subtree
+     * @param root
+     * @throws JAXBException
+     */
+    private void marshallDataToXMLSuffixTree(KorpusItem root) throws JAXBException {
+        // create dir for suffix trees
         File dir = new File(System.getProperty("user.dir") + MyFileUtils.LETTERSLOCATION + File.separator);
         dir.mkdir();
-        String fileName = list.getList().get(0).getChildren().getList().get(0).getPismeno() + ".xml";
-        //check if tree exists
-        if(new File(dir.getAbsolutePath() + fileName).exists()){
+        String fileName = root.getChildren().getList().get(0).getPismeno() + ".xml";
+        // check if tree exists
+        if (new File(dir.getAbsolutePath() + fileName).exists()) {
             new File(dir.getAbsolutePath() + fileName).delete();
         }
 
-        JAXBContext jaxbContext = JAXBContext.newInstance(KorpusItemList.class);
+        JAXBContext jaxbContext = JAXBContext.newInstance(KorpusItem.class);
         Marshaller jaxbMarshaller = jaxbContext.createMarshaller();
         jaxbMarshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
         jaxbMarshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
-        jaxbMarshaller.marshal(list, new File(dir.getAbsolutePath() + File.separator + fileName));
-        
+        jaxbMarshaller.marshal(root, new File(dir.getAbsolutePath() + File.separator + fileName));
+
     }
 
-    @Override
-    public KorpusItem findKorpusItemByLetter(String letter) {
-        // TODO Auto-generated method stub
-        return null;
-    }
-    
     /**
-     * Method for creating suffix tree.
+     * Method for creating suffix tree from one word.
      * 
-     * @param String wordString
+     * @param String
+     *            wordString
      * @return String
      */
     private KorpusItem processWord(String wordString) {
@@ -168,22 +192,22 @@ public class DatabaseDefaultService implements DatabaseService {
                 // search in DB for end char
                 try {
                     item = findSubTreeXMLByLetter(character);
-                } catch ( IOException | XMLStreamException | JAXBException e) {
+                } catch (IOException | XMLStreamException | JAXBException e) {
                     e.printStackTrace();
                 }
                 // if we cannot find end char return as unknown
-                    if (item == null) {
+                if (item == null) {
                     KorpusItem it = new KorpusItem();
                     it.setEnd(true);
                     it.setPismeno(character);
                     it.setProbability(1);
                     item = it;
-                }else{
+                } else {
                     item.setProbability(item.getProbability() + 1);
                 }
-                    root = new KorpusItem();
-                    root.getChildren().addItem(item);
-               
+                root = new KorpusItem();
+                root.getChildren().addItem(item);
+
             } else {
                 // search for next char
                 KorpusItem temp = null;
@@ -202,27 +226,85 @@ public class DatabaseDefaultService implements DatabaseService {
                     temp.setProbability(1);
                     item.getChildren().addItem(temp);
                 }
-                item = temp; 
+                item = temp;
             }
         }
         return root;
     }
 
-    private KorpusItem findSubTreeXMLByLetter(String character) throws IOException, XMLStreamException, JAXBException{
-        String[] extensions = {"xml"};
+    /**
+     * Method for merging letters into one structure
+     * @param files
+     * @throws ParserConfigurationException
+     * @throws SAXException
+     * @throws IOException
+     * @throws TransformerFactoryConfigurationError
+     * @throws TransformerException
+     */
+    void mergeXMLLetters(Collection<File> files) throws ParserConfigurationException, SAXException, IOException, TransformerFactoryConfigurationError, TransformerException {
+        File lettersFile = new File(TRAINED_DATA);
+
+        Writer writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(lettersFile), "UTF8"));
+
+        boolean isfirstTime = true;
+        for (File f : files) {
+            BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(f), "UTF8"));
+            String line;
+            if (isfirstTime) {
+                writer.write(br.readLine());
+                writer.write("\r\n");
+                writer.write("<letters>");
+                writer.write("\r\n");
+                isfirstTime = false;
+            } else {
+                br.readLine();
+            }
+            while ((line = br.readLine()) != null) {
+                writer.write(line);
+                writer.write("\r\n");
+            }
+            br.close();
+        }
+        writer.write("</letters>");
+        writer.close();
+
+        // check xml validity
+        DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+        factory.setValidating(false);
+        factory.setNamespaceAware(true);
+
+        DocumentBuilder builder = factory.newDocumentBuilder();
+
+        // the "parse" method also validates XML, will throw an exception if
+        // misformatted
+        builder.parse(lettersFile);
+    }
+
+    /**
+     * Method for searching for subtree in XML structure
+     * 
+     * @param character
+     * @return
+     * @throws IOException
+     * @throws XMLStreamException
+     * @throws JAXBException
+     */
+    private KorpusItem findSubTreeXMLByLetter(String character) throws IOException, XMLStreamException, JAXBException {
+        String[] extensions = { "xml" };
         Collection<File> files = FileUtils.listFiles(new File(System.getProperty("user.dir") + MyFileUtils.LETTERSLOCATION + File.separator), extensions, false);
-        for(File f: files){
-            if((character + ".xml").equals(f.getName())){
-                
+        for (File f : files) {
+            if ((character + ".xml").equals(f.getName())) {
+
                 XMLInputFactory factory = XMLInputFactory.newInstance();
                 XMLStreamReader reader = factory.createXMLStreamReader(new FileInputStream(f));
-                JAXBContext jaxbContext = JAXBContext.newInstance(KorpusItemList.class);
+                JAXBContext jaxbContext = JAXBContext.newInstance(KorpusItem.class);
                 Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
 
-                KorpusItemList list = (KorpusItemList) jaxbUnmarshaller.unmarshal(reader);
-                return list.getList().get(0).getChildren().getList().get(0);
+                KorpusItem list = (KorpusItem) jaxbUnmarshaller.unmarshal(reader);
+                return list.getChildren().getList().get(0);
             }
         }
         return null;
     }
+
 }
