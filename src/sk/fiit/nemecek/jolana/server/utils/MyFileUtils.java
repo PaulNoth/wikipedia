@@ -12,6 +12,7 @@ import org.apache.commons.io.FileUtils;
 public class MyFileUtils extends FileUtils {
 
     public static final String FILENAME = "letters.xml";
+    public static final String LETTERSLOCATION = File.separator + "data" + File.separator + "letters";
     
     public static final int DOC = 1;
     public static final int DOCX = 2;

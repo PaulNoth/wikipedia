@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" output="target/classes" path="src">
+	<classpathentry including="**/*.java" kind="src" output="target/classes" path="src">
 		<attributes>
 			<attribute name="optional" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
@@ -45,5 +45,10 @@
 	<classpathentry kind="lib" path="lib/org.springframework.expression-3.2.2.RELEASE.jar"/>
 	<classpathentry kind="lib" path="lib/testng-6.8.7.jar"/>
 	<classpathentry kind="lib" path="lib/spring-test-3.2.2.RELEASE.jar"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 
 import javax.xml.bind.JAXBContext;
@@ -15,6 +16,7 @@ import javax.xml.stream.XMLStreamConstants;
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamReader;
 
+import org.apache.commons.io.FileUtils;
 import org.springframework.stereotype.Service;
 
 import sk.fiit.nemecek.jolana.server.services.database.data.KorpusItem;
@@ -30,10 +32,7 @@ public class DatabaseDefaultService implements DatabaseService {
     
     @Override
     public void marshallDataToXMLFile(KorpusItemList list) throws JAXBException {
-        JAXBContext jaxbContext = JAXBContext.newInstance(KorpusItemList.class);
-        Marshaller jaxbMarshaller = jaxbContext.createMarshaller();
-        jaxbMarshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
-        jaxbMarshaller.marshal(list, new File(MyFileUtils.FILENAME));
+       
     }
 
     @Override
@@ -117,13 +116,31 @@ public class DatabaseDefaultService implements DatabaseService {
                 KorpusItemList list = new KorpusItemList();
                 list.addItem(root);
                 try {
-                    marshallDataToXMLFile(list);
+                    marshallDataToXMLSuffixTree(list);
                 } catch (JAXBException e) {
                     e.printStackTrace();
                 }
             }
         }
         return null;
+    }
+
+    private void marshallDataToXMLSuffixTree(KorpusItemList list) throws JAXBException {
+        //create dir for suffix trees
+        File dir = new File(System.getProperty("user.dir") + MyFileUtils.LETTERSLOCATION + File.separator);
+        dir.mkdir();
+        String fileName = list.getList().get(0).getChildren().getList().get(0).getPismeno() + ".xml";
+        //check if tree exists
+        if(new File(dir.getAbsolutePath() + fileName).exists()){
+            new File(dir.getAbsolutePath() + fileName).delete();
+        }
+
+        JAXBContext jaxbContext = JAXBContext.newInstance(KorpusItemList.class);
+        Marshaller jaxbMarshaller = jaxbContext.createMarshaller();
+        jaxbMarshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
+        jaxbMarshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
+        jaxbMarshaller.marshal(list, new File(dir.getAbsolutePath() + File.separator + fileName));
+        
     }
 
     @Override
@@ -150,20 +167,23 @@ public class DatabaseDefaultService implements DatabaseService {
             if (i == 0) {
                 // search in DB for end char
                 try {
-                    item = findSubTreeByLetter(character);
-                } catch (JAXBException | XMLStreamException | IOException e) {
+                    item = findSubTreeXMLByLetter(character);
+                } catch ( IOException | XMLStreamException | JAXBException e) {
                     e.printStackTrace();
                 }
                 // if we cannot find end char return as unknown
-                if (item == null) {
-                    root = new KorpusItem();
+                    if (item == null) {
                     KorpusItem it = new KorpusItem();
                     it.setEnd(true);
                     it.setPismeno(character);
                     it.setProbability(1);
-                    root.getChildren().addItem(it);
+                    item = it;
+                }else{
+                    item.setProbability(item.getProbability() + 1);
                 }
-                item = root;
+                    root = new KorpusItem();
+                    root.getChildren().addItem(item);
+               
             } else {
                 // search for next char
                 KorpusItem temp = null;
@@ -182,9 +202,27 @@ public class DatabaseDefaultService implements DatabaseService {
                     temp.setProbability(1);
                     item.getChildren().addItem(temp);
                 }
-                item = temp;
+                item = temp; 
             }
         }
         return root;
+    }
+
+    private KorpusItem findSubTreeXMLByLetter(String character) throws IOException, XMLStreamException, JAXBException{
+        String[] extensions = {"xml"};
+        Collection<File> files = FileUtils.listFiles(new File(System.getProperty("user.dir") + MyFileUtils.LETTERSLOCATION + File.separator), extensions, false);
+        for(File f: files){
+            if((character + ".xml").equals(f.getName())){
+                
+                XMLInputFactory factory = XMLInputFactory.newInstance();
+                XMLStreamReader reader = factory.createXMLStreamReader(new FileInputStream(f));
+                JAXBContext jaxbContext = JAXBContext.newInstance(KorpusItemList.class);
+                Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
+
+                KorpusItemList list = (KorpusItemList) jaxbUnmarshaller.unmarshal(reader);
+                return list.getList().get(0).getChildren().getList().get(0);
+            }
+        }
+        return null;
     }
 }
