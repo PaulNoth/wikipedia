@@ -1,1 +1,85 @@
-la
+<page>
+    <title>Röntgen (rozlišovacia stránka)</title>
+    <ns>0</ns>
+    <id>40643</id>
+    <revision>
+      <id>4225455</id>
+      <parentid>2133211</parentid>
+      <timestamp>2012-02-17T11:33:49Z</timestamp>
+      <contributor>
+        <username>Vegbot</username>
+        <id>43457</id>
+      </contributor>
+      <minor />
+      <comment>typo gram</comment>
+      <text xml:space="preserve">'''Röntgen''' môže byť:
+*už nepoužívaná fyzikálna jednotka, pozri [[Röntgen]]
+*priezvisko nemeckého fyzika, objaviteľa röntgenového žiarenia, pozri [[Wilhelm Röntgen|Wilhelm Conrad Röntgen]]
+*prístroj, ktorý pomocou röntgenového žiarenia, vytvára obraz, pozri [[rádiológia]]
+*snímka, vytvorená pomocou röntgenového žiarenia, pozri [[rádiológia]]
+*spektrum vlnových dĺžok elektromagnetického vlnenia, pozri [[Röntgenové žiarenie]]
+
+{{Rozlišovacia stránka}}</text>
+      <sha1>4plnzcvjarjqi2kolcd6whqg0rbeszy</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Mapa (rozlišovacia stránka)</title>
+    <ns>0</ns>
+    <id>40605</id>
+    <revision>
+      <id>5251387</id>
+      <parentid>3516362</parentid>
+      <timestamp>2013-03-09T03:43:09Z</timestamp>
+      <contributor>
+        <username>Addbot</username>
+        <id>85670</id>
+      </contributor>
+      <minor />
+      <comment>[[Redaktor:Addbot|Bot:]] Odstránenie 15 odkazov interwiki, ktoré sú teraz dostupné na [[d:|Wikiúdajoch]] ([[d:q227502]])</comment>
+      <text xml:space="preserve">'''Mapa''' môže byť:
+* zobrazenie prírodných a/alebo socioekonomických javov a objektov, ktoré je generalizované v zmenšenom pomere a realizované pomocou kartogrfického zobrazenia, a ktoré je spravidla (ale nie vždy) dvojrozmerné, pozri [[mapa]]
+*v širšom zmysle: schéma, prehľad; tabuľka; napr.
+**v biológii : [[chromozómová mapa]], [[genetická mapa]]
+**v informatike: [[mapa stránky]], [[mapa znakov]], [[logická mapa]] (Karnaughova mapa), [[hašovacia mapa]] a pozri aj [[map]]
+**v teórii chaosu: [[logistická mapa]]
+*obal z tvrdých dosák, pozri [[mapa (obal)]]
+*významné nálezisko rodu Homo v Číne (pchinjin: Maba), pozri [[Mapa (Čína)]]
+*izraelské vydavateľstvo máp
+
+Pozri aj :[[map]], [[cestovná mapa]] (road map)
+
+{{rozlišovacia stránka}}</text>
+      <sha1>58awxgyf1kcmf99v8659bemjm0l8goy</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Búrka (rozlišovacia stránka)</title>
+    <ns>0</ns>
+    <id>40152</id>
+    <revision>
+      <id>5251208</id>
+      <parentid>4478659</parentid>
+      <timestamp>2013-03-09T03:32:51Z</timestamp>
+      <contributor>
+        <username>Addbot</username>
+        <id>85670</id>
+      </contributor>
+      <minor />
+      <comment>[[Redaktor:Addbot|Bot:]] Odstránenie 3 odkazov interwiki, ktoré sú teraz dostupné na [[d:|Wikiúdajoch]] ([[d:q397781]])</comment>
+      <text xml:space="preserve">'''Búrka''' môže byť:
+* stav počasia, pozri [[búrka]]
+* divadelná hra anglického dramatika Williama Shakespearea, pozri [[Búrka (Shakespeare)]]
+* divadelná hra ruského dramatika Alexandra Nikolajeviča Ostrovského, pozri [[Búrka (Ostrovskij)]]
+* obraz Giorgioneho, pozri [[Búrka (Giorgione)]]
+
+{{rozlišovacia stránka}}</text>
+      <sha1>szyfokf8883r9cue52alhxv9j70jgrm</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
