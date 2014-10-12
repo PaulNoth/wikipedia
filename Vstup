@@ -83,3 +83,309 @@ Pozri aj :[[map]], [[cestovná mapa]] (road map)
       <format>text/x-wiki</format>
     </revision>
   </page>
+
+<page>
+    <title>Röntgen</title>
+    <ns>0</ns>
+    <id>40254</id>
+    <revision>
+      <id>5715069</id>
+      <parentid>5715068</parentid>
+      <timestamp>2014-02-19T13:20:49Z</timestamp>
+      <contributor>
+        <username>Vasiľ</username>
+        <id>2806</id>
+      </contributor>
+      <minor />
+      <text xml:space="preserve">{{iné významy|röntgen}}
+
+'''Röntgen''', značka '''R''', je zastaraná jednotka [[expozícia|expozície]] [[ionizačné žiarenie|ionizačnému žiareniu]] (značka X). Pomenovaná je po nemeckom fyzikovi [[Wilhelm Röntgen|Wilhelmovi Conradovi Röntgenovi]].
+
+Dnes sa ako jednotka expozície ionizačnému žiareniu používa [[SI]] jednotka [[coulomb na kilogram]].
+1 R = 2,58.10&lt;sup&gt;−4&lt;/sup&gt; C.kg&lt;sup&gt;−1&lt;/sup&gt;
+Dávka 500 R počas 5 hodín je pre človeka smrteľná.
+
+[[Kategória:Fyzikálne jednotky]]</text>
+      <sha1>6zicha1uhyx5a0zzprbdq3496sykcw1</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  
+  <page>
+    <title>Wilhelm Conrad Röntgen</title>
+    <ns>0</ns>
+    <id>44680</id>
+    <revision>
+      <id>5750784</id>
+      <parentid>5590021</parentid>
+      <timestamp>2014-04-21T07:05:47Z</timestamp>
+      <contributor>
+        <username>Magy357</username>
+        <id>96201</id>
+      </contributor>
+      <minor />
+      <comment>pridaná [[Kategória:Držitelia Radu Pour le Mérite]] pomocou použitia HotCat</comment>
+      <text xml:space="preserve">{{Nositeľ Nobelovej ceny}}
+{{Infobox Osobnosť
+   |Meno             = Wilhelm Conrad Röntgen
+   |Portrét          = WilhelmRöntgen.JPG
+   |Popis            = nemecký fyzik
+   |Dátum narodenia  = [[27. marec]] [[1845]]
+   |Miesto narodenia = [[Lennep]], [[Nemecko]]
+   |Dátum úmrtia     = {{dúv|1923|2|10|1845|3|27}}
+   |Miesto úmrtia    = [[Mníchov]], [[Nemecko]]
+ }}
+'''Wilhelm Conrad Röntgen''' (často aj '''William Conrad Roentgen''') (* [[27. marec]] [[1845]] – † [[10. február]] [[1923]]) bol [[nemecko|nemecký]] [[fyzika|fyzik]], pôsobiaci na univerzite vo [[Würzburg]]u, kde [[8. november|8. novembra]] [[1895]] vytvoril a zaznamenal [[elektromagnetické žiarenie|elektromagnetické vlnenie]], ktoré je dnes známe ako „lúče X“ alebo [[röntgenové žiarenie]].
+
+V novembri [[2004]] po ňom [[IUPAC]] pomenovala novoobjavený prvok [[Roentgenium]].
+
+== Mladosť a vzdelanie ==
+Wilhelm Conrad Röntgen sa narodil v nemeckom mestečku [[Lennep]] (dnes je súčasťou mesta [[Remscheid]]) obchodníkovi so [[súkno]]m. Keď mal 3 roky, rodičia sa presťahovali do [[Holandsko|holandského]] mesta [[Apeldoorn]], kde prežil detstvo. Prvé vzdelanie získal v Inštitúte Martinusa Hermana van Doorna. Neskôr nastúpil na Technickú školu v [[Utrecht]]e, z ktorej bol pre nakreslenie karikatúry jedného z učiteľov neskôr vylúčený (sám tvrdil, že s týmto činom nemal nič spoločné). Nezískal preto maturitné vysvedčenie. V roku [[1865]] nastúpil na Utrechtskú univerzitu, potom začal študovať na [[ETH Zürich|polytechnike v Zürichu]] [[strojné inžinierstvo]]. V roku [[1869]] získal titul doktora filozofie z Univerzity v [[Zürich]]u.
+
+== Kariéra ==
+V roku [[1867]] sa Röntgen stáva odborným asistentom na univerzite v [[Štrasburg]]u a v roku [[1871]] [[profesor (vedecko-pedagogická hodnosť)|profesorom]] na poľnohospodárskej akadémii v [[Hohenheim]]e. V roku [[1876]] sa vracia do Štrasburgu ako profesor fyziky a v roku [[1879]] je zvolený za vedúceho [[katedra (vysoká škola)|katedry]] fyziky na univerzite v meste [[Giessen]]. V roku [[1888]] získava miesto vedúceho katerdy fyziky na univerzite vo [[Würzburg]]u, a v roku [[1900]] na [[Mníchov]]skej univerzite (na osobitnú žiadosť [[Bavorsko|Bavorskej]] vlády). Röntgen mal rodinu v [[Spojené štáty|Spojených štátoch]] (v štáte [[Iowa]]) a v určitom období uvažoval o emigrácií. Hoci prijal miesto na [[Columbia University in the City of New York|Columbijskej]] univerzite v [[New York (mesto)|New Yorku]] a mal kúpený lístok na cestu cez [[Atlantický oceán]], vypuknutie [[prvá svetová vojna|I.svetovej vojny]] zmenilo jeho plány - zostal v Mníchove po celý zvyšok svojej vedeckej kariéry. Röntgen umiera v roku [[1923]] na [[karcinóm hrubého čreva]]. Toto ochorenie pravdepodobne nemalo súvis s jeho prácou s [[ionizujúce žiarenie|ionizujúcim žiarením]], pretože jeho výskum trval len krátky čas a on sám bol jedným z mála vtedajších výskumníkov, ktorý pri práci s ním používali pravidelne ochranné štíty.
+
+== Objav &quot;lúčov X&quot; ==
+Počas roku [[1895]] Röntgen používal vybavenie vyvinuté jeho kolegami [[Heinrich Rudolf Hertz|Hertzom]], [[Johann Wilhelm Hittorf|Hittorfom]], [[William Crookes|Crookesom]] a [[Philipp Lenard|Lenardom]] na výskum účinkov vysokonapäťových elektrických výbojov v sklenených [[vákuum|vákuových]] bankách. Koncom roka [[1895]] títo výskumníci začali skúmať vlastnosti elektrónových lúčov mimo baniek. Na začiatku novembra Röntgen opakoval experiment s jednou z Lenardových baniek, do ktorej bolo pridané tenké [[hliník]]ové okienko, umožňujúce elektrónovým lúčom opustiť banku. Banku obalil [[kartón]]om, aby chránil hliník pred poškodením silným elektrostatickým poľom, ktoré je potrebné na vytvorenie samotných lúčov. Röntgen si všimol, že neviditeľné elektrónové lúče vyvolali efekt [[fluorescencia|fluorescencie]] na malom kartónovom obrázku, namaľovaného platinokyanidom bária, ktorý bol položený neďaleko hliníkového okienka. Röntgen napadlo, že Hittorf-Crookesova banka, ktorá mala oveľa hrubšie sklo ako Lenardova banka, by mohla tiež vyvolávať rovnaký efekt.
+
+Neskoro večer, [[8. november|8. novembra]] [[1895]] sa Röntgen rozhodol tento nápad otestovať. Starostlivo zhotovil čierny kartónový kryt, podobný tomu, ktorý použil na Lenardovej banke. Prikryl ním Hittorf-Crookesovu banku a pripojil [[elektróda|elektródy]] k Ruhmkorffovej cievke, aby získal elektrický náboj. Pred samotným testom s platňou natretou platinokyanidom bária, Röntgen zatemnil miestnosť, aby otestoval nepriepustnosť svojho kartónového obalu pre viditeľné svetlo. Keď pustil cez banku elektrický prúd, potvrdil si, že jeho kryt je spoľahlivý a pokračoval ďalším krokom svojho experimentu. To bol okamih, kedy si všimol slabé mihotanie na laboratórnom stole, vzdialenom asi meter od banky. Aby získal istotu, spustil viacero výbojov, no zakaždým mihotanie videl. Zisťuje, že zdrojom mihotania je platňa s platinokyanidom bária, ktorú hodlal v ďalšej fáze pokusu použiť.
+
+Röntgen uvažoval, že príčinou by mohol byť nový druh lúčov. 8. november bol piatok, takže využil výhodu voľného víkendu, aby svoje pokusy zopakoval a urobil prvé poznámky. V nasledujúcich týždňoch jedol i spal v laboratóriu a preskúmal mnoho vlastností nových lúčov, ktoré pracovne nazval „lúče X“, použijúc matematické označenie pre niečo neznáme.
+
+Röntgenov objav „lúčov X“ nebola náhoda, ani nepracoval sám. So svojimi výskumami a výskumom svojich kolegov v rôznych krajinách, bol tento objav „na spadnutie“. V skutočnosti boli „lúče X“ vytvorené a prvý ich „záznam“ na film urobený na [[Pensylvánia|Pensylvánskej]] univerzite o dva roky skôr. No výskumníci si neuvedomili dôležitosť svojho objavu, založili film pre neskoršie posúdenie a preto stratili príležitosť na rozpoznanie jedného z najväčších objavov fyziky.
+
+[[Súbor:X-ray by Wilhelm Röntgen of Albert von Kölliker's hand - 18960123-02.jpg|náhľad|vpravo|Legendárna rtg snímka ruky, urobená Röntgenom]]
+Keď Röntgen skúmal schopnosť rôznych materiálov zastaviť „lúče X“, vložil do cesty lúčom drobný kúsok [[olovo|olova]]. V tej chvíli uvidel prvý [[skiaskopia|skiaskopický]] obraz - mihotajúce sa [[kosť|kosti]] svojej vlastnej ruky na platni s platinokyanidom. Neskôr uviedol, že to bola chvíľa, kedy sa rozhodol udržať svoje pokusy zatiaľ v tajnosti. Bál sa totiž o svoju profesionálnu reputáciu, ak by sa ukázalo, že jeho pozorovania sú chybné.
+
+Röntgenov pôvodný článok, „O novom druhu lúčov X,“ bol poublikovaný o 50 dní neskôr - [[28. december|28. decembra]] [[1895]]. [[5. január]]a [[1896]] oznámili [[rakúsko|rakúske]] noviny Röntgenov objav nového typu [[radiácia|radiácie]]. [[13. január]]a [[1896]] sa konalo zasadanie Würzburgskej Spoločnosti pre fyziku a medicínu, kde on sám demonštroval svoj objav i jeho možné praktické využitie v medicíne. Na tomoto zasadnutí bol prijatý návrh anatóma [[Rudolf Albert von Kölliker|R.A.Köllikera]] (1817 - 1905), aby boli „lúče X“ pomenované po svojom objaviteľovi. Röntgen bol po svojom objave ocenený univerzitou vo [[Würzburg]]u čestným titulom doktor medicíny. O lúčoch X publikoval celkovo 3 články, v období medzi rokmi [[1895]] a [[1897]]. Žiadne z jeho záverov neboli potvrdené ako chybné. Dnes je Wilhelm Conrad Röntgen považovaný za otca diagnostickej [[rádiológia|rádiológie]] - [[medicína|medicínskeho]] odboru, ktorý používa zobrazovacie metódy na diagnostiku ochorení. 
+
+V roku [[1901]] bola Röntgenovi udelená vôbec prvá [[Nobelova cena za fyziku]]. Ocenenie bolo oficiálne ''„za uznanie mimoriadneho prínosu, ktorý vykonal objavom pozoruhodných lúčov, následne pomenovaných podľa neho“''. Röntgen daroval finančnú sumu, ktorá k cene patrila, svojej univerzite. Podobne ako [[Pierre Curie]] o niekoľko rokov neskôr, si z morálnych dôvodov odmietol [[patent]]ovať čokoľvek, čo sa vzťahovalo k jeho objavu. Dokonca ani nechcel, aby sa ním objavené žiarenie volalo podľa neho; vždy dával prednosť označeniu „lúče X“.
+
+== Pozri aj ==
+* [[Heinrich Rudolf Hertz|Hertz, Heinrich Rudolf]]
+* [[Röntgenové žiarenie]]
+* [[Rádiológia]]
+
+== Iné projekty ==
+{{Projekt|q=Wilhelm Conrad Röntgen|commonscat=Wilhelm Conrad Röntgen}}
+
+== Externé odkazy ==
+* [http://nobelprize.org/physics/laureates/1901/rontgen-bio.html Životopis na oficiálnej stránke Nobelovej ceny]
+* [http://physics.nobel.brainparad.com/wilhelm_conrad_rontgen.html Wilhelm Conrad Röntgen]
+* ''[http://www.gutenberg.org/files/14663/14663-h/14663-h.htm#page403 The New Marvel in Photography]'', článok o a rozhovor s Röntgenom v McClure's magazine, Vol. 6, No. 5, Apríl [[1896]], z [[Projekt Gutenberg|Projektu Gutenberg]]
+* [http://alsos.wlu.edu/qsearch.aspx?browse=people/Röntgen,+Wilhelm Komentovaná bibliografia o Wilhelmovi Röntgenovi z Alsos Digital Library]
+* [http://members.chello.nl/~h.dijkstra19/page5.html Stránka o katódových bankách]
+
+{{Nositelia Nobelovej ceny za fyziku}}
+
+{{DEFAULTSORT:Röntgen, Wilhelm Conrad}}
+
+[[Kategória:Narodenia v 1845]]
+[[Kategória:Úmrtia v 1923]]
+[[Kategória:Nemeckí fyzici]]
+[[Kategória:Nositelia Nobelovej ceny za fyziku]]
+[[Kategória:Osobnosti rádiológie]]
+[[Kategória:Držitelia Radu Pour le Mérite]]
+
+{{Link GA|de}}</text>
+      <sha1>25rn4e0l4lel8bnr56lzmeub43saauf</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  
+  <page>
+    <title>Rádiológia</title>
+    <ns>0</ns>
+    <id>38836</id>
+    <revision>
+      <id>5773616</id>
+      <parentid>5250725</parentid>
+      <timestamp>2014-05-31T08:30:09Z</timestamp>
+      <contributor>
+        <username>Racconish</username>
+        <id>73268</id>
+      </contributor>
+      <comment>img</comment>
+      <text xml:space="preserve">[[File:Dr. MacIntyre's X-Ray film.webm|thumb|''Dr. Macintyre's X-Ray Film'' (1896)]]
+'''Rádiológia''', predtým nazývaná '''rádiodiagnostika''', je medicínsky odbor, ktorý využíva určité spektrum [[ionizačné žiarenie|ionizačného žiarenia]] ([[röntgenové žiarenie]]) a ďalšie fyzikálne javy (najmä [[ultrazvuk]] a [[magnetická rezonancia|magnetickú rezonanciu]]) na diagnostiku [[choroba|chorôb]]. 
+
+== História ==
+
+Za otca rádiológie sa považuje [[Wilhelm Conrad Röntgen]], [[nemecko|nemecký]] [[fyzika|fyzik]], pôsobiaci na univerzite vo [[Würzburg]]u, kde [[8. november|8. novembra]] [[1895]] vytvoril a zaznamenal [[elektromagnetické žiarenie|elektromagnetické vlnenie]], ktoré je dnes známe ako „lúče X“ alebo [[röntgenové žiarenie]]. V roku [[1901]] za svoj objav obdržal [[Nobelova cena|Nobelovu cenu]] za [[fyzika|fyziku]]; jeho objav sa veľmi rýchlo dočkal praktického uplatnenia - avšak nebola to fyzika, ale medicína, ktorá z neho mala najviac ťažiť.
+&lt;br /&gt;Vo veľmi krátkom čase po Röntgenovom objave vznikajú prvé rádiodiagnostické prístroje, ktoré sa rýchlo technicky zdokonaľujú. Objavuje sa obrovské množstvo lekárskych článkov a kníh, pojednávajúcich o nových možnostiach diagnostiky ochorení s pomocou rtg žiarenia, nové kontrastné látky, nové technické vylepšenia. Prvý rtg prístroj na území bývalého Československa bol zakúpený z verejnej zbierky pre Chirurgickú kliniku Lekárskej fakulty v [[Praha|Prahe]].
+
+Rozvoj moderných zobrazovacích metód umožnil pokroky vo všetkých odboroch medicíny, najmä [[chirurgia|chirurgických]]. Bez možnosti rýchleho a presného určenia chorobného stavu a podrobného zobrazenia [[anatómia|anatomických]] štruktúr si dnes nemožno predstaviť [[traumatológia|traumatológiu]], [[cievna chirurgia|cievnu chirurgiu]], [[transplantácia|transplanačné]] a [[neurochirurgia|neurochirurgické]] zákroky a mnoho ďalších. Sledovanie rozsahu zhubného ochorenia a jeho reakcie na liečbu je dnes neoddeliteľnou súčasťou úspešnej [[onkológia|onkologickej]] diagnostiky a liečby.
+&lt;br /&gt;Pokrok v odbore však so sebou prináša i určité negatívne stránky. Čoraz viac [[lekár]]ov sa spolieha na zobrazovacie vyšetrovacie metódy a zanedbáva základný kameň diagnostiky akejkoľvek choroby - podrobnú [[anamnéza|anamnézu]] a [[fyzikálne vyšetrenie]]. Neadekvátne použitie zobrazovacích metód so sebou navyše prináša zvýšené náklady na zdravotnú starostlivosť a zvýšenú radiačnú záťaž obyvateľstva.
+
+== Rozdelenie ==
+
+Rádiológia ako odbor sa delí na viacero viac či menej samostatných oblastí. Tieto nie sú presne definované a vzájomne sa často do značnej miery prekrývajú:
+
+A. Podľa prístrojovej techniky a fyzikálnej podstaty zobrazovacých metodík:
+
+* tzv. [[konvenčná rádiológia|&quot;klasická&quot; alebo &quot;konvenčná&quot; rádiológia]]
+** [[skiaskopia]]
+** [[skiagrafia]]
+** [[konvenčná tomografia]]
+** vyšetrenia s použitím kontrastných látok
+*** ezofagografia
+*** gastrografia
+*** duodenografia
+*** enteroklýza
+*** irrigografia
+*** fistulografia
+*** myelografia
+*** endoskopická retrográdna cholangio-pankreatikografia (ERCP)
+*** perkutánna cholangiografia (PTC)
+*** angiografia
+* [[počítačová tomografia]] (CT)
+** virtuálna endoskopia
+** CT koronarografia
+** CT angiografia
+** CT volumetria
+** perfúzne CT
+** CT myelografia
+** CT enteroklýza
+** CT irrigografia
+** CT fistulografia
+* ultrasonografia (USG)
+** dvojrozmerná
+** dopplerovská
+** echokardiografia
+* [[magnetická rezonancia]] (MRI)
+** MR angiografia
+** MR spektroskopia
+
+B. Podľa veku pacientov:
+
+* pediatrická rádiológia
+* rádiológia dospelých
+
+C. Podľa zobrazoveného orgánu alebo orgánového systému:
+
+* neurorádiológia
+** rádiológia mozgu
+** rádiológia miechy
+* muskulo-skeletálna rádiológia
+** rádiológia kostí
+** rádiológia svalov, väzov a kĺbov
+* pneumorádiológia
+* abdominálna rádiológia
+** rádiológia pečene
+** rádiológia žlčníka a žlčových ciest
+** rádiológia sleziny
+** [[rádiológia pankreasu]]
+** rádiológia nadobličiek
+** rádiológia žalúdka
+** rádiológia tenkého čreva
+** rádiológia hrubého čreva
+** rádiológia retroperitonea
+* urogenitálna rádiológia
+** rádiológia obličiek a močovodov
+** rádiológia močového mechúra a močovej rúry
+** rádiológia mužského pohlavného systému
+** gynekologická rádiológia
+
+* rádiológia oblasti tváre a krku
+** orgánová rádiológia
+* rádiológia prsníka
+** mamografia
+** USG prsníkov
+** termografia/termovízia
+** intervenčná rádiológia
+*** perkutánna aspiračná [[biopsia]] (PAB)
+*** biopsia hrubou ihlou (&quot;core-cut&quot;)
+*** vákuová mammotómia
+
+D. Podľa jednotlivých skupín ochorení:
+
+* traumatologická rádiológia
+* onkologická rádiológia
+
+E. Podľa prístupu k pacientovi:
+
+* diagnostická rádiológia
+* intervenčná rádiológia 
+
+{{Koncové šablóny|{{Medicína}}|{{Rádiológia}}}}
+
+[[Kategória:Rádiológia| ]]</text>
+      <sha1>7q38m2qrxlor3kmvl922s97pzkhxo69</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  
+  <page>
+    <title>Röntgenové žiarenie</title>
+    <ns>0</ns>
+    <id>39129</id>
+    <revision>
+      <id>5755898</id>
+      <parentid>5755897</parentid>
+      <timestamp>2014-04-29T08:11:04Z</timestamp>
+      <contributor>
+        <username>Pe3kZA</username>
+        <id>39673</id>
+      </contributor>
+      <minor />
+      <comment>Verzia používateľa [[Special:Contributions/212.55.230.50|212.55.230.50]] ([[User_talk:212.55.230.50|diskusia]]) bola vrátená, bola obnovená verzia od 89.173.170.145</comment>
+      <text xml:space="preserve">[[Súbor:X-ray by Wilhelm Röntgen of Albert von Kölliker's hand - 18960123-02.jpg|thumb|Röntgenová snímka ruky]]
+
+'''Röntgenové žiarenie''' (iné názvy: '''röntgenové lúče, röntgenová radiácia, RTG žiarenie/lúče/radiácia, rtg žiarenie/lúče/radiácia, lúče/žiarenie X, X-lúče/žiarenie'''; ako vlnenie: '''röntgenové vlnenie/vlny, RTG vlnenie/vlny, rtg vlnenie/vlny'''; ako časť elektromagnetického spektra: '''röntgenové/RTG/rtg spektrum, röntgenové/RTG/rtg pásmo''') je [[elektromagnetické žiarenie]] v rozsahu vlnových dĺžok od 10 [[nanometer|nanometrov]] do 100 [[pikometer|pikometrov]]. Vzniká prudkým zabrzdením urýchlených elektrónov (brzdné žiarenie) alebo prechodom [[elektrón]]ov na nižšie energetické hladiny v [[atóm]]e (charakteristické žiarenie). 
+
+Jeho prirodzeným zdrojom sú najmä [[hviezda|hviezdy]], umelo sa dá získať v röntgenovej trubici (röntgenke) dopadom zrýchlených [[elektrón]]ov na anódu (kladne nabitú elektródu). Jeho ďalšími zdrojmi sú niektoré [[rádionuklid]]y, z umelých napríklad [[urýchľovač]]. V [[rádiológia|rádiológii]] používané spektrum má vlnovú dĺžku 1-50 nm. Okrem medicíny sa využíva pri štrukturálnej a spektrálnej analýze látok, v radiačnej [[chémia|chémii]], v [[defektoskopia|defektoskopii]]. Patrí do skupiny tzv. [[ionizačné žiarenie|ionizačného žiarenia]], ktoré má negatívne účinky na ľudský organizmus.
+
+Jeho objaviteľom bol [[8. november|8. novembra]] [[1895]] [[Wilhelm Conrad Röntgen]], [[nemecko|nemecký]] [[fyzika|fyzik]], pôsobiaci na univerzite vo [[Würzburg]], pri pokusoch katódovým žiarením v sklenenej trubici.  Úplne zamedzil prístup svetla k sklenenej trubici a generoval výboje. Vždy keď v trubici nastal vývoj, papier pokrytý [[fluorescencia|fluorescenčnou]] látkou ležiaci neďaleko, začal svetielkovať. Po starostlivom pátraní a overovaní vysvetlil Röntgen tento jav ako vyžarovanie prenikavého neviditeľného žiarenia, ktoré vyvoláva fluorescenciu a preniká cez tenkú stenu krabice, v ktorej bola umiestnená sklenená trubica aby mala zabezpečenú úplnú tmu. Pri ďalších experimentoch zistil, že objekty s rôznou hrúbkou majú pre tieto lúče rôznu priepustnosť. Ešte pred koncom roku 1895 zverejnil predbežné výsledky svojho objavu, ktorý nazval „X lúče“. O rok neskôr dostalo žiarenie pomenovanie po ňom.&lt;ref&gt;NAVRÁTIL, L. - ROSINA, J. A KOL.: Medicínská biofyzika. Grada Publishing, 1. Vydanie, Praha, 2005. ISBN 80-247-1152-4. str. 304&lt;/ref&gt;
+Nie je vylúčené, že pred W. C. Rontgenom lúče X pozoroval [[Nikola Tesla]].&lt;ref&gt;{{Citácia elektronického dokumentu
+  | priezvisko          = Fabián
+  | meno                = Juraj
+  | odkaz na autora     = 
+  | titul               = O profesorovi MUDr. Vojtechovi Alexandrovi
+  | url                 = http://www.cardiology.sk/casopis/204/pdf/07_info_sks_10.pdf
+  | dátum vydania       = 
+  | dátum aktualizácie  = 
+  | dátum prístupu      = 
+  | vydavateľ           = 
+  | miesto              = 
+  | jazyk               = slovensky
+}}&lt;/ref&gt;
+
+== Vlastnosti ==
+RTG žiarenie má veľkú prenikavosť a silnejšie [[ionizujúce žiarenie|ionizačné]] účinky, ako [[ultrafialové žiarenie]]. Nakoľko má vlnovú podstatu (podobne ako ultrafialové a gama žiarenie), nemá [[elektrický náboj]] a teda nemôže príslušnými elektrickými silami priamo [[ionizácia|ionizovať]] [[atóm]]y. Môže však urýchľovať elektróny či spôsobiť [[excitácia|excitáciu]] jadra. Pohlcovanie a prienik röntgenového žiarenia sú závislé od [[protónové číslo|protónového čísla]] atómov prostredia, závisia aj od hrúbky látky, vzdialenosti od zdroja žiarenia, ako aj od frekvencie samotného žiarenia. Žiarenie s vyššou energiou (kratšími vlnovými dĺžkami) má vyššiu prenikavosť ako žiarenie s nižšou energiou. Jeho najsilnejším prirodzeným zdrojom pre Zem je [[Slnko]], ale aj iné kozmické objekty (napr. [[jadro Galaxie]], niektoré [[röntgenová dvojhviezda|dvojhviezdy]], [[pulzar]]y a pod.). Má asi 10 000-krát menšiu vlnovú dĺžku ako viditeľné [[svetlo]] a úmerne k tomu aj väčšiu energiu. 
+
+== Použitie ==
+Diagnostické a terapeutické využitie žiarenia spôsobili vznik nového, vysoko špecializovaného a klinicky významného samostatného medicínskeho odboru: [[rádiológia|rádiológie]]. Ten sa čoskoro rozdelil na dva odbory: [[rádiodiagnostika|rádiodiagnostiku]] a [[rádioterapia|rádioterapiu]]. Používa sa tiež pre výpočet [[molekulová hmotnosť|molekulových hmotností]], pretože vďaka jeho malej vlnovej dĺžke (0,1 nm) dostaneme oveľa vyššiu rozlišovaciu schopnosť ako pri použití viditeľného svetla. Výhodné vlnové dĺžky ponúka tiež ultrafialové žiarenie, tam je ale problém s tým, že v látke dochádza k jeho [[Absorpcia (žiarenie)|absorpcii]] a následne fluorescencii. 
+
+Röntgenové žiarenie sa používa aj na štúdium štruktúry [[biopolymér]]ov. Keďže toto žiarenie sa rozptyľuje na elektrónových obaloch atómov, [[interferencia|interferenciou]] vĺn rozptýlených skúmanou látkou možno vytvoriť [[difrakčný obraz]]. Z týchto obrazov sa priamo určujú molekulové charakteristiky študovaných látok. Meraním intenzity rozptýlených röntgenových lúčov pri malých uhloch sa získavajú cenné informácie o štruktúre biomakromolekúl, o stupni ich agregácie a orientácii. Difrakciu pozorujeme len vtedy, keď sa rozptýlené lúče nachádzajú vo fáze.&lt;ref&gt;HLINKOVÁ, E.: Biofyzika. Prírodovedecká fakulta Univerzity Komenského. 1991. ISBN 80-223-0336-4. str. 79-80&lt;/ref&gt;
+
+=== Röntgenové (rtg) žiarenie v rádiológii ===
+''Röntgenová trubica (röntgenka)'' je najčastejším spôsobom „výroby“ röntgenového žiarenia. Zrýchlené [[elektrón]]y dopadajú na anti-katódu (kladne nabitú elektródu) v množstve, ktoré určuje žeravenie katódy (veľkosť prechádzajúceho elektrického prúdu). Rýchlosť elektrónov (od ktorého závisí vlnová dĺžka vznikajúceho žiarenia) určuje [[elektrické napätie|napätie]] medzi katódou a anódou. Čím je napätie vyššie, tým je vlnová dĺžka kratšia a žiarenie je homogénnejšie. Urýchlené elektróny sú prudko zabrzdené na terčíku z vhodného materiálu a vzniká tzv. ''brzdné žiarenie''. Je tvorené spojitým spektrom vlnových dĺžok a je hlavným zdrojom diagnostického rtg žiarenia.
+
+Vlastnosti rtg žiarenia, ktoré sú dôležité pre diagnostiku:
+* ''priamočiare šírenie'' - rtg žiarenie sa správa rovnako ako svetlo: šíri sa z miesta vzniku všetkými smermi (čo je pre diagnostiku neúčelné) a jeho intenzita klesá so štvorcom vzdialenosti. Platia preň zákony [[optika|optiky]].
+* ''prenikanie hmotou'' - prenikavosť rtg žiarenia závisí na jeho energii: čím má kratšiu vlnovú dĺžku, tým má väčšiu energiu a tým viac a hlbšie preniká do tkanív. V rádiológii sa niekedy namiesto energie používa termín „tvrdosť“ žiarenia
+* ''odlišná absorpcia tkanivami'' - podstata samotného zobrazenia. Rôzne tkanivá ľudského tela pohlcujú rtg žiarenie rôznou mierou a práve zobrazenie týchto rozdielov je konečným cieľom jeho diagnostického využitia.
+* ''luminiscencia'' - pri dopade rtg žiarenia na niektoré chemické zlúčeniny vzniká viditeľné žiarenie, ktorého intenzita závisí od množstva dopadajúceho žiarenia. Najintenzívnejší je tento efekt pri zlúčeninách vzácnych zemín ([[gadolínium]], [[lantán]] a pod.). Využíva sa v zosilovacích fóliách, ktoré umožňujú výrazne znížiť potrebnú dávku rtg žiarenia.
+* ''fotochemický účinok'' - schopnosť spôsobiť v zlúčeninách striebra [[film]]u po vyvolaní trvalé zmeny, ktorých výsledkom je snímka daného predmetu. Využíva sa viac-menej len pri snímkach zubov, kde sa nepoužívajú zosilňovacie fólie. S postupujúcou digitalizáciou ustupuje táto technika do úzadia.
+* ''rozptyl'' - pre diagnostiku je nevýhodný, pretože rozmazáva obrysy a znižuje kontrast.
+* ''ionizačné účinky'' - nežiaduce, pretože spôsobujú poškodenie organizmu, najmä jeho [[deoxyribonukleová kyselina|DNA]].
+
+== Referencie ==
+&lt;references /&gt;
+
+== Iné projekty ==
+{{Projekt|q=Röntgenové žiarenie|commonscat=X-rays}}
+
+{{EMG spektrum}}
+{{Rádiológia}}
+
+[[Kategória:Elektromagnetické žiarenie]]
+[[Kategória:Rádiológia]]</text>
+      <sha1>qeklzx84pbkjywnmxozai26aag3opfb</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
