@@ -1,4 +1,4 @@
-package sk.fiit.nemecek.jolana.server.services.database.data;
+package sk.fiit.vi.nemecek.SkCzStemmer.services.database.data;
 
 import java.util.ArrayList;
 import java.util.List;

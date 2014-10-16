@@ -1,4 +1,4 @@
-package sk.fiit.nemecek.jolana.server.services.database.service;
+package sk.fiit.vi.nemecek.SkCzStemmer.test.database;
 
 import java.io.IOException;
 
@@ -11,7 +11,8 @@ import org.springframework.test.context.testng.AbstractTestNGSpringContextTests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import sk.fiit.nemecek.jolana.server.services.database.data.KorpusItem;
+import sk.fiit.vi.nemecek.SkCzStemmer.services.database.data.KorpusItem;
+import sk.fiit.vi.nemecek.SkCzStemmer.services.database.service.DatabaseService;
 
 @Test
 @ContextConfiguration(locations = { "classpath:applicationContext.xml" })

@@ -1,4 +1,4 @@
-package sk.fiit.nemecek.jolana.server.services.stemmer;
+package sk.fiit.vi.nemecek.SkCzStemmer.services.stemmer;
 
 import org.springframework.stereotype.Service;
 /**
@@ -16,5 +16,5 @@ public interface ProcessorService {
      * @return ExtractedDocument
      * @throws Exception
      */
-    public String processText(String doc,boolean isStopWord) throws Exception;
+    public String processText(String doc) throws Exception;
 }

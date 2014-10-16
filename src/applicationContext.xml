@@ -11,15 +11,15 @@
 	<!-- ******************************************** -->
 
 	<bean id="extractorService"
-		class="sk.fiit.nemecek.jolana.server.services.extractor.ExtractorDefaultService" />
+		class="sk.fiit.vi.nemecek.SkCzStemmer.services.extractor.MediaWikiExtractor" />
 
 	<!-- ******************************************** -->
 	<!-- Preprocess -->
 	<!-- ******************************************** -->
 
-	<!-- <bean id="processorService" -->
-	<!-- class="sk.fiit.nemecek.jolana.server.services.stemmer.ProcessorDefaultService" 
-		/> -->
+	<bean id="processorService"
+		class="sk.fiit.vi.nemecek.SkCzStemmer.services.stemmer.ProcessorDefaultService" 
+		/>
 
 	<!-- ******************************************** -->
 	<!-- Threading -->
@@ -36,5 +36,5 @@
 	<!-- ******************************************** -->
 
 	<bean id="databaseService"
-		class="sk.fiit.nemecek.jolana.server.services.database.service.DatabaseDefaultService" />
+		class="sk.fiit.vi.nemecek.SkCzStemmer.services.database.service.DatabaseDefaultService" />
 </beans>

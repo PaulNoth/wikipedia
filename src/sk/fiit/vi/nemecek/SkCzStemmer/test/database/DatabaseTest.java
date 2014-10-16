@@ -1,4 +1,4 @@
-package sk.fiit.nemecek.jolana.server.services.database.data;
+package sk.fiit.vi.nemecek.SkCzStemmer.test.database;
 
 import java.io.File;
 
@@ -8,6 +8,9 @@ import javax.xml.bind.Marshaller;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import sk.fiit.vi.nemecek.SkCzStemmer.services.database.data.KorpusItem;
+import sk.fiit.vi.nemecek.SkCzStemmer.services.database.data.KorpusItemList;
 
 public class DatabaseTest {
 
