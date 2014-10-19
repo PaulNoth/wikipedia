@@ -1,5 +1,10 @@
 <sqldata>
 	<category>
+		<name>Fiktive Person</name>
+		<pages>387</pages>
+		<subcategs>4</subcategs>
+	</category>
+	<category>
 		<name>Pseudonym</name>
 		<pages>5368</pages>
 		<subcategs>1</subcategs>
@@ -7,6 +12,11 @@
 	<category>
 		<name>Sammelpseudonym</name>
 		<pages>65</pages>
+		<subcategs>0</subcategs>
+	</category>
+	<category>
+		<name>Werk von Alan Smithee</name>
+		<pages>6</pages>
 		<subcategs>0</subcategs>
 	</category>
 </sqldata>
