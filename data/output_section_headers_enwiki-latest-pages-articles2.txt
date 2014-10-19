@@ -1,0 +1,6 @@
+#Ukážkový výstup pre úlohu číslo 1. Na vzor "title wikipage \t section \t section..."
+
+Emil Kraepelin	Family and early life	Career	Theories and classification schemes	Influence	Dreams	Bibliography	Notes	References	External links
+
+#Ukážkový výstup pre úlohu číslo 2. Na vzor "section \t count \t colection frequency"
+Early life	2	0,66

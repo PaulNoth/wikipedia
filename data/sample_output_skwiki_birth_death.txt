@@ -1,0 +1,6 @@
+Steve Jobs;24.2.1955;5.10.2011
+Isaac Newton;4.1.1643;31.3.1727
+Václav Havel;5.10.1936;18.12.2011
+Alan Mathison Turing;23.6.1912;7.6.1954
+George Boole;2.11.1815;8.12.1864
+Enzo Paci;18.9.1911;21.7.1976
