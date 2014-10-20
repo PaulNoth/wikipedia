@@ -1,4 +1,5 @@
-  <page>
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.9/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.9/ http://www.mediawiki.org/xml/export-0.9.xsd" version="0.9" xml:lang="en">  
+ <page>
     <title>Epimetheus</title>
     <ns>0</ns>
     <id>10121</id>
@@ -25,4 +26,4 @@
       <format>text/x-wiki</format>
     </revision>
   </page>
-  
+</mediawiki>
