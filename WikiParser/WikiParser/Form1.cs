@@ -25,9 +25,9 @@ namespace WikiParser
             disambiguationPages = new List<DisambiguationPageInfo>();
         }
 
-        private void ExportDisambiguationPages()
+        private void ExportDisambiguationPages(string path)
         {
-            using (StreamWriter sw = new StreamWriter(@"vystup2.xml", false, Encoding.UTF8))
+            using (StreamWriter sw = new StreamWriter(@path, false, Encoding.UTF8))
             {
                 sw.WriteLine("<dspages>");
                 foreach (DisambiguationPageInfo disambiguationPageInfo in disambiguationPages)
@@ -189,9 +189,14 @@ namespace WikiParser
 
         private void BtnExport_Click(object sender, EventArgs e)
         {
-            RtbProgramInfo.Text += ("Start vypisu " + DateTime.Now + Environment.NewLine);
-            ExportDisambiguationPages();
-            RtbProgramInfo.Text += ("Koniec vypisu " + DateTime.Now + Environment.NewLine);
+            if (saveFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                RtbProgramInfo.Text += ("Start vypisu " + DateTime.Now + Environment.NewLine);
+                ExportDisambiguationPages(saveFileDialog1.FileName);
+                RtbProgramInfo.Text += ("Koniec vypisu " + DateTime.Now + Environment.NewLine);
+            }
+
+            
         }
 
         private void ShowDisambPages()
