@@ -98,6 +98,7 @@
             this.LbDisambPages.Name = "LbDisambPages";
             this.LbDisambPages.Size = new System.Drawing.Size(143, 355);
             this.LbDisambPages.TabIndex = 8;
+            this.LbDisambPages.SelectedIndexChanged += new System.EventHandler(this.LbDisambPages_SelectedIndexChanged);
             // 
             // LbPages
             // 
@@ -106,6 +107,7 @@
             this.LbPages.Name = "LbPages";
             this.LbPages.Size = new System.Drawing.Size(120, 355);
             this.LbPages.TabIndex = 9;
+            this.LbPages.SelectedIndexChanged += new System.EventHandler(this.LbPages_SelectedIndexChanged);
             // 
             // RtbPagesInfo
             // 

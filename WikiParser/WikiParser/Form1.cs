@@ -21,6 +21,7 @@ namespace WikiParser
         public Wiki()
         {
             InitializeComponent();
+            textBox1.Text = vstup;
             disambiguationPages = new List<DisambiguationPageInfo>();
         }
 
@@ -31,7 +32,7 @@ namespace WikiParser
                 sw.WriteLine("<dspages>");
                 foreach (DisambiguationPageInfo disambiguationPageInfo in disambiguationPages)
                 {
-                    sw.WriteLine(disambiguationPageInfo);
+                    sw.WriteLine(disambiguationPageInfo.ExportToString());
                 }
                 sw.WriteLine("</dspages>");
             }
@@ -166,7 +167,11 @@ namespace WikiParser
 
         private void BtnBrowseInput_Click(object sender, EventArgs e)
         {
-
+            if (openFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                vstup = openFileDialog1.FileName;
+                textBox1.Text = vstup;
+            }
         }
 
         private void BtnParse_Click(object sender, EventArgs e)
@@ -191,10 +196,21 @@ namespace WikiParser
 
         private void ShowDisambPages()
         {
-            foreach (DisambiguationPageInfo disambPages in disambiguationPages)
-            {
-                LbDisambPages.Items.Add(disambPages.title);
-            } 
+            LbDisambPages.Items.AddRange(disambiguationPages.ToArray());
+            LbDisambPages.SelectedIndex = 0;
+        }
+
+        private void LbDisambPages_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            LbPages.Items.Clear();
+            LbPages.Items.AddRange(((DisambiguationPageInfo)LbDisambPages.SelectedItem).pages.ToArray());
+            LbPages.SelectedIndex = 0;
+        }
+
+        private void LbPages_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            RtbPagesInfo.Clear();
+            RtbPagesInfo.Text += ((PageInfo) (LbPages.SelectedItem)).ExportTo();
         }
     }
 }

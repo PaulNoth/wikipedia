@@ -16,7 +16,7 @@ namespace WikiParser
             this.description = description;
         }
 
-        public override string ToString()
+        public string ExportToString()
         {
             StringBuilder sb = new StringBuilder();
 
@@ -27,6 +27,22 @@ namespace WikiParser
             sb.AppendFormat("</page>{0}", Environment.NewLine);
 
             return sb.ToString();
+        }
+
+        public string ExportTo()
+        {
+            StringBuilder sb = new StringBuilder();
+
+            sb.AppendFormat("{0}{1}{2}", Environment.NewLine, Environment.NewLine, title);
+            sb.AppendFormat("{0}{1}{2}", Environment.NewLine, Environment.NewLine, anchor);
+            sb.AppendFormat("{0}{1}{2}", Environment.NewLine, Environment.NewLine, description);
+
+            return sb.ToString();
+        }
+
+        public override string ToString()
+        {
+            return title;
         }
     }
 }
