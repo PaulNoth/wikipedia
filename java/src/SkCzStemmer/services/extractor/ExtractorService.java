@@ -1,4 +1,4 @@
-package sk.fiit.vi.nemecek.SkCzStemmer.services.extractor;
+package skCzStemmer.services.extractor;
 
 import java.io.File;
 import java.util.concurrent.ConcurrentHashMap;

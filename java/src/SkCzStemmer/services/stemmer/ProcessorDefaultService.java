@@ -1,4 +1,4 @@
-package sk.fiit.vi.nemecek.SkCzStemmer.services.stemmer;
+package skCzStemmer.services.stemmer;
 
 import java.io.IOException;
 import java.io.StringReader;
@@ -14,8 +14,8 @@ import org.apache.lucene.util.Version;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import sk.fiit.vi.nemecek.SkCzStemmer.services.database.data.KorpusItem;
-import sk.fiit.vi.nemecek.SkCzStemmer.services.database.service.DatabaseService;
+import skCzStemmer.services.database.data.KorpusItem;
+import skCzStemmer.services.database.service.DatabaseService;
 
 /**
  * This is implementation of PreprocessorService.

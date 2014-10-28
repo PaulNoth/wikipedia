@@ -1,4 +1,4 @@
-package sk.fiit.vi.nemecek.SkCzStemmer.services.extractor;
+package skCzStemmer.services.extractor;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -19,7 +19,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 import org.springframework.stereotype.Component;
 
-import sk.fiit.vi.nemecek.SkCzStemmer.services.stemmer.ProcessorService;
+import skCzStemmer.services.stemmer.ProcessorService;
 
 @Component
 public class MediaWikiExtractor implements ExtractorService {
@@ -128,6 +128,7 @@ public class MediaWikiExtractor implements ExtractorService {
             }
         }
         ts.close();
+        analyzer.close();
     }
 
     private String processPattern1(String anchorText) {

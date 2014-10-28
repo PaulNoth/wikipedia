@@ -1,4 +1,4 @@
-package sk.fiit.vi.nemecek.SkCzStemmer.test.stemmer;
+package skCzStemmer.test.stemmer;
 
 import java.io.File;
 import java.util.concurrent.ConcurrentHashMap;
@@ -8,9 +8,9 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.testng.AbstractTestNGSpringContextTests;
 import org.testng.annotations.Test;
 
-import sk.fiit.vi.nemecek.SkCzStemmer.services.extractor.ExtractorService;
-import sk.fiit.vi.nemecek.SkCzStemmer.services.stemmer.ProcessorService;
-import sk.fiit.vi.nemecek.SkCzStemmer.utils.MyFileUtils;
+import skCzStemmer.services.extractor.ExtractorService;
+import skCzStemmer.services.stemmer.ProcessorService;
+import skCzStemmer.utils.MyFileUtils;
 
 @Test
 @ContextConfiguration(locations = { "classpath:applicationContext.xml" })

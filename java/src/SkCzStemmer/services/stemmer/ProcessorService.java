@@ -1,4 +1,4 @@
-package sk.fiit.vi.nemecek.SkCzStemmer.services.stemmer;
+package skCzStemmer.services.stemmer;
 
 import org.springframework.stereotype.Service;
 /**

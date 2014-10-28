@@ -1,4 +1,4 @@
-package sk.fiit.vi.nemecek.SkCzStemmer.services.database.service;
+package skCzStemmer.services.database.service;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -31,8 +31,8 @@ import org.apache.commons.io.FileUtils;
 import org.springframework.stereotype.Service;
 import org.xml.sax.SAXException;
 
-import sk.fiit.vi.nemecek.SkCzStemmer.services.database.data.KorpusItem;
-import sk.fiit.vi.nemecek.SkCzStemmer.utils.MyFileUtils;
+import skCzStemmer.services.database.data.KorpusItem;
+import skCzStemmer.utils.MyFileUtils;
 
 import com.aliasi.tokenizer.IndoEuropeanTokenizerFactory;
 import com.aliasi.tokenizer.Tokenizer;

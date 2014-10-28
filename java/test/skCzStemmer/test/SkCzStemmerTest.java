@@ -1,4 +1,4 @@
-package sk.fiit.vi.nemecek.SkCzStemmer.test;
+package skCzStemmer.test;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -11,8 +11,8 @@ import org.springframework.test.context.testng.AbstractTestNGSpringContextTests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import sk.fiit.vi.nemecek.SkCzStemmer.services.extractor.ExtractorService;
-import sk.fiit.vi.nemecek.SkCzStemmer.utils.MyFileUtils;
+import skCzStemmer.services.extractor.ExtractorService;
+import skCzStemmer.utils.MyFileUtils;
 
 @Test
 @ContextConfiguration(locations = { "classpath:applicationContext.xml" })

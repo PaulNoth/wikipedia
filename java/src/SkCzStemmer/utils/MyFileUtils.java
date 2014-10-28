@@ -1,4 +1,4 @@
-package sk.fiit.vi.nemecek.SkCzStemmer.utils;
+package skCzStemmer.utils;
 
 import java.io.File;
 
