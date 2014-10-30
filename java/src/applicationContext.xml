@@ -11,14 +11,14 @@
 	<!-- ******************************************** -->
 
 	<bean id="extractorService"
-		class="sk.fiit.vi.nemecek.SkCzStemmer.services.extractor.MediaWikiExtractor" />
+		class="skCzStemmer.services.extractor.MediaWikiExtractor" />
 
 	<!-- ******************************************** -->
 	<!-- Preprocess -->
 	<!-- ******************************************** -->
 
 	<bean id="processorService"
-		class="sk.fiit.vi.nemecek.SkCzStemmer.services.stemmer.ProcessorDefaultService" 
+		class="skCzStemmer.services.stemmer.ProcessorDefaultService" 
 		/>
 
 	<!-- ******************************************** -->
@@ -36,5 +36,5 @@
 	<!-- ******************************************** -->
 
 	<bean id="databaseService"
-		class="sk.fiit.vi.nemecek.SkCzStemmer.services.database.service.DatabaseDefaultService" />
+		class="skCzStemmer.services.database.service.DatabaseDefaultService" />
 </beans>
