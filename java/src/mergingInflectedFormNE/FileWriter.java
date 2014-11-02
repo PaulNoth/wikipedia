@@ -30,6 +30,28 @@ public void writeFile(String filePath, String outputText){
 	}	
 }
 
+public void writeLinksToFile(String filePath, LinkedList<LinkAnchor> listLinkAnchor){
+	BufferedWriter out;
+	try {
+		out = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(filePath),"UTF-8"));
+		
+		for(LinkAnchor la : listLinkAnchor){
+			if(la.getAnchor().length()>0){
+				out.write("[["+la.getLink()+"|"+la.getAnchor()+"]]");
+				out.newLine();
+			}
+			else{
+				out.write("[["+la.getLink()+"]]");
+				out.newLine();
+			}			
+		}
+		out.close();
+	} catch (IOException e) {
+		System.out.println("Error: " + "could not write to file" + "  " + filePath);
+		e.printStackTrace();
+	}
+}
+
 /**
  * Named entity list to string.
  *
@@ -42,8 +64,8 @@ public String namedEntityListToString(LinkedList<NamedEntity> llne){
 	for(NamedEntity ne : llne){
 		//str=str+ "============================================================\n" + ne.getNE();
 		str=str+ i + "  ============================================================";
-		for(String infe : ne.getInflectedForms()){
-			str=str+ "\n" + infe;
+		for(InflectedForm infe : ne.getListInflectedForms()){
+			str=str+ "\n" + infe.getInflectedForm();
 		}
 		str=str + "\n";
 		i++;

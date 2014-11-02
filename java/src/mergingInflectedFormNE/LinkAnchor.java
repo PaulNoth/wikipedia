@@ -9,7 +9,7 @@ import java.util.regex.Pattern;
  */
 public class LinkAnchor {
 
-	/** The link. */
+	/** The whole link with brackets and suffixes. */
 	private String link;				//whole link
 	
 	/** The link add info. */
@@ -28,10 +28,34 @@ public class LinkAnchor {
 	 * @param s the s
 	 */
 	public LinkAnchor(String s){
-		s = s.replaceAll("\\[\\[", "").replaceAll("\\]\\]", "");
-		String[] pom = s.split("\\|");
-		anchor = pom[1];
-		manageLink( pom[0]);
+		Pattern pAnchor = Pattern.compile(".+\\]\\][^\\[]+$");	//regex for anchor after brackets detection
+		Matcher mAnchor;
+		mAnchor = pAnchor.matcher(s);
+		if(mAnchor.find()){				//[[link]]suffix
+			anchor = s.replaceAll("\\[\\[", "").replaceAll("\\]\\]", "");
+			manageLink(s.replaceAll("\\[\\[", "").replaceAll("\\]\\].+", ""));
+		}
+		else{
+			s = s.replaceAll("\\[\\[", "").replaceAll("\\]\\]", "");
+			if(s.contains("|")){		//[[link|anchor]]
+				String[] pom = s.split("\\|");
+				if(pom.length < 2){
+					System.out.println(s);
+					anchor = "";
+/*!!!!!!!!!!!!!*/	manageLink( pom[0]);		// tu sa moye stat ze pride aj prazdna linka treba osetrit
+					System.out.println(this.link);
+				}
+				else{
+					anchor = pom[1];
+					manageLink( pom[0]);
+				}
+			}
+			else{						//[[link]]
+				anchor = "";
+				manageLink(s);
+			}
+		}
+
 		
 	}
 	

@@ -19,18 +19,48 @@ public class NamedEntity {
 /** The ne. */
 private String ne;
 
-/** The inflected forms. */
-private LinkedList<String> inflectedForms;
-	
+/** The inflected forms with occurencess count. */
+private LinkedList<InflectedForm> listInflectedForm;
+
+///** The list of inflected forms for each token */
+//private LinkedList<LinkedList<String>> IFtokeny;
 /**
  * Instantiates a new named entity.
+ * Use for ne extractin and mergeing purposes
  *
  * @param ne the ne
  */
 public NamedEntity(String ne){
 	this.ne=ne;
-	inflectedForms = new LinkedList<String>();
-	this.inflectedForms.add(ne);
+	
+	listInflectedForm = new LinkedList<InflectedForm>();
+	//this.listInflectedForm.add(new InflectedForm(ne));
+		
+	addInflectedFormInList(ne,ne);
+	
+	//IFtokeny = new LinkedList<LinkedList<String>>();
+}
+
+public NamedEntity(String ne, LinkedList<InflectedForm> IF){
+	this.ne=ne;
+	listInflectedForm = IF;
+}
+/**
+ * Instantiates a new named entity.
+ *
+ * @param la the la
+ */
+public NamedEntity(LinkAnchor la){
+	this.ne=la.getLink();
+	listInflectedForm = new LinkedList<InflectedForm>();
+
+	if(la.getAnchor().equals("")){
+		listInflectedForm.add(new InflectedForm(la.getCleanLink()));
+	}
+	else{
+		listInflectedForm.add(new InflectedForm(la.getAnchor()));
+		listInflectedForm.add(new InflectedForm(la.getCleanLink()));
+	}
 }
 
 /**
@@ -38,12 +68,23 @@ public NamedEntity(String ne){
  *
  * @param neIF the ne if
  */
-public void addInflectedForm(String neIF){
-	this.inflectedForms.add(neIF);
-	
-	Collections.sort(inflectedForms, new StringComparatorBaseOnAlphabeticalOrder());
-	StringTools st = new StringTools();
-	st.uniq(inflectedForms);
+public void addInflectedForm(String neIF, String ne){
+	addInflectedFormInList(neIF,ne);
+}
+
+private void addInflectedFormInList(String neIF, String ne){
+	if(neIF.equals("")){
+		neIF=ne;
+	}
+	for(InflectedForm IF : listInflectedForm){
+		if(neIF.equals(IF.getInflectedForm())){
+			//System.out.println(IF.getInflectedForm() +" 	 " + neIF);
+			IF.addOccurence();
+			return;
+		}
+	}
+	//System.out.println(ne +" 	 " + neIF);
+	this.listInflectedForm.add(new InflectedForm(neIF));
 }
 
 /**
@@ -61,12 +102,12 @@ public double compare(String s){		//nie je dokoncene cast implementacie je v str
 	double maxSimilarity = 0;
 	double pomSimilarity;
 	AbstractStringMetric metric = new Levenshtein();
-	for(String str : this.inflectedForms){
-		pomSimilarity = metric.getSimilarity(s, str);
+	for(InflectedForm IF : this.listInflectedForm){
+		pomSimilarity = metric.getSimilarity(s, IF.getInflectedForm());
 		if(pomSimilarity > maxSimilarity){
 			maxSimilarity = pomSimilarity;
 		}
-	}	
+	}
 	return maxSimilarity;
 
 	//return 0; 
@@ -92,6 +133,13 @@ public LinkedList<String> stringWordSeparator(String s){
 	return wordList;
 }
 
+public boolean equals(String neCandidate){
+	if(neCandidate.equals(this.ne)){
+		return true;
+	}
+	return false;
+}
+
 //--------------------------------------------------------------------------------------------------------
 
 /**
@@ -103,13 +151,8 @@ public String getNE(){
 	return this.ne;
 }
 
-/**
- * Gets the inflected forms.
- *
- * @return the inflected forms
- */
-public LinkedList<String> getInflectedForms(){
-	return this.inflectedForms;
+public LinkedList<InflectedForm> getListInflectedForms(){
+	return this.listInflectedForm;
 }
 
 }

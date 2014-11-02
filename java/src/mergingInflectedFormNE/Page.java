@@ -1,5 +1,6 @@
 package mergingInflectedFormNE;
 
+import java.io.IOException;
 import java.util.LinkedList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -48,18 +49,30 @@ private void handlePageText(String text, LinkedList<LinkAnchor> link_anchor){
 	//System.out.println(text);
 	//  \[\[(\p{Lu}[^#\|\]\[]+?\|\p{Lu}\p{L}[^\|\]\[]+?)\]\]
 	
-	Pattern pLink = Pattern.compile("\\[\\[(\\p{Lu}[^#\\|\\]\\[]+?\\|\\p{Lu}.? ?\\p{L}[^\\|\\]\\[]+?)\\]\\]");
+	//Pattern pLink = Pattern.compile("\\[\\[(\\p{Lu}[^#\\|\\]\\[]+?\\|\\p{Lu}.? ?\\p{L}[^\\|\\]\\[]+?)\\]\\]");
+	//Matcher mLink;
+	
+	Pattern pLink = Pattern.compile("([^\\]\\[]{0,25})(\\[\\[([^]]+?)\\]\\]\\p{L}*)([^\\]\\[]{0,25})");	//regex for page title detection
 	Matcher mLink;
+	
+	Pattern pOtherLink = Pattern.compile("\\[\\[[^\\|\\]]+:[^\\]]+\\]\\]");
+	Matcher mOtherLink;
+	//Pattern pOtherLink = Pattern.compile("(Special:|User_talk:|Súbor:|súbor:|Kategória:|Wikipedia:|Wikipédia:|wikipédia:|Pomoc:|User:|Image:|Redaktor:|en:|Meta:)");
+	//Matcher mOtherLink;
+	
 	String[] sSplit = text.split("\n");
 	
 	String pom;
 	for(String s : sSplit){
 		mLink = pLink.matcher(s);
-
 		while(mLink.find()){
-			pom=mLink.group(1).trim();
-			//System.out.println(pom);
-			link_anchor.add(new LinkAnchor(pom));
+			mOtherLink = pOtherLink.matcher(s); 
+			if(!mOtherLink.find()){
+				pom=mLink.group(2).trim().replaceAll("&amp;", "&").replaceAll("&quot;", "\"").replaceAll("&nbsp;", " ").replaceAll("''", "");
+				//pom=mLink.group(1).trim();
+				//System.out.println(pom);
+				link_anchor.add(new LinkAnchor(pom));
+			}
 		}
 			
 	}

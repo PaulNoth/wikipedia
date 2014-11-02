@@ -81,7 +81,7 @@ private void anchorTextInflectedFormMerge(){
 		}
 		if(!merged && (maxSimilarity > 0.5)){		// threshold of which strings are consider as similar is 0.5
 			NamedEntity pomNE = namedEntityList.get(indexOfMaxSimilarity);
-			pomNE.addInflectedForm(str);
+			pomNE.addInflectedForm(str, pomNE.getNE());
 		}
 		else if(!merged){
 			namedEntityList.add(new NamedEntity(str));
