@@ -1,41 +1,22 @@
 package skCzStemmer.test;
 
 import java.io.File;
-import java.io.FileWriter;
-import java.io.Writer;
-import java.util.concurrent.ConcurrentHashMap;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.test.context.ContextConfiguration;
-import org.springframework.test.context.testng.AbstractTestNGSpringContextTests;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import skCzStemmer.services.extractor.ExtractorService;
-import skCzStemmer.utils.MyFileUtils;
+import skCzStemmer.services.extractor.MediaWikiExtractor;
+import skCzStemmer.utils.MyFilePaths;
 
-@Test
-@ContextConfiguration(locations = { "classpath:applicationContext.xml" })
-public class SkCzStemmerTest extends AbstractTestNGSpringContextTests {
+public class SkCzStemmerTest {
 
-    @Autowired
-    private ExtractorService extractorService;
+    private File f = new File(MyFilePaths.SAMPLE_SK_DATA_XML);
+    private File full_f = new File(MyFilePaths.FULL_SK_DATA_XML);
+    
+    private MediaWikiExtractor extractorService = new MediaWikiExtractor(100,f);
 
     @Test
     public void processText() throws Exception {
-        ConcurrentHashMap<String, String> anchorMap = extractorService.extractMediaWikiAnchors(new File(MyFileUtils.SAMPLEDATA));
+        extractorService.extractMediaWikiAnchorsFromAnchorFile();
 
-        for(String key : anchorMap.keySet()){
-            System.out.println(key + "     " +anchorMap.get(key));
-        }
-
-        Writer writer = new FileWriter("ProcessorServiceTest.test");
-        for (String s : anchorMap.keySet()) {
-            writer.write(s + " === " + anchorMap.get(s));
-            writer.write("\r\n");
-        }
-        writer.close();
-
-        Assert.assertTrue(anchorMap.size() > 0);
     }
 }

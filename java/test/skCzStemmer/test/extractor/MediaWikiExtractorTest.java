@@ -1,39 +1,43 @@
 package skCzStemmer.test.extractor;
 
 import java.io.File;
-import java.io.FileWriter;
-import java.io.Writer;
-import java.util.concurrent.ConcurrentHashMap;
+import java.io.IOException;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.test.context.ContextConfiguration;
-import org.springframework.test.context.testng.AbstractTestNGSpringContextTests;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import skCzStemmer.services.extractor.ExtractorService;
-import skCzStemmer.utils.MyFileUtils;
+import skCzStemmer.services.extractor.MediaWikiExtractor;
+import skCzStemmer.utils.MyFilePaths;
 
-@Test
-@ContextConfiguration(locations = { "classpath:applicationContext.xml" })
-public class MediaWikiExtractorTest extends AbstractTestNGSpringContextTests{
+public class MediaWikiExtractorTest{
     
-    @Autowired
-    private ExtractorService extractorService;
+    private File f = new File(MyFilePaths.SAMPLE_SK_DATA_XML);
+    private File full_f = new File(MyFilePaths.FULL_SK_DATA_XML);
     
-    @Test
-    public ConcurrentHashMap<String, String> extractMediaWikiAnchors() throws Exception {
-        ConcurrentHashMap<String, String> anchorMap = extractorService.extractMediaWikiAnchors(new File(MyFileUtils.SAMPLEDATA));
-        
-        Writer writer = new FileWriter("MediaWikiExtractorTest.test");
-        for(String s : anchorMap.keySet()){
-        writer.write(s + " === " +anchorMap.get(s));
-        writer.write("\r\n");
+    private MediaWikiExtractor extractorService = new MediaWikiExtractor(100, f);
+//    private MediaWikiExtractor extractorService = new MediaWikiExtractor(1000, full_f);
+    
+    private static final boolean ENABLE = false;
+    
+    @Test(enabled=ENABLE)
+    public void extractMediaWikiAnchors() throws Exception {
+
+        extractorService.extractMediaWikiAnchorsFromAnchorFile();
+//        extractorService.extractMediaWikiAnchors(full_f);
+//        BufferedReader br = new BufferedReader(new FileReader(f.getName().substring(0, f.getName().lastIndexOf(".xml") + 4)  + ".output"));
+//        while ( br.readLine() != null) {
+//            count++;
+//        }
+//        br.close();
+//        Assert.assertTrue(count == 1163);
+    }
+    
+    @Test(enabled=!ENABLE)
+    public void processExtractedAnchors(){
+        try {
+            MediaWikiExtractor.searchIndex("zidiaetnikum");
+        } catch (IOException e) {
+            e.printStackTrace();
         }
-        writer.close();
-        
-        Assert.assertTrue(anchorMap.size() > 0);
-        return null;
     }
 
     
