@@ -26,4 +26,32 @@
       <format>text/x-wiki</format>
     </revision>
   </page>
+  <page>
+    <title>EAN</title>
+    <ns>0</ns>
+    <id>10042</id>
+    <revision>
+      <id>617960794</id>
+      <parentid>617869684</parentid>
+      <timestamp>2014-07-22T08:55:51Z</timestamp>
+      <contributor>
+        <ip>86.153.57.241</ip>
+      </contributor>
+      <comment>m per new redirect</comment>
+      <text xml:space="preserve">'''EAN''' may refer to:
+* [[International Article Number (EAN)]] (originally European Article Number)
+* [[Emergency Action Notification]], an American nationwide activation of the Emergency Alert System
+* [[Enriched air nitrox]]
+* [[Ethylammonium nitrate]], a salt and ionic liquid
+* [[European Academy of Neurology]]
+
+== See also ==
+* [[Ean (disambiguation)]]
+
+{{Disambiguation}}</text>
+      <sha1>cccovsgpdwjzp2vmcd8a9ipp3c1im72</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
 </mediawiki>
