@@ -33,16 +33,47 @@ class Search
     idx = RAMDirectory.new
     writer = IndexWriter.new(idx, StandardAnalyzer.new(Version::LUCENE_30), IndexWriter::MaxFieldLength::LIMITED)
 
-    doc = Nokogiri::XML(File.open path, "r:utf-8")
-    doc.css('word').each do |word|
-      sk = word.xpath('version[language = \'sk\']/value').text.encode('utf-8')
-      en = word.xpath('version[language = \'en\']/value').text.encode('utf-8')
-      fr = word.xpath('version[language = \'fr\']/value').text.encode('utf-8')
-      writer.add_document  create_document(sk, en, fr)
+    puts 'Initializing index...'
+
+    File.open path, "r:utf-8" do |f|
+      f.gets
+      loop do
+        break if f.gets.chomp == "</dictionary>"
+        sk, en, fr = ''
+        loop do
+          line = f.gets.chomp
+          break if line != "    <version>"
+          lang = f.gets.match(/<language>([[:alpha:]]{2})<\/language>/).captures[0]
+          if lang != nil
+            case lang
+              when 'sk'
+                sk = f.gets.match(/<value>(.*)<\/value>/).captures[0]
+              when 'en'
+                en = f.gets.match(/<value>(.*)<\/value>/).captures[0]
+              when 'fr'
+                fr = f.gets.match(/<value>(.*)<\/value>/).captures[0]
+            end
+          end
+          f.gets
+        end
+        sk = '' if sk == nil
+        en = '' if en == nil
+        fr = '' if fr == nil
+        writer.add_document  create_document(sk, en, fr)
+      end
     end
+
+    #doc = Nokogiri::XML(File.open path, "r:utf-8")
+    #doc.css('word').each do |word|
+    #  sk = word.xpath('version[language = \'sk\']/value').text.encode('utf-8')
+    #  en = word.xpath('version[language = \'en\']/value').text.encode('utf-8')
+    #  fr = word.xpath('version[language = \'fr\']/value').text.encode('utf-8')
+    #  writer.add_document  create_document(sk, en, fr)
+    #end
 
     writer.optimize
     writer.close
+    puts 'Index successfully initialized'
     idx
   end
 
