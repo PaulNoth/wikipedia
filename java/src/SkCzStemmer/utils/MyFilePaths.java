@@ -10,10 +10,12 @@ import java.io.File;
 public class MyFilePaths{
 
     public static final String DATALOCATION = "data" + File.separator;
-    public static final String INDEX_DIRECTORY = DATALOCATION + File.separator + "indexDirectory";
     
-    public static final String SAMPLE_SK_DATA_XML = "data/sample_skwiki_latest_pages_articles.xml";
-    public static final String FULL_SK_DATA_XML = "data/skwiki-latest-pages-articles.xml";
+    public static final String SAMPLE_SK_DATA_XML = DATALOCATION + "sample_skwiki_latest_pages_articles.xml";
+    public static final String FULL_SK_DATA_XML = DATALOCATION + "skwiki-latest-pages-articles.xml";
+    
+    public static final String SAMPLE_TREE_FILE = DATALOCATION + "sample_treeFile.xml";
+    public static final String FULL_TREE_FILE = DATALOCATION + "full_treeFile.xml";
     
     
 }

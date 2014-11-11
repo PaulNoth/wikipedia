@@ -3,18 +3,29 @@ package skCzStemmer.services.data;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlAttribute;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement(name = "tree")
+@XmlAccessorType (XmlAccessType.FIELD)
 public class WordTreeItem {
 
+    @XmlAttribute
     private char itemId;
-    
+
+    @XmlAttribute
     private String letter;
     
-    private WordTreeItem parent;
-    
+    @XmlElement(name = "childLetters")
     private List<WordTreeItem> children;
     
+    @XmlAttribute
     private boolean end;
     
+    @XmlAttribute
     private long probability;
     
     public WordTreeItem(){
@@ -36,9 +47,6 @@ public class WordTreeItem {
 
     public List<WordTreeItem> getChildren() { return children;}
     public void addKorpusItem(WordTreeItem item){ this.children.add(item);}
-    
-    public WordTreeItem getParent() { return parent;}
-    public void setParent(WordTreeItem parent) { this.parent = parent;}
     
     public void deepCopy(WordTreeItem item) {
         this.itemId = item.getId();
