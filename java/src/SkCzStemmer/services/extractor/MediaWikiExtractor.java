@@ -1,6 +1,7 @@
 package skCzStemmer.services.extractor;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -210,11 +211,13 @@ public class MediaWikiExtractor{
         }
         
         //create owner file
-        FileWriter ownerWriter = null;
+        BufferedWriter ownerWriter = null;
         try {
             String ownerFileName = anchorFile.getName();
-            ownerWriter = new FileWriter(MyFilePaths.DATALOCATION + File.separator + 
+            FileWriter writer = new FileWriter(MyFilePaths.DATALOCATION + File.separator + 
                     ownerFileName.substring(0,ownerFileName.indexOf(".anchor")) + ".owner", true);
+            ownerWriter = new BufferedWriter(writer);
+            
             for (String ownerName : ownerSet) {
                 ownerWriter.write(ownerName);
                 ownerWriter.write("\r\n");
@@ -253,9 +256,10 @@ public class MediaWikiExtractor{
                 extractTextFromMediaWikiPage(readerText, pageName);
                 
                 synchronized (anchorFile) {
-                    FileWriter anchorWriter = null;
+                    BufferedWriter anchorWriter = null;
                     try { 
-                    anchorWriter = new FileWriter(anchorFile, true);
+                        FileWriter writer = new FileWriter(anchorFile, true);
+                        anchorWriter = new BufferedWriter(writer);
                         for(String key :dataMap.keySet()){
                             if( ownerSet.contains(key) == false){
                                 ownerSet.add(key);
@@ -287,7 +291,7 @@ public class MediaWikiExtractor{
             CharTermAttribute charTermAttribute = ts.getAttribute(CharTermAttribute.class);
             ts.reset();
             Integer charCounter = null;
-            String anchorText = "";
+            String dirtyAnchorText = "";
             while (ts.incrementToken()) { // loop over tokens
                 String term = charTermAttribute.toString();
                 try{
@@ -297,24 +301,26 @@ public class MediaWikiExtractor{
                     charCounter += StringUtils.countMatches(term, "[");
                 }
                 if (charCounter != null && charCounter != 0) {
-                    anchorText += " " + term;
+                    dirtyAnchorText += " " + term;
                 }
                 if (term.contains("]") && charCounter != null) {
                     charCounter -= StringUtils.countMatches(term, "]");
                 }
                 if (charCounter != null && charCounter == 0) {
-                    if (anchorText.length() > 2) {
-                        String pureAnchorText = processAnchorText(parseAnchorText(anchorText));
+                    if (dirtyAnchorText.length() > 2) {
+                        //clean left site and right site of anchorText
+                        String anchorText = cleanAnchorText(dirtyAnchorText);
+                        String pureAnchorText = purifyAnchorText(parseAnchorText(anchorText));
                         String ownerAnchorText = "";
                         if (anchorText.length() > 0) {
-                            ownerAnchorText = processAnchorOwnerName(anchorText);
+                            ownerAnchorText = purifyAnchorOwnerName(anchorText);
                             }
-                            String data = ownerAnchorText.toLowerCase() + ";" +pageName + ";" + pureAnchorText + ";" + anchorText;
-                            if(dataMap.get(ownerAnchorText.toLowerCase()) == null){
-                                dataMap.put(ownerAnchorText.toLowerCase(), new ArrayList<String>());
+                            String data = ownerAnchorText + ";" +pageName + ";" + pureAnchorText + ";" + anchorText;
+                            if(dataMap.get(ownerAnchorText) == null){
+                                dataMap.put(ownerAnchorText, new ArrayList<String>());
                             }
-                            dataMap.get(ownerAnchorText.toLowerCase()).add(data);
-                            anchorText = "";
+                            dataMap.get(ownerAnchorText).add(data);
+                            dirtyAnchorText = "";
                             charCounter = null;
                         }
                     }
@@ -335,6 +341,29 @@ public class MediaWikiExtractor{
             } 
             return null;
         }
+        
+        private String cleanAnchorText(String dirtyAnchorText) {
+            // cleaning left site of anchor text
+            String anchorTextLeft = dirtyAnchorText.substring(dirtyAnchorText.indexOf("["));
+            // cleaning right site of anchor text
+            String endAnchorText = anchorTextLeft.substring(anchorTextLeft.lastIndexOf("]") + 1);
+            int border = 0;
+            if (endAnchorText.length() > 0) {
+                for (int j = 0; j < endAnchorText.length(); j++) {
+                    String originalCh = Character.toString(endAnchorText.charAt(j));
+                    String character = Normalizer.normalize(originalCh, Normalizer.Form.NFD);
+                    character = character.replaceAll("[^\\p{ASCII}]", "");
+                    character = character.replaceAll("\\s+", "");
+
+                    if (!character.matches("[a-zA-Z]")) {
+                        border = j;
+                        break;
+                    }
+                    border++;
+                }
+            }
+            return anchorTextLeft.substring(0, anchorTextLeft.lastIndexOf("]") + 1) + endAnchorText.substring(0, border);
+        }
 
         private String parseAnchorText(String anchorText1) {
             try {
@@ -342,24 +371,19 @@ public class MediaWikiExtractor{
                 if (anchorText1.indexOf("[[") != -1) {
                     String anchorText = anchorText1;
                     anchorText = anchorText.substring(anchorText.indexOf("[[") + 2);
-                    String s = anchorText.subSequence(anchorText.lastIndexOf("]]") , anchorText.length()).toString();
+                    String suffix = anchorText.subSequence(anchorText.lastIndexOf("]]") + 2, anchorText.length()).toString();
                     anchorText = anchorText.subSequence(0, anchorText.lastIndexOf("]]")).toString();
-                    String[] parts = s.split("\\P{Alpha}+");
-                    for (String a : parts)
-                        if (a.length() > 0) {
-                                anchorText = anchorText + a;
-                                break;
-                        }
-                    return anchorText;
+                    String ret = anchorText + suffix;
+                    return ret;
                 }
                 if (anchorText1.indexOf("[") != -1) {
                     String anchorText = anchorText1;
                     anchorText = anchorText.substring(anchorText.indexOf("[") + 1);
-                    String s = anchorText.subSequence(anchorText.lastIndexOf("]") + 1, anchorText.length()).toString();
+                    String suffix = anchorText.subSequence(anchorText.lastIndexOf("]") + 1, anchorText.length()).toString();
                     anchorText = anchorText.subSequence(0, anchorText.lastIndexOf("]") ).toString();
-                    String[] parts = s.split("\\P{Alpha}+");
-                    if (parts.length > 0) {
-                        anchorText = anchorText + parts[0];
+                    String[] suffixParts = suffix.split("\\P{Alpha}+");
+                    if (suffixParts.length > 0) {
+                        anchorText = anchorText + suffixParts[0];
                     }
                     return anchorText;
                 }
@@ -379,55 +403,59 @@ public class MediaWikiExtractor{
                         System.err.println(anchorText);
     }
     
-    private static String processAnchorOwnerName(String anchorText1) {
+    private static String purifyAnchorOwnerName(String anchorText1) {
         try {
             String anchorText = anchorText1;
-            if(anchorText.contains("Ezdráš")){
-                System.out.println();
-            }
             anchorText = anchorText.substring(anchorText.indexOf("["));
+            String ret = "";
             String[] a = anchorText.split("\\|");
             if (a.length > 1) {
                 a[0] = a[0].substring(a[0].indexOf("["));
                 a[0] = a[0].replaceAll("\\]", "");
                 a[0] = a[0].replaceAll("\\[", "");
-                a[0] = a[0].replaceAll("[(){},.;!?<>%\\„\\“\\']", "");
-                return a[0];
+                ret = a[0];
             } else {
-                String ret = "";
-                anchorText = anchorText.replaceAll("[(){},.;!?<>%\\„\\“\\']", "");
-                if(anchorText.lastIndexOf("[[") != -1){
-                    ret = anchorText.subSequence(anchorText.lastIndexOf("[[") + 2, anchorText.lastIndexOf("]]")).toString();
-                }else{
-                    ret = anchorText.subSequence(anchorText.lastIndexOf("[") + 1, anchorText.lastIndexOf("]")).toString();
+                String[] b = anchorText.split("\\:");
+                if (b.length > 1) {
+                        b[b.length - 1] = b[b.length - 1].replaceAll("\\]", "");
+                        b[b.length - 1] = b[b.length - 1].replaceAll("\\[", "");
+                        ret = b[b.length - 1];
+                } else {
+                    b[0] = b[0].replaceAll("\\]", "");
+                    b[0] = b[0].replaceAll("\\[", "");
+                    ret = b[0];
                 }
-                return ret;
             }
+            return ret;
         } catch (Exception e) {
             MediaWikiExtractor.printErrorMessage("processAnchorOwnerName " + anchorText1);
         }
         return "";
     }
 
-    public static String processAnchorText(String anchorText1) {
+    public static String purifyAnchorText(String anchorText1) {
         try {
             String anchorText = anchorText1;
             String[] a = anchorText.split("\\|");
             String ret = "";
             if (a.length > 1) {
-                int i = 1;
-                while (i <= a.length - 1) {
-                    a[i] = a[i].replaceAll("\\]", "");
-                    a[i] = a[i].replaceAll("\\[", "");
-                    a[i] = a[i].replaceAll("[(){},.;!?<>%\\„\\“\\']", "");
-                    ret = ret + " " + a[i];
-                    i++;
-                }
+                    a[a.length - 1] = a[a.length - 1].replaceAll("\\]", "");
+                    a[a.length - 1] = a[a.length - 1].replaceAll("\\[", "");
+//                    a[a.length - 1] = a[a.length - 1].replaceAll("[(){},.;!?<>%\\„\\“\\']", "");
+                    ret = a[a.length - 1];
             } else {
-                a[0] = a[0].replaceAll("\\]", "");
-                a[0] = a[0].replaceAll("\\[", "");
-                a[0] = a[0].replaceAll("[(){},.;!?<>%\\„\\“\\']", "");
-                ret = a[0];
+                String[] b = anchorText.split("\\:");
+                if (b.length > 1) {
+                        b[b.length - 1] = b[b.length - 1].replaceAll("\\]", "");
+                        b[b.length - 1] = b[b.length - 1].replaceAll("\\[", "");
+//                        b[b.length - 1] = b[b.length - 1].replaceAll("[(){},.;!?<>%\\„\\“\\']", "");
+                        ret = b[b.length - 1];
+                } else {
+                    b[0] = b[0].replaceAll("\\]", "");
+                    b[0] = b[0].replaceAll("\\[", "");
+//                    b[0] = b[0].replaceAll("[(){},.;!?<>%\\„\\“\\']", "");
+                    ret = b[0];
+                }
             }
 
             return ret;
