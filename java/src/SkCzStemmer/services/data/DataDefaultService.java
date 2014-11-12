@@ -48,8 +48,10 @@ public class DataDefaultService {
             line = br.readLine();
             while (line != null) {
                 String[] words = line.split(cvsSplitBy);
-                if(words.length > 3)
+                if(words.length > 3){
                     root = learnTreeLine(words[2], root);
+                    root = learnTreeLine(words[0], root);
+                }
                 line = br.readLine();
             }
         } catch (FileNotFoundException e) {
@@ -145,7 +147,7 @@ public class DataDefaultService {
      * @throws XMLStreamException
      * @throws JAXBException
      */
-    public static  WordTreeItem findSubTreeByLetter(String character, WordTreeItem root) throws IOException, XMLStreamException, JAXBException {
+    public static  WordTreeItem findSubTreeByLetter(String character, WordTreeItem root) {
         if (root.getChildren().size() != 0)
             for (WordTreeItem item : root.getChildren()) {
                 if (character.equals(item.getPismeno())) {
@@ -155,13 +157,13 @@ public class DataDefaultService {
         return null;
     }
     
-    private WordTreeItem unserializeTree(File treeFile) {
+    public static WordTreeItem unserializeTree(File treeFile) {
      // deserialize subtree
         XMLInputFactory factory = XMLInputFactory.newInstance();
         XMLStreamReader reader = null;
         JAXBContext jaxbContext;
         try {
-            reader = factory.createXMLStreamReader(new FileInputStream(TREE_FILE));
+            reader = factory.createXMLStreamReader(new FileInputStream(treeFile));
             jaxbContext = JAXBContext.newInstance(WordTreeItem.class);
             Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
             

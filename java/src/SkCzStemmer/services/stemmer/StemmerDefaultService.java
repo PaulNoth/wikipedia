@@ -1,18 +1,15 @@
 package skCzStemmer.services.stemmer;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.StringReader;
-import java.text.Normalizer;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
-import java.util.Map;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
@@ -20,13 +17,13 @@ import java.util.concurrent.Future;
 import javax.xml.bind.JAXBException;
 import javax.xml.stream.XMLStreamException;
 
-import org.apache.lucene.analysis.standard.ClassicTokenizer;
-import org.apache.lucene.analysis.tokenattributes.CharTermAttribute;
-
 import skCzStemmer.services.data.DataDefaultService;
 import skCzStemmer.services.data.WordTreeItem;
-import skCzStemmer.services.extractor.MediaWikiExtractor;
 import skCzStemmer.utils.MyFilePaths;
+
+import com.aliasi.tokenizer.IndoEuropeanTokenizerFactory;
+import com.aliasi.tokenizer.Tokenizer;
+import com.aliasi.tokenizer.TokenizerFactory;
 
 /**
  * This is implementation of PreprocessorService.
@@ -44,7 +41,10 @@ public class StemmerDefaultService {
         this.threadCount = threadCount;
     }
 
-    public void processAnchors(File anchorOwnerFile) throws InterruptedException, IOException {
+    public void processAnchors(File testFile) throws InterruptedException, IOException {
+
+        WordTreeItem root = DataDefaultService.unserializeTree(new File(MyFilePaths.FULL_TREE_FILE));
+//        WordTreeItem root = DataDefaultService.unserializeTree(new File(MyFilePaths.SAMPLE_TREE_FILE));
 
         ExecutorService exService = Executors.newCachedThreadPool();
         List<Future<?>> runnables = new ArrayList<Future<?>>();
@@ -52,11 +52,11 @@ public class StemmerDefaultService {
         BufferedReader br = null;
         String line = "";
         try {
-            br = new BufferedReader(new FileReader(anchorOwnerFile));
+            br = new BufferedReader(new FileReader(testFile));
             line = br.readLine();
             while (line != null) {
                 if (runnables.size() < threadCount) {
-                    Future<?> future = exService.submit(new AnchorStemmerTask(line));
+                    Future<?> future = exService.submit(new AnchorStemmerTask(line, root));
                     runnables.add(future);
                     line = br.readLine();
                 } else {
@@ -111,14 +111,14 @@ public class StemmerDefaultService {
      * @throws XMLStreamException
      * @throws JAXBException
      */
-    private String processWord(String s, WordTreeItem root) throws JAXBException, XMLStreamException, IOException {
-        // TODO upravit prepocet entropie
+    private String processWord(String s, WordTreeItem root) {
+
         s = s.toLowerCase();
         if (s.matches("//d+")) {
             return "NUM";
         }
 
-        String processingString = new StringBuffer(s).toString();
+        String processingString = new StringBuffer(s).reverse().toString();
         List<CharacterItem> characters = new ArrayList<CharacterItem>();
         WordTreeItem item = null;
         // for all chars in the word
@@ -146,7 +146,7 @@ public class StemmerDefaultService {
             CharacterItem charItem = null;
             if (item != null) {
                 // set item into character object
-                // item = databaseService.findSubTreeByLetter(item.getId());
+//                 item = DataDefaultService.findSubTreeByLetter(item.getId());
                 charItem = new CharacterItem(character, computeEntropy(item));
             } else {
                 // if we cannot find item in DB create mock object
@@ -162,7 +162,7 @@ public class StemmerDefaultService {
         // System.out.println();
 
         // compute difference entropy
-//        characters = recalculateEntropy(characters);
+         characters = recalculateEntropy(characters);
         // compute base of the word
         String output = chooseBase(characters);
 
@@ -193,8 +193,8 @@ public class StemmerDefaultService {
             outList.add(i.clone());
         }
         // compute entropy
-        for (int i = characters.size() - 1; i > 0;  i--) {
-            outList.get(i).setPrecision(characters.get(i).getPrecision() - characters.get(i - 1).getPrecision());
+        for (int i = 0; i < characters.size() - 1; i++) {
+            outList.get(i).setPrecision(characters.get(i).getPrecision() - characters.get(i + 1).getPrecision());
         }
         return outList;
     }
@@ -209,21 +209,19 @@ public class StemmerDefaultService {
      */
     private String chooseBase(List<CharacterItem> list) {
         StringBuilder base = new StringBuilder();
-        int k = 0;
+        int j = 0;
 
-        for (int i = 1; i < list.size() - 1; i++) {
-            CharacterItem currentItem = list.get(i);
-            CharacterItem nextItem = list.get(i + 1);
-            if (currentItem.getPrecision() < nextItem.getPrecision()) {
-                k = i + 1;
+        for (int i = 0; i < list.size() - 1; i++) {
+            if (list.get(i).getPrecision() < list.get(i + 1).getPrecision()) {
+                j = i;
                 break;
             }
         }
-        for (int i = 0; i < k; i++) {
+        for (int i = j + 1; i < list.size(); i++) {
             base.append(list.get(i).getCharacter());
         }
 
-        return base.toString();
+        return base.reverse().toString();
     }
 
     /**
@@ -234,8 +232,12 @@ public class StemmerDefaultService {
      * @return double
      */
     private double computeEntropy(WordTreeItem item) {
-        double probability = new Double(item.getProbability()) / new Double(item.getParent().getProbability());
-        double finalPrecision = computeSequence(probability);
+        double finalPrecision = 0;
+        double itemProbability = Double.valueOf(item.getProbability());
+        for (WordTreeItem ki : item.getChildren()) {
+            double childProbability = Double.valueOf(ki.getProbability()); 
+            finalPrecision = finalPrecision + (computeSequence(childProbability / itemProbability));
+        }
         return (-1) * finalPrecision;
     }
 
@@ -255,78 +257,44 @@ public class StemmerDefaultService {
 
     class AnchorStemmerTask implements Runnable {
 
-        private String anchorKey;
-        private DataDefaultService dataService = new DataDefaultService();
+        private String line;
+        private WordTreeItem root;
 
-        public AnchorStemmerTask(String anchorKey) {
-            this.anchorKey = anchorKey;
+        public AnchorStemmerTask(String line, WordTreeItem root) {
+            this.line = line;
+            this.root = root;
         }
 
         public void run() {
-            try {
-                String ownerAnchorTextNormalized = Normalizer.normalize(anchorKey, Normalizer.Form.NFD);
-                ownerAnchorTextNormalized = ownerAnchorTextNormalized.replaceAll("[^\\p{ASCII}]", "");
-                ownerAnchorTextNormalized = ownerAnchorTextNormalized.replaceAll("\\s+", "");
-
-                List<String[]> docs = MediaWikiExtractor.searchIndex(ownerAnchorTextNormalized);
-                if(docs != null){
-                    WordTreeItem root = dataService.createTreeFromAnchorFile(anchorKey, docs);
-                    if (root.getChildren().size() > 0) {
-                        processText(root, anchorKey, docs);
-                    }
-                }
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-        }
-
-        public void processText(WordTreeItem root, String owner, List<String[]> docs) throws Exception {
-            Map<String, Boolean> helpMap = new HashMap<String, Boolean>();
-            for (String[] doc : docs) {
-                if (doc[1].trim().length() > 0) {
-                    if(helpMap.get(doc[1]) == null){
-                        helpMap.put(doc[1], Boolean.FALSE);
-                    }
-                }
-            }
-            
             List<String> retList = new ArrayList<String>();
-            for (String[] doc : docs) {
-                if (doc[1].trim().length() > 0) {
-                    if(helpMap.get(doc[1]) == Boolean.FALSE){
-                        // tokenize input text
-                        ClassicTokenizer tokenizer = new ClassicTokenizer(new StringReader(doc[1]));
-                        CharTermAttribute charTermAttrib = tokenizer.getAttribute(CharTermAttribute.class);
-    
-                        tokenizer.reset();
-                        String ret = "";
-                        while (tokenizer.incrementToken()) {
-                            String term = charTermAttrib.toString();
-                            if (term.matches(".*\\d.*")) {
-                                ret += term + " ";
-                            } else {
-                                ret += processWord(term, root) + " ";
-                            }
-                        }
-                        // System.out.println(owner + " | " + doc[1] + " | " + ret);
-                        retList.add(owner + ";" + doc[0] + ";" + doc[1] + ";" + ret);
-                        tokenizer.end();
-                        tokenizer.close();
-                        helpMap.put(doc[1], Boolean.TRUE);
+            if (line.length() > 2) {
+                // tokenize input text
+                List<String> tokenList = new ArrayList<String>();
+                TokenizerFactory tokenizerFactory = new IndoEuropeanTokenizerFactory();
+                Tokenizer tokenizer = tokenizerFactory.tokenizer(line.toCharArray(), 0, line.length());
+                tokenizer.tokenize(tokenList, new ArrayList<String>());
+
+                String ret = "";
+                for(String word : tokenList){
+                    if (word.matches(".*\\d.*")) {
+                        ret += word + " ";
+                    } else {
+                        ret += processWord(word, root) + " ";
                     }
                 }
+                retList.add(line  + ";" + ret) ;
             }
 
             synchronized (output) {
-                FileWriter outputWriter = null;
+                BufferedWriter outputWriter = null;
                 try {
-                    outputWriter = new FileWriter(output, true);
-                    for (String output : retList) {
-                        outputWriter.write(output);
-                        outputWriter.write("\r\n");
+                    FileWriter writer = new FileWriter(MyFilePaths.DATALOCATION + "output.output", true);
+                    outputWriter = new BufferedWriter(writer);
+                    for (String ret : retList) {
+                        outputWriter.write(ret + "\r\n");
                     }
                 } catch (Exception e) {
-                    System.out.println(e);
+                    e.printStackTrace();
                 } finally {
                     try {
                         outputWriter.close();

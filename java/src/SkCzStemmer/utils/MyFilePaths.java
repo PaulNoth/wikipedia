@@ -17,5 +17,4 @@ public class MyFilePaths{
     public static final String SAMPLE_TREE_FILE = DATALOCATION + "sample_treeFile.xml";
     public static final String FULL_TREE_FILE = DATALOCATION + "full_treeFile.xml";
     
-    
 }

@@ -14,10 +14,10 @@ import skCzStemmer.utils.MyFilePaths;
 
 public class DataServiceTest {
 
-    private File sampleTreeFile = new File(MyFilePaths.SAMPLE_SK_DATA_XML.replace(".xml", ".anchor")); 
-    private File fullTreeFile = new File(MyFilePaths.FULL_SK_DATA_XML.replace(".xml", ".anchor"));
+//    private File sampleTreeFile = new File(MyFilePaths.SAMPLE_SK_DATA_XML.replace(".xml", ".anchor")); 
+//    private DataDefaultService service1 = new DataDefaultService(new File(MyFilePaths.SAMPLE_TREE_FILE));
     
-    private DataDefaultService service1 = new DataDefaultService(new File(MyFilePaths.SAMPLE_TREE_FILE));
+    private File fullTreeFile = new File(MyFilePaths.FULL_SK_DATA_XML.replace(".xml", ".anchor"));
     private DataDefaultService service2 = new DataDefaultService(new File(MyFilePaths.FULL_TREE_FILE));
     
     @Test
