@@ -48,7 +48,8 @@ public class DataDefaultService {
             line = br.readLine();
             while (line != null) {
                 String[] words = line.split(cvsSplitBy);
-                root = learnTreeLine(words[2], root);
+                if(words.length > 3)
+                    root = learnTreeLine(words[2], root);
                 line = br.readLine();
             }
         } catch (FileNotFoundException e) {

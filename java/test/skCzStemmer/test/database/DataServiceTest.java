@@ -23,12 +23,11 @@ public class DataServiceTest {
     @Test
     public void createTreeFromAnchorFile() throws JAXBException, XMLStreamException, IOException {
 
-     WordTreeItem sample_root = service1.createTreeFromAnchorFile(sampleTreeFile);
-     
+//     WordTreeItem sample_root = service1.createTreeFromAnchorFile(sampleTreeFile);
+//      sample_root.getChildren().size();
+        
      WordTreeItem full_root = service2.createTreeFromAnchorFile(fullTreeFile);
-     
-     sample_root.getChildren().size();
-     
      full_root.getChildren().size();
+     
     }
 }
