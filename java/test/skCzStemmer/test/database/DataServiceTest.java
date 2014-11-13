@@ -17,8 +17,11 @@ public class DataServiceTest {
 //    private File sampleTreeFile = new File(MyFilePaths.SAMPLE_SK_DATA_XML.replace(".xml", ".anchor")); 
 //    private DataDefaultService service1 = new DataDefaultService(new File(MyFilePaths.SAMPLE_TREE_FILE));
     
-    private File fullTreeFile = new File(MyFilePaths.FULL_SK_DATA_XML.replace(".xml", ".anchor"));
-    private DataDefaultService service2 = new DataDefaultService(new File(MyFilePaths.FULL_TREE_FILE));
+//    private File fullSKTreeFile = new File(MyFilePaths.FULL_SK_DATA_XML.replace(".xml", ".anchor"));
+//    private DataDefaultService service2 = new DataDefaultService(new File(MyFilePaths.FULL_SK_TREE_FILE));
+    
+    private File fullCZTreeFile = new File(MyFilePaths.FULL_CZ_DATA_XML.replace(".xml", ".anchor"));
+    private DataDefaultService service3 = new DataDefaultService(new File(MyFilePaths.FULL_CZ_TREE_FILE));
     
     @Test
     public void createTreeFromAnchorFile() throws JAXBException, XMLStreamException, IOException {
@@ -26,8 +29,11 @@ public class DataServiceTest {
 //     WordTreeItem sample_root = service1.createTreeFromAnchorFile(sampleTreeFile);
 //      sample_root.getChildren().size();
         
-     WordTreeItem full_root = service2.createTreeFromAnchorFile(fullTreeFile);
-     full_root.getChildren().size();
+//     WordTreeItem fullSkRoot = service2.createTreeFromAnchorFile(fullSKTreeFile);
+//     fullSkRoot.getChildren().size();
+     
+     WordTreeItem fullCzRoot = service3.createTreeFromAnchorFile(fullCZTreeFile);
+     fullCzRoot.getChildren().size();
      
     }
 }

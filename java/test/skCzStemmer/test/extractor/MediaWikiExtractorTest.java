@@ -9,23 +9,23 @@ import skCzStemmer.utils.MyFilePaths;
 
 public class MediaWikiExtractorTest{
     
-//    private File f = new File(MyFilePaths.SAMPLE_SK_DATA_XML);
-//    private MediaWikiExtractor extractorService = new MediaWikiExtractor(100, f);
+    private File sampleDump = new File(MyFilePaths.SAMPLE_SK_DATA_XML);
+    private MediaWikiExtractor extractorService1 = new MediaWikiExtractor(100, sampleDump);
     
-    private File full_f = new File(MyFilePaths.FULL_SK_DATA_XML);
-    private MediaWikiExtractor extractorService = new MediaWikiExtractor(1000, full_f);
+    private File fullSKDump = new File(MyFilePaths.FULL_SK_DATA_XML);
+    private MediaWikiExtractor extractorService2 = new MediaWikiExtractor(1000, fullSKDump);
+    
+    private File fullCZDump = new File(MyFilePaths.FULL_CZ_DATA_XML);
+    private MediaWikiExtractor extractorService3 = new MediaWikiExtractor(1000, fullCZDump);
     
     
     @Test
     public void extractMediaWikiAnchors() throws Exception {
 
-        extractorService.extractMediaWikiAnchorsFromAnchorFile();
-//        extractorService.extractMediaWikiAnchors(full_f);
-//        BufferedReader br = new BufferedReader(new FileReader(f.getName().substring(0, f.getName().lastIndexOf(".xml") + 4)  + ".output"));
-//        while ( br.readLine() != null) {
-//            count++;
-//        }
-//        br.close();
-//        Assert.assertTrue(count == 1163);
+//        extractorService1.extractMediaWikiAnchorsFromAnchorFile();
+        
+//        extractorService2.extractMediaWikiAnchorsFromAnchorFile();
+        
+        extractorService3.extractMediaWikiAnchorsFromAnchorFile();
     }
 }

@@ -36,14 +36,16 @@ public class StemmerDefaultService {
 
     private int threadCount;
     private File output = new File(MyFilePaths.DATALOCATION + File.separator + "anchors.output");
+    private File treeFile;
 
-    public StemmerDefaultService(int threadCount) {
+    public StemmerDefaultService(int threadCount, File treeFile) {
         this.threadCount = threadCount;
+        this.treeFile = treeFile;
     }
 
-    public void processAnchors(File testFile) throws InterruptedException, IOException {
+    public void stemmAnchors(File testFile) {
 
-        WordTreeItem root = DataDefaultService.unserializeTree(new File(MyFilePaths.FULL_TREE_FILE));
+        WordTreeItem root = DataDefaultService.unserializeTree(treeFile);
 //        WordTreeItem root = DataDefaultService.unserializeTree(new File(MyFilePaths.SAMPLE_TREE_FILE));
 
         ExecutorService exService = Executors.newCachedThreadPool();
@@ -67,7 +69,11 @@ public class StemmerDefaultService {
                             it.remove();
                         }
                     }
-                    Thread.sleep(100);
+                    try {
+                        Thread.sleep(100);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
                 }
 
             }
