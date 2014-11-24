@@ -14,9 +14,6 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
-import javax.xml.bind.JAXBException;
-import javax.xml.stream.XMLStreamException;
-
 import skCzStemmer.services.data.DataDefaultService;
 import skCzStemmer.services.data.WordTreeItem;
 import skCzStemmer.utils.MyFilePaths;
@@ -26,28 +23,32 @@ import com.aliasi.tokenizer.Tokenizer;
 import com.aliasi.tokenizer.TokenizerFactory;
 
 /**
- * This is implementation of PreprocessorService.
+ * This class is implementation of stemming words by MediaWiki anchor texts.
  * 
- * @see sk.fiit.nemecek.jolana.server.services.stemmer.PreprocessorService
- * @author Tomáš Nemeèek
+ * @author Tomas Nemecek
  * 
  */
 public class StemmerDefaultService {
 
     private int threadCount;
-    private File output = new File(MyFilePaths.DATALOCATION + File.separator + "anchors.output");
+    private File output = null;
     private File treeFile;
 
     public StemmerDefaultService(int threadCount, File treeFile) {
         this.threadCount = threadCount;
         this.treeFile = treeFile;
+        output = new File(treeFile.getParent() + File.separator + "output.output");
     }
-
+    
+    /**
+     * Method for stemming words in testFile. Each words has to be on its own line.
+     * @param testFile
+     */
     public void stemmAnchors(File testFile) {
 
-        WordTreeItem root = DataDefaultService.unserializeTree(treeFile);
-//        WordTreeItem root = DataDefaultService.unserializeTree(new File(MyFilePaths.SAMPLE_TREE_FILE));
+        WordTreeItem root = DataDefaultService.deserializeTree(treeFile);
 
+        long start = System.currentTimeMillis();
         ExecutorService exService = Executors.newCachedThreadPool();
         List<Future<?>> runnables = new ArrayList<Future<?>>();
 
@@ -104,18 +105,15 @@ public class StemmerDefaultService {
                 break;
             }
         }
+        System.out.println(System.currentTimeMillis() - start);
     }
 
     /**
-     * Method for preprocessing of word s at position index. This method return
-     * preprocessed word or the original word.
+     * Method for stemming of word s. This method return
+     * stem word or the original word.
      * 
-     * @param String
-     *            s
+     * @param String s
      * @return String
-     * @throws IOException
-     * @throws XMLStreamException
-     * @throws JAXBException
      */
     private String processWord(String s, WordTreeItem root) {
 
@@ -132,7 +130,7 @@ public class StemmerDefaultService {
             String character = Character.toString(processingString.charAt(i));
             if (i == 0) {
                 // search in DB for end char
-                item = DataDefaultService.findSubTreeByLetter(character, root);
+                item = DataDefaultService.findLeaveByCharacter(character, root);
                 // if we cannot find end char return as unknown
                 if (item == null) {
                     return s;
@@ -185,12 +183,11 @@ public class StemmerDefaultService {
 
     /**
      * Method for determining the root of the word. Input of this method is list
-     * of words letters with the probability value. It returns the choosen root
+     * of words letters with the probability value. It returns the chosen root
      * of the word.
      * 
-     * @param List
-     *            <CharacterItem>characters
-     * @return List<CharacterItem>
+     * @param List <{@link CharacterItem}> characters
+     * @return List <{@link CharacterItem}>
      */
     private List<CharacterItem> recalculateEntropy(List<CharacterItem> characters) {
         List<CharacterItem> outList = new ArrayList<CharacterItem>();
@@ -209,21 +206,22 @@ public class StemmerDefaultService {
      * Method for choosing the base of the word. It returns the root of the word
      * as String.
      * 
-     * @param List
-     *            <CharacterItem> list
+     * @param List <{@link CharacterItem}> list
      * @return String
      */
     private String chooseBase(List<CharacterItem> list) {
         StringBuilder base = new StringBuilder();
         int j = 0;
 
-        for (int i = 0; i < list.size() - 1; i++) {
-            if (list.get(i).getPrecision() < list.get(i + 1).getPrecision()) {
+        for (int i = 1; i < list.size() - 1; i++) {
+            CharacterItem current = list.get(i);
+            CharacterItem next = list.get(i + 1);
+            if (current.getPrecision() < next.getPrecision()) {
                 j = i;
                 break;
             }
         }
-        for (int i = j + 1; i < list.size(); i++) {
+        for (int i = j; i < list.size(); i++) {
             base.append(list.get(i).getCharacter());
         }
 
@@ -248,10 +246,10 @@ public class StemmerDefaultService {
     }
 
     /**
-     * Method for computing the equation p(s|r)log_2p(s|r).
+     * Method for computing final entropy of each letter.
      * 
-     * @param probability
-     * @return
+     * @param {@link WordTreeItem} item
+     * @return double
      */
     private double computeSequence(double probability) {
         return probability * log(probability, 2);
@@ -294,7 +292,7 @@ public class StemmerDefaultService {
             synchronized (output) {
                 BufferedWriter outputWriter = null;
                 try {
-                    FileWriter writer = new FileWriter(MyFilePaths.DATALOCATION + "output.output", true);
+                    FileWriter writer = new FileWriter(output, true);
                     outputWriter = new BufferedWriter(writer);
                     for (String ret : retList) {
                         outputWriter.write(ret + "\r\n");

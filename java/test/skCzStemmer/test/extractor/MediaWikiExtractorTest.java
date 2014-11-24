@@ -9,6 +9,10 @@ import skCzStemmer.utils.MyFilePaths;
 
 public class MediaWikiExtractorTest{
     
+    private static final boolean SAMPLE = true;
+    private static final boolean SK = false;
+    private static final boolean CZ = false;
+    
     private File sampleDump = new File(MyFilePaths.SAMPLE_SK_DATA_XML);
     private MediaWikiExtractor extractorService1 = new MediaWikiExtractor(100, sampleDump);
     
@@ -19,13 +23,18 @@ public class MediaWikiExtractorTest{
     private MediaWikiExtractor extractorService3 = new MediaWikiExtractor(1000, fullCZDump);
     
     
-    @Test
-    public void extractMediaWikiAnchors() throws Exception {
-
-//        extractorService1.extractMediaWikiAnchorsFromAnchorFile();
-        
-//        extractorService2.extractMediaWikiAnchorsFromAnchorFile();
-        
+    @Test(enabled = SAMPLE)
+    public void extractMediaWikiAnchorsSample() throws Exception {
+        extractorService1.extractMediaWikiAnchorsFromAnchorFile();
+    }
+    
+    @Test(enabled = SK)
+    public void extractMediaWikiAnchorsSK() throws Exception {
+        extractorService2.extractMediaWikiAnchorsFromAnchorFile();
+    }
+    
+    @Test(enabled = CZ)
+    public void extractMediaWikiAnchorsCZ() throws Exception {
         extractorService3.extractMediaWikiAnchorsFromAnchorFile();
     }
 }

@@ -2,8 +2,7 @@ package skCzStemmer.services.stemmer;
 
 
 /**
- * Class for temporar saving result of preprocessing for each letter in
- * word.
+ * Class for temporar saving result of stemming for each letter in word.
  * @author Tomáš Nemeèek
  */
 public class CharacterItem {

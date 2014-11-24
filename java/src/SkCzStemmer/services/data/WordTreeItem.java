@@ -11,6 +11,10 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 @XmlRootElement(name = "tree")
 @XmlAccessorType (XmlAccessType.FIELD)
+/**
+ * Suffix tree item used in stemming process.
+ * @author Tomas Nemecek
+ */
 public class WordTreeItem {
 
     @XmlAttribute
@@ -21,6 +25,8 @@ public class WordTreeItem {
     
     @XmlElement(name = "childLetters")
     private List<WordTreeItem> children;
+    
+    private WordTreeItem parent;
     
     @XmlAttribute
     private boolean end;
@@ -59,5 +65,13 @@ public class WordTreeItem {
     @Override
     public String toString() {
         return "KorpusItem [letter=" + letter + "]";
+    }
+
+    public WordTreeItem getParent() {
+        return parent;
+    }
+
+    public void setParent(WordTreeItem parent) {
+        this.parent = parent;
     }
 }

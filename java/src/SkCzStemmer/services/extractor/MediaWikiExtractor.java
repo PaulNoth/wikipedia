@@ -23,6 +23,7 @@ import javax.xml.stream.XMLStreamConstants;
 import javax.xml.stream.XMLStreamReader;
 
 import org.apache.commons.lang3.StringUtils;
+import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.TokenStream;
 import org.apache.lucene.analysis.Tokenizer;
 import org.apache.lucene.analysis.core.WhitespaceTokenizer;
@@ -30,6 +31,12 @@ import org.apache.lucene.analysis.tokenattributes.CharTermAttribute;
 
 import skCzStemmer.utils.MyFilePaths;
 
+/**
+ * This class extracts anchor texts from MediaWiki dump in /data/<dumpFileName> to file in special csv format. It extracts anchors with combination of 
+ * Lucene {@link Analyzer} process and regexp cutting.
+ * @author Tomas Nemecek
+ *
+ */
 public class MediaWikiExtractor {
 
     private int threadCount;
@@ -41,9 +48,13 @@ public class MediaWikiExtractor {
     public MediaWikiExtractor(int threads, File fileToProcess) {
         this.threadCount = threads;
         this.fileToProcess = fileToProcess;
-        anchorFile = new File(MyFilePaths.DATALOCATION + File.separator + fileToProcess.getName().substring(0, fileToProcess.getName().lastIndexOf(".xml")) + ".anchor");
+        anchorFile = new File(fileToProcess.getParent()+ File.separator + fileToProcess.getName().substring(0, fileToProcess.getName().lastIndexOf(".xml")) + ".anchor");
     }
 
+    /**
+     * Main method for extracting anchor texts from MediaWiki dump. Dump has to be located in /data/ path.
+     * @throws Exception
+     */
     public void extractMediaWikiAnchorsFromAnchorFile() throws Exception {
         if (!fileToProcess.canRead()) {
             return;
@@ -101,6 +112,11 @@ public class MediaWikiExtractor {
         System.out.println(end - start);
     }
 
+    /**
+     * Inner thread class for extracting anchor texts from one page.
+     * @author Tomas Nemecek
+     *
+     */
     class ExtractorTask implements Runnable {
 
         private String readerText;
@@ -142,6 +158,13 @@ public class MediaWikiExtractor {
             }
         }
 
+        /**
+         * Method extracts anchor texts by its reference to page which owns the anchor. Output of extracting is in special csv format.
+         * Format: ownerName;actualPageName;purifiedAnchorText;originalAnchorText
+         * @param text
+         * @param pageName
+         * @return HashMap<String, List<String[]>>
+         */
         private HashMap<String, List<String[]>> extractTextFromMediaWikiPage(String text, String pageName) {
             TokenStream ts = null;
             Tokenizer tokenizer = null;
@@ -199,6 +222,11 @@ public class MediaWikiExtractor {
             return null;
         }
 
+        /**
+         * Method cleans the whole "dirty" anchor text from other unnecessary words which wasn't removed by {@link Analyzer}.
+         * @param dirtyAnchorText
+         * @return String
+         */
         private String cleanAnchorText(String dirtyAnchorText) {
             // cleaning left site of anchor text
             String anchorTextLeft = dirtyAnchorText.substring(dirtyAnchorText.indexOf("["));
@@ -222,6 +250,11 @@ public class MediaWikiExtractor {
             return anchorTextLeft.substring(0, anchorTextLeft.lastIndexOf("]") + 1) + endAnchorText.substring(0, border);
         }
 
+        /**
+         * Method parse anchor text from all unnecessary characters from begin and end of anchor text
+         * @param anchorText1
+         * @return String
+         */
         private String parseAnchorText(String anchorText1) {
             try {
 
@@ -260,6 +293,11 @@ public class MediaWikiExtractor {
                         System.err.println(anchorText);
     }
 
+    /**
+     * Method extracts from purified anchorText owner page name
+     * @param anchorText1
+     * @return
+     */
     private static String purifyAnchorOwnerName(String anchorText1) {
         try {
             String anchorText = anchorText1;
@@ -290,6 +328,11 @@ public class MediaWikiExtractor {
         return "";
     }
 
+    /**
+     * Method extracts from purified anchor text the reference text
+     * @param anchorText1
+     * @return
+     */
     public static String purifyAnchorText(String anchorText1) {
         try {
             String anchorText = anchorText1;

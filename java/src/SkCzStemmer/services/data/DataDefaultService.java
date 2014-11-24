@@ -22,6 +22,10 @@ import com.aliasi.tokenizer.IndoEuropeanTokenizerFactory;
 import com.aliasi.tokenizer.Tokenizer;
 import com.aliasi.tokenizer.TokenizerFactory;
 
+/**
+ * This class is used for operating with suffix tree.  
+ * @author Tomas Nemecek
+ */
 public class DataDefaultService {
 
     private File TREE_FILE ;
@@ -30,11 +34,17 @@ public class DataDefaultService {
         this.TREE_FILE = filePath;
     }
     
+    /**
+     * Method creates suffix tree from anchors in @param anchorFile. This file must have special csv structure.
+     * @param anchorFile
+     * @return {@link WordTreeItem}
+     * @throws IOException
+     */
     public WordTreeItem createTreeFromAnchorFile(File anchorFile) throws IOException {
 
         File treeFile = TREE_FILE;
         if(treeFile.exists()){
-            return unserializeTree(treeFile);
+            return deserializeTree(treeFile);
         }
         
         long start = System.currentTimeMillis();
@@ -49,8 +59,8 @@ public class DataDefaultService {
             while (line != null) {
                 String[] words = line.split(cvsSplitBy);
                 if(words.length > 3){
-                    root = learnTreeLine(words[2], root);
-                    root = learnTreeLine(words[0], root);
+                    root = learnWord(words[2], root);
+                    root = learnWord(words[0], root);
                 }
                 line = br.readLine();
             }
@@ -76,22 +86,37 @@ public class DataDefaultService {
         return root;
     }
 
-    private WordTreeItem learnTreeLine(String line, WordTreeItem root) {
+    /**
+     * Method enriches suffix tree with new anchor text. This text is parsed to words, which are added to tree.
+     * @param line
+     * @param root
+     * @return {@link WordTreeItem}
+     */
+    private WordTreeItem learnWord(String line, WordTreeItem root) {
             List<String> tokenList = new ArrayList<String>();
             TokenizerFactory tokenizerFactory = new IndoEuropeanTokenizerFactory();
             Tokenizer tokenizer = tokenizerFactory.tokenizer(line.toCharArray(), 0, line.length());
             tokenizer.tokenize(tokenList, new ArrayList<String>());
-            for (String s : tokenList) {
-                try {
-                    createTreeItem(new StringBuilder(s).reverse().toString(), root);
-                } catch (IOException | XMLStreamException | JAXBException e) {
-                    System.err.println(e);
-                }
+        for (String s : tokenList) {
+            s = s.replaceAll("[(){},.;!?<>%'=]", "");
+            s = s.replace(".", "");
+            s = s.replace("-", "");
+            if (!s.matches(".*\\d.*") && !Pattern.matches("\\p{Punct}", s) && s.length() > 1) {
+//                enrichTreeItem(s.toLowerCase(), root);
+              enrichTreeItem(new StringBuilder(s).reverse().toString(), root);
             }
+        }
+                    
         return root;
     }
 
-    private WordTreeItem createTreeItem(String wordString, WordTreeItem root) throws IOException, XMLStreamException, JAXBException {
+    /**
+     * Method enriches suffix tree with concrete word from anchor text.
+     * @param wordString
+     * @param root
+     * @return {@link WordTreeItem}
+     */
+    private WordTreeItem enrichTreeItem(String wordString, WordTreeItem root){
         if (wordString.matches(".*\\d.*") || Pattern.matches("\\p{Punct}", wordString))
             return root;
 
@@ -139,15 +164,12 @@ public class DataDefaultService {
     }
 
     /**
-     * Method for searching for subtree in structure
+     * Method for searching subtree in whole suffix tree. It returns subtree which starts with the last letter in the word.
      * 
      * @param character
-     * @return WordTreeItem
-     * @throws IOException
-     * @throws XMLStreamException
-     * @throws JAXBException
+     * @return {@link WordTreeItem}
      */
-    public static  WordTreeItem findSubTreeByLetter(String character, WordTreeItem root) {
+    private WordTreeItem findSubTreeByLetter(String character, WordTreeItem root) {
         if (root.getChildren().size() != 0)
             for (WordTreeItem item : root.getChildren()) {
                 if (character.equals(item.getPismeno())) {
@@ -157,7 +179,12 @@ public class DataDefaultService {
         return null;
     }
     
-    public static WordTreeItem unserializeTree(File treeFile) {
+    /**
+     * Method for deserializing suffix tree from file to memory. 
+     * @param treeFile
+     * @return {@link WordTreeItem}
+     */
+    public static WordTreeItem deserializeTree(File treeFile) {
      // deserialize subtree
         XMLInputFactory factory = XMLInputFactory.newInstance();
         XMLStreamReader reader = null;
@@ -178,6 +205,10 @@ public class DataDefaultService {
         return null;
     }
     
+    /**
+     * Method for serializing suffix tree to file.
+     * @param root
+     */
     private void serializeTree(WordTreeItem root) {
         JAXBContext jaxbContext = null;
         Marshaller jaxbMarshaller = null;
@@ -189,5 +220,22 @@ public class DataDefaultService {
         } catch (JAXBException e) {
             e.printStackTrace();
         }
+    }
+    
+    public static void fillParentReference(WordTreeItem item, WordTreeItem parent){
+        for(WordTreeItem child : item.getChildren()){
+            fillParentReference(child,item);
+        }
+        item.setParent(parent);
+    }
+    
+    public static WordTreeItem findLeaveByCharacter(String character, WordTreeItem item){
+        for(WordTreeItem child : item.getChildren()){
+            findLeaveByCharacter(character, child);
+            if (character.equals(child.getPismeno())) {
+                return child;
+            }
+        }
+        return null;
     }
 }
