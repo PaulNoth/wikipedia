@@ -1,0 +1,18 @@
+
+Prilozene SQL dumpy z tabuliek z ktorych sa to nasledne spaja.
+
+SQL DUMPY "enwiki-latest-categorylinks.sql" A "enwiki-latest-page.sql" NEODPORUCAM SPRACOVAVAT NA SSD DISKU LEBO SI TO VYZIADA NA ZAPIS NIEKOLKO TERABAJTOV !!!
+
+
+CREATE TABLE `category` (
+  `id` int(10) unsigned NOT NULL,
+  `name` varchar(255) NOT NULL,
+  KEY `id` (`id`),
+  KEY `name_id` (`name`,`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+CREATE TABLE `page` (
+  `id` int(11) NOT NULL,
+  `name` varchar(255) NOT NULL,
+  KEY `id` (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
