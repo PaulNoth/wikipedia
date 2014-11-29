@@ -1,0 +1,89 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.9/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.9/ http://www.mediawiki.org/xml/export-0.9.xsd" version="0.9" xml:lang="sk">
+  <siteinfo>
+    <sitename>Wikipédia</sitename>
+    <dbname>skwiki</dbname>
+    <base>http://sk.wikipedia.org/wiki/Hlavn%C3%A1_str%C3%A1nka</base>
+    <generator>MediaWiki 1.24wmf22</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Médiá</namespace>
+      <namespace key="-1" case="first-letter">Špeciálne</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Diskusia</namespace>
+      <namespace key="2" case="first-letter">Redaktor</namespace>
+      <namespace key="3" case="first-letter">Diskusia s redaktorom</namespace>
+      <namespace key="4" case="first-letter">Wikipédia</namespace>
+      <namespace key="5" case="first-letter">Diskusia k Wikipédii</namespace>
+      <namespace key="6" case="first-letter">Súbor</namespace>
+      <namespace key="7" case="first-letter">Diskusia k súboru</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">Diskusia k MediaWiki</namespace>
+      <namespace key="10" case="first-letter">Šablóna</namespace>
+      <namespace key="11" case="first-letter">Diskusia k šablóne</namespace>
+      <namespace key="12" case="first-letter">Pomoc</namespace>
+      <namespace key="13" case="first-letter">Diskusia k pomoci</namespace>
+      <namespace key="14" case="first-letter">Kategória</namespace>
+      <namespace key="15" case="first-letter">Diskusia ku kategórii</namespace>
+      <namespace key="100" case="first-letter">Portál</namespace>
+      <namespace key="101" case="first-letter">Diskusia k portálu</namespace>
+      <namespace key="828" case="first-letter">Modul</namespace>
+      <namespace key="829" case="first-letter">Diskusia k modulu</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Fakulta informatiky a informačných technológií Slovenskej technickej univerzity</title>
+    <ns>0</ns>
+    <id>165024</id>
+    <revision>
+      <id>5295335</id>
+      <parentid>2971967</parentid>
+      <timestamp>2013-03-11T13:42:09Z</timestamp>
+      <contributor>
+        <username>Addbot</username>
+        <id>85670</id>
+      </contributor>
+      <minor/>
+      <comment>[[Redaktor:Addbot|Bot:]] Odstránenie 1 odkazov interwiki, ktoré sú teraz dostupné na [[d:|Wikiúdajoch]] ([[d:q5428992]])</comment>
+      <text xml:space="preserve" bytes="1305">'''Fakulta informatiky a informačných technológií Slovenskej technickej univerzity''' (FIIT STU) je siedmou a najmladšou fakultou [[STU]]. Vznikla v roku 2003 z Katedry informatiky a výpočtovej techniky, ktorá bola súčasťou [[Fakulta elektrotechniky a informatiky Slovenskej technickej univerzity|FEI]]. Poskytuje vzdelanie v oblasti informačných technológií vo všetkých troch stupňoch vysokoškolského štúdia (bakalárske, inžinierske, doktorandské).
+
+== Študijné programy ==
+Všetky študijné programy sú akreditované v zmysle Zákona č. 131/2002 Zb. o vysokých školách. 
+*[[bakalárske štúdium]]
+**Informatika
+**Počítačové a komunikačné systémy a siete
+*[[inžinierske štúdium]]
+**Informačné systémy
+**Počítačové a komunikačné systémy a siete
+**Softvérové inžinierstvo
+*[[doktorandské štúdium]]
+**Aplikovaná informatika
+**Programové systémy
+
+== Kontaktné informácie ==
+FIIT STU v Bratislave
+
+Ilkovičova 3 &lt;br&gt;
+842 16 Bratislava 4 &lt;br&gt;
+tel.: (02) 602 91 548 &lt;br&gt;
+fax: (02) 654 20 587 &lt;br&gt;
+
+e-mail: info@fiit.stuba.sk&lt;br&gt;
+
+IČO: 397687&lt;br&gt;
+DIČ: 2020845255&lt;br&gt;
+IČ DPH: SK2020845255
+
+== Externé odkazy ==
+* [http://www.fiit.stuba.sk Oficiálna stránka]
+
+{{výhonok}}
+
+{{STU}}
+
+[[Kategória:Slovenská technická univerzita v Bratislave]]</text>
+      <sha1>04m75ad382ls7a00x8udyiy7h0p9c0b</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+</mediawiki>

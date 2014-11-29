@@ -1,0 +1,21 @@
+<dspage>
+  <title>Austin (disambiguation)</title>
+  <link>Colorado</link>
+  <anchors></anchors>
+  <desc></desc>
+</dspage>
+ 
+<dspage>
+  <title>Austin (disambiguation)</title>
+  <link>Augustine of Canterbury</link>
+  <anchors></anchors>
+  <desc></desc>
+</dspage>
+ 
+<dspage>
+  <title>Austin (disambiguation)</title>
+  <link>Arkansas</link>
+  <anchors></anchors>
+  <desc></desc>
+</dspage>
+ 
