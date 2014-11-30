@@ -1,0 +1,1 @@
+{"http://sk.dbpedia.org/resource/Nemecko"=>["Iné_významy", "Infobox_štát", "V_jazyku", "Km", "Hlavný_článok", "M", "Nemecké_spolkové_krajiny_(mapa)", "Referencie", "Projekt", "Deu_icon", "Slk_icon", "Nemecké_spolkové_krajiny", "Schengenský_priestor", "Eurozóna", "Štáty_EÚ", "Západoeurópska_únia", "Krajiny_G8", "NATO", "OECD", "Európa", "WTO", "OBSE", "Link_FA", "Link_GA"]}

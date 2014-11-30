@@ -1,0 +1,5 @@
+<http://sk.dbpedia.org/resource/Nemecko> <http://purl.org/dc/terms/subject> <http://sk.dbpedia.org/resource/Kategória:Krajiny_EÚ> .
+<http://sk.dbpedia.org/resource/Nemecko> <http://purl.org/dc/terms/subject> <http://sk.dbpedia.org/resource/Kategória:Členovia_NATO> .
+<http://sk.dbpedia.org/resource/Nemecko> <http://purl.org/dc/terms/subject> <http://sk.dbpedia.org/resource/Kategória:Členovia_OSN> .
+<http://sk.dbpedia.org/resource/Nemecko> <http://purl.org/dc/terms/subject> <http://sk.dbpedia.org/resource/Kategória:Štáty_v_Európe> .
+<http://sk.dbpedia.org/resource/Nemecko> <http://purl.org/dc/terms/subject> <http://sk.dbpedia.org/resource/Kategória:Nemecko> .

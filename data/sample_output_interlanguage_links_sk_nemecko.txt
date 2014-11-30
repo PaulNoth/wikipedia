@@ -1,0 +1,1 @@
+{"http://sk.dbpedia.org/resource/Nemecko"=>["http://wikidata.org/entity/Q183", "http://wikidata.dbpedia.org/resource/Q183", "http://dbpedia.org/resource/Germany"]}
