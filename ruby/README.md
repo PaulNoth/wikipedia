@@ -10,7 +10,7 @@
     <meta http-equiv="Content-Language" content="en">
     
     
-    <title>wikipedia/README.md at master · irfiit/wikipedia</title>
+    <title>wikipedia/README.md at master · Piersen/wikipedia</title>
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
     <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png">
@@ -19,8 +19,8 @@
     <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png">
     <meta property="fb:app_id" content="1401488693436528">
 
-      <meta content="@github" name="twitter:site" /><meta content="summary" name="twitter:card" /><meta content="irfiit/wikipedia" name="twitter:title" /><meta content="wikipedia - Parsing, indexing and searching of useful data from Wikipedia, DBPedia and Freebase " name="twitter:description" /><meta content="https://avatars1.githubusercontent.com/u/2719668?v=3&amp;s=400" name="twitter:image:src" />
-<meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="https://avatars1.githubusercontent.com/u/2719668?v=3&amp;s=400" property="og:image" /><meta content="irfiit/wikipedia" property="og:title" /><meta content="https://github.com/irfiit/wikipedia" property="og:url" /><meta content="wikipedia - Parsing, indexing and searching of useful data from Wikipedia, DBPedia and Freebase " property="og:description" />
+      <meta content="@github" name="twitter:site" /><meta content="summary" name="twitter:card" /><meta content="Piersen/wikipedia" name="twitter:title" /><meta content="wikipedia - Parsing, indexing and searching of useful data from Wikipedia, DBPedia and Freebase " name="twitter:description" /><meta content="https://avatars1.githubusercontent.com/u/2719668?v=3&amp;s=400" name="twitter:image:src" />
+<meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="https://avatars1.githubusercontent.com/u/2719668?v=3&amp;s=400" property="og:image" /><meta content="Piersen/wikipedia" property="og:title" /><meta content="https://github.com/Piersen/wikipedia" property="og:url" /><meta content="wikipedia - Parsing, indexing and searching of useful data from Wikipedia, DBPedia and Freebase " property="og:description" />
 
       <meta name="browser-stats-url" content="/_stats">
     <link rel="assets" href="https://assets-cdn.github.com/">
@@ -56,10 +56,10 @@
 
       
   <meta name="description" content="wikipedia - Parsing, indexing and searching of useful data from Wikipedia, DBPedia and Freebase ">
-  <meta name="go-import" content="github.com/irfiit/wikipedia git https://github.com/irfiit/wikipedia.git">
+  <meta name="go-import" content="github.com/Piersen/wikipedia git https://github.com/Piersen/wikipedia.git">
 
-  <meta content="2719668" name="octolytics-dimension-user_id" /><meta content="irfiit" name="octolytics-dimension-user_login" /><meta content="24225317" name="octolytics-dimension-repository_id" /><meta content="irfiit/wikipedia" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="24225317" name="octolytics-dimension-repository_network_root_id" /><meta content="irfiit/wikipedia" name="octolytics-dimension-repository_network_root_nwo" />
-  <link href="https://github.com/irfiit/wikipedia/commits/master.atom" rel="alternate" title="Recent Commits to wikipedia:master" type="application/atom+xml">
+  <meta content="2719668" name="octolytics-dimension-user_id" /><meta content="Piersen" name="octolytics-dimension-user_login" /><meta content="24225317" name="octolytics-dimension-repository_id" /><meta content="Piersen/wikipedia" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="24225317" name="octolytics-dimension-repository_network_root_id" /><meta content="Piersen/wikipedia" name="octolytics-dimension-repository_network_root_nwo" />
+  <link href="https://github.com/Piersen/wikipedia/commits/master.atom" rel="alternate" title="Recent Commits to wikipedia:master" type="application/atom+xml">
 
   </head>
 
@@ -82,7 +82,7 @@
 
 
       <div class="site-search repo-scope js-site-search" role="search">
-          <form accept-charset="UTF-8" action="/irfiit/wikipedia/search" class="js-site-search-form" data-global-search-url="/search" data-repo-search-url="/irfiit/wikipedia/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+          <form accept-charset="UTF-8" action="/Piersen/wikipedia/search" class="js-site-search-form" data-global-search-url="/search" data-repo-search-url="/Piersen/wikipedia/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
   <input type="text"
     class="js-site-search-field is-clearable"
     data-hotkey="s"
@@ -140,10 +140,10 @@
 
     <li class="dropdown-divider"></li>
     <li class="dropdown-header">
-      <span title="irfiit/wikipedia">This repository</span>
+      <span title="Piersen/wikipedia">This repository</span>
     </li>
       <li>
-        <a href="/irfiit/wikipedia/issues/new"><span class="octicon octicon-issue-opened"></span> New issue</a>
+        <a href="/Piersen/wikipedia/issues/new"><span class="octicon octicon-issue-opened"></span> New issue</a>
       </li>
 </ul>
 
@@ -196,10 +196,10 @@
       <form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="zOe56h/1AMnfcE6370M229T0HHPK2m4SclFzu715X4J11Zz+uQv6gsnaMvjjnRJlJwgW1AqEgDALbT893xHxuQ==" /></div>  <input id="repository_id" name="repository_id" type="hidden" value="24225317" />
 
     <div class="select-menu js-menu-container js-select-menu">
-      <a class="social-count js-social-count" href="/irfiit/wikipedia/watchers">
+      <a class="social-count js-social-count" href="/Piersen/wikipedia/watchers">
         12
       </a>
-      <a href="/irfiit/wikipedia/subscription"
+      <a href="/Piersen/wikipedia/subscription"
         class="minibutton select-menu-button with-count js-menu-target" role="button" tabindex="0" aria-haspopup="true">
         <span class="js-select-button">
           <span class="octicon octicon-eye"></span>
@@ -268,25 +268,25 @@
     
   <div class="js-toggler-container js-social-container starring-container ">
 
-    <form accept-charset="UTF-8" action="/irfiit/wikipedia/unstar" class="js-toggler-form starred js-unstar-button" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="ZcwDdMcQNCslAzweaom7WPaIqqgluGI8/vEdLbrGUhE9Q2TYVbOcRHSC9PHZZZQ6JUucaviPQKrpRtbIaAOjLw==" /></div>
+    <form accept-charset="UTF-8" action="/Piersen/wikipedia/unstar" class="js-toggler-form starred js-unstar-button" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="ZcwDdMcQNCslAzweaom7WPaIqqgluGI8/vEdLbrGUhE9Q2TYVbOcRHSC9PHZZZQ6JUucaviPQKrpRtbIaAOjLw==" /></div>
       <button
         class="minibutton with-count js-toggler-target star-button"
-        aria-label="Unstar this repository" title="Unstar irfiit/wikipedia">
+        aria-label="Unstar this repository" title="Unstar Piersen/wikipedia">
         <span class="octicon octicon-star"></span>
         Unstar
       </button>
-        <a class="social-count js-social-count" href="/irfiit/wikipedia/stargazers">
+        <a class="social-count js-social-count" href="/Piersen/wikipedia/stargazers">
           12
         </a>
 </form>
-    <form accept-charset="UTF-8" action="/irfiit/wikipedia/star" class="js-toggler-form unstarred js-star-button" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="/DHJE9pPe0kSDKxBfoS60wsuqBJae+9rG+B1N6J3UAX5Evn3Ub7DY8CbV81c5HPsekDUrcqpeyEswqrmN3D2eQ==" /></div>
+    <form accept-charset="UTF-8" action="/Piersen/wikipedia/star" class="js-toggler-form unstarred js-star-button" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="/DHJE9pPe0kSDKxBfoS60wsuqBJae+9rG+B1N6J3UAX5Evn3Ub7DY8CbV81c5HPsekDUrcqpeyEswqrmN3D2eQ==" /></div>
       <button
         class="minibutton with-count js-toggler-target star-button"
-        aria-label="Star this repository" title="Star irfiit/wikipedia">
+        aria-label="Star this repository" title="Star Piersen/wikipedia">
         <span class="octicon octicon-star"></span>
         Star
       </button>
-        <a class="social-count js-social-count" href="/irfiit/wikipedia/stargazers">
+        <a class="social-count js-social-count" href="/Piersen/wikipedia/stargazers">
           12
         </a>
 </form>  </div>
@@ -295,20 +295,20 @@
 
 
         <li>
-          <a href="/irfiit/wikipedia/fork" class="minibutton with-count js-toggler-target fork-button tooltipped-n" title="Fork your own copy of irfiit/wikipedia to your account" aria-label="Fork your own copy of irfiit/wikipedia to your account" rel="nofollow" data-method="post">
+          <a href="/Piersen/wikipedia/fork" class="minibutton with-count js-toggler-target fork-button tooltipped-n" title="Fork your own copy of Piersen/wikipedia to your account" aria-label="Fork your own copy of Piersen/wikipedia to your account" rel="nofollow" data-method="post">
             <span class="octicon octicon-repo-forked"></span>
             Fork
           </a>
-          <a href="/irfiit/wikipedia/network" class="social-count">60</a>
+          <a href="/Piersen/wikipedia/network" class="social-count">60</a>
         </li>
 
 </ul>
 
         <h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title public">
           <span class="mega-octicon octicon-repo"></span>
-          <span class="author"><a href="/irfiit" class="url fn" itemprop="url" rel="author"><span itemprop="title">irfiit</span></a></span><!--
+          <span class="author"><a href="/Piersen" class="url fn" itemprop="url" rel="author"><span itemprop="title">Piersen</span></a></span><!--
        --><span class="path-divider">/</span><!--
-       --><strong><a href="/irfiit/wikipedia" class="js-current-repository" data-pjax="#js-repo-pjax-container">wikipedia</a></strong>
+       --><strong><a href="/Piersen/wikipedia" class="js-current-repository" data-pjax="#js-repo-pjax-container">wikipedia</a></strong>
 
           <span class="page-context-loader">
             <img alt="" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
@@ -325,23 +325,23 @@
 <nav class="sunken-menu repo-nav js-repo-nav js-sidenav-container-pjax js-octicon-loaders"
      role="navigation"
      data-pjax="#js-repo-pjax-container"
-     data-issue-count-url="/irfiit/wikipedia/issues/counts">
+     data-issue-count-url="/Piersen/wikipedia/issues/counts">
   <ul class="sunken-menu-group">
     <li class="tooltipped tooltipped-w" aria-label="Code">
-      <a href="/irfiit/wikipedia" aria-label="Code" class="selected js-selected-navigation-item sunken-menu-item" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches /irfiit/wikipedia">
+      <a href="/Piersen/wikipedia" aria-label="Code" class="selected js-selected-navigation-item sunken-menu-item" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches /Piersen/wikipedia">
         <span class="octicon octicon-code"></span> <span class="full-word">Code</span>
         <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
 </a>    </li>
 
       <li class="tooltipped tooltipped-w" aria-label="Issues">
-        <a href="/irfiit/wikipedia/issues" aria-label="Issues" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g i" data-selected-links="repo_issues repo_labels repo_milestones /irfiit/wikipedia/issues">
+        <a href="/Piersen/wikipedia/issues" aria-label="Issues" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g i" data-selected-links="repo_issues repo_labels repo_milestones /Piersen/wikipedia/issues">
           <span class="octicon octicon-issue-opened"></span> <span class="full-word">Issues</span>
           <span class="js-issue-replace-counter"></span>
           <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
 </a>      </li>
 
     <li class="tooltipped tooltipped-w" aria-label="Pull Requests">
-      <a href="/irfiit/wikipedia/pulls" aria-label="Pull Requests" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g p" data-selected-links="repo_pulls /irfiit/wikipedia/pulls">
+      <a href="/Piersen/wikipedia/pulls" aria-label="Pull Requests" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g p" data-selected-links="repo_pulls /Piersen/wikipedia/pulls">
           <span class="octicon octicon-git-pull-request"></span> <span class="full-word">Pull Requests</span>
           <span class="js-pull-replace-counter"></span>
           <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
@@ -349,7 +349,7 @@
 
 
       <li class="tooltipped tooltipped-w" aria-label="Wiki">
-        <a href="/irfiit/wikipedia/wiki" aria-label="Wiki" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g w" data-selected-links="repo_wiki /irfiit/wikipedia/wiki">
+        <a href="/Piersen/wikipedia/wiki" aria-label="Wiki" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g w" data-selected-links="repo_wiki /Piersen/wikipedia/wiki">
           <span class="octicon octicon-book"></span> <span class="full-word">Wiki</span>
           <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
 </a>      </li>
@@ -358,13 +358,13 @@
   <ul class="sunken-menu-group">
 
     <li class="tooltipped tooltipped-w" aria-label="Pulse">
-      <a href="/irfiit/wikipedia/pulse" aria-label="Pulse" class="js-selected-navigation-item sunken-menu-item" data-selected-links="pulse /irfiit/wikipedia/pulse">
+      <a href="/Piersen/wikipedia/pulse" aria-label="Pulse" class="js-selected-navigation-item sunken-menu-item" data-selected-links="pulse /Piersen/wikipedia/pulse">
         <span class="octicon octicon-pulse"></span> <span class="full-word">Pulse</span>
         <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
 </a>    </li>
 
     <li class="tooltipped tooltipped-w" aria-label="Graphs">
-      <a href="/irfiit/wikipedia/graphs" aria-label="Graphs" class="js-selected-navigation-item sunken-menu-item" data-selected-links="repo_graphs repo_contributors /irfiit/wikipedia/graphs">
+      <a href="/Piersen/wikipedia/graphs" aria-label="Graphs" class="js-selected-navigation-item sunken-menu-item" data-selected-links="repo_graphs repo_contributors /Piersen/wikipedia/graphs">
         <span class="octicon octicon-graph"></span> <span class="full-word">Graphs</span>
         <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
 </a>    </li>
@@ -382,9 +382,9 @@
   <h3><span class="text-emphasized">HTTPS</span> clone URL</h3>
   <div class="input-group">
     <input type="text" class="input-mini input-monospace js-url-field"
-           value="https://github.com/irfiit/wikipedia.git" readonly="readonly">
+           value="https://github.com/Piersen/wikipedia.git" readonly="readonly">
     <span class="input-group-button">
-      <button aria-label="Copy to clipboard" class="js-zeroclipboard minibutton zeroclipboard-button" data-clipboard-text="https://github.com/irfiit/wikipedia.git" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard minibutton zeroclipboard-button" data-clipboard-text="https://github.com/Piersen/wikipedia.git" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
     </span>
   </div>
 </div>
@@ -396,9 +396,9 @@
   <h3><span class="text-emphasized">SSH</span> clone URL</h3>
   <div class="input-group">
     <input type="text" class="input-mini input-monospace js-url-field"
-           value="git@github.com:irfiit/wikipedia.git" readonly="readonly">
+           value="git@github.com:Piersen/wikipedia.git" readonly="readonly">
     <span class="input-group-button">
-      <button aria-label="Copy to clipboard" class="js-zeroclipboard minibutton zeroclipboard-button" data-clipboard-text="git@github.com:irfiit/wikipedia.git" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard minibutton zeroclipboard-button" data-clipboard-text="git@github.com:Piersen/wikipedia.git" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
     </span>
   </div>
 </div>
@@ -410,9 +410,9 @@
   <h3><span class="text-emphasized">Subversion</span> checkout URL</h3>
   <div class="input-group">
     <input type="text" class="input-mini input-monospace js-url-field"
-           value="https://github.com/irfiit/wikipedia" readonly="readonly">
+           value="https://github.com/Piersen/wikipedia" readonly="readonly">
     <span class="input-group-button">
-      <button aria-label="Copy to clipboard" class="js-zeroclipboard minibutton zeroclipboard-button" data-clipboard-text="https://github.com/irfiit/wikipedia" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard minibutton zeroclipboard-button" data-clipboard-text="https://github.com/Piersen/wikipedia" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
     </span>
   </div>
 </div>
@@ -428,15 +428,15 @@
 </p>
 
 
-  <a href="http://windows.github.com" class="minibutton sidebar-button" title="Save irfiit/wikipedia to your computer and use it in GitHub Desktop." aria-label="Save irfiit/wikipedia to your computer and use it in GitHub Desktop.">
+  <a href="http://windows.github.com" class="minibutton sidebar-button" title="Save Piersen/wikipedia to your computer and use it in GitHub Desktop." aria-label="Save Piersen/wikipedia to your computer and use it in GitHub Desktop.">
     <span class="octicon octicon-device-desktop"></span>
     Clone in Desktop
   </a>
 
-                <a href="/irfiit/wikipedia/archive/master.zip"
+                <a href="/Piersen/wikipedia/archive/master.zip"
                    class="minibutton sidebar-button"
-                   aria-label="Download the contents of irfiit/wikipedia as a zip file"
-                   title="Download the contents of irfiit/wikipedia as a zip file"
+                   aria-label="Download the contents of Piersen/wikipedia as a zip file"
+                   title="Download the contents of Piersen/wikipedia as a zip file"
                    rel="nofollow">
                   <span class="octicon octicon-cloud-download"></span>
                   Download ZIP
@@ -447,7 +447,7 @@
         <div id="js-repo-pjax-container" class="repository-content context-loader-container" data-pjax-container>
           
 
-<a href="/irfiit/wikipedia/blob/1a4795f2590a753d8843503fff0a5cfb9a8e0e2b/ruby/README.md" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
+<a href="/Piersen/wikipedia/blob/1a4795f2590a753d8843503fff0a5cfb9a8e0e2b/ruby/README.md" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
 
 <!-- blob contrib key: blob_contributors:v21:eeb05a33548ae8a831d0a6a2d4317602 -->
 
@@ -495,7 +495,7 @@
 
             <div class="select-menu-item js-navigation-item selected">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/irfiit/wikipedia/blob/master/ruby/README.md"
+              <a href="/Piersen/wikipedia/blob/master/ruby/README.md"
                  data-name="master"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -504,7 +504,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/irfiit/wikipedia/blob/revert-46-master/ruby/README.md"
+              <a href="/Piersen/wikipedia/blob/revert-46-master/ruby/README.md"
                  data-name="revert-46-master"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -513,7 +513,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/irfiit/wikipedia/blob/revert-94-master/ruby/README.md"
+              <a href="/Piersen/wikipedia/blob/revert-94-master/ruby/README.md"
                  data-name="revert-94-master"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -539,7 +539,7 @@
 </div> <!-- /.select-menu -->
 
   <div class="button-group right">
-    <a href="/irfiit/wikipedia/find/master"
+    <a href="/Piersen/wikipedia/find/master"
           class="js-show-file-finder minibutton empty-icon tooltipped tooltipped-s"
           data-pjax
           data-hotkey="t"
@@ -550,7 +550,7 @@
   </div>
 
   <div class="breadcrumb">
-    <span class='repo-root js-repo-root'><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/irfiit/wikipedia" class="" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">wikipedia</span></a></span></span><span class="separator"> / </span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/irfiit/wikipedia/tree/master/ruby" class="" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">ruby</span></a></span><span class="separator"> / </span><strong class="final-path">README.md</strong>
+    <span class='repo-root js-repo-root'><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/Piersen/wikipedia" class="" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">wikipedia</span></a></span></span><span class="separator"> / </span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/Piersen/wikipedia/tree/master/ruby" class="" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">ruby</span></a></span><span class="separator"> / </span><strong class="final-path">README.md</strong>
   </div>
 </div>
 
@@ -561,7 +561,7 @@
         <span class="author"><a href="/pavolzbell" rel="contributor">pavolzbell</a></span>
         <time datetime="2014-11-04T00:54:43Z" is="relative-time">Nov 4, 2014</time>
         <div class="commit-title">
-            <a href="/irfiit/wikipedia/commit/7ab1133edf5adaebf8507f3be2930ae72d114255" class="message" data-pjax="true" title="Fix paths">Fix paths</a>
+            <a href="/Piersen/wikipedia/commit/7ab1133edf5adaebf8507f3be2930ae72d114255" class="message" data-pjax="true" title="Fix paths">Fix paths</a>
         </div>
     </div>
 
@@ -595,9 +595,9 @@
       </div>
       <div class="actions">
         <div class="button-group">
-          <a href="/irfiit/wikipedia/raw/master/ruby/README.md" class="minibutton " id="raw-url">Raw</a>
-            <a href="/irfiit/wikipedia/blame/master/ruby/README.md" class="minibutton js-update-url-with-hash">Blame</a>
-          <a href="/irfiit/wikipedia/commits/master/ruby/README.md" class="minibutton " rel="nofollow">History</a>
+          <a href="/Piersen/wikipedia/raw/master/ruby/README.md" class="minibutton " id="raw-url">Raw</a>
+            <a href="/Piersen/wikipedia/blame/master/ruby/README.md" class="minibutton js-update-url-with-hash">Blame</a>
+          <a href="/Piersen/wikipedia/commits/master/ruby/README.md" class="minibutton " rel="nofollow">History</a>
         </div><!-- /.button-group -->
 
           <a class="octicon-button tooltipped tooltipped-nw"
@@ -607,11 +607,11 @@
 
               <a class="octicon-button tooltipped tooltipped-n js-update-url-with-hash"
                  aria-label="Clicking this button will fork this project so you can edit the file"
-                 href="/irfiit/wikipedia/edit/master/ruby/README.md"
+                 href="/Piersen/wikipedia/edit/master/ruby/README.md"
                  data-method="post" rel="nofollow"><span class="octicon octicon-pencil"></span></a>
 
             <a class="octicon-button danger tooltipped tooltipped-s"
-               href="/irfiit/wikipedia/delete/master/ruby/README.md"
+               href="/Piersen/wikipedia/delete/master/ruby/README.md"
                aria-label="Fork this project and delete file"
                data-method="post" data-test-id="delete-blob-file" rel="nofollow">
           <span class="octicon octicon-trashcan"></span>
@@ -630,11 +630,11 @@
 
 <ul class="task-list">
 <li>
-<a href="/irfiit/wikipedia/blob/master/ruby/example/rucola">Rucola</a> - very simple information retrieval library for explanatory purposes.</li>
+<a href="/Piersen/wikipedia/blob/master/ruby/example/rucola">Rucola</a> - very simple information retrieval library for explanatory purposes.</li>
 <li>
-<a href="/irfiit/wikipedia/blob/master/ruby/lib/stopwatch.rb">Stopwatch</a> - simple stopwatch utility.</li>
+<a href="/Piersen/wikipedia/blob/master/ruby/lib/stopwatch.rb">Stopwatch</a> - simple stopwatch utility.</li>
 <li>
-<a href="/irfiit/wikipedia/blob/master/ruby/lib/enfresk">Enfresk</a> - information retrieval example - multilingual dictionary.</li>
+<a href="/Piersen/wikipedia/blob/master/ruby/lib/enfresk">Enfresk</a> - information retrieval example - multilingual dictionary.</li>
 </ul>
 
 <h2>
@@ -649,7 +649,7 @@
 
 <p>Clone and install.</p>
 
-<pre><code>git clone git@github.com:irfiit/wikipedia.git
+<pre><code>git clone git@github.com:Piersen/wikipedia.git
 cd wikipedia/ruby
 bundle install
 </code></pre>
@@ -694,7 +694,7 @@ bundle install
 <h2>
 <a id="user-content-license" class="anchor" href="#license" aria-hidden="true"><span class="octicon octicon-link"></span></a>License</h2>
 
-<p>This software is released under the <a href="/irfiit/wikipedia/blob/master/LICENSE">Apache 2.0 License</a>.</p>
+<p>This software is released under the <a href="/Piersen/wikipedia/blob/master/LICENSE">Apache 2.0 License</a>.</p>
 </article>
   </div>
 
