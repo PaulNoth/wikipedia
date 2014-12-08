@@ -16,32 +16,34 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `category`
+-- Table structure for table `categorylinks`
 --
 
-DROP TABLE IF EXISTS `category`;
+DROP TABLE IF EXISTS `categorylinks`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `category` (
-  `cat_id` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `cat_title` varbinary(255) NOT NULL DEFAULT '',
-  `cat_pages` int(11) NOT NULL DEFAULT '0',
-  `cat_subcats` int(11) NOT NULL DEFAULT '0',
-  `cat_files` int(11) NOT NULL DEFAULT '0',
-  PRIMARY KEY (`cat_id`),
-  UNIQUE KEY `cat_title` (`cat_title`),
-  KEY `cat_pages` (`cat_pages`)
-) ENGINE=InnoDB AUTO_INCREMENT=17622987 DEFAULT CHARSET=binary;
+CREATE TABLE `categorylinks` (
+  `cl_from` int(8) unsigned NOT NULL DEFAULT '0',
+  `cl_to` varbinary(255) NOT NULL DEFAULT '',
+  `cl_sortkey` varbinary(230) NOT NULL DEFAULT '',
+  `cl_timestamp` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `cl_sortkey_prefix` varbinary(255) NOT NULL DEFAULT '',
+  `cl_collation` varbinary(32) NOT NULL DEFAULT '',
+  `cl_type` enum('page','subcat','file') NOT NULL DEFAULT 'page',
+  UNIQUE KEY `cl_from` (`cl_from`,`cl_to`),
+  KEY `cl_timestamp` (`cl_to`,`cl_timestamp`),
+  KEY `cl_collation` (`cl_collation`),
+  KEY `cl_sortkey` (`cl_to`,`cl_type`,`cl_sortkey`,`cl_from`)
+) ENGINE=InnoDB DEFAULT CHARSET=binary;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `category`
+-- Dumping data for table `categorylinks`
 --
 
-/*!40000 ALTER TABLE `category` DISABLE KEYS */;
-INSERT INTO `category` VALUES (13101,'Fiktive_Person',387,4,0),(37512,'Pseudonym',5368,1,0),(56576,'Sammelpseudonym',65,0,0),(205501,'Werk_von_Alan_Smithee',6,0,0);
-
-/*!40000 ALTER TABLE `category` ENABLE KEYS */;
+/*!40000 ALTER TABLE `categorylinks` DISABLE KEYS */;
+INSERT INTO `categorylinks` VALUES (1,'Fiktive_Person','SMITHEE, ALAN\nALAN SMITHEE','2011-11-12 19:33:05','Smithee, Alan','uppercase','page'),(1,'Pseudonym','ALAN SMITHEE','2013-02-28 05:05:22','','uppercase','page'),(1,'Sammelpseudonym','SMITHEE, ALAN\nALAN SMITHEE','2013-02-27 21:12:24','Smithee, Alan','uppercase','page'),(1,'Werk_von_Alan_Smithee','ALAN SMITHEE','2013-02-28 05:05:22','','uppercase','page');
+/*!40000 ALTER TABLE `categorylinks` ENABLE KEYS */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -52,4 +54,4 @@ INSERT INTO `category` VALUES (13101,'Fiktive_Person',387,4,0),(37512,'Pseudonym
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-09-18 13:18:41
+-- Dump completed on 2014-11-11 19:27:4
