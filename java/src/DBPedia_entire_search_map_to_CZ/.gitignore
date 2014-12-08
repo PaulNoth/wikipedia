@@ -1,0 +1,25 @@
+*.class
+*/target/*
+*keystore
+
+# Indexes, source RDF files and parsed files exclusion
+**/resources/rdf/*.ttl
+**/resources/rdf/cz/*.ttl
+**/parsed/index/*
+**/parsed/*.txt
+**/test/data/**
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+#IDE and project settings
+*.idea
+*.iml
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*

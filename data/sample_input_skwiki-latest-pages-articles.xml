@@ -1,0 +1,350 @@
+﻿<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.9/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.9/ http://www.mediawiki.org/xml/export-0.9.xsd" version="0.9" xml:lang="sk">
+  <siteinfo>
+    <sitename>Wikipédia</sitename>
+    <dbname>skwiki</dbname>
+    <base>http://sk.wikipedia.org/wiki/Hlavn%C3%A1_str%C3%A1nka</base>
+    <generator>MediaWiki 1.24wmf19</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Médiá</namespace>
+      <namespace key="-1" case="first-letter">Špeciálne</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Diskusia</namespace>
+      <namespace key="2" case="first-letter">Redaktor</namespace>
+      <namespace key="3" case="first-letter">Diskusia s redaktorom</namespace>
+      <namespace key="4" case="first-letter">Wikipédia</namespace>
+      <namespace key="5" case="first-letter">Diskusia k Wikipédii</namespace>
+      <namespace key="6" case="first-letter">Súbor</namespace>
+      <namespace key="7" case="first-letter">Diskusia k súboru</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">Diskusia k MediaWiki</namespace>
+      <namespace key="10" case="first-letter">Šablóna</namespace>
+      <namespace key="11" case="first-letter">Diskusia k šablóne</namespace>
+      <namespace key="12" case="first-letter">Pomoc</namespace>
+      <namespace key="13" case="first-letter">Diskusia k pomoci</namespace>
+      <namespace key="14" case="first-letter">Kategória</namespace>
+      <namespace key="15" case="first-letter">Diskusia ku kategórii</namespace>
+      <namespace key="100" case="first-letter">Portál</namespace>
+      <namespace key="101" case="first-letter">Diskusia k portálu</namespace>
+      <namespace key="828" case="first-letter">Modul</namespace>
+      <namespace key="829" case="first-letter">Diskusia k modulu</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Hlavná stránka</title>
+    <ns>0</ns>
+    <id>1</id>
+    <restrictions>sysop</restrictions>
+    <revision>
+      <id>5610250</id>
+      <parentid>5506854</parentid>
+      <timestamp>2013-09-22T13:46:10Z</timestamp>
+      <contributor>
+        <username>Wizzard</username>
+        <id>412</id>
+      </contributor>
+      <minor />
+      <comment>link</comment>
+      <text xml:space="preserve">{{Úvod (Hlavná stránka)}}
+&lt;!---------- ODKAZY ----------&gt;
+</text>
+      <sha1>b0whxhtfq0m5nef7pakub1mkq178qtu</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Main Page</title>
+    <ns>0</ns>
+    <id>2</id>
+    <redirect title="Hlavná stránka" />
+    <revision>
+      <id>89777</id>
+      <timestamp>2003-08-31T12:01:53Z</timestamp>
+      <contributor>
+        <username>Andre Engels</username>
+        <id>2</id>
+      </contributor>
+      <sha1>gj4ij44roeqj42e06ryb2oj86hae6f8</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Uploadtext</title>
+    <ns>8</ns>
+    <id>352</id>
+    <revision>
+      <id>4144583</id>
+      <parentid>1331094</parentid>
+      <timestamp>2012-01-13T11:00:24Z</timestamp>
+      <contributor>
+        <username>Hoo man</username>
+        <id>46936</id>
+      </contributor>
+      <minor />
+      <comment>Bot: Security fix: [[WMFblog:2011/10/03/native-https-support-enabled-for-all-wikimedia-foundation-wikis/|protocol-relative URLs]] per https://meta.wikimedia.org/?oldid=3197161 ([[m:Stewards' noticeboard|questions?]]).</comment>
+      <text xml:space="preserve">__NOTOC__
+&lt;div style=&quot;margin-left: auto; margin-right: auto; width:80%; &quot;&gt;
+&lt;div style=&quot;background-color:#f7f8ff; text-align:center; padding:5px;padding-left:15px; border:1px solid #8888aa; border-right-width:2px; border-bottom-width:2px; margin-bottom:2em&quot; class=&quot;plainlinks&quot;&gt;
+'''Chcete na Wikipédiu nahrať multimediálny súbor? Tu je jednoduchý sprievodca, ktorý vám pomôže.'''&lt;br /&gt;
+&lt;div class=&quot;plainlinks&quot;&gt;''Skúsení používatelia: Preskočte sprievodcu a [//commons.wikimedia.org/wiki/Special:Upload?uselang=sk nahrajte obrázky hneď na Commons]''&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</text>
+      <sha1>1pipy4u5e3zj5e6zpuv6474sn30x4dj</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Esperanto</title>
+    <ns>0</ns>
+    <id>603</id>
+    <revision>
+      <id>5809871</id>
+      <parentid>5778140</parentid>
+      <timestamp>2014-07-01T20:47:33Z</timestamp>
+      <contributor>
+        <username>JAnDbot</username>
+        <id>2665</id>
+      </contributor>
+      <minor />
+      <comment>Hlavná kategória: ako prvá, radiací kľúč</comment>
+      <text xml:space="preserve">{{Perfektný článok}}
+{{Iné významy}}
+{{Infobox jazyk
+| Názov             = Esperanto
+| Natívny názov     = Esperanto
+| štáty             = hovoriaci v približne 115 krajinách, najviac v [[stredná Európa|strednej Európe]], [[Východná Európa|východnej Európe]], [[Brazília|Brazílii]], [[Čína|Číne]] a východnej [[Ázia|Ázii]]
+| región            = celosvetový
+| počet hovoriacich = odhad 100 000 – 1,6 milióna
+| poradie           = 
+| klasifikácia      = [[umelý jazyk|Umelé jazyky]]
+* [[Medzinárodný pomocný jazyk|Medzinárodné pomocné jazyky]]
+| písmo             = [[Latinské písmo|latinka]]
+| úradný            = Žiadny štát, oficiálne používané niekoľkými medzinárodnými organizáciami
+| regulátor         = [[Akadémia esperanta|Akademio de Esperanto]]
+| iso1              = eo
+| iso2              = epo
+| iso3              = 
+| sil               = ESP
+| Adresa wikipédie  = [http://eo.wikipedia.org/ eo.wikipedia.org] 
+| Meno wikipédie    = Vikipedio, la libera enciklopedio
+}}
+[[Súbor:Unua Libro.jpg|thumb|right|Prvá učebnica esperanta, vydaná vo Varšave v roku 1887]]
+'''Esperanto''' (pôvodne '''Lingvo Internacia''' – „medzinárodný jazyk“) je najrozšírenejší [[Medzinárodný pomocný jazyk|medzinárodný]] [[umelý jazyk|plánový jazyk]].&lt;ref&gt;{{Citácia knihy
+  | priezvisko = Byram
+  | meno = Michael
+  | odkaz na autora = 
+  | titul = Routledge Encyclopedia of Language Teaching and Learning
+  | vydavateľ = Routledge
+  | miesto = 
+  | rok = 2001
+  | isbn = 0-4153-3286-9
+  | kapitola = 
+  | strany = 464
+  | jazyk = 
+}}&lt;/ref&gt; Názov je odvodený od [[pseudonym]]u, pod ktorým v roku [[1887]] zverejnil lekár [[Ludwik Lejzer Zamenhof|L. L. Zamenhof]] základy tohto jazyka. Zámerom tvorcu bolo vytvoriť ľahko naučiteľný a použiteľný neutrálny jazyk, vhodný na použitie v medzinárodnej komunikácii. Cieľom nebolo nahradiť [[národný jazyk|národné jazyky]], čo bolo neskôr aj deklarované v [[Boulonská deklarácia|Boulonskej deklarácii]].
+
+Hoci žiaden [[štát]] neprijal esperanto ako [[úradný jazyk]], používa ho komunita s odhadovaným počtom hovoriacich 100 000 až 2 000 000, z čoho približne 1 000 tvoria rodení hovoriaci.&lt;ref name=&quot;Ethnologue&quot;&gt;{{Citácia knihy
+  | priezvisko = Gordon
+  | meno = Raymond G., Jr.
+  | odkaz na autora = 
+  | titul = Ethnologue: Languages of the World
+  | vydavateľ = SIL International
+  | miesto = Dallas, Tex.
+  | rok = 2005
+  | isbn = 
+  | kapitola = 
+  | strany = 
+  | jazyk = 
+  | edícia = Fifteenth edition
+  | url = http://www.ethnologue.com/show_language.asp?code=epo
+}}
+== Dejiny ==
+{{Hlavný článok|Dejiny esperanta}}
+=== Zamenhofovo detstvo ===
+Pri zrode esperanta stál [[Ludwik Lejzer Zamenhof]]. Vyrastal v mnohojazyčnom, vtedy [[rusko]]m, teraz [[poľsko]]m meste [[Białystok]], kde bol svedkom častých sporov medzi jednotlivými národnosťami (Rusi, Poliaci, Nemci, židia). Pretože za jednu z hlavných príčin týchto sporov považoval neexistenciu spoločného jazyka, začal už ako školák pracovať na projekte reči, ktorá by túto funkciu mohla plniť. Mala byť, na rozdiel od národných jazykov, neutrálna a ľahko naučiteľná, teda prijateľná ako druhý jazyk pre všetkých, jazyk vyučovaný spoločne s národnými jazykmi a používaný v situáciách vyžadujúcich dorozumenie medzi národmi.&lt;ref name=&quot;jewenc&quot;&gt;{{Citácia elektronického dokumentu
+  | priezvisko = Jacobs
+  | meno = Joseph
+  | odkaz na autora = 
+  | priezvisko2 = Harris
+  | meno2 = Isidore
+  | titul = Zamenhof, Lazarus Ludwig
+  | url = http://www.jewishencyclopedia.com/view.jsp?artid=20&amp;letter=Z
+  | dátum vydania = 
+  | dátum aktualizácie = 
+  | dátum prístupu = 2008-08-14
+  | vydavateľ = JewishEncyclopedia.com
+  | miesto = 
+  | jazyk = anglicky
+}}&lt;/ref&gt;
+
+=== PrvĂ© pokusy ===
+Zamenhof najskôr uvažoval o oživení [[Latinčina|latinčiny]], ktorú sa učil v škole, ale usúdil, že je pre bežné dorozumievanie zbytočne zložitá. Keď študoval [[angličtina|angličtinu]], všimol si, že časovanie slovies podľa osoby a čísla nie je nutné; že gramatický systém jazyka môže byť oveľa jednoduchší, než sa dovtedy nazdával. Stále však zostávala prekážka v memorovaní sa veľkého množstva slov. Raz Zamenhofa zaujali dva [[ruština|ruské]] nápisy: ''швейцарская'' [švejcarskaja] (vrátnica, odvodené od ''швейцар'' [švejcar] – vrátnik) a ''кондитерская'' [konditerskaja] (cukráreň, odvodené od ''кондитер'' [konditér] – cukrár). Tieto slová rovnakého zakončenia mu vnukli myšlienku, že používane pravidelných predpôn a prípon by mohlo významne znížiť množstvo slovných koreňov nutných na dorozumenie sa. Aby boli korene čo najmedzinárodnejšie, rozhodol sa prevziať slovnú zásobu predovšetkým z [[románske jazyky|románskych]] a [[germánske jazyky|germánskych]] jazykov, teda tých, ktoré boli vtedy v školách po celom svete vyučované najčastejšie.&lt;ref name=&quot;borovko&quot;&gt;{{Citácia elektronického dokumentu
+  | priezvisko = Zamenhof
+  | meno = Ludvík Lazar
+  | odkaz na autora = 
+  | titul = Letero de L. Zamenhof al Nikolaj Afrikanovich Borovko (1895) – О происхожении эсперанто
+  | url = http://miresperanto.narod.ru/zamenhof/borovko.htm
+  | dátum vydania = 
+  | dátum aktualizácie = 
+  | dátum prístupu = 
+  | vydavateľ =МИР ЭСПЕРАНТО 
+  | miesto = 
+  | jazyk = esperanto, ruský
+}}&lt;/ref&gt;
+[[Súbor:1889-12 La Esperantisto p 01.JPG|thumb|''La Esperantisto'', prvý esperantský časopis vydávaný od roku 1889 v Norimbergu]]
+=== Vznik konečnej verzie ===
+Prvý Zamenhofov projekt, nazvaný ''Lingwe uniwersala,'' bol viac-menej hotový už v roku 1878, ale autorov otec, učiteľ jazykov, považoval túto prácu za márnu a utopistickú, a zrejme preto rukopis, ktorý mu bol zverený, zničil. V rokoch [[1879]] – [[1885]] Zamenhof študoval medicínu v Moskve a vo Varšave. V tej dobe začal znova pracovať na medzinárodnom jazyku. Prvú obnovenú verziu vyučoval v roku [[1879]] pre svojich priateľov. Po niekoľkých rokoch už prekladal poéziu, aby jazyk čo najviac zdokonalil. V roku [[1885]] autor napísal: 
+{{citát|Šesť rokov som pracoval na zdokonaľovaní a skúšaní esperanta, hoci sa mi už v roku 1878 zdalo, že je jazyk úplne hotový.&lt;ref name=&quot;Lingvaj Respondoj&quot;&gt;{{Citácia knihy
+  | priezvisko = Zamenhof
+  | meno = Ludwik Lejzer
+  | odkaz na autora = Ludwik Lejzer Zamenhof
+  | titul = Lingvaj Re­spondoj. Konsiloj kaj opi­nioj pri Espe­ranto
+  | vydanie = 6
+  | vydavateľ = Espe­rantaj Francaj Eldonoj
+  | miesto = Marmande
+  | rok = 1962
+  | isbn = 
+  | kapitola = 
+  | strany = 
+  | jazyk = po esperantsky
+&lt;!-- LR 51. ? --&gt; }}&lt;/ref&gt;}} Keď bol pripravený svoj koncept publikovať, cárski cenzori to odmietli povoliť. Zamenhof bol veľmi sklamaný a voľný čas trávil prekladaním diel ako bol [[Starý zákon]], či niektoré časti [[William Shakespeare|Shakespeara]]. Toto nútené oneskorenie viedlo k ďalšiemu významnému vylepšeniu. V roku [[1887]] konečne vydal prvú učebnicu ''«Международный языкъ» (Medzinárodný jazyk).'' Bol to v podstate ten istý jazyk, akým sa hovorí aj v súčasnosti. Podľa Zamenhofovho pseudonymu, pod ktorým vydal knihu, ''Doktoro Esperanto'' (''esperanto'' – dúfajúci), sa jazyk začal označovať ako „Jazyk doktora Esperanto“ a neskôr skrátene ako „esperanto“.&lt;ref name=&quot;borovko&quot; /&gt;&lt;ref name=&quot;história&quot;&gt;{{Citácia elektronického dokumentu
+  | priezvisko = Vondroušek
+  | meno = J
+  | odkaz na autora = 
+  | titul = Z histórie esperanta
+  | url = http://esperanto.sk/eo/aperu.php?teksto=historia&amp;lingvo=sk
+  | dátum vydania = 
+  | dátum aktualizácie = 
+  | dátum prístupu = 2011-12-08
+  | vydavateľ = Berkshire
+  | miesto = Great Barrington (Massachusetts, USA)
+  | jazyk = slovensky, esperantsky
+}}&lt;/ref&gt;&lt;ref&gt;{{Citácia elektronického dokumentu
+  | priezvisko = Page
+  | meno = Hugh R., Jr
+  | odkaz na autora = 
+  | titul = Esperanto
+  | url = http://www.berkshirepublishing.com/assets_news/WHTG/articles/Esperanto_24-May-2005.html
+  | dátum vydania = 2005-05-24
+  | dátum aktualizácie = 
+  | dátum prístupu = 2007-09-01
+  | vydavateľ = Berkshire
+  | miesto = Great Barrington (Massachusetts, USA)
+  | jazyk = anglicky
+}}&lt;/ref&gt;&lt;ref&gt;{{Citácia elektronického dokumentu
+  | priezvisko = Čeliauskas
+  | meno = Petras
+  | odkaz na autora = 
+  | titul = Zamenhof en Veisiejai
+  | url = http://www.is.lt/LEA/zamenhof.htm
+  | dátum vydania = 
+  | dátum aktualizácie = 
+  | dátum prístupu = 2008-08-14
+  | vydavateľ = Litova Esperanto-Asocio
+  | miesto = 
+  | jazyk = esperantsky
+}}&lt;/ref&gt;
+
+=== Prvé pokusy o zmeny ===
+Zamenhofovi prichádzalo veľa nadšených listov, ktoré často prinášali najrôznejšie návrhy úprav jazyka. Všetky podnety zaznamenával a neskoršie ich začal uverejňovať v časopise ''[[Esperantisto]]'', vychádzajúcom v [[Norimberg]]u. V tom istom časopise aj dal o úpravách dvakrát hlasovať, väčšina čitateľov však so zmenami nesúhlasila. Po týchto hlasovaniach na určitý čas utíchli hlasy volajúce po reforme a jazyk sa začal rozširovať. Najviac odberateľov mal časopis vo vtedajšom [[Rusko|Rusku]]. Veľkou ranou preň bolo, keď ruská cenzúra jeho šírenie zakázala kvôli článku [[Lev Nikolajevič Tolstoj|Leva Nikolajeviča Tolstoja]]. Časopis kvôli tomu musel byť zrušený, krátko na to bol však vystriedaný novým, nazvaným ''[[Lingvo Internacia (časopis)|Lingvo Internacia]].'' Najskôr ho redigovali vo [[Švédsko|švédskej]] [[Uppsala|Uppsale]], neskôr v [[Maďarsko|Maďarsku]] a nakoniec v [[Paríž]]i, kde jeho vydávanie zastavila až prvá svetová vojna.&lt;ref name=&quot;mir-reform&quot;&gt;{{Citácia elektronického dokumentu
+  | priezvisko = Drezen
+  | meno = E
+  | titul = Zamenhof kaj reformoj en esperanto
+  | url = http://miresperanto.narod.ru/zamenhof/drezen_zamenhof/reformoj.htm
+  | dátum vydania = 
+  | dátum aktualizácie = 
+  | dátum prístupu = 2008-08-14
+  | vydavateľ = МИР ЭСПЕРАНТО
+  | miesto = 
+  | jazyk = esperantsky}}&lt;/ref&gt;&lt;ref name=&quot;angelfire-reform&quot;&gt;{{Citácia elektronického dokumentu
+  | priezvisko = 
+  | meno = 
+  | odkaz na autora = 
+  | titul = Pri la reformoj
+  | url = http://www.angelfire.com/ny2/ts/reformoj.html
+  | dátum vydania = 
+  | dátum aktualizácie = 
+  | dátum prístupu = 2008-08-14
+  | vydavateľ = Interpopolalingvo.inf.hu
+  | miesto = 
+  | jazyk = esperantsky}}&lt;/ref&gt;&lt;ref name=&quot;eo-mv-enigmoj&quot;&gt;{{Citácia elektronického dokumentu
+  | priezvisko = Kolker
+  | meno = Boris
+  | odkaz na autora = 
+  | titul = Enigmoj de Ludoviko Zamenhof
+  | url = http://esperanto-mv.pp.ru/Cetero/enigmoj.html
+  | dátum vydania = 
+  | dátum aktualizácie = 
+  | dátum prístupu = 2008-08-14
+  | vydavateľ = Esperanto-mv.pp.ru
+  | miesto = 
+  | jazyk = esperantsky}}&lt;/ref&gt;&lt;ref name=&quot;diverse-informfluoj&quot;&gt;{{Citácia elektronického dokumentu
+  | priezvisko = Kniivilä
+  | meno = Kalle
+  | odkaz na autora = 
+  | titul = Informfluoj en Esperantujo
+  | url = http://www.kniivila.net/2005/informfluoj-en-esperantujo
+  | dátum vydania = 
+  | dátum aktualizácie = 
+  | dátum prístupu = 2008-08-14
+  | vydavateľ = diVERse
+  | miesto = 
+  | jazyk = esperantsky}}&lt;/ref&gt;
+
+== Referencie ==
+{{Referencie|2}}
+
+{{Link FA|ca}}
+{{Link FA|cs}}
+{{Link FA|eo}}
+{{Link FA|fi}}
+{{Link FA|ia}}
+{{Link FA|it}}
+{{Link FA|ja}}
+{{Link FA|pl}}
+{{Link FA|sv}}
+{{Link GA|eo}}
+{{Link GA|es}}</text>
+      <sha1>m7xsha8udxbptg1yw0rrscj6k1am5g8</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Isaac Newton</title>
+    <ns>0</ns>
+    <id>606</id>
+    <revision>
+      <id>5737152</id>
+      <parentid>5736229</parentid>
+      <timestamp>2014-03-27T01:00:32Z</timestamp>
+      <contributor>
+        <username>Lalina</username>
+        <id>22926</id>
+      </contributor>
+      <minor />
+      <comment>Verzia používateľa [[Special:Contributions/78.98.185.217|78.98.185.217]] ([[User_talk:78.98.185.217|diskusia]]) bola vrátená, bola obnovená verzia od Vasiľ</comment>
+      <text xml:space="preserve">{{Infobox Osobnosť |
+Meno = Isaac Newton |
+Portrét = GodfreyKneller-IsaacNewton-1689.jpg |
+Veľkosť obrázka  =230px|
+Dátum narodenia = [[4. január]] [[1643]] |
+Miesto narodenia = [[Woolsthorpe-by-Colsterworth]], [[Lincolnshire (grófstvo)|Lincolnshire]], [[Anglicko]]  |
+Dátum úmrtia = {{duv|1727|3|31|1643|1|4}} |
+Miesto úmrtia = [[Londýn|Kensington]], [[Anglicko]] |
+Popis = anglický fyzik, matematik a filozof |
+Podpis = Isaac Newton signature.svg |
+}}
+Sir '''Isaac Newton''', prezident [[Kráľovská spoločnosť|Kráľovskej spoločnosti]] (* [[4. január]] [[1643]], [[Woolsthorpe-by-Colsterworth]], [[Anglicko]] – † [[31. marec]] [[1727]], [[Londýn|Kensington]],) bol anglický [[fyzik]], [[matematik]] a [[filozof]].
+
+Založil [[Diferenciálny a integrálny počet|infinitezimálny počet]] a formuloval prvú teóriu sily a gravitácie. Jeho objavy v [[matematika|matematike]], [[optika (odbor)|optike]] a [[mechanika|mechanike]] položili základy pre modernú [[fyzika|fyziku]].
+</text>
+      <sha1>p9bnyxg746pngk1pzdi45th5n7isf5x</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  </mediawiki>

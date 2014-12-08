@@ -1,0 +1,21 @@
+﻿<article>
+	<title>
+		Cardiology
+    	</title>
+	<AkaText>
+		<title>
+			Myocardial infarction
+		</title>
+		<aka>
+			 heart attack
+		</aka>
+	</AkaText>
+</article>
+<article>
+	<title>
+		Chupacabra
+    	</title>
+	<aka>
+		Chupacabras
+	</aka>
+</article>

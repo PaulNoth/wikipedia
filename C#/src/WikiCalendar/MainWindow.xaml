@@ -1,0 +1,27 @@
+﻿<Window x:Class="WikiCalendar.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="687" Width="671">
+    <Grid Margin="0,0,2,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="468*"/>
+            <ColumnDefinition Width="193*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="LoadButton" Content="Load" HorizontalAlignment="Left" Height="51" Margin="0,32,0,0" VerticalAlignment="Top" Width="184" Click="Button_Click" Grid.Column="1"/>
+        <TextBlock x:Name="TextConsole" HorizontalAlignment="Left" Margin="10,64,0,10" TextWrapping="Wrap" Width="448" ScrollViewer.VerticalScrollBarVisibility="Auto" ScrollViewer.HorizontalScrollBarVisibility="Disabled"><InlineUIContainer>
+        		<Grid Height="100" Width="100" />
+        	</InlineUIContainer></TextBlock>
+        <Label Content="Pages:" HorizontalAlignment="Left" Height="28" Margin="0,88,0,0" VerticalAlignment="Top" Width="45" Grid.Column="1"/>
+        <Label Content="Events:" HorizontalAlignment="Left" Height="26" Margin="0,121,0,0" VerticalAlignment="Top" Width="48" Grid.Column="1"/>
+        <ProgressBar x:Name="pagesProgresBar" HorizontalAlignment="Left" Height="18" Margin="0,152,0,0" VerticalAlignment="Top" Width="184" RenderTransformOrigin="0.51,3.074" Grid.Column="1"/>
+        <TextBox x:Name="pagesCountTextBox" HorizontalAlignment="Left" Height="28" Margin="50,88,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="84" Grid.Column="1"/>
+        <TextBox x:Name="eventsCountTextBox" HorizontalAlignment="Left" Height="26" Margin="50,121,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="84" Grid.Column="1"/>
+        <TextBox x:Name="dateSearchTextBox" HorizontalAlignment="Left" Height="21" Margin="14,10,0,0" TextWrapping="Wrap" Text="19940101" VerticalAlignment="Top" Width="161" TextChanged="dateSearchTextBox_TextChanged"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="21" Margin="180,9,0,0" VerticalAlignment="Top" Width="176" RenderTransformOrigin="0.483,0.81" Click="Button_Click_1"/>
+        <ComboBox x:Name="DropDownMenuDate" HorizontalAlignment="Left" Height="23" Margin="14,41,0,0" VerticalAlignment="Top" Width="161" SelectionChanged="ComboBox_SelectionChanged"/>
+        <Calendar x:Name="calendarSelection" Grid.Column="1" HorizontalAlignment="Left" Margin="10,175,0,0" VerticalAlignment="Top" Width="173" SelectedDatesChanged="calendarSelection_SelectedDatesChanged"/>
+        <TextBlock x:Name="statistics" Grid.Column="1" HorizontalAlignment="Left" Height="430" Margin="10,348,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="173" ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+         ScrollViewer.VerticalScrollBarVisibility="Auto"/>
+
+    </Grid>
+</Window>
