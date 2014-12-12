@@ -1,0 +1,30 @@
+<dictionary>
+  <word>
+    <version>
+      <language>en</language>
+      <value>Tax</value>
+    </version>
+    <version>
+      <language>fr</language>
+      <value>Impôt</value>
+    </version>
+    <version>
+      <language>sk</language>
+      <value>Daň</value>
+    </version>
+  </word>
+  <word>
+    <version>
+      <language>en</language>
+      <value>Software</value>
+    </version>
+    <version>
+      <language>fr</language>
+      <value>Logiciel</value>
+    </version>
+    <version>
+      <language>sk</language>
+      <value>Softvér</value>
+    </version>
+  </word>
+</dictionary>
