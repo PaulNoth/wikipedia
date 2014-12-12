@@ -1,0 +1,10 @@
+﻿<page>
+    <title>Cardiology</title>
+	[[Myocardial infarction]] (aka heart attack) 
+</page>
+<page>
+    <title>Chupacabra</title>
+	{{Infobox mythical creature
+	|AKA  = ''Chupacabras''
+	}}
+</page>

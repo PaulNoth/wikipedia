@@ -1,0 +1,8 @@
+title: Wikipedia: Albedo
+abstract: Albedo (), or reflection coefficient, derived from Latin albedo &quot;whiteness&quot; (or reflected sunlight) in turn from albus &quot;white,&quot; is the diffuse reflectivity or reflecting power of a surface. It is the ratio of reflected radiation from the surface to incident radiation upon it.
+
+title: Wikipedia: Alabama
+abstract: Elevation adjusted to North American Vertical Datum of 1988.
+
+title: Wikipedia: Novindus
+abstract: Novindus is a fictional continent on Midkemia, a world created by Raymond E. Feist.
