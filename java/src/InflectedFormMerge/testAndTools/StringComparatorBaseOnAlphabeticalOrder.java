@@ -7,7 +7,7 @@ import java.util.Comparator;
  * The Class StringComparatorBaseOnAlphabeticalOrder.
  */
 public class StringComparatorBaseOnAlphabeticalOrder implements Comparator{
-	
+		
 	/* (non-Javadoc)
 	 * @see java.util.Comparator#compare(java.lang.Object, java.lang.Object)
 	 */
