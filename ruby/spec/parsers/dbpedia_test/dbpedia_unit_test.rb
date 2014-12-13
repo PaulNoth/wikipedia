@@ -9,7 +9,7 @@ require 'fileutils.rb'
 def article_categories_sk
   hash = Hash.new([])
 
-  file_path = "../data/sample_article_categories_sk_nemecko.ttl"
+  file_path = "../data/sample_input_article_categories_sk_nemecko.ttl"
 
   my_file = File.open(file_path, "r:UTF-8")
 
@@ -39,7 +39,7 @@ end
 def article_templates_sk
   hash = Hash.new([])
 
-    file_path = "../data/sample_article_templates_sk_nemecko.ttl"
+    file_path = "../data/sample_input_article_templates_sk_nemecko.ttl"
 
   my_file = File.open(file_path, "r:UTF-8")
 
@@ -68,7 +68,7 @@ end
 def external_links_sk
   hash = Hash.new([])
 
-    file_path = "../data/sample_external_links_sk_nemecko.ttl"
+    file_path = "../data/sample_input_external_links_sk_nemecko.ttl"
 
   my_file = File.open(file_path, "r:UTF-8")
 
@@ -96,7 +96,7 @@ end
 def freebase_links_sk
   hash = Hash.new([])
 
-    file_path = "../data/sample_freebase_links_sk_nemecko.ttl"
+    file_path = "../data/sample_input_freebase_links_sk_nemecko.ttl"
 
   my_file = File.open(file_path, "r:UTF-8")
 
@@ -125,7 +125,7 @@ end
 def long_abstracts_sk
   hash = Hash.new([])
 
-    file_path = "../data/sample_long_abstracts_sk_nemecko.ttl"
+    file_path = "../data/sample_input_long_abstracts_sk_nemecko.ttl"
 
   my_file = File.open(file_path, "r:UTF-8")
 
@@ -153,7 +153,7 @@ end
 def interlanguage_links_sk
   hash = Hash.new([])
 
-    file_path = "../data/sample_interlanguage_links_sk_nemecko.ttl"
+    file_path = "../data/sample_input_interlanguage_links_sk_nemecko.ttl"
 
   my_file = File.open(file_path, "r:UTF-8")
 
@@ -182,7 +182,7 @@ end
 def wikipedia_links_sk
   hash = Hash.new([])
 
-    file_path = "../data/sample_wikipedia_links_sk_nemecko.ttl"
+    file_path = "../data/sample_input_wikipedia_links_sk_nemecko.ttl"
 
   my_file = File.open(file_path, "r:UTF-8")
 

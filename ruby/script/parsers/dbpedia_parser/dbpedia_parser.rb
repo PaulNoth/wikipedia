@@ -15,7 +15,7 @@ def article_categories_sk
   hash = Hash.new([])
 
   if sample_input
-    file_path = "../data/sample_article_categories_sk.ttl"
+    file_path = "../data/sample_input_article_categories_sk.ttl"
   else
     file_path = "full_input/article_categories_sk.ttl"
   end
@@ -54,7 +54,7 @@ def article_templates_sk
   hash = Hash.new([])
 
   if sample_input
-    file_path = "../data/sample_article_templates_sk.ttl"
+    file_path = "../data/sample_input_article_templates_sk.ttl"
   else
     file_path = "full_input/article_templates_sk.ttl"
   end
@@ -92,7 +92,7 @@ def external_links_sk
   hash = Hash.new([])
 
   if sample_input
-    file_path = "../data/sample_external_links_sk.ttl"
+    file_path = "../data/sample_input_external_links_sk.ttl"
   else
     file_path = "full_input/external_links_sk.ttl"
   end
@@ -129,7 +129,7 @@ def freebase_links_sk
   hash = Hash.new([])
 
   if sample_input
-    file_path = "../data/sample_freebase_links_sk.ttl"
+    file_path = "../data/sample_input_freebase_links_sk.ttl"
   else
     file_path = "full_input/freebase_links_sk.ttl"
   end
@@ -167,7 +167,7 @@ def long_abstracts_sk
   hash = Hash.new([])
 
   if sample_input
-    file_path = "../data/sample_long_abstracts_sk.ttl"
+    file_path = "../data/sample_input_long_abstracts_sk.ttl"
   else
     file_path = "full_input/long_abstracts_sk.ttl"
   end
@@ -204,7 +204,7 @@ def interlanguage_links_sk
   hash = Hash.new([])
 
   if sample_input
-    file_path = "../data/sample_interlanguage_links_sk.ttl"
+    file_path = "../data/sample_input_interlanguage_links_sk.ttl"
   else
     file_path = "full_input/interlanguage_links_sk.ttl"
   end
@@ -242,7 +242,7 @@ def wikipedia_links_sk
   hash = Hash.new([])
 
   if sample_input
-    file_path = "../data/sample_wikipedia_links_sk.ttl"
+    file_path = "../data/sample_input_wikipedia_links_sk.ttl"
   else
     file_path = "full_input/wikipedia_links_sk.ttl"
   end
