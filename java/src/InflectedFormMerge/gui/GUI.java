@@ -612,8 +612,9 @@ public class GUI extends javax.swing.JFrame {
 			jTextArea1.append("\n=================================================================\n");
 			jTextArea1.append("Root changes:\n\n");
 			this.printListOfRootChanges(hmRootChangeGUI);
-			
-			SortHashMap shm = new SortHashMap();
+    	}
+    	if(this.hmRootChangeGUI != null && this.hmSufGUI != null){
+    		SortHashMap shm = new SortHashMap();
 			hmSufGUI = shm.sortSuffixesByNumberOfOccurrences(hmSufGUI);
 			String[] sSuf = new String[hmSufGUI.size()];
 			int i = 0;
@@ -631,7 +632,8 @@ public class GUI extends javax.swing.JFrame {
 				sRC[i]=rc.getRootBeforeChange()+"_"+rc.getRootChange();
 				i++;
 			}
-			jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(sSuf));
+    		
+    		jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(sSuf));
 			jComboBox2.setModel(new javax.swing.DefaultComboBoxModel(sRC));
     	}
     	
