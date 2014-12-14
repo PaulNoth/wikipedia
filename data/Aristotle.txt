@@ -1,0 +1,100 @@
+﻿<mediawiki  version="0.9" xml:lang="en">
+<page>
+    <title>Aristotle</title>
+    <ns>0</ns>
+    <id>308</id>
+    <revision>
+      <id>625895201</id>
+      <parentid>625824438</parentid>
+      <timestamp>2014-09-17T02:38:24Z</timestamp>
+      <contributor>
+        <username>Neosmyrnian</username>
+        <id>17220001</id>
+      </contributor>
+      <minor />
+      <comment>more relevant link</comment>
+      <text xml:space="preserve">{{other uses}}
+{{Use dmy dates|date=March 2014}}
+{{pp-protected|small=yes}}
+{{Infobox philosopher
+| name = Aristotle
+| image = Aristotle Altemps Inv8575.jpg
+| caption = {{longitem|line-height:1.25em|Roman copy in marble of a Greek bronze&lt;br/&gt;bust of Aristotle by [[Lysippus]], [[Circa|c.]]&amp;nbsp;{{BCE|link|330}}.&lt;br/&gt;The [[alabaster]] mantle is modern.}}
+| birth_date = {{BCE|384}} {{longitem|padding-top:0;line-height:1.4em |[[Stagira (ancient city)|Stagira]],&lt;br/&gt;Chalcidice ([[Chalkidiki]]),&lt;br/&gt;northern [[Greece]]}}
+| death_date = {{nowrap|{{BCE|322}} (aged 62)&lt;br/&gt;[[Euboea]], Greece}}
+| nationality = [[Greeks|Greek]]
+| era = [[Ancient philosophy]]
+| region = [[Western philosophy]]
+| school_tradition = {{Unbulleted list |[[Peripatetic school]] |[[Aristotelianism]]}}
+| main_interests = {{hlist|[[Biology]]|[[Zoology]]}} {{hlist|[[Physics]]|[[Metaphysics]]}} {{hlist|[[Logic]]|Ethics|[[Rhetoric]]}} {{hlist|Music|Poetry|Theatre}} {{hlist|Politics|Government}}
+| notable_ideas = {{Unbulleted list |[[Golden mean (philosophy)|Golden mean]] |[[Aristotelian logic]] |[[Syllogism]] |[[Hexis]] |[[Hylomorphism]] |[[On the Soul|Theory of the soul]]}}
+| influences = {{hlist |[[Parmenides]] |[[Socrates]] |[[Plato]] |[[Heraclitus]] |[[Democritus]]}}
+| influenced = {{longitem|Virtually all subsequent [[Western philosophy]], [[Christian philosophy]] and pre-[[Age of Enlightenment|Enlightenment]] science; also much [[Islamic philosophy|Islamic]] and [[Jewish philosophy]]. See [[List of writers influenced by Aristotle]].}}
+}}
+{{Aristotelianism}}
+
+
+{{Peripatetics}}
+{{Philosophy topics}}
+{{Logic}}
+{{Metaphysics}}
+{{Ethics}}
+{{Philosophy of science}}
+{{Philosophy of language}}
+{{Ancient Greece topics}}
+
+{{Authority control|VIAF=7524651|PND=118650130|LCCN=n/79/4182}}
+
+{{Persondata
+|NAME = Aristotle
+|ALTERNATIVE NAMES = ??????????? (Greek)
+|SHORT DESCRIPTION = [[Greek philosophy|Greek]] philosopher
+|DATE OF BIRTH = 384 BC
+|PLACE OF BIRTH = [[Stagira (ancient city)]]
+|DATE OF DEATH = 322 BC
+|PLACE OF DEATH = [[Chalcis]]
+}}
+{{DEFAULTSORT:Aristotle}}
+[[Category:Aristotle| ]]
+&lt;!--Alphanumerical:--&gt;
+[[Category:384 BC births]]
+[[Category:322 BC deaths]]
+[[Category:4th-century BC philosophers]]
+[[Category:4th-century BC writers]]
+[[Category:Academic philosophers]]
+[[Category:Acting theorists]]
+[[Category:Ancient Greek mathematicians]]
+[[Category:Ancient Greek philosophers]]
+[[Category:Ancient Greek physicists]]
+[[Category:Ancient Greeks in Macedon]]
+[[Category:Ancient Stagirites]]
+[[Category:Attic Greek writers]]
+[[Category:Cosmologists]]
+[[Category:Pro-slavery activists]]
+[[Category:Empiricists]]
+[[Category:Ancient Greek biologists]]
+[[Category:Ancient Greek logicians]]
+[[Category:History of logic]]
+[[Category:Humor researchers]]
+[[Category:Metaphysicians]]
+[[Category:Meteorologists]]
+[[Category:Metic philosophers in Classical Athens]]
+[[Category:Natural philosophers]]
+[[Category:Peripatetic philosophers]]
+[[Category:Philosophers and tutors of Alexander the Great]]
+[[Category:Philosophers of ancient Chalcidice]]
+[[Category:Philosophers of language]]
+[[Category:Philosophers of law]]
+[[Category:Philosophers of mind]]
+[[Category:Political philosophers]]
+[[Category:Rhetoric theorists]]
+[[Category:Trope theorists]]
+[[Category:Ancient literary critics]]
+[[Category:Virtue ethicists]]</text>
+      <sha1>n07ai1bq35w0x1fwlreewozuw6nk0a3</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  
+</mediawiki>

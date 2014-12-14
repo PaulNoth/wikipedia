@@ -39,7 +39,7 @@ CREATE TABLE `category` (
 --
 
 /*!40000 ALTER TABLE `category` DISABLE KEYS */;
-INSERT INTO `category` VALUES (37512,'Pseudonym',5368,1,0),(56576,'Sammelpseudonym',65,0,0);
+INSERT INTO `category` VALUES (13101,'Fiktive_Person',387,4,0),(37512,'Pseudonym',5368,1,0),(56576,'Sammelpseudonym',65,0,0),(205501,'Werk_von_Alan_Smithee',6,0,0);
 
 /*!40000 ALTER TABLE `category` ENABLE KEYS */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
