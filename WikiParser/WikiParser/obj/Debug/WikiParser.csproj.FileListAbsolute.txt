@@ -1,9 +1,0 @@
-c:\users\pleto\documents\visual studio 2013\Projects\WikiParser\WikiParser\bin\Debug\WikiParser.exe.config
-c:\users\pleto\documents\visual studio 2013\Projects\WikiParser\WikiParser\bin\Debug\WikiParser.exe
-c:\users\pleto\documents\visual studio 2013\Projects\WikiParser\WikiParser\bin\Debug\WikiParser.pdb
-c:\users\pleto\documents\visual studio 2013\Projects\WikiParser\WikiParser\obj\Debug\WikiParser.csprojResolveAssemblyReference.cache
-c:\users\pleto\documents\visual studio 2013\Projects\WikiParser\WikiParser\obj\Debug\WikiParser.Properties.Resources.resources
-c:\users\pleto\documents\visual studio 2013\Projects\WikiParser\WikiParser\obj\Debug\WikiParser.csproj.GenerateResource.Cache
-c:\users\pleto\documents\visual studio 2013\Projects\WikiParser\WikiParser\obj\Debug\WikiParser.exe
-c:\users\pleto\documents\visual studio 2013\Projects\WikiParser\WikiParser\obj\Debug\WikiParser.pdb
-C:\Users\Pleto\documents\visual studio 2013\Projects\WikiParser\WikiParser\obj\Debug\WikiParser.Wiki.resources
