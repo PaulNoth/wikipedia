@@ -3,6 +3,8 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.PrintWriter;
+import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -19,83 +21,68 @@ import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamReader;
 
 public class Disambiguation {
-	private static ArrayList pagesList;
 	private static String output;
+	private static PrintWriter writer;
+	private static DisambiguationSet set;
+	private static int descriptionCount = 0;
+	private static int disambBranchesCount = 0;
 	
 	
   public static void main(String[] args) throws XMLStreamException, IOException {
 	  
-	  Scanner input = new Scanner(System.in);
-	  int i;
-	  
-	  boolean isParsed = false;
 	  
 	  output = null;
 	  
-	  while(true)
-	  {
-	  System.out.println("\nChoose your option:");
-	  System.out.println("\t(1)parse and find disamb. pages;");
-	  System.out.println("\t(2)print all found disamb. pages;");
-	  System.out.println("\t(3)find disambiguation page;");
-	  System.out.println("\t(4)test - compare with sample output;");
-	  System.out.println("\t(5)end;");
-	  
-	  i = input.nextInt();
-	  
-	  switch(i)
-	  {
-	  	case 1 :
-	  		parseDisambPages();
-	  		isParsed = true;
-	  		break;
-	  		
-	  	case 2 :
-	  		if(isParsed)
-	  			printPagesList();
-	  		else
-	  			System.out.println("The pages must be parsed first!");
-	  		break;
-	  		
-	  	case 3 :
-	  		if(isParsed)
-	  			findDisambPage();
-	  		else
-	  			System.out.println("The pages must be parsed first!");
-	  		break;
-	  		
-	  	case 4 :
-	  		if(isParsed)
-	  			test();
-	  		else
-	  			System.out.println("The pages must be parsed first!");
-	  		break;
-	  		
-	  	case 5 :
-	  		return;
+	  if(args.length == 0) {
+		  parseDisambPages();
 	  }
+	  else if(args.length == 1 && args[0].equals("-h")) {
+		  System.out.println("Program parses disambiguation pages.");
+		  System.out.println("-m: Export set of disambiguations.");
+		  System.out.println("-h: Help.");
 	  }
+	  else if(args.length == 1 && args[0].equals("-m")) {
+		  makeSet();
+	  }
+	  else {
+		  System.out.println("Incorrect attributes. See -h for help.");
+	  }
+		  
+
   }
   
   static void parseDisambPages() throws XMLStreamException, IOException
   {
+	writer = new PrintWriter("data/enwiki_latest_pages-articles-output.ttl", "UTF-8");
     
-    XMLInputFactory xmlif = XMLInputFactory.newInstance();
-    XMLStreamReader reader = xmlif.createXMLStreamReader("data/sample-enwiki-latest-pages-articles2.xml",
-            new FileInputStream("data/sample-enwiki-latest-pages-articles2.xml"));
-    
-    pagesList = new ArrayList<Page>();
+	XMLInputFactory xmlif = XMLInputFactory.newInstance();
+   
+    int disambPagesCount = 0;
+	int pagesCount = 0;
+	
     
     String title = null;
     String textS = null;
     
     boolean isTitle = false;
     boolean isText = false;
-    
+
     StringBuilder text = new StringBuilder();
     
     System.out.println("start");
-
+    
+    fillSet();
+    
+    
+    for(int k = 1; k <= 27; k++)
+    {
+    	
+    	XMLStreamReader reader = xmlif.createXMLStreamReader("data/wikipedia/enwiki-latest-pages-articles" + k + ".xml",
+                new FileInputStream("data/wikipedia/enwiki-latest-pages-articles" + k + ".xml"));
+    	
+    
+    	System.out.println("Iteration: " + k);
+    	
     while(reader.hasNext()){
       int event = reader.next();
 
@@ -128,12 +115,15 @@ public class Disambiguation {
           if(isText)
           {
         	  textS = text.toString();
+        	  pagesCount++;
         	  if(isDisambig(title, textS))
         	  {        	  	
         	  	Page page = new Page();
         	  	page.title = title;
         	  	page.parseDisambigDescription(textS);
-        	  	pagesList.add(page);
+        	  	printPage(page);
+        	  	
+        	  	disambPagesCount++;        	  	      		  
         	  }
           }
           
@@ -144,122 +134,29 @@ public class Disambiguation {
 
     }
     
+    PrintWriter statistics = new PrintWriter("data/statistics.txt", "UTF-8");
+    statistics.println("Pages count:\t" + pagesCount);
+    statistics.println("Disab pages count:\t" + disambPagesCount);
+    statistics.println("Disamb branches count:\t" + disambBranchesCount);
+    statistics.println("Descriptions found count:\t" + descriptionCount);
+    statistics.close();
+    
+    
+    reader.close();
+    
+    }
+
+    writer.close();
+  
     System.out.println("Disambiguation pages successfully parsed.");
   }
   
-  static void findDisambPage()
-  {
-	  Scanner input = new Scanner(System.in);
-	  int i,j;
-	  String title;
-	  Page page;
-
-	  System.out.println("\nChoose your find option:");
-	  System.out.println("\t(1)find by id;");
-	  System.out.println("\t(2)find by title;");
-	  
-	  i = input.nextInt();	  
-	  
-	  switch(i)
-	  {
-	  	case 1 :
-	  		System.out.println("Insert the ID:");
-	  		j = input.nextInt();
-	  		page = (Page) pagesList.get(j);
-	  		printPage(page);
-	  		break;
-	  	case 2 :
-	  		System.out.println("Insert the ID:");
-	  		title = input.next();
-	  		page = findByTitle(title);
-	  		if(page != null)
-	  			printPage(page);
-	  		else
-	  			System.out.println("No such page with title " + title + "!");
-	  		break;
-	  }
-  }
   
-  static Page findByTitle(String title)
-  {
-	  Page p = null;
-	  SubPage s = null;
-	  
-	  for(int i = 0; i < pagesList.size(); i++ )
-	  {
-		  p = (Page) pagesList.get(i);
-		  if(p.title.equals(title))
-		  {
-			  return p;
-		  }
-		  
-	  }
-	  
-	  return null;
-  }
   
-  static boolean test() throws FileNotFoundException
+  static void printPage(Page p) throws FileNotFoundException, UnsupportedEncodingException
   {
-	  StringBuilder patternBuilder = new StringBuilder();
 	  
-	  Scanner scanner = new Scanner(new File("data/sample-enwiki-latest-pages-articles2_output.xml"));
-      String line;
-      
-      if(output == null)
-	  {
-		  printPagesList();
-	  }
-      
-      while (scanner.hasNextLine()) {
-    	  line = scanner.nextLine();
-    	  patternBuilder.append(line + "\n");
-      }
 	  
-      
-	  String pattern = patternBuilder.toString().trim();
-	  output = output.trim();
-	  
-	  for (int i = 0; i < Math.min(output.length(), pattern.length()); i++)
-	  {
-		  if(output.charAt(i) != pattern.charAt(i))
-		  {
-			  System.out.println("char at: " + i);
-			  System.out.println("output char: " + output.charAt(i));
-			  System.out.println("pattern char: " + pattern.charAt(i));
-			  System.out.println("Test failed!");
-			  return false;
-		  }
-	  }
-	  
-	  System.out.println("Test succeeded!");
-	  
-	  return true;
-  }
-  
-  static void printPagesList()
-  {
-	  StringBuilder outputBuilder = new StringBuilder();
-	  Page p = null;
-	  SubPage s = null;
-	  
-	  for(int i = 0; i < pagesList.size(); i++ )
-	  {
-		  p = (Page) pagesList.get(i);
-		  for(int j = 0; j < p.subPages.size(); j++ )
-		  {
-			  s = (SubPage) p.subPages.get(j);
-			  outputBuilder.append(s.subtitle + "\t" + p.title + "\t" +  s.description + "\n");
-		  }
-		  
-	  }
-	  
-	  output = outputBuilder.toString();
-	  
-	  System.out.println(output);
-  }
-  
-  static void printPage(Page p)
-  {
 	  StringBuilder outputBuilder = new StringBuilder();
 	  String out;
 	  SubPage s = null;
@@ -268,35 +165,91 @@ public class Disambiguation {
 	  {
 		  s = (SubPage) p.subPages.get(j);
 		  outputBuilder.append(s.subtitle + "\t" + p.title + "\t" +  s.description + "\n");
+		  
+		  disambBranchesCount++;
+		  if(s.description != null)
+		  {
+			  descriptionCount++;
+		  }
 	  }
-	  
+
 	  out = outputBuilder.toString();	  
-	  System.out.println(out);
+	  writer.println(out.trim());
+	  
   }
   
   static boolean isDisambig(String title, String text) throws IOException
   {
+	  int i;
+	  DisambiguationUnit u;
+	  
 	  if(text.contains("disamb"))
       {
-		  boolean found = false;
-
-			
-			//check if it is in disambiguation list from DBpedia
-			Pattern pattern = Pattern.compile((".*<http://dbpedia.org/resource/" + title + ".*>.*"));
-			BufferedReader scanner = new BufferedReader(new FileReader(new File("data/disambiguations_en.ttl")));
-			        String line;
-			        while ((line = scanner.readLine()) != null) {
-			        	
-			            if (pattern.matcher(line).matches()) {
-			                scanner.close();
-			                found = true;
-			                break;
-			            }
-			        }
-			        
-			return found;	
+		  for(i = 0; i < set.set.size(); i++)
+		  {
+			  u = (DisambiguationUnit) set.set.get(i);
+			  
+			  if(u.title.equals(title))
+			  {
+				  if(u.isDisamb)
+				  {
+					  return true;
+				  }
+				  else
+				  {
+					  return false;
+				  }
+			  }
+		  }
       }
 	  
 	  return false;
+  }
+  
+  public static void makeSet() throws IOException
+  {
+	Pattern pattern = Pattern.compile((".*<http://dbpedia.org/resource/(\\S+).*>.*"));
+	String lastDisambTitle = "";
+	String delims = "[/,>]";
+	String[] tokens;
+	int disambPagesCount = 0;
+	int disambBranchesCount = 0;
+	
+	PrintWriter writer = new PrintWriter("data/disamb_set.ttl", "UTF-8");
+	
+	  
+	BufferedReader scanner = new BufferedReader(new FileReader(new File("data/disambiguations_en.ttl")));
+	String line;
+	while ((line = scanner.readLine()) != null) {
+		if (pattern.matcher(line).matches()) {
+			tokens = line.split(delims);
+			if(!tokens[4].equals(lastDisambTitle))
+			{
+				writer.println(tokens[4] + "\td");
+				lastDisambTitle = tokens[4];
+				
+				disambPagesCount++;
+			}
+			
+			writer.println(tokens[14]);
+			disambBranchesCount++;
+        }
+	}
+	
+	writer.println();
+	writer.println("Disamb pages count: " + disambPagesCount);
+	writer.println("Disamb branches count: " + disambBranchesCount);
+	
+	scanner.close();
+	writer.close();
+	
+  }
+  
+  public static void fillSet() throws IOException
+  {
+	  set = new DisambiguationSet();
+	  set.fillSet("data/disamb_set.ttl");
+	  
+	  System.out.println("Set made.");
   }
 }
