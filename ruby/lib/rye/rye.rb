@@ -26,3 +26,4 @@ require 'rye/analyzer'
 
 module Rye
 end
+

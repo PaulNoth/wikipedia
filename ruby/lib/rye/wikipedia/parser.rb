@@ -19,3 +19,4 @@ module Wikipedia
 		end
 	end
 end
+
