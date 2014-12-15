@@ -1,0 +1,5 @@
+<http://sk.dbpedia.org/resource/SVK> <http://dbpedia.org/ontology/wikiPageRedirects> <http://sk.dbpedia.org/resource/Slovensko> .
+<http://sk.dbpedia.org/resource/Wilsonovo_mesto> <http://dbpedia.org/ontology/wikiPageRedirects> <http://sk.dbpedia.org/resource/Bratislava> .
+<http://sk.dbpedia.org/resource/Krásavica_na_Dunaji> <http://dbpedia.org/ontology/wikiPageRedirects> <http://sk.dbpedia.org/resource/Bratislava> .
+<http://sk.dbpedia.org/resource/Pressburg> <http://dbpedia.org/ontology/wikiPageRedirects> <http://sk.dbpedia.org/resource/Bratislava> .
+<http://sk.dbpedia.org/resource/Prešporek> <http://dbpedia.org/ontology/wikiPageRedirects> <http://sk.dbpedia.org/resource/Bratislava> .

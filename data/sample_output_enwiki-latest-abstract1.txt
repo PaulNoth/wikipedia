@@ -3,3 +3,6 @@ abstract: Albedo (), or reflection coefficient, derived from Latin albedo &quot;
 
 title: Wikipedia: Alabama
 abstract: Elevation adjusted to North American Vertical Datum of 1988.
+
+title: Wikipedia: Novindus
+abstract: Novindus is a fictional continent on Midkemia, a world created by Raymond E. Feist.

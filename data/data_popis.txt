@@ -1,0 +1,19 @@
+Tema: Sparsovanie osob wikipedie vytvorenie jednoduchej sluzby 'mohli sa stretnut?'
+po zadani dvoch mien urci ci sa mohli dane osoby stretnut (prekryv casu ich zivota)
+Veduci: Kassak
+
+
+Kazdy clanok definovany o  osobe obsahuje za obsahom tieto data:
+Z nich je potrebne vytiahnut datum narodenia a umrtia ak su uveden. Pozor je dolezite overit si typy roznych moznosti datumov narodenia.
+Nasledne tieto data ulozit zvlast aby sme nemali zbytocne velke mnozstvo nepouzitych dat. Zindexovat ich a nasledne porovnavat. 
+
+{{Persondata
+| NAME              =Lincoln, Abraham
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION =16th President of the United States
+| DATE OF BIRTH     =February 12, 1809
+| PLACE OF BIRTH    =Hardin County, Kentucky
+| DATE OF DEATH     =April 15, 1865
+| PLACE OF DEATH    =Washington, D.C.
+}}
+Ukazka dat

@@ -1,0 +1,46 @@
+
+POTREBNE KNIZNICE
+elasticsearch-1.4.0.jar
+junit-4.11.jar
+lucene-core-4.10.2.jar
+mysql-connector-java-5.1.33-bin.jar
+opencsv-2.0.jar
+hamcrest-core-1.3.jar
+
+
+DATABAZA
+Prilozene SQL dumpy z tabuliek z ktorych sa to nasledne spaja.
+
+CREATE TABLE `category` (
+  `id` int(10) unsigned NOT NULL,
+  `name` varchar(255) NOT NULL,
+  KEY `id` (`id`),
+  KEY `name_id` (`name`,`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+CREATE TABLE `page` (
+  `id` int(11) NOT NULL,
+  `name` varchar(255) NOT NULL,
+  KEY `id` (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+
+INSTALACIA
+
+    DATABAZA
+    Vytvorenie databazy MySQL a naimportovanie DDL uvedenych hore. 
+    Nasledne upravit "connection string" v subore Program.java pre vase pripojenie k databaze.
+
+    OSTATNE
+    Skompilovanie a nasledne vykonanie programu s prepinacami parse, build a index.
+
+    VYHLADAVANIE
+    Vyhladavanie prebieha spustenie programu s prepinacom search a nasledne klucovym slovom ake chcete vyhladat
+
+
+TESTOVANIE
+Na otestovanie sa predpokladaju vstupy zo suborov sample_input_enwiki-latest-page-test.sql a sample_input_enwiki-latest-categorylinks-test.sql
+
+
+POZNAMKY
+SQL DUMPY "enwiki-latest-categorylinks.sql" A "enwiki-latest-page.sql" NEODPORUCAM SPRACOVAVAT NA SSD DISKU LEBO SI TO VYZIADA NA ZAPIS NIEKOLKO TERABAJTOV !!!
