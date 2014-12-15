@@ -1,0 +1,35 @@
+﻿<page>
+    <title>Bigfoot</title>
+    <ns>0</ns>
+    <id>4009</id>
+    <revision>
+      <id>618604649</id>
+      <parentid>618598269</parentid>
+      <timestamp>2014-07-26T23:38:39Z</timestamp>
+      <contributor>
+        <username>Sbmeirow</username>
+        <id>12580852</id>
+      </contributor>
+      <comment>Undid revision 618598269 by [[Special:Contributions/Caealn|Caealn]] ([[User talk:Caealn|talk]]) There has been an effort in other types of articles to remove flag fluff</comment>
+      <text xml:space="preserve">
+	  {{Redirect|Sasquatch|other uses|Sasquatch (disambiguation)|and|Bigfoot (disambiguation)}}
+{{Use mdy dates|date=April 2013}}
+{{pp-semi-indef}}{{pp-move-indef}}
+{{Infobox mythical creature
+|name = Bigfoot
+|image = Smalfut.jpg
+|image_size = 250px
+|caption = Frame 352 from the [[Patterson-Gimlin film]], alleged by Roger Patterson and Robert Gimlin to show a Bigfoot, and by some others to show a man in a [[gorilla suit]].&lt;ref&gt;{{cite book|author=Long, Greg|title=The Making of Bigfoot: The Inside Story|publisher=Prometheus Books|year=2004|isbn=1-59102-139-1}}&lt;/ref&gt;
+|AKA = Sasquatch
+|Country = [[United States]], [[Canada]]
+|Region =
+|First_Reported =
+|Last_Reported =
+|Status =
+}}
+</text>
+      <sha1>ttlvotwbmxmkziowdf5budld1b4j7jz</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
