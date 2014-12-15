@@ -1,0 +1,2074 @@
+_: 1 :_
+907
+907	3
+_: 2 :_
+Galleria Eurovea
+Galleria Eurovea	1
+_: 3 :_
+Vnútorné mesto (Bratislava)
+historické jadro	1
+Vnútorné mesto	1
+_: 4 :_
+Podunajské Biskupice
+Podunajské Biskupice	3
+_: 5 :_
+Ostrihom (mesto)
+ostrihomského	1
+Ostrihom	1
+_: 6 :_
+Štefan Ladislav Endlicher
+Štefan Ladislav Endlicher	1
+_: 7 :_
+3. máj
+3. mája	1
+3. máj	1
+_: 8 :_
+22. október
+22. októbra	1
+22. október	1
+_: 9 :_
+Kalinkovo
+Kalinkovo	1
+_: 10 :_
+Bratislavský región
+Bratislavský región	1
+_: 11 :_
+mladšia kamenná doba
+mladšia kamenná doba	1
+_: 12 :_
+Lamač
+Lamač	3
+_: 13 :_
+Deutsch Jahrndorf
+Deutsch Jahrndorf	1
+_: 14 :_
+hebrejčina
+hebrejčinu	1
+hebrejčina	1
+_: 15 :_
+18. storočie
+18. storočia	2
+18. storočie	2
+_: 16 :_
+Slovenská národná rada (1848 – 1849)
+Slovenská národná rada	1
+Slovenská národná rada	1
+SNR	1
+_: 17 :_
+Hlavné mesto
+Hlavné mesto	1
+_: 18 :_
+Svätý Jur
+Svätý Jur	1
+Svätým Jurom	1
+_: 19 :_
+Salzburg
+Salzburgských	1
+Salzburg	1
+_: 20 :_
+Pavol Braxatoris
+Pavol Braxatoris	1
+_: 21 :_
+Slovenská filharmónia
+Slovenská filharmónia	1
+_: 22 :_
+Arménsko
+Arménsko	1
+_: 23 :_
+Ľudovít Baťán
+Ľudovít Baťán	1
+_: 24 :_
+Rímskokatolícka cirkev
+Rímskokatolícka cirkev	1
+_: 25 :_
+1468
+1468	1
+_: 26 :_
+opereta
+operiet	1
+opereta	1
+operety	1
+_: 27 :_
+1464
+1464	1
+_: 28 :_
+Spoločnosť česko-slovenská
+Spoločnosť česko-slovenskú	1
+Spoločnosť česko-slovenská	1
+_: 29 :_
+28. jún
+28. jún	1
+_: 30 :_
+čeština
+čeština	1
+češtiny	1
+_: 31 :_
+Devín
+Devín	4
+_: 32 :_
+Bratislavská rímskokatolícka arcidiecéza
+Bratislavská rímskokatolícka arcidiecéza	1
+_: 33 :_
+Prešovská gréckokatolícka archieparchia
+Prešovskej eparchie	1
+Prešovská gréckokatolícka archieparchia	1
+_: 34 :_
+50 pred Kr.
+50 pred Kr.	1
+_: 35 :_
+Ján Kollár
+J. Kollára	1
+Ján Kollár	1
+J. Kollár	2
+_: 36 :_
+Devínska Nová Ves
+Devínska Nová Ves	2
+Devínskej Novej Vsi	1
+_: 37 :_
+Nemecko
+Nemecko	4
+Nemecka	1
+_: 38 :_
+slovenčina
+slovenčina	1
+slovenským	1
+slovenčine	1
+slovenčiny	2
+_: 39 :_
+Karol Zay
+Zay	1
+Karol Zay	1
+Karola Zaya	1
+_: 40 :_
+Rača (miestna časť)
+Rača	1
+Rača	1
+_: 41 :_
+Štúrovci
+Štúrovci	1
+_: 42 :_
+gréčtina
+grécky	1
+gréčtina	1
+_: 43 :_
+Mária Terézia
+Mária Terézia	2
+_: 44 :_
+maďarčina
+maďarským	1
+maďarčina	1
+maďarčiny	1
+maďarský	1
+_: 45 :_
+Jena
+Jene	1
+Jena	1
+_: 46 :_
+Ľudovít Štúr
+Ľudovítom Štúrom	1
+Ľudovít Štúr	1
+Ľudovíta Štúra	1
+_: 47 :_
+Ján Botto
+Ján Botto	1
+_: 48 :_
+3393 Stur
+(3393) Štúr	1
+3393 Stur	1
+_: 49 :_
+Kelti
+Kelti	1
+_: 50 :_
+jazykovedec
+jazykovedec	1
+_: 51 :_
+kritik
+kritik	1
+_: 52 :_
+Jozef Miloslav Hurban
+Hurbana	1
+Jozef Miloslav Hurban	2
+J. M. Hurban	2
+Hurbanovho	1
+Hurban	1
+_: 53 :_
+Budapešť
+Pešti	1
+Budapešť	1
+_: 54 :_
+Petržalka
+Petržalka	3
+_: 55 :_
+Interreg IIIA
+Interreg IIIA	1
+_: 56 :_
+Zoznam kultúrnych pamiatok v okrese Bratislava V
+Bratislava V	1
+Zoznam kultúrnych pamiatok v okrese Bratislava V	1
+_: 57 :_
+Česi
+Česi	1
+_: 58 :_
+Ulm
+Ulm	1
+_: 59 :_
+kalendár Živeny
+kalendári Živeny	1
+kalendár Živeny	1
+_: 60 :_
+833
+833	2
+_: 61 :_
+Evanjelická cirkev metodistická
+Evanjelická cirkev metodistická	1
+_: 62 :_
+Izrael
+Izrael	1
+_: 63 :_
+Frico Motoška
+Frico Motoška	1
+_: 64 :_
+10. október
+10. október	1
+_: 65 :_
+Alexandria
+Alexandria	1
+_: 66 :_
+Pod cudzou vlajkou
+Pod cudzou vlajkou	1
+_: 67 :_
+ministerstvo
+ministerstvá	1
+ministerstvo	1
+_: 68 :_
+Inter hala Pasienky
+Inter hala Pasienky	1
+_: 69 :_
+francúzština
+francúzštiny	1
+francúzština	1
+_: 70 :_
+2001
+2001	1
+_: 71 :_
+2000
+2000	1
+_: 72 :_
+Gejza Dusík
+Gejzom Dusíkom	1
+Gejza Dusík	1
+_: 73 :_
+Mláka (prítok Moravy)
+Mláka	1
+Mláka	1
+_: 74 :_
+poľština
+poľštiny	1
+poľština	1
+poľský	1
+_: 75 :_
+Pavol Jozef Šafárik
+P. J. Šafárik	2
+Pavol Jozef Šafárik	2
+P. J. Šafárika	2
+_: 76 :_
+13. máj
+13. mája	1
+13. máj	1
+_: 77 :_
+Cleveland (Ohio)
+Cleveland	1
+Cleveland	1
+_: 78 :_
+Malý Dunaj
+Malý Dunaj	1
+Malého Dunaja	1
+_: 79 :_
+Tehelné pole (štadión)
+Tehelné pole	1
+Tehelné pole	1
+_: 80 :_
+Zlaté piesky (Bratislava)
+Zlaté piesky	1
+Zlaté piesky	1
+_: 81 :_
+5. storočie
+5. storočie	1
+_: 82 :_
+Adam Bžoch
+Adama Bžocha	1
+Adam Bžoch	1
+_: 83 :_
+UNDP
+UNDP	1
+_: 84 :_
+Bulharsko
+Bulharsko	2
+_: 85 :_
+Kresťanské zbory
+Kresťanské zbory	1
+_: 86 :_
+Spojené kráľovstvo
+Spojené kráľovstvo	1
+_: 87 :_
+Zoznam kultúrnych pamiatok v okrese Bratislava I (0-9)
+0-9	1
+Zoznam kultúrnych pamiatok v okrese Bratislava I	1
+_: 88 :_
+Tatrín
+Tatrín	1
+Tatrína	3
+_: 89 :_
+2012
+2012	1
+_: 90 :_
+srbochorvátčina
+srbo-chorvátsky	1
+srbochorvátčina	1
+_: 91 :_
+2010
+2010	2
+_: 92 :_
+Zoznam ulíc v Bratislave
+Zoznam ulíc v Bratislave	1
+_: 93 :_
+pedagóg
+pedagóg	1
+_: 94 :_
+Starokatolícka cirkev
+Starokatolícka cirkev	1
+_: 95 :_
+Grécko
+Grécko	1
+_: 96 :_
+2008
+2008	1
+_: 97 :_
+Rotterdam
+Rotterdam	1
+_: 98 :_
+2005
+2005	1
+_: 99 :_
+Veľká Morava
+Veľkej Moravy	2
+Veľká Morava	2
+_: 100 :_
+Encyklopédia Slovenska
+Encyklopédia Slovenska	1
+_: 101 :_
+2003
+2003	3
+_: 102 :_
+2002
+2002	1
+_: 103 :_
+historik
+historik	1
+_: 104 :_
+Biskupstvo
+biskupstiev	1
+Biskupstvo	1
+_: 105 :_
+Modra
+Modra	1
+Modry	2
+Modre	3
+_: 106 :_
+Vrakuňa
+Vrakuňa	1
+_: 107 :_
+Solún
+Solún	1
+_: 108 :_
+Zvolen
+Zvolen	2
+_: 109 :_
+prekladateľ
+prekladateľ	2
+_: 110 :_
+Zoznam kultúrnych pamiatok v okrese Bratislava I (Š)
+Š	1
+Zoznam kultúrnych pamiatok v okrese Bratislava I	1
+_: 111 :_
+Štrasburg
+Štrasburg	1
+_: 112 :_
+trolejbus
+trolejbusy	1
+trolejbus	1
+_: 113 :_
+Budín
+Budína	2
+Budín	2
+_: 114 :_
+uhorský snem
+uhorského snemu	1
+uhorský snem	1
+_: 115 :_
+Žigmund Luxemburský
+Žigmund Luxemburský	1
+_: 116 :_
+Ján Chryzostom kardinál Korec
+Ján Chryzostom kardinál Korec	1
+_: 117 :_
+1291
+1291	1
+_: 118 :_
+Zoznam kultúrnych pamiatok v okrese Bratislava I (A-F)
+A-F	1
+Zoznam kultúrnych pamiatok v okrese Bratislava I	1
+_: 119 :_
+Vodnatieľka
+vodnatieľku	1
+Vodnatieľka	1
+_: 120 :_
+500
+500	1
+_: 121 :_
+druhá svetová vojna
+druhou svetovou vojnou	1
+druhá svetová vojna	1
+_: 122 :_
+623
+623	1
+_: 123 :_
+Náboženská spoločnosť Jehovovi svedkovia
+Náboženská spoločnosť Jehovovi svedkovia	1
+_: 124 :_
+Michalská brána
+Michalská brána	1
+_: 125 :_
+Uhrovec
+Uhrovec	2
+Zay-Uhrovci	1
+Zay-Uhrovec	1
+Uhrovci	1
+_: 126 :_
+Bratislavský kraj
+Bratislavskom kraji	1
+Bratislavský kraj	1
+Bratislavský	1
+Bratislavského samosprávneho kraja	1
+_: 127 :_
+Umenie
+umeniu	1
+Umenie	1
+_: 128 :_
+20. apríl
+20. apríl	1
+_: 129 :_
+Hamuliakovo
+Hamuliakovo	1
+_: 130 :_
+Marína Pišlová
+Marínu Pišlovú	1
+Marína Pišlová	1
+_: 131 :_
+Slovenské národné obrodenie
+Slovenského národného obrodenia	1
+Slovenské národné obrodenie	1
+_: 132 :_
+Slovenský biografický slovník
+Slovenský biografický slovník	1
+_: 133 :_
+30. marec
+30. marec	2
+_: 134 :_
+Prievoz
+Prievoz	1
+_: 135 :_
+Chorvátsky Grob
+Chorvátsky Grob	1
+_: 136 :_
+125 pred Kr.
+125 pred Kr.	1
+_: 137 :_
+Rusovce
+Rusovce	2
+_: 138 :_
+Sliač
+Rybároch	1
+Sliač	1
+_: 139 :_
+Martin Lettrich
+Martina Lettricha	1
+Martin Lettrich	1
+_: 140 :_
+1. august
+1. augusta	1
+1. august	1
+_: 141 :_
+Nitra (almanach)
+almanachu Nitra	2
+Nitra	2
+_: 142 :_
+Zlatá bula sicílska
+Zlatou bulou	1
+Zlatá bula sicílska	1
+_: 143 :_
+Johann Wolfgang Goethe
+Johann Wolfgang Goethe	1
+_: 144 :_
+Európa
+Európe	1
+Európa	1
+_: 145 :_
+Apoštolská cirkev
+Apoštolská cirkev	1
+_: 146 :_
+demokracia
+demokraciu	1
+demokracia	1
+_: 147 :_
+Matej Korvín
+Matej Korvín	1
+_: 148 :_
+Bratislavská aglomerácia
+bratislavskej aglomerácii	1
+Bratislavská aglomerácia	1
+_: 149 :_
+Jozef II.
+Jozef II.	1
+_: 150 :_
+Plody
+Plody	1
+_: 151 :_
+Dunaj
+Dunaj	4
+_: 152 :_
+električka
+električka	1
+_: 153 :_
+Zoznam kultúrnych pamiatok v okrese Bratislava I (G-J)
+G-J	1
+Zoznam kultúrnych pamiatok v okrese Bratislava I	1
+_: 154 :_
+28. október
+28. október	2
+28. októbra	1
+_: 155 :_
+pamiatková zóna
+pamiatkovou zónou	1
+pamiatková zóna	1
+_: 156 :_
+Karloveské rameno (Dunaj)
+Karloveského ramena	1
+Karloveské rameno	1
+_: 157 :_
+Malý Draždiak
+Malý Draždiak	1
+_: 158 :_
+Čachtice
+Čachticiach	1
+Čachtice	1
+_: 159 :_
+CENTROPE
+CENTROPE	2
+_: 160 :_
+Zoznam kultúrnych pamiatok v okrese Bratislava II
+Bratislava II	1
+Zoznam kultúrnych pamiatok v okrese Bratislava II	1
+_: 161 :_
+Záhreb
+Záhreb	1
+_: 162 :_
+múzeum
+múzeí	1
+múzeum	1
+_: 163 :_
+Martin Miloš Braxatoris
+Martin Miloš Braxatoris	1
+_: 164 :_
+Vietnam
+Vietnam	1
+_: 165 :_
+Adela Ostrolúcka
+Adela Ostrolúcka	1
+_: 166 :_
+Reformovaná kresťanská cirkev
+Reformovaná kresťanská cirkev	1
+_: 167 :_
+okres Bratislava IV
+IV	1
+okres Bratislava IV	1
+_: 168 :_
+658
+658	1
+_: 169 :_
+Ružinov
+Ružinov	2
+_: 170 :_
+Zoznam kultúrnych pamiatok v okrese Bratislava IV
+Bratislava IV	1
+Zoznam kultúrnych pamiatok v okrese Bratislava IV	1
+_: 171 :_
+Kuchajda
+Kuchajda	1
+_: 172 :_
+okres Bratislava II
+II	1
+okres Bratislava II	1
+_: 173 :_
+Leicester
+Leicester	1
+_: 174 :_
+Pravoslávna cirkev
+Pravoslávna cirkev	1
+_: 175 :_
+4. septembra
+4. septembra	1
+_: 176 :_
+Zoznam kultúrnych pamiatok v okrese Bratislava I (S)
+S	1
+Zoznam kultúrnych pamiatok v okrese Bratislava I	1
+_: 177 :_
+13. jún
+13. júna	1
+13. jún	1
+_: 178 :_
+Byzantský obrad
+byzantsko-slovanského	1
+Byzantský obrad	1
+_: 179 :_
+Apollo Business Center
+Apollo Business Center	1
+_: 180 :_
+Saratov
+Saratov	1
+_: 181 :_
+filozof
+filozof	1
+_: 182 :_
+Katolícka cirkev (latinská cirkev a východné katolícke cirkvi)
+katolíckych	1
+Katolícka cirkev	1
+_: 183 :_
+Dublin
+Dublin	1
+_: 184 :_
+Zoznam kultúrnych pamiatok v okrese Bratislava III
+Bratislava III	1
+Zoznam kultúrnych pamiatok v okrese Bratislava III	1
+_: 185 :_
+Georg Wilhelm Friedrich Hegel
+Heglovou	1
+Georg Wilhelm Friedrich Hegel	1
+_: 186 :_
+Slovensko
+Slovenskej republiky	1
+Slovensko	2
+Slovenska	2
+Slovensku	1
+slovenský	1
+slovenského	1
+_: 187 :_
+Regensburg
+Regensburg	1
+_: 188 :_
+Námestie slobody (Bratislava)
+Námestí slobody	1
+Námestie slobody	1
+_: 189 :_
+Gréckokatolícka cirkev
+Gréckokatolícka cirkev	1
+_: 190 :_
+Hrochoť
+Hrochoti	1
+Hrochoť	1
+_: 191 :_
+26. máj
+26. mája	2
+26. máj	2
+_: 192 :_
+Jan Amos Komenský
+Jánovi Amosovi Komenskom	1
+Jan Amos Komenský	1
+_: 193 :_
+Šamorín
+Šamorín	1
+_: 194 :_
+HC Slovan Bratislava
+HC Slovan Bratislava	1
+_: 195 :_
+maďarizácia
+maďarizácie	1
+maďarizácia	1
+_: 196 :_
+FC Petržalka 1898
+FC Petržalka 1898	1
+_: 197 :_
+Chrám Povýšenia vznešeného a životodarného kríža
+Chrám povýšenia vznešeného a životodarného Kríža	1
+Chrám Povýšenia vznešeného a životodarného kríža	1
+_: 198 :_
+história
+histórie	1
+história	1
+_: 199 :_
+Banská Štiavnica
+Banskej Štiavnici	2
+Banská Štiavnica	2
+_: 200 :_
+Phare
+Phare	1
+_: 201 :_
+Katedrála svätého Martina (Bratislava)
+Dóm svätého Martina	2
+Katedrála svätého Martina	2
+_: 202 :_
+Tibor Bártfay
+Tibora Bártfaya	1
+Tibor Bártfay	1
+_: 203 :_
+Ústredný zväz židovských náboženských obcí
+Ústredný zväz židovských náboženských obcí	1
+_: 204 :_
+Voltaire
+Voltaire	4
+_: 205 :_
+Slovenské národné divadlo
+Slovenské národné divadlo	1
+_: 206 :_
+Prezident Slovenskej republiky
+prezident	1
+Prezident Slovenskej republiky	1
+_: 207 :_
+perzekúcia
+perzekúciou	1
+perzekúcia	1
+_: 208 :_
+Veľký Draždiak
+Veľký Draždiak	1
+_: 209 :_
+Slovenská národná rada (1918)
+Slovenskej národnej rady	1
+Slovenská národná rada	1
+_: 210 :_
+Uhorsko
+Uhorsku	2
+Uhorsko	2
+Uhorska	3
+uhorskú	1
+_: 211 :_
+Martin Hattala
+Martina Hattalu	1
+Martin Hattala	1
+_: 212 :_
+Adam Friedrich Oeser
+Adam Friedrich Oeser	1
+_: 213 :_
+Slovenské národné múzeum
+Slovenské národné múzeum	1
+_: 214 :_
+Samuel Štúr
+Samuel Štúr	1
+Samuel	1
+Samuela Štúra	1
+_: 215 :_
+zemepisná šírka
+severnej šírky	1
+zemepisná šírka	1
+_: 216 :_
+Radvaň (Banská Bystrica)
+Radvani nad Hronom	1
+Radvaň	1
+Radvaň nad Hronom	2
+Radvani	1
+_: 217 :_
+Pasienky (štadión)
+Pasienky	1
+Pasienky	1
+_: 218 :_
+11. júl
+11. júla	1
+11. júl	1
+_: 219 :_
+Podhradie (Bratislava)
+Podhradím	1
+Podhradie	1
+_: 220 :_
+ŠK Slovan Bratislava
+ŠK Slovan Bratislava	1
+_: 221 :_
+Žiadosti slovenského národa
+Žiadosti slovenského národa	1
+_: 222 :_
+Cirkev Ježiša Krista svätých neskorších dní
+Cirkev Ježiša Krista svätých neskorších dní	1
+_: 223 :_
+Ľubľana
+Ľubľana	1
+_: 224 :_
+pamiatková rezervácia
+pamiatková rezervácia	1
+pamiatkovou rezerváciou	1
+_: 225 :_
+Štokholm
+Štokholm	1
+_: 226 :_
+Berlín
+Berlíne	1
+Berlín	1
+_: 227 :_
+Marianka
+Marianka	1
+_: 228 :_
+Primaciálny palác
+Primaciálneho paláca	1
+Primaciálny palác	2
+_: 229 :_
+Juraj Palkovič (1769--1850)
+Palkoviča	5
+Juraj Palkovič	6
+profesor J. Palkovič	1
+_: 230 :_
+Matica slovenská
+Matice slovenskej	3
+Matica slovenská	3
+_: 231 :_
+Zoznam kultúrnych pamiatok v okrese Bratislava I (P-R)
+P-R	1
+Zoznam kultúrnych pamiatok v okrese Bratislava I	1
+_: 232 :_
+Ján Palárik
+Ján Palárik	1
+_: 233 :_
+Bahájske spoločenstvo
+Bahájske spoločenstvo	1
+_: 234 :_
+Karol Kuzmány
+Karola Kuzmányho	1
+Karol Kuzmány	1
+_: 235 :_
+Ostrava
+Ostrava	1
+_: 236 :_
+Ondrej III.
+Ondrej III.	1
+_: 237 :_
+Levoča
+Levoči	1
+Levoča	1
+_: 238 :_
+Svetová poštová únia
+Svetovej poštovej únie	1
+Svetová poštová únia	1
+_: 239 :_
+Győr
+Győr	2
+_: 240 :_
+T-Mobile Slovensko
+Telekom	1
+T-Mobile Slovensko	1
+_: 241 :_
+19. storočie
+19. storočia	1
+19. storočie	1
+_: 242 :_
+Zoznam námestí v Bratislave
+Zoznam námestí v Bratislave	1
+_: 243 :_
+Hainburg an der Donau
+Hainburg an der Donau	1
+_: 244 :_
+Blatina (prítok Malého Dunaja)
+Blatiny	1
+Blatina	1
+_: 245 :_
+Juhoslávia
+juhoslovanského	1
+Juhoslávia	1
+_: 246 :_
+Leopold Petz
+Leopold Petz	1
+_: 247 :_
+Modrá ruža
+Modrá ruža	1
+_: 248 :_
+Zimný štadión Ondreja Nepelu
+Zimný štadión Ondreja Nepelu	1
+_: 249 :_
+Samuel Jurkovič
+Samuelom Jurkovičom	1
+Samuel Jurkovič	1
+_: 250 :_
+Jozef Kostka
+Jozef Kostka	1
+_: 251 :_
+Samuel Godra
+Samuel Godra	1
+_: 252 :_
+Kyjev
+Kyjev	1
+_: 253 :_
+Johann Gottfried von Herder
+Herderovou	1
+Johann Gottfried von Herder	1
+_: 254 :_
+Johann Wolfgang Kempelen
+Johann Wolfgang Kempelen	1
+_: 255 :_
+Ukrajina
+Ukrajina	1
+_: 256 :_
+Medzinárodný vyšehradský fond
+Medzinárodného vyšehradského fondu	1
+Medzinárodný vyšehradský fond	1
+_: 257 :_
+Trenčín
+Trenčíne	1
+Trenčín	1
+_: 258 :_
+8. storočie
+8. storočia	1
+8. storočie	2
+8. stor.	1
+_: 259 :_
+Sobotište
+Sobotišti	1
+Sobotište	1
+_: 260 :_
+1909
+1909	2
+_: 261 :_
+15. január
+15. januára	1
+15. január	1
+_: 262 :_
+textár
+textár	1
+_: 263 :_
+Avari
+Avari	1
+_: 264 :_
+Székesfehérvár
+Székesfehérvár	1
+_: 265 :_
+Alexander Sergejevič Puškin
+Alexandrovi Sergejevičovi Puškinovi	1
+Alexander Sergejevič Puškin	2
+_: 266 :_
+Kittsee
+Kittsee	1
+_: 267 :_
+Brno
+Brno	2
+_: 268 :_
+básnik
+básnik	3
+_: 269 :_
+veľvyslanectvo
+veľvyslanectvá	1
+veľvyslanectvo	1
+_: 270 :_
+August Horislav Škultéty
+August Škultéty	1
+August Horislav Škultéty	1
+_: 271 :_
+1907
+1907	2
+_: 272 :_
+Jean Racine
+Jean Racine	2
+_: 273 :_
+Francúzština
+francúzsky	1
+Francúzština	1
+_: 274 :_
+Štefan Závodník
+Štefan Závodník	1
+_: 275 :_
+Brémy
+Brémy	1
+_: 276 :_
+Primátor hlavného mesta SR Bratislavy
+Primátor hlavného mesta SR Bratislavy	1
+_: 277 :_
+Philipp Lenard
+Philipp Lenard	1
+_: 278 :_
+univerzita
+univerzít	1
+univerzita	1
+_: 279 :_
+Rakúsko
+Rakúska	1
+Rakúsko	2
+_: 280 :_
+Stredoeurópsky letný čas
+SELČ	1
+Stredoeurópsky letný čas	1
+_: 281 :_
+1919
+1919	5
+_: 282 :_
+Staré Mesto (Bratislava)
+Starého Mesta	1
+Staré Mesto	2
+Starom Meste	1
+_: 283 :_
+400 pred Kr.
+400	1
+400 pred Kr.	1
+_: 284 :_
+Most pri Bratislave
+Most pri Bratislave	1
+_: 285 :_
+Universitas Istropolitana
+Universitas Istropolitana	1
+_: 286 :_
+1910
+1910	1
+_: 287 :_
+teológia
+teológie	1
+teológia	1
+teológiu	1
+_: 288 :_
+1918
+1918	4
+_: 289 :_
+Sibamac Aréna
+Sibamac Aréna	1
+_: 290 :_
+Zoznam kultúrnych pamiatok v okrese Bratislava I (M-O)
+M-O	1
+Zoznam kultúrnych pamiatok v okrese Bratislava I	1
+_: 291 :_
+Turecko
+Turecko	1
+_: 292 :_
+Ján Štúr
+Janko	1
+Ján Štúr	1
+_: 293 :_
+divadlo (organizácia)
+divadiel	1
+divadlo	1
+_: 294 :_
+Most SNP
+Most SNP	1
+_: 295 :_
+Magistrát hlavného mesta SR Bratislavy
+Magistrát hlavného mesta SR Bratislavy	1
+_: 296 :_
+1809
+1809	1
+_: 297 :_
+Cirkev bratská
+Cirkev bratská	1
+_: 298 :_
+Svetová rada mieru
+Svetová rada mieru	1
+_: 299 :_
+Bratislavský hrad
+Bratislavským hradom	1
+Bratislavský hrad	2
+_: 300 :_
+Evidenčné číslo vozidla
+EČV	1
+Evidenčné číslo vozidla	1
+_: 301 :_
+Martin (mesto na Slovensku)
+Martine	1
+Martin	1
+_: 302 :_
+1920
+1920	1
+_: 303 :_
+Malé Karpaty
+Malé Karpaty	1
+_: 304 :_
+1928
+1928	1
+_: 305 :_
+1927
+1927	1
+_: 306 :_
+1805
+1805	1
+_: 307 :_
+Vysoké Tatry (mesto)
+Vysoké Tatry	1
+Vysoké Tatry	1
+_: 308 :_
+1803
+1803	1
+_: 309 :_
+1924
+1924	1
+_: 310 :_
+Holandsko
+Holandsko	3
+_: 311 :_
+lingvistika
+lingvistiky	1
+lingvistika	1
+_: 312 :_
+Poľsko
+Poľsko	1
+_: 313 :_
+22. september
+22. septembra	1
+22. september	1
+_: 314 :_
+publicista
+publicista	2
+_: 315 :_
+Nauka reči Slovenskej
+Nauka reči Slovenskej	2
+_: 316 :_
+22. december
+22. decembra	1
+22. december	1
+_: 317 :_
+KHL
+KHL	1
+_: 318 :_
+1811
+1811	2
+_: 319 :_
+1931
+1931	2
+_: 320 :_
+Stredná Európa
+strednej	1
+Stredná Európa	1
+_: 321 :_
+Halle (Saale)
+Halle	1
+Halle	1
+_: 322 :_
+poslanec
+poslanec	1
+_: 323 :_
+Gerulata
+Gerulata	1
+_: 324 :_
+František Palacký
+F. Palacký	1
+František Palacký	1
+F. Palackého	1
+_: 325 :_
+február
+február	1
+_: 326 :_
+Vláda Slovenskej republiky
+vláda	1
+Vláda Slovenskej republiky	1
+_: 327 :_
+1818
+1818	1
+_: 328 :_
+1939
+1939	3
+_: 329 :_
+1938
+1938	1
+_: 330 :_
+Krupina
+Krupine	1
+Krupina	2
+_: 331 :_
+Johann Nepomuk Hummel
+Johann Nepomuk Hummel	1
+_: 332 :_
+1815
+1815	4
+_: 333 :_
+1935
+1935	2
+_: 334 :_
+1934
+1934	1
+_: 335 :_
+Edita Gruberová
+Edita Gruberová	1
+_: 336 :_
+15. september
+15.	1
+15. september	1
+_: 337 :_
+Memorandum slovenského národa
+memorandovom	1
+Memorandum slovenského národa	1
+_: 338 :_
+Štrkovecké jazero
+Štrkovecké jazero	1
+_: 339 :_
+Ján Andrej Segner
+Ján Andrej Segner	1
+_: 340 :_
+Graz
+Graz	1
+_: 341 :_
+Germáni
+germánske	1
+Germáni	1
+_: 342 :_
+Bratislava
+Bratislave	4
+Bratislava	4
+_: 343 :_
+4. marec
+4. marca	1
+4. marec	1
+_: 344 :_
+1820
+1820	3
+_: 345 :_
+ruština
+rusky	1
+ruština	1
+ruský	1
+ruštinu	1
+_: 346 :_
+Slovenský prestolný prosbopis
+Slovenským prestolným prosbopisom	1
+Slovenský prestolný prosbopis	1
+Slovenského prestolného prosbopisu	1
+_: 347 :_
+Nárečja Slovenskuo alebo potreba písaňja v tomto nárečí
+Nárečja Slovenskuo alebo potreba písaňja v tomto nárečí	2
+_: 348 :_
+Ladzany
+Ladzanoch	1
+Ladzany	1
+_: 349 :_
+1829
+1829	1
+_: 350 :_
+1827
+1827	1
+_: 351 :_
+mincovňa
+mincovňou	1
+mincovňa	1
+_: 352 :_
+Česko-Slovensko
+Česko-Slovenskom	1
+Česko-Slovensko	1
+Česko-Slovenska	2
+_: 353 :_
+1826
+1826	2
+_: 354 :_
+1946
+1946	2
+_: 355 :_
+Hradec Králové
+Hradci Králové	1
+Hradec Králové	1
+_: 356 :_
+1945
+1945	3
+_: 357 :_
+národné obrodenie
+slovenského národného obrodenia	1
+národné obrodenie	1
+_: 358 :_
+Stredoeurópsky čas
+SEČ	1
+Stredoeurópsky čas	1
+_: 359 :_
+Mokrý potok (prítok Dunaja)
+Mokrý potok	1
+Mokrý potok	1
+_: 360 :_
+Ján Hollý (spisovateľ)
+J. Hollého	1
+Ján Hollý	1
+Jána Hollého	1
+_: 361 :_
+Hronka
+Hronky	1
+Hronka	2
+_: 362 :_
+29. október
+29. októbra	1
+29. október	1
+_: 363 :_
+Jerevan
+Jerevan	1
+_: 364 :_
+Írsko
+Írsko	1
+_: 365 :_
+1832
+1832	2
+_: 366 :_
+1711
+1711	1
+_: 367 :_
+1831
+1831	3
+_: 368 :_
+dejepis
+dejepis	1
+_: 369 :_
+1830
+1830	3
+_: 370 :_
+Vajnorské jazerá
+Vajnorské jazerá	1
+_: 371 :_
+Chorvátsko
+Chorvátsko	1
+_: 372 :_
+Evanjelická cirkev augsburského vyznania
+Evanjelická cirkev augsburského vyznania	1
+_: 373 :_
+6. storočie
+6. storočie	1
+6. stor.	1
+_: 374 :_
+mzda
+mzda	1
+_: 375 :_
+starosta
+starosta	1
+_: 376 :_
+angličtina
+angličtinu	1
+angličtina	1
+_: 377 :_
+1839
+1839	2
+_: 378 :_
+Bratislavská integrovaná doprava
+Bratislavská integrovaná doprava	1
+_: 379 :_
+1838
+1838	3
+_: 380 :_
+1837
+1837	3
+_: 381 :_
+1836
+1836	3
+_: 382 :_
+1957
+1957	1
+_: 383 :_
+Haag
+Haag	1
+_: 384 :_
+1835
+1835	2
+_: 385 :_
+Samuel Samoslav Vanko
+Samuel Samoslav Vanko	1
+_: 386 :_
+HK Ružinov 99
+HK Ružinov 99	1
+_: 387 :_
+Gymnázium Andreja Sládkoviča
+gymnázium	1
+Gymnázium Andreja Sládkoviča	1
+_: 388 :_
+Vydrica (vodný tok)
+Vydrica	1
+Vydrica	1
+_: 389 :_
+gramatika
+gramatiku	1
+gramatika	1
+gramatiky	2
+_: 390 :_
+Zoznam kultúrnych pamiatok v okrese Bratislava I (W-Ž)
+W-Ž	1
+Zoznam kultúrnych pamiatok v okrese Bratislava I	1
+_: 391 :_
+Nitrianske kniežatstvo
+Nitrianskeho kniežatstva	1
+Nitrianske kniežatstvo	1
+_: 392 :_
+1844
+1844	4
+_: 393 :_
+1965
+1965	1
+_: 394 :_
+1843
+1843	7
+_: 395 :_
+Hlboké
+Hlbokom	1
+Hlboké	1
+_: 396 :_
+1842
+1842	7
+_: 397 :_
+Helmut Zilk
+Helmut Zilk	1
+_: 398 :_
+Slovenskje národňje novini
+Slovenskje národňje novini	3
+Slovenskje národňje novini	2
+_: 399 :_
+1841
+1841	3
+_: 400 :_
+1962
+1962	1
+_: 401 :_
+1840
+1840	7
+_: 402 :_
+1961
+1961	1
+_: 403 :_
+1960
+1960	1
+_: 404 :_
+okres Bratislava III
+III	1
+okres Bratislava III	1
+_: 405 :_
+filozofia
+filozofie	1
+filozofia	1
+_: 406 :_
+bratislavský mier (1805)
+Bratislavský mier	1
+bratislavský mier	1
+_: 407 :_
+Namur (mesto)
+Namur	1
+Namur	1
+_: 408 :_
+1849
+1849	6
+_: 409 :_
+1848
+1848	13
+_: 410 :_
+1847
+1847	3
+_: 411 :_
+1968
+1968	1
+_: 412 :_
+Uhorský snem
+Uhorského snemu	1
+Uhorský snem	1
+_: 413 :_
+1846
+1846	4
+_: 414 :_
+Wolfsthal
+Wolfsthal	1
+_: 415 :_
+1967
+1967	1
+_: 416 :_
+1845
+1845	3
+_: 417 :_
+Viedeň
+Viedne	3
+Viedeň	4
+_: 418 :_
+Viktor Oskar Tilgner
+Viktor Oskar Tilgner	1
+_: 419 :_
+kňaz
+kňaz	1
+_: 420 :_
+Morava (rieka)
+Morava	2
+Morava	2
+_: 421 :_
+Halle
+Halle	1
+_: 422 :_
+Tatranka
+Tatranky	1
+Tatranka	2
+_: 423 :_
+Záhorská Bystrica
+Záhorská Bystrica	1
+_: 424 :_
+Orange
+Orange	1
+_: 425 :_
+Štatistická územná jednotka
+ŠÚJ	1
+Štatistická územná jednotka	1
+_: 426 :_
+1855
+1855	1
+_: 427 :_
+1853
+1853	4
+_: 428 :_
+1852
+1852	3
+_: 429 :_
+1851
+1851	5
+_: 430 :_
+1972
+1972	2
+_: 431 :_
+1971
+1971	1
+_: 432 :_
+1850
+1850	1
+_: 433 :_
+1970
+1970	2
+_: 434 :_
+Novoapoštolská cirkev
+Novoapoštolská cirkev	1
+_: 435 :_
+Zoznam kultúrnych pamiatok v okrese Bratislava I (T-V)
+T-V	1
+Zoznam kultúrnych pamiatok v okrese Bratislava I	1
+_: 436 :_
+vysoká škola
+vysokých škôl	1
+vysoká škola	1
+_: 437 :_
+Belgicko
+Belgicko	1
+_: 438 :_
+Karlsruhe (mesto)
+Karlsruhe	1
+Karlsruhe	1
+_: 439 :_
+2. máj
+2. mája	1
+2. máj	1
+_: 440 :_
+Starý most (Bratislava)
+Starého mosta	1
+Starý most	1
+_: 441 :_
+Sládkovičova Radvaň
+Sládkovičova Radvaň	1
+_: 442 :_
+Umbria
+Umbria	1
+_: 443 :_
+Slovania
+Slovanov	2
+Slovania	3
+Slovanstva	1
+_: 444 :_
+1859
+1859	1
+_: 445 :_
+Istanbul
+Istanbul	1
+_: 446 :_
+politik
+politik	1
+_: 447 :_
+1858
+1858	1
+_: 448 :_
+1979
+1979	1
+_: 449 :_
+1856
+1856	3
+_: 450 :_
+1977
+1977	1
+_: 451 :_
+Praha
+Prahe	1
+Praha	2
+Prahy	1
+_: 452 :_
+Bratislava Business Center V
+Bratislava Business Center V	1
+_: 453 :_
+1. storočie
+1. storočie	1
+_: 454 :_
+1990
+1990	2
+_: 455 :_
+Daniel Lichard
+Daniel Lichard	1
+_: 456 :_
+Rakúske cisárstvo
+Rakúske cisárstvo	2
+_: 457 :_
+1866
+1866	1
+_: 458 :_
+1987
+1987	1
+_: 459 :_
+1986
+1986	1
+_: 460 :_
+Cirkev adventistov siedmeho dňa
+Cirkev adventistov siedmeho dňa	1
+_: 461 :_
+1864
+1864	1
+_: 462 :_
+1985
+1985	1
+_: 463 :_
+1863
+1863	2
+_: 464 :_
+1741
+1741	1
+_: 465 :_
+Dobrá Voda
+Dobrej Vode	1
+Dobrá Voda	1
+_: 466 :_
+1861
+1861	4
+_: 467 :_
+Lajos Kossuth
+Lajos Kossuth	1
+_: 468 :_
+Veda, vydavateľstvo SAV
+Veda, vydavateľstvo SAV	1
+_: 469 :_
+Habsburská monarchia
+habsburskej monarchii	1
+Habsburská monarchia	1
+_: 470 :_
+1869
+1869	1
+_: 471 :_
+Ivanka pri Dunaji
+Ivanka pri Dunaji	1
+_: 472 :_
+1868
+1868	1
+_: 473 :_
+1989
+1989	1
+_: 474 :_
+1867
+1867	3
+_: 475 :_
+1988
+1988	1
+_: 476 :_
+Karol Virsík
+Karol Virsík	1
+_: 477 :_
+Volkswagen
+Volkswagen	1
+_: 478 :_
+Staroveký Rím
+Rímskej ríše	1
+Staroveký Rím	1
+rímske	1
+_: 479 :_
+Perovčany
+Perovčanoch	1
+Perovčany	1
+_: 480 :_
+25. jún
+25. jún	1
+_: 481 :_
+Stupava
+Stupava	1
+_: 482 :_
+Hodruša-Hámre
+Hodruši	1
+Hodruša-Hámre	1
+_: 483 :_
+1997
+1997	2
+_: 484 :_
+1995
+1995	1
+_: 485 :_
+1994
+1994	3
+_: 486 :_
+Čunovo
+Čunovo	2
+_: 487 :_
+cár
+cárskym	1
+cár	1
+_: 488 :_
+Hviezdoslavovo námestie (Bratislava)
+Hviezdoslavovo námestie	1
+Hviezdoslavovo námestie	1
+_: 489 :_
+1993
+1993	4
+_: 490 :_
+1872
+1872	1
+_: 491 :_
+Amsterdam
+Amsterdam	1
+_: 492 :_
+1992
+1992	2
+_: 493 :_
+okres Bratislava I
+Bratislava I	1
+okres Bratislava I	1
+_: 494 :_
+1870
+1870	1
+_: 495 :_
+neandertálec
+neandertálca	1
+neandertálec	1
+_: 496 :_
+okres Bratislava V
+V	1
+okres Bratislava V	1
+_: 497 :_
+Josef Jungman
+J. Jungmann	1
+Josef Jungman	1
+_: 498 :_
+Borinka
+Borinka	1
+_: 499 :_
+konská železnica
+konská železnica	1
+_: 500 :_
+4781 Sládkovič
+(4781) Sládkovič	1
+4781 Sládkovič	1
+_: 501 :_
+1878
+1878	1
+_: 502 :_
+Ladislav Chudík
+Ladislav Chudík	1
+_: 503 :_
+Burgas
+Burgas	1
+_: 504 :_
+Dúbravka (Bratislava)
+Dúbravka	1
+Dúbravka	1
+_: 505 :_
+zemepisná dĺžka
+východnej dĺžky	1
+zemepisná dĺžka	1
+_: 506 :_
+Štúrovo
+Štúrovo	1
+_: 507 :_
+Fínsko
+Fínsko	1
+_: 508 :_
+14. februára
+14. februára	1
+_: 509 :_
+28. septembra
+28. septembra	1
+_: 510 :_
+Národná rada Slovenskej republiky
+Národnej rady Slovenskej republiky	1
+Národná rada Slovenskej republiky	1
+parlament	1
+_: 511 :_
+1891
+1891	1
+_: 512 :_
+1890
+1890	1
+_: 513 :_
+Karlova Ves
+Karlova Ves	1
+_: 514 :_
+Rusko
+Ruskom	1
+Rusko	2
+_: 515 :_
+Perugia
+Perugia	1
+_: 516 :_
+Česko
+Česko	3
+_: 517 :_
+Spojené štáty
+Spojené štáty	1
+_: 518 :_
+Slovenské povstanie
+Slovenského povstania	1
+Slovenské povstanie	1
+_: 519 :_
+Štúrova
+ulíc	1
+Štúrova	1
+_: 520 :_
+Rajka (Maďarsko)
+Rajka	1
+Rajka	1
+_: 521 :_
+Zoznam kultúrnych pamiatok v okrese Bratislava I (K-L)
+K-L	1
+Zoznam kultúrnych pamiatok v okrese Bratislava I	1
+_: 522 :_
+bratislavsko-trnavsko-nitrianska aglomerácia
+bratislavsko-trnavsko-nitrianska aglomerácia	1
+_: 523 :_
+nemčina
+nemeckým	1
+nemčina	1
+nemecky	1
+nemecký	1
+_: 524 :_
+Samo Chalupka
+Samo Chalupka	2
+_: 525 :_
+latinčina
+latinčiny	1
+latinčina	1
+latinskom jazyku	1
+_: 526 :_
+Jarovce
+Jarovce	2
+_: 527 :_
+Liptovský Mikuláš
+Liptovskom Sv. Mikuláši	1
+Liptovský Mikuláš	1
+_: 528 :_
+Cirkev československá husitská
+Cirkev československá husitská	1
+_: 529 :_
+1536
+1536	1
+_: 530 :_
+nezamestnanosť
+nezamestnanosť	1
+_: 531 :_
+1775
+1775	1
+_: 532 :_
+Francúzsko
+Francúzsku	1
+Francúzsko	2
+_: 533 :_
+Čeština
+češtine	1
+Čeština	1
+_: 534 :_
+1895
+1895	1
+_: 535 :_
+spisovateľ
+spisovateľ	1
+_: 536 :_
+bratislavsko-trnavská aglomerácia
+bratislavsko-trnavská aglomerácia	1
+_: 537 :_
+Rozvojový fond OSN pre Európu a Spoločenstvo nezávislých štátov
+Rozvojový fond OSN pre Európu a Spoločenstvo nezávislých štátov	1
+_: 538 :_
+Račiansky kanál
+Račiansky kanál	1
+_: 539 :_
+Vajnory
+Vajnory	3
+_: 540 :_
+Slováci
+Slovák	1
+Slováci	2
+Slovákov	5
+_: 541 :_
+Concordia
+Concordia	1
+_: 542 :_
+Bratislavská gréckokatolícka eparchia
+Bratislavská gréckokatolícka eparchia	1
+_: 543 :_
+Strážovské vrchy
+Strážovských vrchov	1
+Strážovské vrchy	1
+_: 544 :_
+Nové Mesto (Bratislava)
+Nové Mesto	1
+Nové Mesto	1
+_: 545 :_
+24. septembra
+24. septembra	1
+_: 546 :_
+Švédsko
+Švédsko	1
+_: 547 :_
+Rovinka
+Rovinka	1
+_: 548 :_
+Evanjelická cirkev augsburského vyznania (Slovensko)
+Evanjelickej cirkvi a. v.	1
+Evanjelická cirkev augsburského vyznania	1
+evanjelický	1
+_: 549 :_
+Milan Ftáčnik
+Milan Ftáčnik	1
+_: 550 :_
+1543
+1543	1
+_: 551 :_
+redaktor
+redaktor	2
+_: 552 :_
+Slovenská národná galéria
+Slovenská národná galéria	1
+_: 553 :_
+1784
+1784	1
+_: 554 :_
+1542
+1542	1
+_: 555 :_
+Slovanský zjazd
+Slovanského zjazdu	1
+Slovanský zjazd	1
+_: 556 :_
+Suchá Vydrica
+Suchá Vydrica	1
+_: 557 :_
+1783
+1783	1
+_: 558 :_
+hlavné mesto
+hlavné	1
+hlavné mesto	1
+_: 559 :_
+Orol tatranský
+Orol tatranský	6
+Orol tatránski	1
+_: 560 :_
+Maďarsko
+Maďarska	1
+Maďarsko	2
+Maďarskom	1
+_: 561 :_
+Samova ríša
+Samovej ríše	1
+Samova ríša	1
+_: 562 :_
+Andrej Radlinský
+Andrej Radlinský	1
+_: 563 :_
+Michal Miloslav Hodža
+Hodžu	1
+Michal Miloslav Hodža	2
+M. M. Hodža	1
+Michala M. Hodžu	1
+_: 564 :_
+13. storočie
+13. storočia	1
+13. storočie	1
+_: 565 :_
+Oppidum (železná doba)
+oppidum	1
+Oppidum	1
+_: 566 :_
+30. januára
+30. januára	1
+_: 567 :_
+Egypt
+Egypt	1
+_: 568 :_
+Hočiminovo Mesto
+Hočiminovo Mesto	1
+_: 569 :_
+16. september
+16. septembra	1
+16. september	1
+_: 570 :_
+Turku
+Turku	1
+_: 571 :_
+Vydavateľstvo Obzor
+Obzor	1
+Vydavateľstvo Obzor	1
+_: 572 :_
+Karol Štúr
+Karol	2
+Karol Štúr	3
+_: 573 :_
+Twin City (Viedeň, Bratislava)
+Twin City	1
+Twin City	1
+_: 574 :_
+1436
+1436	1
+_: 575 :_
+Výlet štúrovcov na Devín 24. apríla 1836
+vychádzka na Devín 24. apríla 1836	1
+Výlet štúrovcov na Devín 24. apríla 1836	2
+_: 576 :_
+31. december
+31. december	1
+_: 577 :_
+Ruse
+Ruse	1
+_: 578 :_
+12. január
+12. januára	1
+12. január	2
+_: 579 :_
+Bratská jednota baptistov
+Bratská jednota baptistov	1
+_: 580 :_
+Taliansko
+talianskeho	1
+Taliansko	2
+_: 581 :_
+Jeruzalem
+Jeruzalem	1
+_: 582 :_
+Dunajská Lužná
+Dunajská Lužná	1
+_: 583 :_
+JORDES
+JORDES+	1
+JORDES	1
+_: 584 :_
+Tomáš Horš
+Tomáš Horš	1
+_: 585 :_
+Štrbské Pleso
+Štrbského plesa	1
+Štrbské Pleso	1
+_: 586 :_
+Slovinsko
+Slovinsko	1
+_: 587 :_
+Jozef Jirásek
+Jozef Jirásek	1
+_: 588 :_
+staršia kamenná doba
+staršia kamenná doba	1
+_: 589 :_
+palatín
+palatínovi	1
+palatín	1
+_: 590 :_
+Lubina (okres Nové Mesto nad Váhom)
+Lubine	1
+Lubina	1
+_: 591 :_
+1563
+1563	1
+_: 592 :_
+Krakov
+Krakov	1
+_: 593 :_
+Trnavský kraj
+Trnavským krajom	1
+Trnavský kraj	1
+_: 594 :_
+Marína (Sládkovič)
+Marína	1
+Marína	1

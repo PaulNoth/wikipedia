@@ -1,0 +1,384 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.9/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.9/ http://www.mediawiki.org/xml/export-0.9.xsd" version="0.9" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>http://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.25wmf1</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2600" case="first-letter">Topic</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Senec, Slovakia</title>
+    <ns>0</ns>
+    <id>5546266</id>
+    <revision>
+      <id>614344824</id>
+      <parentid>567561113</parentid>
+      <timestamp>2014-06-25T09:59:45Z</timestamp>
+      <contributor>
+        <ip>147.213.74.86</ip>
+      </contributor>
+      <text xml:space="preserve" bytes="6879">{{Geobox | Settlement
+&lt;!-- *** Heading *** --&gt;
+| name               = Senec
+| category           = Town
+&lt;!-- *** Image *** --&gt;
+| image              = Senec6.jpg
+| image_caption      = Town centre of Senec
+&lt;!-- *** Symbols *** --&gt;
+| flag               = 
+| symbol             = Coat of arms of Senec.png
+&lt;!-- *** Name *** --&gt;
+| etymology          = 
+| official_name      = 
+| motto              = 
+| nickname           = 
+&lt;!-- *** Country etc. *** --&gt;
+| country            = Slovakia
+| country_flag       = 1
+| state              = 
+| region             = [[Bratislava Region|Bratislava]]
+| district           = [[Senec District|Senec]]
+| commune            = 
+| municipality       = 
+&lt;!-- *** Family *** --&gt;
+| part               = 
+| river              = 
+&lt;!-- *** Locations *** --&gt;
+| location           = 
+| elevation          = 137
+| lat_d              = 48
+| lat_m              = 13
+| lat_s              = 08
+| lat_NS             = N
+| long_d             = 17
+| long_m             = 23
+| long_s             = 59
+| long_EW            = E
+| coordinates_type   =
+| highest            = 
+| highest_elevation  = 
+| highest_lat_d      = 
+| highest_long_d     = 
+| lowest             = 
+| lowest_elevation   = 
+| lowest_lat_d       = 
+| lowest_long_d      = 
+&lt;!-- *** Dimensions *** --&gt;
+| area               = 38.714
+| area_round         = 3
+&lt;!-- *** Population *** --&gt;
+| population         = 15542
+| population_date    = 2006-12-31
+| population_density = auto
+&lt;!-- *** History &amp; management *** --&gt;
+| established        = 1252
+| established_type   = First mentioned
+| mayor              = Karol Kvál
+&lt;!-- *** Codes *** --&gt;
+| timezone           = [[Central European Time|CET]]
+| utc_offset         = +1
+| timezone_DST       = [[Central European Summer Time|CEST]]
+| utc_offset_DST     = +2
+| postal_code        = 903 01
+| area_code          = +421-2
+| code               = SC
+| code_type          = [[Slovak car registration plates|Car plate]]
+&lt;!-- *** Free fields *** --&gt;
+| free               = 
+&lt;!-- *** Maps *** --&gt;
+| map                = Slovakia - outline map.svg
+| map_background     = Slovakia - background map.png
+| map_caption        = Location in Slovakia
+| map_locator        = Slovakia
+| map1               = Bratislava Region - outline map.svg
+| map1_size          = 128
+| map1_background    = Bratislava Region - background map.png
+| map1_caption       = Location in the Bratislava Region
+| map1_locator       = Bratislava Region
+&lt;!-- *** Websites *** --&gt;
+| commons            = Senec
+| statistics         = [http://www.statistics.sk/mosmis/eng/prvav2.jsp?txtUroven&amp;#61;410108&amp;lstObec&amp;#61;508217&amp;Okruh&amp;#61;zaklad MOŠ/MIS]
+| website            = [http://www.senec.eu www.senec.eu]
+&lt;!-- *** Footnotes *** --&gt;
+| footnotes          = 
+}}
+
+'''Senec''' is a town in the [[Bratislava Region]] of south-western [[Slovakia]]. It is a well known summer tourism and recreation center. The town is attractive not only because of the proximity of [[Bratislava]], the capital of Slovakia, but also because of the healthy environment and summer resort &quot;Slnečné jazerá&quot; (&quot;Sunny Lakes&quot;).
+
+==Name==
+The town was first mentioned in 1252 as ''&quot;Synci&quot;''. The contemporary name Senec, used since the first half of the 20th century, is derived from the historic names ''Zemch'' and ''Szempcz''. A [[German language|German]] historic name was ''Wartberg''. 
+
+==History==
+In the 9th century, the territory of Senec became part of the [[Kingdom of Hungary]].
+In the second half of the 15th century, Hungarian king [[Matthias Corvinus]] gave Senec privileges and it got the right of organizing a fair around 1480. In the 19th century, it started to develop after the [[Pressburg]] - [[Budapest]] railway which runs through the town had been built. After the [[Austro-Hungarian]] army disintegrated in November 1918, [[Czechoslovak]] troops occupied the area, later acknowledged internationally by the [[Treaty of Trianon]]. Between 1938 and 1945 Senec once more  became part of [[Miklós Horthy]]'s Hungary through the [[First Vienna Award]]. In 1945, it was recovered by [[Czechoslovakia]]. A number of residents were affected by the [[Benes Decrees]] and a number of families were forced to move to Hungary in 1947. From 1945 until the [[Velvet Divorce]], it was part of Czechoslovakia. Since then it has been part of Slovakia.
+
+The historic [[Church of Saint Nicholaus, Senec|Church of Saint Nicholaus]] is located in the southwestern part of the town.
+
+==Geography==
+[[File:Seneckejazera3.jpg|thumbnail|right|Slnečné jazerá (&quot;Sunny Lakes&quot;) near Senec]]
+Senec is situated in Podunajská nížina, on the boundary line of [[Danubian Lowland|Podunajská rovina]] and Podunajská pahorkatina. The town is 27&amp;nbsp;km far from the [[Austria]]n boundary (frontier crossing at [[Kittsee]]), and 28&amp;nbsp;km far from the border with [[Hungary]] (frontier crossing at [[Rajka]]). [[Vienna]] (90&amp;nbsp;km), [[Budapest]] (230&amp;nbsp;km) and [[Prague]] (350&amp;nbsp;km) are the nearest European capitals.&lt;ref name=&quot;senecfacts&quot;&gt;http://www.senec.sk/index.php?id=106&amp;lang=1 (Slovak)&lt;/ref&gt;
+
+The town is located 25 kilometres north-east from Bratislava, 126 m [[Above mean sea level|above sea level]]. It has good access to the [[Motorway D1 (Slovakia)|motorway D1]] from Bratislava to [[Žilina]], and is situated on the significant 4th Corridor of Trans-European Transport Network  - Railway route [[Prague]] - [[Bratislava]] - Balkans/Orient.&lt;ref name=&quot;senecfacts&quot;/&gt;
+
+The town consists of four boroughs (Senec, Svätý Martin, Červený majer and Horný dvor).
+
+==Demographics==
+In 2001 14,673 permanent residents lived in Senec and the population density was 379/km². Accordingly, Senec ranks at the 55th place among 138 Slovak cities and towns. Following the age, 67.5% inhabitants are in the productive age (men 15–59 years old, women 15–54 years old). 77% occupants acknowledged Slovak nationality and 22% Hungarian nationality. The Roman Catholic Church dominates with 71.7% within the religious structure. The Protestant Church with 8.45% is the second largest Church. The residents without faith represent 12.89%. In education, technical and secondary schools without the General Certificate of Education dominate with 27.91%. In 2001 graduates represented 11.17% share of Senec residents.&lt;ref name=&quot;senecfacts&quot;/&gt;
+
+==International relations==
+{{See also|List of twin towns and sister cities in Slovakia}}
+
+===Twin towns — Sister cities===
+Senec, Slovakia is [[town twinning|twinned]] with:
+* {{flagicon|Hungary}} [[Mosonmagyaróvár]], [[Hungary]]
+* {{flagicon|Austria}} [[Parndorf]], [[Austria]]
+* {{flagicon|Croatia}} [[Senj]], [[Croatia]]
+
+==See also==
+* [[FC Senec]]
+
+==References==
+{{reflist}}
+
+==External links==
+*[http://www.senec.sk City official municipal website]
+* [http://mapa.zoznam.sk/mapy-miest/Senec/ Map of Senec]
+
+{{Senec District}}
+
+[[Category:Cities and towns in Slovakia]]</text>
+      <sha1>m2lttwsgkqy6gl9gc1gy2osufxg3a9j</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Danubian Lowland</title>
+    <ns>0</ns>
+    <id>3952286</id>
+    <revision>
+      <id>574602683</id>
+      <parentid>574585218</parentid>
+      <timestamp>2013-09-26T13:32:02Z</timestamp>
+      <contributor>
+        <username>DVdm</username>
+        <id>262666</id>
+      </contributor>
+      <minor/>
+      <comment>[[wp:ENGVAR]] and [[wp:RETAIN]] ([[WP:HG|HG]])</comment>
+      <text xml:space="preserve" bytes="1717">{{Unreferenced|date=December 2009}}
+[[File:Podunajska nizina.png|thumb|300px|{{legend|#589a4f|Danubian Lowland}}]]
+::''The Serbian lowland is treated under [[Danube Plain (Serbia)]]''
+The '''Danubian Lowland''' or '''Danube Lowland''' ({{Lang-sk|Podunajská nížina}}) is the name of the part of [[Little Alföld]] (Slovak: ''Malá dunajská kotlina'') situated in [[Slovakia]], located between the [[Danube]], the [[Little Carpathians]] and all other parts of the [[Western Carpathians]].
+
+In terms of [[geomorphology]], it forms one unit together with the [[Neusiedl Basin]] (''Neusiedler Becken'') in [[Austria]] and the [[Győr Basin]] (''Győri-medence'') in [[Hungary]].
+
+It is an extensive tectonic depression filled with layers of Neogene Quaternary to a height of between 100 and 350 meters. 
+
+It consist of the following two parts:
+*[[Danubian Hills]] (also translated as  Danubian Upland) in the north
+*[[Danubian Flat]] (also translated as Danubian Plain) in the south
+
+Many urban and other settlements can be found in this primarily agricultural area. The towns [[Topoľčany]], [[Nové Zámky]], [[Komárno]], [[Levice]], [[Dunajská Streda]] and [[Galanta]] are administrative centers. They are centers of industry and the processing of agricultural products (mills, breweries etc.). Old wine growing towns ([[Svätý Jur]], [[Pezinok]], [[Modra]]) and health resorts ([[Piešťany]], [[Dudince]]) can be also found in the lowland. See the articles of the two subdivisions for further information.
+
+==See also==
+*[[Dunajské luhy Protected Landscape Area]]
+
+{{coord|47|59|N|18|10|E|type:airport_source:kolossus-eswiki|display=title}}
+
+[[Category:Landforms of Slovakia]]
+[[Category:Plains of Slovakia]]</text>
+      <sha1>q3anfjeivpodt6dljx45591632iu88a</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Svätý Jur</title>
+    <ns>0</ns>
+    <id>2595756</id>
+    <revision>
+      <id>601352235</id>
+      <parentid>597565682</parentid>
+      <timestamp>2014-03-26T13:52:58Z</timestamp>
+      <contributor>
+        <ip>78.99.55.44</ip>
+      </contributor>
+      <comment>/* External links */</comment>
+      <text xml:space="preserve" bytes="7543">{{Geobox | settlement
+&lt;!-- *** Heading *** --&gt;
+| name               = Svätý Jur
+| other_name        = Sankt Georgen
+| other_name1       = Szentgyörgy
+| category           = Town
+&lt;!-- *** Name *** --&gt;
+| etymology          = 
+| official_name      = 
+| motto              = 
+| nickname           = 
+&lt;!-- *** Image *** --&gt;
+| image              = Kostol svateho juraja.jpg
+| image_caption      = 
+&lt;!-- *** Symbols *** --&gt;
+| flag               = 
+| symbol             = Erb Svaty jur.gif
+&lt;!-- *** Country etc. *** --&gt;
+| country            = Slovakia
+| country_flag       = 1
+| state              = 
+| region             = [[Bratislava Region|Bratislava]]
+| district           = [[Pezinok District|Pezinok]]
+| municipality       = 
+&lt;!-- *** Family *** --&gt;
+| parent             = Bratislava a okolie
+| parent_type        = Tourism region
+| river              = 
+&lt;!-- *** Locations *** --&gt;
+| location           = 
+| elevation          = 180
+| lat_d              = 48
+| lat_m              = 15
+| lat_s              = 07
+| lat_NS             = N
+| long_d             = 17
+| long_m             = 12
+| long_s             = 56
+| long_EW            = E
+| coordinates_type   =
+| highest            = 
+| highest_lat_d      = 
+| highest_long_d     = 
+| lowest             = 
+| lowest_lat_d       = 
+| lowest_long_d      = 
+&lt;!-- *** Dimensions *** --&gt;
+| area               = 39.874
+| area_round         = 3
+&lt;!-- *** Population *** --&gt;
+| population         = 4929
+| population_date    = 2006-12-31
+| population_density = auto
+&lt;!-- *** History &amp; management *** --&gt;
+| established        = 1209
+| established_type = First mentioned
+| date               = 
+| mayor              = Alexander Achberger
+&lt;!-- *** Codes *** --&gt;
+| timezone =[[Central European Time|CET]] | utc_offset =+1
+| timezone_DST =[[Central European Summer Time|CEST]] | utc_offset_DST =+2
+| postal_code        = 900 21
+| area_code          = &amp;#43;421-2
+| code               = PK
+| code_type          = [[Slovak car registration plates|Car plate]]
+&lt;!-- *** UNESCO etc. *** --&gt;
+&lt;!-- *** Free fields *** --&gt;
+| free               = 
+&lt;!-- *** Maps *** --&gt;
+| map                = Slovakia - outline map.svg
+| map_background     = Slovakia - background map.png
+| map_caption        = Location in Slovakia
+| map_locator        = Slovakia
+| map1               = Bratislava Region - outline map.svg
+| map1_background    = Bratislava Region - background map.png
+| map1_caption       = Location in the Bratislava Region
+| map1_locator       = Bratislava Region
+| map1_size          = 128
+&lt;!-- *** Websites *** --&gt;
+| commons            = Svätý Jur
+| statistics         = [http://www.statistics.sk/mosmis/eng/prvav2.jsp?txtUroven&amp;#61;410107&amp;lstObec&amp;#61;507989&amp;Okruh&amp;#61;zaklad MOŠ/MIS]
+| website            = [http://www.svatyjur.sk/english.php www.svatyjur.sk]
+&lt;!-- *** Footnotes *** --&gt;
+| footnotes          = 
+}}
+'''Svätý Jur''' ({{lang-de|Sankt Georgen}}, {{lang-hu|Szentgyörgy}}) is a small town northeast of [[Bratislava]], the capital of [[Slovakia]]. The name means Saint George, and the town's coat of arms shows the [[Saint George and the Dragon|saint killing the dragon]]. Between 1960 and 1990, the [[Czechoslovakia: 1948-1968|Communist government]] forced the town to use a &quot;non-religious&quot; name '''Jur pri Bratislave'''. Svätý Jur has a population of almost 5,000.
+
+==Geography==
+Svätý Jur is situated in the [[Pezinok District]] of the [[Bratislava Region]] in southwestern Slovakia. The surrounding areas include large [[vineyards]] in the nearby [[Little Carpathians]] and the unique [[Šúr]] swamps, a [[protected area]].
+
+==History==
+[[Archaeological]] excavations date the original settlement to the [[Hallstatt period]] and the [[Quadi]] period. 
+
+In the 9th century, a [[Great Moravia]]n castle was built here. Svätý Jur was first mentioned in a written source in 1209 and received a town charter in 1299. It became a royal [[free town]] in the [[Kingdom of Hungary]] in 1647. 
+
+Defensive city walls were constructed between 1603 and 1664, but Svätý Jur was devastated by the [[Ottoman Turks]] in their invasion of 1663. The Ottoman troops also destroyed the White Castle ({{lang-sk|Biely Kameň}}), which had been an important administrative center of the region until then.
+
+In the 18th century, the Hungarian government recruited German farmers to repopulate the area. To encourage migration, it allowed the Germans to keep their language and religion in order to develop farmland for cultivation and produce. Through the 19th century and into the 20th century, the population of this area was largely ethnic [[Germany|German]], although by that time they spoke an archaic form of German. They were known as [[Danube Swabians]]. In part because Nazi Germany used the eastern ethnic German communities as an excuse for its wars of expansion in eastern Europe, after [[World War II]], ethnic Germans were forcefully expelled to Germany and other Western countries. 
+
+In 1840, the first (horse) railway in the Kingdom of Hungary was built from Bratislava to Svätý Jur.
+
+==Landmarks==
+The most remarkable historical monument is the [[Gothic architecture|Gothic]] church of [[St. George]], built in the 13th century. The sandstone altar from 1527 is an example of a transition between the Gothic and [[Renaissance art|Renaissance]] styles. The [[stained glass]] windows were designed by [[Janko Alexy]] in 1950. The wooden [[bell tower]] from the 17th century protects a [[bell (instrument)|bell]] from 1400. The bell cracked due to a fire in 1802 and after repair in 1848 was damaged again. There is a fame that this bell was buried during the period of the Ottoman raids and was accidentally found by a rooting pig afterwards.
+
+A Great Moravian castle was built in the 9th century and it was abandoned in the 14th century. 1,693 metres of the walls have been preserved, but their height is now lower than the original 10 metres.
+
+Other places of interest include a [[Renaissance architecture|Renaissance]] [[manor house]], a [[Baroque architecture|Baroque]] church of [[Trinity]], a [[Piarist]] [[monastery]] from 1720, and the ruins of the city walls.
+
+Svätý Jur is also well known for the largest raceway in Slovakia.
+
+==Biely Kameň Castle==
+[[Image:Slovakia-Biely kamen-12.jpg|thumb|left|200px|Ruins of Biely Kameň Castle]]
+The castle of Biely Kameň was mentioned for the first time in 1217.
+
+It was the seat of the counts of Svätý Jur until 1609, when they moved to a more comfortable manor house in the town. The castle was partially destroyed by an Ottoman raid in 1663.
+
+The ruins are still visible.
+
+==Population==
+In 2006, Svätý Jur had a population of 5,186. According to the 2001 [[census]], 97.5% of inhabitants were [[Slovaks]]. The [[Roman Catholicism]] is the most popular religion (72.5%), but there is also a significant number of atheists (15.9%) living in the village.&lt;ref&gt;http://www.statistics.sk/mosmis/eng/run.html Municipal Statistics from the Statistical Office of the Slovak republic&lt;/ref&gt;
+
+==External links==
+*[http://www.svatyjur.sk/english.php Official site of Svätý Jur]
+*[http://www.rzfoto.sk/svatyjur Photos of Svätý Jur]
+*[http://www.castles.sk/biely-kamen.php Short description of Biely Kameň Castle]
+
+==References==
+{{reflist}}
+
+[[Image:Panorama Svaty Jur.jpg|thumb|left|800px|A panoramatic view of Svätý Jur]]
+
+{{Pezinok District}}
+
+{{DEFAULTSORT:Svaty Jur}}
+[[Category:Cities and towns in Slovakia]]
+[[Category:Villages and municipalities in Pezinok District]]
+[[Category:Castles in Slovakia]]
+[[Category:Great Moravia]]</text>
+      <sha1>ifl2goav8necjd8lu5smwozioaqpi6e</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+</mediawiki>

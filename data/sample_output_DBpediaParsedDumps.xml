@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Artcls>
+  <NumOfArtcl>5</NumOfArtcl>
+  <Artcl Id="Slovensko">
+    <Lbl>Slovensko</Lbl>
+    <Wklnk>http://sk.wikipedia.org/wiki/Slovensko</Wklnk>
+    <Abstrct>Slovensko, dlhý tvar Slovenská republika, je vnútrozemský štát v strednej Európe. Má rozlohu 49 036 km2 a žije tu približne 5,43 milióna obyvateľov. Hraničí s Českom (251,8 km), Rakúskom (107,1 km), Poľskom (541,1 km), Ukrajinou (97,8 km) a Maďarskom (654,8 km). Hlavným a najľudnatejším mestom je Bratislava.Prvý štátny útvar Slovanov na území dnešného Slovenska bola Samova ríša (7. storočie), neskôr Nitrianske kniežatstvo (začiatok 9.</Abstrct>
+    <Rfrncs count="10">
+      <Rfrnc>Nad_Tatrou_sa_blýska</Rfrnc>
+      <Rfrnc>Slovak_anthem1.ogg</Rfrnc>
+      <Rfrnc>Bratislava</Rfrnc>
+      <Rfrnc>Slovenčina</Rfrnc>
+      <Rfrnc>Maďarčina</Rfrnc>
+      <Rfrnc>Rómčina</Rfrnc>
+      <Rfrnc>Rusínčina</Rfrnc>
+      <Rfrnc>Čeština</Rfrnc>
+      <Rfrnc>Ukrajinčina</Rfrnc>
+      <Rfrnc>Parlamentná_republika</Rfrnc>
+    </Rfrncs>
+    <Rdrcts count="1">
+      <Rdrct>SVK</Rdrct>
+    </Rdrcts>
+    <Extrnls count="5">
+      <Extrnl>http://www.slovakia.travel</Extrnl>
+      <Extrnl>http://www.slovensko.com</Extrnl>
+      <Extrnl>http://www.sacr.sk</Extrnl>
+      <Extrnl>http://www.government.gov.sk</Extrnl>
+      <Extrnl>http://www.prezident.sk</Extrnl>
+    </Extrnls>
+    <Ctgrs count="5">
+      <Ctgr>Krajiny_EÚ</Ctgr>
+      <Ctgr>Členovia_NATO</Ctgr>
+      <Ctgr>Členovia_OSN</Ctgr>
+      <Ctgr>Štáty_v_Európe</Ctgr>
+      <Ctgr>Slovensko</Ctgr>
+    </Ctgrs>
+  </Artcl>
+  <Artcl Id="Bratislava">
+    <Lbl>Bratislava</Lbl>
+    <Wklnk>http://sk.wikipedia.org/wiki/Bratislava</Wklnk>
+    <Abstrct>Bratislava (do roku 1919 slov. Prešporok/Prešporek, iné názvy pozri Zoznam historických názvov Bratislavy) je hlavné, najľudnatejšie a rozlohou najväčšie mesto Slovenska. Je aj sídlom Bratislavského samosprávneho kraja.</Abstrct>
+    <Rdrcts count="4">
+      <Rdrct>Wilsonovo_mesto</Rdrct>
+      <Rdrct>Krásavica_na_Dunaji</Rdrct>
+      <Rdrct>Pressburg</Rdrct>
+      <Rdrct>Prešporek</Rdrct>
+    </Rdrcts>
+    <Extrnls count="5">
+      <Extrnl>http://Bratislava.sk/</Extrnl>
+      <Extrnl>http://www.weatherbase.com/weather/weather.php3?s=61811&amp;refer=&amp;units=metric</Extrnl>
+      <Extrnl>http://www.slovanfutbal.com</Extrnl>
+      <Extrnl>http://www.bratislava.sk/</Extrnl>
+      <Extrnl>http://www.imhd.sk/</Extrnl>
+    </Extrnls>
+    <Ctgrs count="5">
+      <Ctgr>Bratislava</Ctgr>
+      <Ctgr>Hlavné_mestá_v_Európe</Ctgr>
+      <Ctgr>Mestá_na_Slovensku</Ctgr>
+      <Ctgr>Mestské_pamiatkové_rezervácie_na_Slovensku</Ctgr>
+      <Ctgr>Sídla_na_Dunaji</Ctgr>
+    </Ctgrs>
+  </Artcl>
+  <Artcl Id="Ontológia">
+    <Lbl>Ontológia</Lbl>
+    <Wklnk>http://sk.wikipedia.org/wiki/Ontológia</Wklnk>
+    <Abstrct>Ontológia je filozofické učenie o bytí, filozofická disciplína, ktorá sa zaoberá bytím alebo súcnom ako súcnom. Predmetom ontológie je bytie. Za zakladateľa ontológie sa považuje Aristoteles, zatiaľ čo slovo „ontológia“ vystupuje po prvý raz až začiatkom 17. storočia. Aristoteles sám hovoril o prvej filozofii a jeho nasledovníci o metafyzike. Ontológia ako učenie o súcne, čiže o tom, čo existuje, tvorí spolu s učením o božskom bytí od vzniku filozofie centrum metafyziky.</Abstrct>
+  </Artcl>
+  <Artcl Id="Platón">
+    <Lbl>Platon</Lbl>
+    <Wklnk>http://sk.wikipedia.org/wiki/Platon</Wklnk>
+    <Abstrct>Platón (starogr. Πλάτων Platón – široký)(* 428 pred Kr./427 pred Kr. – † 347 pred Kr.) bol Sokratov žiak, spolu s Aristotelom najvýznamnejší grécky filozof. Najväčší vplyv mala jeho teória ideí a filozofia štátu. Platón založil 385/7 pred Kr. filozofickú školu zvanú Akadémia. Jeho spisy sú informačným zdrojom o legendárnej zaniknutej ostrovnej civilizácii Atlantída.</Abstrct>
+  </Artcl>
+  <Artcl Id="Filozof">
+    <Lbl>Filozof</Lbl>
+    <Wklnk>http://sk.wikipedia.org/wiki/Filozof</Wklnk>
+    <Abstrct>Filozof (z gr. Φιλοσοφία (philo-sophia) - láska k múdrosti) patrí medzi súčasne sporné a zároveň veľmi jasné označenie príslušníka rôznorodej skupiny ľudí. Je sporným pomenovaním, pokiaľ uvažujeme o rozsahu prejavov jeho intelektuálnych schopností a o definovaní jeho nutných vedomostí. Je jasným pomenovaním, ak poukážeme na univerzálnosť filozofických východísk a cieľov. Filozofom prezývali v stredovekej Európe Aristotela.</Abstrct>
+  </Artcl>
+</Artcls>

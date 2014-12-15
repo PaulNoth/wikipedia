@@ -1,0 +1,58 @@
+infobox_person:
+	name 		= Allan Dwan
+	image		= AllanDwan.jpg
+	image_size 	= null
+	birth_place	= Toronto, Canada
+	death_date	= ZNAMY FORMAT
+	death_place = Los Angeles, United States
+	birth_day	= 3
+	birth_month	= 4
+	birth_year	= 1885
+	death_day	= 28
+	death_month	= 12
+	deat_year	= 1981
+
+infobox_country:
+	title		= Cook Islands
+	common_name	= the Cook Islands
+	image_flag	= Flag of the Cook Islands.svg
+	image_coat	= Coat of arms of cook islands.gif
+	capital		= Avarua
+	official_religion = null
+	official_languages = Cook Islands Maori
+	government_type	= Constitutional monarchy
+	area_km2	= 240
+	area_sq_mi	= 91
+	population_estimate	= null
+	population_estimate_rank = 218th small2005small
+	currency	= New Zealand dollar
+	currency_code = null
+
+infobox_book:
+	name 		= The Cider House Rules
+	translator	= null
+	image		= Image:CiderHouseRules.jpg
+	captation	= First edition cover
+	author		= John Irving
+	country		= United States
+	language	= English language|English
+	genre		= null
+	pages		= null
+	isbn		= ISBN 0-688-03036-X
+	preceded_by	= The Hotel New Hampshire
+	followed_by	= A Prayer for Owen Meany
+	
+infobox_settlement:
+	official_name 	= Bishkek
+	nickname		= null
+	map_captation 	= null
+	coordinates_region = KG
+	leader_title 	= Mayor
+	unit_pred		= null
+	area_total_km2	= 127
+	area_land_km2	= null
+	population_total = 874400
+	population_density_km2 = auto
+	timezone		= UTC+6
+	website			= http://meria.kg/index.php?lang=kg
+	postal_code		= 720000,720085

@@ -1,0 +1,79 @@
+﻿er	ra	6
+	október	októbra	3
+	september	septembra	2
+	december	decembra	1
+
+ci	ec	2
+	uhrovci	uhrovec	1
+	hradci	hradec	1
+
+ca	ec	2
+	marca	marec	1
+	neandertálca	neandertálec	1
+
+tv	t	1
+	biskupstv	biskupst	1
+
+ít	it	1
+	univerzít	univerzit	1
+
+dl	d	1
+	divadl	divad	1
+
+ev	vi	1
+	cirkev	cirkvi	1
+
+er	ro	1
+	alexander	alexandro	1
+
+um	ov	1
+	memorandum	memorandov	1
+
+k	c	1
+	slovák	slovác	1
+
+ie	ím	1
+	podhradie	podhradím	1
+
+eň	ne	1
+	viedeň	viedne	1
+
+í	j	1
+	nárečí	nárečj	1
+
+ia	ov	1
+	slovania	slovanov	1
+
+i	s	1
+	germáni	germáns	1
+
+ník	ens	1
+	slovník	slovens	1
+
+ia	st	1
+	slovania	slovanst	1
+
+ť	t	1
+	hrochoť	hrochot	1
+
+eta	iet	1
+	opereta	operiet	1
+
+ôl	ol	1
+	škôl	škol	1
+
+ským	činy	1
+	slovenským	slovenčiny	1
+
+ansk	ánsk	1
+	tatransk	tatránsk	1
+
+ským	čine	1
+	slovenským	slovenčine	1
+
+ň	n	1
+	radvaň	radvan	1
+
+ským	čina	1
+	slovenským	slovenčina	1
+

@@ -1,0 +1,44 @@
+#Ukážkový výstup pre úlohu číslo 1. Na vzor "title wikipage \t section \t section..."
+
+Edmund Burke	Early life 	Early writing	Member of Parliament 	American War of Independence 	Paymaster of the Forces 	Democracy 	India and the impeachment of Warren Hastings 	French Revolution: 1688 versus 1789 	Later life 	Legacy 	Religious thought of Edmund Burke	Famous quotes	Bibliography 	Timeline 	Notes 	References 	Primary sources	External links 
+
+Emil Kraepelin	Family and early life 	Career	Theories and classification schemes 	Psychosis and mood 	Psychopathic personalities 	Alzheimer's disease 	Degeneration of the race 	Influence 	Dreams 	Bibliography 	Notes 	References 	External links 
+
+Eugene Wigner	Early life	Middle years	Manhattan Project	Later years	Honors	Publications	See also	Notes	References	Further reading	External links
+
+#Ukážkový výstup pre úlohu číslo 2. Na vzor "section \t count \t colection frequency"
+
+Alzheimer's disease	1	0.023810
+American War of Independence	1	0.023810
+Bibliography	2	0.047619
+Career	1	0.023810
+Degeneration of the race	1	0.023810
+Democracy	1	0.023810
+Dreams	1	0.023810
+Early life	2	0.047619
+Early writing	1	0.023810
+External links	3	0.071429
+Family and early life	1	0.023810
+Famous quotes	1	0.023810
+French Revolution: 1688 versus 1789	1	0.023810
+Further reading	1	0.023810
+Honors	1	0.023810
+India and the impeachment of Warren Hastings	1	0.023810
+Influence	1	0.023810
+Later life	1	0.023810
+Later years	1	0.023810
+Legacy	1	0.023810
+Manhattan Project	1	0.023810
+Member of Parliament	1	0.023810
+Middle years	1	0.023810
+Notes	3	0.071429
+Paymaster of the Forces	1	0.023810
+Primary sources	1	0.023810
+Psychopathic personalities	1	0.023810
+Psychosis and mood	1	0.023810
+Publications	1	0.023810
+References	3	0.071429
+Religious thought of Edmund Burke	1	0.023810
+See also	1	0.023810
+Theories and classification schemes	1	0.023810
+Timeline	1	0.023810
