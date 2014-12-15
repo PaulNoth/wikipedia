@@ -25,6 +25,9 @@ public class ParserJUnitTest {
         regexPage = Parser.getRegexPage();
     }
 
+    /*
+    test first entry in file sample-enwiki-latest-categorylinks-test.sql
+    */
     @Test
     public void firstEntryTest() throws Exception {
         SQLParser s = new SQLParser(Program.INPUT_LINKS, "categorylinks", regexLinks);
@@ -38,6 +41,9 @@ public class ParserJUnitTest {
 
     }
     
+    /*
+    test second entry in file sample-enwiki-latest-categorylinks-test.sql
+    */
     @Test
     public void EntryTest() throws Exception {
         SQLParser s = new SQLParser(Program.INPUT_LINKS, "categorylinks", regexLinks);
@@ -49,6 +55,9 @@ public class ParserJUnitTest {
         Assert.assertEquals("Testovanie druheho zaznamu: category", "'Redirects_with_old_history'", data[1]);
     }
     
+    /*
+    test 11-th entry in file sample-enwiki-latest-categorylinks-test.sql
+    */
     @Test
     public void NEntryTest() throws Exception {
         SQLParser s = new SQLParser(Program.INPUT_LINKS, "categorylinks", regexLinks);
@@ -65,7 +74,9 @@ public class ParserJUnitTest {
         Assert.assertEquals("Testovanie druheho zaznamu: category", "'Articles_with_inconsistent_citation_formats'", data[1]);
     }
     
-    
+    /*
+        test create csv string
+    */
     @Test
     public void CSVTest() throws Exception {
         StringWriter sw = new StringWriter();
@@ -82,6 +93,9 @@ public class ParserJUnitTest {
         Assert.assertEquals("Otestovanie zakladneho csv exportu", testString, sw.getBuffer().toString());
     }
     
+    /*
+    test create csv string with special chars
+    */
     @Test
     public void CSVAdvancedTest() throws Exception {
         StringWriter sw = new StringWriter();
@@ -97,9 +111,12 @@ public class ParserJUnitTest {
         Assert.assertEquals("Otestovanie rozsireneho csv exportu o specialne znaky", testString, sw.getBuffer().toString());
     }
     
+    /*
+    test first line in output file pageLinkCategories.csv
+    */
     @Test
     public void ExportedCSV() throws Exception {
-        CSVReader reader = new CSVReader(new FileReader("export.csv"));
+        CSVReader reader = new CSVReader(new FileReader(Program.cacheFile));
         String[] nextLine;
         
         nextLine = reader.readNext();

@@ -18,20 +18,25 @@ public class Indexing {
 
     String fileName;
 
+    // create elasticsearch connection
     final static Client client = new TransportClient().addTransportAddress(new InetSocketTransportAddress("127.0.0.1", 9300));
 
     Indexing(String fileName) {
         this.fileName = fileName;
     }
 
+    /*
+        indexing data to elasticsearch from csv file
+    */
     public void run() throws Exception {
-        CSVReader reader = new CSVReader(new FileReader(fileName));
-        String[] nextLine;
-
+        // remove all data from elasticsearch
         DeleteByQueryRequestBuilder deleteByQueryRequestBuilder = new DeleteByQueryRequestBuilder(client);
         deleteByQueryRequestBuilder.setQuery(QueryBuilders.matchAllQuery());
         deleteByQueryRequestBuilder.execute().actionGet();
 
+        CSVReader reader = new CSVReader(new FileReader(fileName));
+        String[] nextLine;
+        
         while ((nextLine = reader.readNext()) != null) {
             String[] arr = new String[nextLine.length - 1];
 
@@ -39,6 +44,7 @@ public class Indexing {
                 arr[i - 1] = nextLine[i];
             }
 
+            // insert page with categories into elasticsearch
             IndexResponse response = client.prepareIndex("wikipedia", "joins")
                     .setSource(
                             jsonBuilder().startObject()

@@ -1,5 +1,4 @@
 
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.regex.Matcher;
@@ -24,7 +23,7 @@ public class SQLParser {
 
     // FILE Stream
     BufferedReader stream = null;
-    
+
     // Stream opened
     boolean opened = false;
 
@@ -39,10 +38,13 @@ public class SQLParser {
         pattern = Pattern.compile(regex);
     }
 
+    /*
+     load buffer data from file
+     */
     protected String getData() throws Exception {
         char[] buffer = new char[bufferSize];
         if (!opened) {
-            stream =  new BufferedReader(new FileReader(inputFile));
+            stream = new BufferedReader(new FileReader(inputFile));
             opened = true;
         }
 
@@ -65,6 +67,9 @@ public class SQLParser {
         }
     }
 
+    /*
+     prepare for loading data, find insert statments
+     */
     protected boolean prepare() throws Exception {
         do {
             String data = getData();
@@ -81,6 +86,9 @@ public class SQLParser {
         return true;
     }
 
+    /*
+     helper method to findnext record
+     */
     protected Matcher findNext() throws Exception {
         int end;
 
@@ -108,22 +116,28 @@ public class SQLParser {
         } while (true);
     }
 
+    /*
+     get all columns next records
+     */
     public String getRow() throws Exception {
         Matcher m = findNext();
 
         return m.group();
     }
 
+    /*
+     get select columns next records
+     */
     public String[] getRow(String... names) throws Exception {
         Matcher m = findNext();
 
         if (m == null) {
-                throw new Exception("End");
+            throw new Exception("End");
         }
-        
+
         String[] s = new String[names.length];
-        
-        int i=0;
+
+        int i = 0;
         for (String name : names) {
             s[i] = m.group(name);
             i++;
@@ -132,42 +146,9 @@ public class SQLParser {
         return s;
     }
 
-    public String getCategoryRow() throws Exception {
-        do {
-            Matcher m = findNext();
-
-            if (m == null) {
-                throw new Exception("End");
-            }
-
-            String category = m.group("to"); // must remove single quotes
-
-            if (category.length() == 2) {
-                continue;
-            }
-
-            return m.group("from") + " " + category.substring(1, category.length() - 1) + "\n";
-        } while (true);
-    }
-
-    public String getPageRow() throws Exception {
-        do {
-            Matcher m = findNext();
-
-            if (m == null) {
-                throw new Exception("End");
-            }
-
-            String title = m.group("title"); // must remove single quotes
-
-            if (title.length() == 2) {
-                continue;
-            }
-
-            return m.group("id") + " " + title.substring(1, title.length() - 1) + "\n";
-        } while (true);
-    }
-
+    /*
+     helper function match insert statment
+     */
     protected boolean match(String s) {
         StringBuilder sb = new StringBuilder();
         sb.append("INSERT INTO `").append(table).append("` VALUES");

@@ -6,7 +6,7 @@ import java.sql.DriverManager;
 
 public class Program {
 
-    static String cacheFile = "export.csv";
+    static String cacheFile = "pageLinkCategories.csv";
 
     public static final String INPUT_LINKS = "enwiki-latest-categorylinks.sql";
     public static final String INPUT_PAGE = "enwiki-latest-page.sql";
@@ -49,8 +49,12 @@ public class Program {
         }
     }
 
+    
+    /*
+        Create database Connection
+    */
     private static Connection database() throws Exception {
         Class.forName("com.mysql.jdbc.Driver").newInstance();
-        return DriverManager.getConnection("jdbc:mysql://127.0.0.1/wiki2?rewriteBatchedStatements=true", "root", "");
+        return DriverManager.getConnection("jdbc:mysql://127.0.0.1/wiki?rewriteBatchedStatements=true", "root", "");
     }
 }

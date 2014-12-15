@@ -24,20 +24,30 @@ public class Builder {
         this.conn = conn;
         this.fileName = fileName;
     }
-
+    
+    /*
+        initialy builder method, write data from database
+    */
     public void run() throws Exception {
         CSVWriter writer = new CSVWriter(new FileWriter(fileName), ',');
         writeCsv(writer);
         writer.close();
     }
 
+    /*
+        Get linked data from database
+    */
     private ResultSet prepareResult(Connection conn) throws Exception {
+        // For faster selection data
         Statement selectStatments = conn.createStatement(java.sql.ResultSet.TYPE_FORWARD_ONLY, java.sql.ResultSet.CONCUR_READ_ONLY);
         selectStatments.setFetchSize(Integer.MIN_VALUE);
 
         return selectStatments.executeQuery("SELECT page.name as page, category.name as category FROM page LEFT JOIN category ON page.id = category.id ORDER BY page.id LIMIT 100000");
     }
 
+    /*
+        Write data from database to csv file
+    */
     private void writeCsv(CSVWriter writer) throws Exception {
         ResultSet rs = prepareResult(conn);
 
