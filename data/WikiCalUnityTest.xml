@@ -1,0 +1,344 @@
+﻿<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.9/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.9/ http://www.mediawiki.org/xml/export-0.9.xsd" version="0.9" xml:lang="sk">
+  <page>
+    <title>Alan Mathison Turing</title>
+    <ns>0</ns>
+    <id>904</id>
+    <revision>
+      <id>5552215</id>
+      <parentid>5505369</parentid>
+      <timestamp>2013-07-01T17:12:15Z</timestamp>
+      <contributor>
+        <username>Zajano</username>
+        <id>89359</id>
+      </contributor>
+      <minor />
+      <comment>wikilinky fix</comment>
+      <text xml:space="preserve">{{Infobox Osobnosť
+  |Meno = Alan Mathison Turing
+  |Portrét = Alan Turing Memorial Closer.jpg
+  |Popis = britský matematik, logik, kryptograf a vojnový hrdina
+  |Dátum narodenia = [[23. jún]] [[1912]]
+  |Miesto narodenia = [[Londýn]], [[Spojené kráľovstvo]]
+  |Dátum úmrtia = {{dúv|1954|6|7|1912|6|23}}
+  |Miesto úmrtia = [[Wilmslow]], [[Spojené kráľovstvo]]
+|}}
+'''Alan Mathison Turing''' (* [[23. jún]] [[1912]], [[Londýn]], [[Spojené kráľovstvo]] – † [[7. jún]] [[1954]], [[Wilmslow]]) bol britský [[matematik]], [[logika|logik]], [[kryptograf]] a vojnový hrdina.
+
+== Životopis ==
+Profesionálnu kariéru začal na [[Cambridge University]]. Tam sa v roku [[1935]] stretol s [[John von Neumann|Johnom von Neumannom]]. Počas nasledujúcich desiatich rokov nezávisle od seba vytvorili princípy elektronického počítača.
+
+V roku [[1936]] vydal článok [http://www.cs.umass.edu/~immerman/cs601/turingReference.html On computable Numbers...], v ktorom definuje abstraktný model číslicového počítača - tzv. [[Turingov stroj]]. Tým ponúkol základný teoretický aparát pre vedeckú disciplínu, tzv. teoretickú informatiku (Theoretical Computer Science), ktorá sa zaoberá potencionálnymi možnosťami počítačov, tým, čo počítače môžu niekedy dokázať, čo z princípu nedokážu, v akom čase čo dokážu.
+
+Počas [[Druhá svetová vojna|druhej svetovej vojny]] presadil '''Turing''' konštrukciu zariadenia, ktoré vedelo v krátkom čase analyzovať pravdepodobné nastavenia [[Enigma (šifrovací stroj)|Enigmy]], šifry používanej armádou nacistického [[Nemecko|Nemecka]]. Podľa mnohých historikov bol Turingov prínos najdôležitejším príspevkom jednotlivca k víťazstvu Spojencov.{{chýba citácia}}
+
+Po vojne Turing pracoval na jednom z prvých skutočných digitálnych počítačov. Začal sa zaujímať aj o vzťah medzi počítačmi a prírodou a veril, že stroje môžu imitovať procesy, prebiehajúce v ľudskom [[Mozog|mozgu]]. Preto poslednú časť života strávil bádaním o tom, ako stovky miliárd [[neurón]]ov v mozgu s pomocou elektrických [[impulz]]ov spolupracujú počas učenia. Začal študovať komplexné [[systém]]y a navrhoval uplatnenie matematických metód aj v biológii. Na základe svojich poznatkov vytvoril [[Turingov test]], ktorý sa považuje za doteraz najlepší spôsob, ako zistiť (ne)prítomnosť inteligencie v stroji.
+
+V roku [[1954]] ako 42-ročný spáchal samovraždu tým, že zjedol jablko, do ktorého si napustil [[kyanid]]. Jedným z dôvodov tohto konania bolo aj to, že bol prenasledovaný za svoju [[Homosexualita|homosexualitu]]. Za tieto [[perzekúcia|perzekúcie]] sa jeho pamiatke v roku [[2009]] britský premiér [[Gordon Brown]] verejne ospravedlnil.&lt;ref&gt;{{Citácia elektronického dokumentu
+  | priezvisko = 
+  | meno = 
+  | odkaz na autora = 
+  | titul = Britský premiér sa ospravedlnil lúštiteľovi nacistického kódu
+  | url = http://www.sme.sk/c/5013963/britsky-premier-sa-ospravedlnil-lustitelovi-nacistickeho-kodu.html
+  | dátum vydania = 11.9.2009
+  | dátum aktualizácie = 
+  | dátum prístupu = 11.9.2009
+  | vydavateľ = Reuters, SME
+  | miesto = 
+  | jazyk = 
+}} &lt;/ref&gt;
+
+Od roku [[1966]] spoločnosť [[Intel]] udeľuje cenu za prínos v [[informatika|informatike]], ktorá nesie jeho meno - [[Turingova cena]].
+
+== Referencie ==
+{{Referencie}}
+
+== Iné projekty ==
+{{projekt|wikiquote=Alan Turing|commons=Alan Turing}}
+
+== Externé odkazy ==
+* [http://turing.smate.sk/sk/ Alan Turing, emulátor Turingovho stroja] Emulátor Turingovho stroja
+* [http://www.turing.org.uk Alan Turing] Domovská stránka
+* [http://www-history.mcs.st-andrews.ac.uk/history/Mathematicians/Turing.html MacTutor biography of Turing]
+* [http://www.turing.org.uk/bio/part1.html A short biography of Turing]
+* [http://www.idsia.ch/~juergen/turing.html An even shorter biography]
+* [http://www.systemtoolbox.com/article.php?history_id=3 Alan Turing — Towards a Digital Mind: Part 1]
+* [http://www.cs.umass.edu/~immerman/cs601/turingReference.html On Computable Numbers, With an Application to the Entscheidungsproblem (Proc. London Math. Soc. 2/1936)]
+* [http://www.loebner.net/Prizef/TuringArticle.html Computing machinery and intelligence] — full text of article.
+* [http://www.5xm.com/turing/ Hollymeade unveiling of memorial plaque marking 50th anniversary of Turing's untimely death]
+
+{{DEFAULTSORT:Turing, Alan Mathison}}
+[[Kategória:Anglickí ateisti]]
+[[Kategória:Anglickí matematici]]
+[[Kategória:Kryptografi]]
+[[Kategória:Alan Turing| ]]
+[[Kategória:Držitelia Radu britského impéria]]
+[[Kategória:Homosexuálne a bisexuálne osobnosti]]
+
+{{Link FA|la}}
+{{Link GA|en}}</text>
+      <sha1>1tztcf2na74ofuont05509y0sr1tgvl</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Turingov test</title>
+    <ns>0</ns>
+    <id>905</id>
+    <revision>
+      <id>5780114</id>
+      <parentid>5780014</parentid>
+      <timestamp>2014-06-09T20:47:29Z</timestamp>
+      <contributor>
+        <username>Magy357</username>
+        <id>96201</id>
+      </contributor>
+      <comment>rozšírenie a referencia nahradená relevantnejšou</comment>
+      <text xml:space="preserve">[[Súbor:Turing Test version 3.png|right|thumb|Štandardná interpretácia Turingovho testu]]
+
+'''Turingov test''' sformuloval [[Alan Mathison Turing|Alan Turing]]. Pokúša sa dať odpoveď na otázku 
+ako zistiť, či je nejaký stroj (napr. [[počítač]]) inteligentný.
+
+Test spočíva v tom, že necháme jedného človeka v úlohe pýtajúceho sa dávať otázky dvom respondentom, ktorých nemá možnosť vidieť. Jedným z nich je človek a druhým počítač. Komunikácia je výlučne textová, trvá päť minút a rozsah konverzačných tém nie je obmedzený.
+
+Ak pýtajúci sa spolu s hodnotiacou komisiou (hodnotiť odpovede môže viac osôb) nedokáže podľa ich odpovedí rozlíšiť, ktorý z respondentov je človek a ktorý stroj, potom tento stroj možno považovať za inteligentný. Prelomovou hranicou sa považuje 30% úspešnosť, teda minimálne traja z desiatich hodnotiteľov musia byť presvedčení, že komunikácia prebieha s človekom a nie strojom, prípadne nedokážu rozlíšiť človeka od stroja. 
+
+Prvý počítač zvládol test úspešne v roku [[2014]]. Počítačový program Eugene, vyvinutý v [[Petrohrad]]e tímom Vladimira Veselova, simuloval 13. ročného chlapca. Komunikáciu hodnotili tri osoby a jednu z nich Eugene presvedčil, že je živý človek (teda 33% úspešnosť).&lt;ref&gt;{{Citácia periodika
+| autor =
+| titul = First Turing Test success marks milestone in computing history
+| periodikum = phys.org
+| dátum =2014-06-09
+| url = http://phys.org/news/2014-06-turing-success-milestone-history.html
+|}}&lt;/ref&gt;
+
+== Referencie ==
+{{Referencie}}
+
+[[Kategória:Umelá inteligencia]]</text>
+      <sha1>rzr20ja5177vuopz1uw1fngc945wwjs</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Rómovia</title>
+    <ns>0</ns>
+    <id>906</id>
+    <revision>
+      <id>5847111</id>
+      <parentid>5847110</parentid>
+      <timestamp>2014-08-27T19:53:12Z</timestamp>
+      <contributor>
+        <username>Vasiľ</username>
+        <id>2806</id>
+      </contributor>
+      <minor />
+      <comment>Revízia 5847110 používateľa [[Special:Contributions/91.219.132.120|91.219.132.120]] ([[User talk:91.219.132.120|diskusia]]) bola vrátená</comment>
+      <text xml:space="preserve">'''Rómovia''' (jednotné číslo '''Róm''', ženský rod ''Rómka''; nekodifikovaný ale správnejší tvar: '''Romovia''' [j. č. '''Rom''', ž. r. ''Romka'']; slovakizovaný tvar používaný Rómami: '''Romáci''' [j. č. '''Romák''', ž. r. ''Romovka'']; nesprávny tvar ''Romo'') alebo '''Cigáni''' (j. č. '''Cigán''', staršie '''Cigáň''', ž. r. ''Cigánka'', staršie ''Cigaňa/Cigáňka'') môžu byť:
+* a) európska skupina obyvateľstva (väčšinou charakterizovaná ako etnická skupina, súhrnné označenie [[etnikum|etnických skupín]] alebo niekedy ako národ) pochádzajúca pôvodne zo severnej [[India|Indie]], ktorá dnes žije rozptýlená v diaspórach ako menšina po celom svete; 
+* b) ako bod a plus príbuzné (či údajne príbuzné) etniká, najmä [[Dómovia]] (vrátane etnika [[Luli]]) a [[Lomovia]] (nevhodne ''Lómovia''), a niekedy aj [[Džakati]], [[Domba]], [[Bandžari]] a ďalší;
+* c) zriedkavejšie: ako bod a či b plus európski kočovníci ([[Jenišovia]], [[Travellers]] atď. - porov. článok [[Cigán]])&lt;ref name=&quot;mruskovic&quot;&gt;{{Citácia knihy
+  | priezvisko = Mruškovič
+  | meno = Viliam
+  | odkaz na autora = 
+  | titul = Európa jazykov a národov na prahu tretieho tisícročia
+  | vydavateľ = Matica slovenská
+  | miesto = Martin
+  | rok = 2008
+  | isbn = 9788070908587
+  | kapitola = 
+  | strany = 284
+  | počet strán = 517 
+}}&lt;/ref&gt;, hoci to často nie sú etnickí Rómovia; v tomto prípade sa však častejšie používa výraz cigán než Róm.
+
+Slovo '''Rómovia''' (resp. varianty vyššie uvedené v prvej zátvorke) - nie však slovo Cigáni - môže v užšom zmysle označovať:
+*d) len jednu veľkú podskupinu Cigánov, ktorá žije primárne v strednej a východnej Európe (okrem sčasti Nemecka), t.j. predovšetkým opak [[Sinti|Sintov]]
+*e) z pohľadu samotných Rómov: len tzv. [[žuže]], čiže len tú časť rómskeho etnika (chápaného podľa bodu a, b, c či d), ktorá je vnímaná ako slušní ľudia, hrdí na rómstvo a dodržiavajúci zásady rómstva, t.j. opak degešov &lt;ref&gt;[http://www.mecem.sk/romovia/?id=romovia_historia_sk&amp;lang=slovak&amp;show=19018]&lt;/ref&gt;
+
+O ďalších významoch slova Cigáni pozri článok [[Cigán]].
+
+Balkánske skupiny nazývané [[Egypťania]], [[Gjupti]] a [[Haškalijovia]] sa obyčajne zaraďujú medzi Rómov, hoci sami trvajú na tom, že k nim nepatria.
+
+Ak sa Cigáni nechápu ako etnická skupina, ale len ako antropologická, sociologická alebo podobná skupina (čo sa už v súčasnosti často nerobí), je treba podľa slovenských kodifikačných slovníkov použiť slovo '''cigáni''' písané s malým c.
+
+Rómovia hovoria spoločným jazykom nazývaným [[rómčina|rómsky]], ktorý sa delí na niekoľko sčasti vzájomne nezrozumiteľných [[dialekt]]ov. Majú spoločné kultúrne rysy. 
+
+== Etnonymá ==
+
+=== Róm ===
+[[Súbor:Gypsy settlement.jpg|náhľad|Rómske obydlie na východnom Slovensku]]
+[[Súbor:Roma flag.svg|thumb|Rómska vlajka]]
+[[Súbor:Movimiento gitano.jpg|thumb|Migrácia Rómov v stredoveku]]
+
+Európski Rómovia sa sami označujú v rómčine [[rómčina|po rómsky]] ako ''rom'' (významy: muž, človek, Róm) s množným číslom ''roma''. Varianty tohto pomenovania sú v niektorých nárečiach (v Rumunsku, Albánsku a pod.) ''rrom'', u rumunských Rómov aj ''roum'' a u fínskych a niektorých baltských Rómov ''romm''. Vyskytuje sa aj tvar ''romo'' (namiesto rom), ktorý je však jazykovo chybný. Pôvodná slovakizovaná podoba používaná samotnými Rómami znie Romáci (Romák, Romovka). Kodifikovaný slovenský tvar znie Róm (Rómovia, Rómka), teda s dlhým o. Písanie s dlhým o bolo prvýkrát umelo zavedené až v roku 1988 B. Mannom v časopise Slovenský národopis (dovtedy sa písalo krátke o) a od 90. rokov je takéto písanie vďaka M. Považajovi aj kodifikované. Ako podrobne vysvetľuje I. E. Kutlík-Garudo v roku 1991 v Slovenskej reči, je však tvar s dlhým o jazykovo aj vecne chybný, správne by sa malo písať Rom (Romovia, Romka). &lt;ref&gt;Kutlík-Garudo, I. E.: Rom, alebo Róm in: Slovenská reč, ročník 56, č. 4, 1991, str. 223-229&lt;/ref&gt;
+
+V [[rómčina|rómčine]] je pojem Róm (Rom) pôvodne len označenie pre Rómov v [[stredná Európa|strednej]] a [[východná Európa|východnej Európe]] a okolí (pozri mapu). 
+
+V posledných desaťročiach sa začal výraz (mimo každodennej rómčiny) používať v širšom zmysle ako slovo nahradzujúce dovtedajší výraz Cigán (čiže zahŕňa aj [[Sinti|Sintov]] atď.). Takéto použitie slova Rómovia namiesto výrazu Cigáni výslovne odporučil prvýkrát v roku 1971 prvý Medzinárodný kongres Cigánov. Toto nové použitie vyplýva jednak z toho, že výraz Cigáni sa dnes už podľa niektorých názorov považuje za hanlivý, a jednak sa zdôvodňuje tým, že je vhodné označovať etnické skupiny takými názvami, akými sa označujú sami, čo je v tomto prípade slovo Rómovia (aj keď s výhradami - pozri nižšie). Toto riešenie je však sčasti sporné, pretože výraz Róm, ako už bolo spomenuté, ako samooznačenie používa v každodennom styku len časť Rómov (najmä v strednej a východnej Európe), ostatní sami seba označujú názvami [[Sintovia]], [[Romaničal]], [[Manuši]] atď. Z toho vyplýva, že názov Rómovia, akokoľvek politicky korektný, diskriminuje skupiny Cigánov, ktoré sa sami označujú inak. Tento kritický postoj k používaniu označenia Rómovia v širšom zmysle je rozšírený najmä v [[Nemecko|Nemecku]], kde ho podporuje aj skutočnosť, že zväz [[Sinti Allianz Deutschland]] (jeden z dvoch veľkých cigánskych zväzov v [[Nemecko|Nemecku]]) označenie cigán považuje za neutrálny a za správny, pretože zahŕňa všetky cigánske národnostné skupiny. V snahe vyhnúť sa aj spornému výrazu Cigáni, aj spornému výrazu Rómovia (chápanému v širšom zmysle) sa v Nemecku v praxi najčastejšie používa výraz &quot;Rómovia a Sinti&quot; alebo &quot;Sinti a Rómovia&quot;.
+
+Tretí základný význam slova Róm je jeho použitie ako synonymum slova [[žuže]] (pozri vyššie).
+
+=== Cigán ===
+[[Súbor:Romanis-historical-distribution.png|thumb|Historické rozloženie Cigánov (Rómov v širšom zmysle) v Európe]]
+[[Súbor:Eurogipsy.PNG|thumb|Mapa rozšírenia rôznych vetví cigánov v Európe]]
+
+Vo viacerých európskych jazykoch označenie Cigán (a príslušné jazykové varianty) používali Nerómovia (a sčasti aj samotní Rómovia) zhruba do 70. rokov 20. storočia ako hlavné či jediné označenie Rómov v širšom zmysle. V súčasnosti sa už výraz vo viacerých jazykoch podľa niektorých názorov považuje za hanlivý, preto sa uprednostňuje označenie Rómovia. Slovo Cigáni sa niekedy používa aj na označenie (najmä) európskych kočovníkov (Jenišov a podobne) a aj ako súčasť názvu tzv. [[Morských Cigánov]]. Okrem toho sa používa ako synonymum slova [[degeš]].
+
+Pokiaľ ide o prenesené významy slova cigán, podľa súčasnej kodifikácie slovenčiny (porovnaj napr. [[Krátky slovník slovenského jazyka]]) rozlišujeme medzi slovami [[Cigán]]/cigán (etnická a pod. skupina) a [[cigáň]] s mäkkým n (význam: klamár); pôvodne sa však aj etnická skupina volala s mäkkým ň (napr. porovnaj Bernolákov Slowár a Peciarov [[Slovník slovenského jazyka]]). 
+
+Pôvod slova cigán je neistý, návrhy pre pôvod slova sú napr.&lt;ref&gt;Marek Stachowski, Das Ethnonym ‚Zigeuner‘, sein slawisch-türkischer Hintergrund und ungarisch ‚szegény‘, in: Studia Etymologica Cracoviensia 7 (2002), str. 159–169&lt;/ref&gt;&lt;ref name=&quot;mruskovic&quot;/&gt;&lt;ref&gt;cygan in: Fasmer, M. (Vasmer, M.): Etimologičeskij slovar russkogo jazyka&lt;/ref&gt;:
+*z gréckeho slova tsinganos (?????????) &lt; atsinganos (??????????), ktoré znamná cigán, a ktoré vzniklo v Byzantskej ríši z gréckeho slova athinganoi (?????????), ktoré Theophanes vo svojom diele Chronographia vykladá ako &quot;h??r?ti?i in Phrygia ?t L????ni? ?r???i?u? degentes&quot; (odpadnutí kacíri žijúci najmä vo Frýgii a Lykaónii); 
+*z kurdského slova asingăr (kováč)
+*z perzského slova ciganch (hudobník, tanečník)
+*z perzského slova asinkan (kováčňa)
+*zo starotureckého slova čigań  (chudobný)
+
+Slovo cigán je veľmi podobné vo všetkých [[európa|európskych]] jazykoch: 
+* ''cikán'' [[čeština|česky]]
+* ''cigan'' [[slovinčina|slovinsky]]
+* ''Zigeuner'' [[nemčina|nemecky]], 
+* ''zingaro'' [[Taliančina|taliansky]]
+* ''cigano'' [[portugalčina|portugalsky]]
+* ''tsigane'' alebo ''gitane'' [[francúzština|francúzsky]]
+* ''??????? / ciganin''  [[bulharčina|bulharsky]] 
+* ''?????????'' [[gréčtina|grécky]] 
+* ''cygan'' [[poľština|poľsky]]
+* ''ţigan'' [[rumunčina|rumunsky]]
+* ''????? / cygan'' [[ruština|rusky]] 
+* ''????? / cyhan'' [[ukrajinčina|ukrajinsky]]
+* ''????? / cigan'' [[srbčina|srbsky]] 
+* ''zigenare'' [[švédčina|švédsky]] 
+* ''sigoyner'' [[nórčina|nórsky]]
+* ''cigány'' [[maďarčina|maďarsky]]
+* ''çingene'' [[turečtina|turecky]]
+* ''????/ ??????'' (''Romi, Cigani'')  [[macedónčina|macedónsky]]
+
+=== Iné názvy ===
+Dlho pretrvával mylný názor, že Rómovia pochádzajú z [[Egypt]]a a tento názov sa používa od [[15. storočie|15.]] do [[18. storočie|18. storočia]]. Dodnes sa tento termín zachoval v modifikovanej podobe vynechaním začiatočného ''„e“'' (v španielčine ''Gitano'', v angličtine ''Gypsy'' v chorvátčine ''Jedupak'' - Jedupta = Egypťan). Zvláštnosťou je francúzština, kde okrem ''Tsigane'' existuje výraz ''Bohémien'', čo zodpovedá historickému faktu, že Rómovia do [[Francúzsko|Francúzska]] prišli z [[Česká republika|Čiech]] v prvej polovici 15. storočia.
+
+== Rozšírenie v Európe ==
+Rómovia žijú v [[Európa|Európe]] (najmä v [[Česko|Česku]] (asi 150 000 - 260 000), na [[Slovensko|Slovensku]] (asi 360 000 - 550 000), v [[Maďarsko|Maďarsku]] (asi 400 000 - 500 000), v [[Rumunsko|Rumunsku]] (asi 1 500 000 - 3 000 000) a Inde), v [[Ázia|Ázii]] (najmä v [[Irán]]e ( asi 300 000 - 390 000) [[Turecko|Turecku]] (  asi 8 000 000 - 11 000 000), [[Afganistan]]e ( asi 460 000 - 650 000 ) [[Sýria|Sýrii]] ( asi 200 000), menšie skupiny v severnej [[Afrika|Afrike]], v [[Amerika (svetadiel)|Amerike]] a [[Austrália (svetadiel)|Austrálii]].
+
+Celkový počet Rómov v Európe je asi 15 miliónov  až 29 miliónov, vo svete 68 miliónov - 82  miliónov. Problémom pri určovaní ich počtu je, že sa pri sčítaní sami hlásia k iným národnostiam. Na Slovensku podľa posledného prieskumu (2004) žije asi 320 000 Rómov, pričom definícia Róma nebola nevyhnutne etnická, ale len „Róm, tak ako ho definuje väčšinová populácia“.
+
+Rómovia v [[India|Indii]] patrili k tamojšej najnižšej [[kasta|kaste]] (domovia či čandalovia). Odišli odtiaľ okolo roku [[200 pred Kr.]]
+
+== Rómovia na Slovensku ==
+Rómovia na Slovensku sa podľa jazyka a pôvodu delia na nasledujúce skupiny (porov. článok [[rómčina]]):
+*[[Romungri]] - takto sa v súčasnosti volajú Rómovia na Slovensku (ale aj v Maďarsku), ktorí sú usadení na Slovensku (alebo v Maďarsku) už aspoň 300 rokov (okrem Sintov), je to najchudobnejšia časť Rómov; ďalej sa delia nasledovne:
+**[[slovenskí Rómovia]] ([[Slovačike Roma]]) - sú to Rómovia, ktorí hovoria severnými centrálnymi (čiže tzv. slovenskými) dialektami rómčiny, resp. Rómovia v prostredí majoritného slovenského obyvateľstva 
+**[[maďarskí Rómovia]] ([[Ungriko Roma]]) - sú to Rómovia, ktorí hovoria južnými centrálnymi (čiže tzv. maďarskými) dialektami rómčiny, resp. Rómovia v prostredí majoritného maďarského obyvateľstva 
+*[[vlašskí Rómovia]] (synonymá: [[olašskí Rómovia]], [[Vlaši]], [[Vlašika]], [[Vlachika Roma]], [[Vlachi]]) - hovoria vlašskými dialektami rómčiny, na naše územie prišli až v 19. storočí, donedávna žili kočovným alebo polokočovným životom, usadili ich až násilne v roku 1959 
+*[[Sinti]] - hovoria sintskými dialektami rómčiny, ich dialekty sú silno germanizované, dnes už ich je na Slovensku veľmi málo, nepatria medzi Rómov v užšom zmysle
+
+== História Rómov ==
+{{na úpravu}}
+{{Bez zdroja}}
+Cangár (2003) zdôrazňuje, že jednoznačné pramene dokazujúce skutočný pôvod Rómov neexistujú, no súčasný stav skúmania rómskeho jazyka a jeho porovnávanie s indickými jazykmi nás podľa jeho názoru oprávňuje vyslovovať domnienky o skutočnej pravlasti Rómov. Nielen on, ale aj iní autori spájajú pôvod Rómov s kastou pária(je to najnižšia kasta v Indii) z juhu Indie. Na otázku, prečo Rómovia odišli zo svojej pradávnej vlasti, však jednoznačná odpoveď neexistuje, pretože chýbajú písomné doklady, no príčiny mohli byť rôzne. Časť odborníkov sa domnieva, že to mohli byť sociálne podmienky – časté suchá a s nimi spojený nedostatok potravy. Iní predpokladajú, že sa chceli vymaniť z prísne kastovne delenej indickej spoločnosti. Sťahovanie trvalo celé obdobie stredoveku a v podstate sa nikdy neskončilo. V 5.storočí n.l. sa Rómovia podľa Havaldu (1997) usadzovali v Perzii a Sýrii, okolo r.1300 v juhovýchodnej Európe (Grécko, Maďarsko, Rumunsko, Srbsko) a od r.1400 v západnej Európe (Francúzsko, Nemecko, Holandsko, Švajčiarsko, Španielsko). V súčasnosti ich nájdeme v každej európskej krajine a takisto v severnej Afrike, na Blízkom východe, Južnej Amerike, USA a Kanade.
+
+Za najstaršiu zmienku o Rómoch (Cigánoch) v Európe, a súčasne prvý záznam ich dnes najrozšírenejšieho označenia, bádatelia podľa Cangára (2003) považujú zápis z roku [[1100]] v kláštore na vrchu Athos, na gréckom polostrove [[Chalkidiké]], v ktorom sa spomína skupina ľudí, známych ako Athsinganos. Pramene zo 14. storočia podľa Havaldu (1997) dokazujú, že v tom čase už žili Cigáni na celom [[Balkán]]e a v strednej Európe. Prvým Cigánom umožnil príchod [[Ondrej II. (Uhorsko)|Ondrej II.]], keď sa v roku [[1219]] vrátil zo svojej nevydarenej [[Križiacka výprava|križiackej výpravy]]. V [[13. storočie|13. storočí]] bolo už v [[Uhorsko|Uhorsku]] veľa Cigánov a ich prítomnosť v 14. storočí je bez akýchkoľvek pochybností. Adaptačné schopnosti boli pre rôzne skupiny odlišné, rovnako ako spôsob obživy. Niektorí Cigáni boli prijatí do armády ako kováči, muzikanti, vojaci a vo výnimočných prípadoch boli aj oni – za vojenské zásluhy – povýšení až do šľachtického stavu. Miestami vznikali aj samostatné cigánske dediny. Aj keď nie je známe či išlo o roľníkov, je zdokumentované, že časť Rómov žila usadlíckym spôsobom života. Keďže remeselná výroba bola v stredoeurópskych mestách relatívne na vysokej úrovni, cigánski kováči a iní remeselníci sa mohli uplatňovať vo vidieckom prostredí či už v postavení slobodných ľudí alebo poddaných na zemepanských majetkoch. Cigáni, ktorí pracovali a živili sa rôznymi službami prevládali, aj keď sa našli skupiny bez pracovných tradícií. Európske obyvateľstvo bolo k Rómom spočiatku zhovievavé – prijímalo ich ako kajúcich kresťanských pútnikov, za ktorých sa vydávali. Jednotlivé kočujúce skupiny si nechávali európskymi feudálmi vystavovať rôzne ochranné listiny, ktorými sa potom preukazovali v iných krajinách.
+
+Rok [[1427]] však priniesol zásadnú zmenu, keď ich parížsky arcibiskup exkomunikoval z cirkví. Práve odvtedy prišlo k zmene postoja európskeho obyvateľstva. Začali sa štyri a pol storočia krutej diskriminácie. Na Slovensku bol vzťah k nim pravdepodobne prívetivejší, čo sa odrazilo aj v ich osídlení a možno ho sledovať až po súčasnosť. Koniec 18. storočia, známy ako osvietenstvo, preniklo aj na Slovensko cez normatívne akty a výnosy [[Mária Terézia|Márie Terézie]] a [[Jozef II. (Svätá rímska ríša)|Jozefa II.]] Cieľom bola asimilácia rómskeho obyvateľstva (zákazy kočovania, používanie vlastného jazyka, uzatváranie vzájomných sobášov). Nariadenia Jozefa II. boli zamerané na vzdelávanie a christianizáciu Rómov. Za pozitívne môžeme pokladať akceptáciu Rómov ako reálnej zložky obyvateľstva, hoci práve týmto programom prispôsobovania sa začal zásah do ich zvykového práva a ich tradičného spôsobu života. V [[19. storočie|19. storočí]] dochádza k násilnému zániku ich tradičných remesiel a služieb i k narušeniu územnej integrity. Veľmi zaujímavé v tejto súvislosti sú výsledky špeciálneho súpisu rómskeho obyvateľstva, na ktorý upozornil Džambazovič (2001), žijúceho na území vtedajšieho Uhorska. Výsledky tohto súpisu boli prezentované v publikácii vydanej bývalým maďarským kráľovským štatistickým úradom v Budapešti v roku [[1893]]. Ako východisko tohoto výskumu slúžilo tvrdenie, že ak chceme pochopiť a poznať život kočujúcej časti rómskeho etnika, mal by sa podľa možnosti podať čo najkomplexnejší pohľad na život všetkých Rómov na území vtedajšieho Uhorska. Práve členenie na usadených, polousadených a kočovných Rómov je jeden z diferenciačných znakov, ktorých sledovanie nás sprevádza celou publikáciou. Budúca plánovaná koncepcia v tomto období predpokladala postupnú asimiláciu rómskeho obyvateľstva, a to najmä zabezpečením povinnej školskej dochádzky a vzdelávania Rómov a dosiahnutím rozptylu dovtedy segregovane žijúcich, čiastočne usadených a kočovných Rómov medzi obyvateľov obce. V roku [[1873]] prebehol na území dnešného Slovenska súpis Rómov, bez striktne vopred dohodnutých pravidiel, koho považovať za Róma a na základe akých identifikačných znakov. V súpise z roku 1893 sa po prvýkrát na našom území použili etnologické východiská určenia rómskej etnicity (napr. na základe životného štýlu), ktoré boli ešte doplnené o názory verejnej mienky (za pomoci názorov „expertov”) o etnickej príslušnosti toho, ktorého obyvateľa, konkrétnej obce. Podľa zistení sčítania žilo na území Uhorska 274 940 Rómov, čo predstavovalo 1,8% všetkých obyvateľov krajiny. Vynechaní zo sčítania však boli Rómovia z Budapešti, pričom sa ich počet odhadoval asi na 1 500. Na území súčasného Slovenska, patriaceho v tomto období do Uhorska, žilo približne 40 až 42 000 Rómov. Najväčšie rómske komunity žili v okolí Šamorína, Nitry, Komárna, Nových Zámkov, Levíc, Lučenca, Rimavskej Soboty, Rožňavy, Košíc a Kežmarku. Sú to územia, na ktorých aj v súčasnosti žije najväčšia časť rómskej populácie na Slovensku.
+
+V celom Uhorsku len v 23% obcí, v ktorých žila rómska populácia, navštevovali pravidelne rómske deti školu, nepravidelne v 10% obcí a vôbec nenavštevovali v 67% obcí. V školopovinnom veku bolo asi 60 tisíc rómskych detí, pričom až 69,15% z nich školu nenavštevovali. Medzivojnová Československá republika umožnila samotným Rómom prihlásiť sa ku svojej rómskej etnicite, ale opäť majorizáciou problému „kočovných“ Rómov, prostredníctvom zákona o potulných Cigánoch (1927), k riešeniu tzv. cigánskej otázky príliš neprispela. Zákon len vymedzoval, kto sú potulní Cigáni: „…Cikáni z místa na místo se toulající a jiní tuláci práce se štítící, kteří po cikánsku žijí…” (Cangár, 2003, s. 52). Ako výstižne uvádza Jurová (1993), tento zákon a jeho vykonávacie nariadenie predstavovali singulárnu legislatívnu úpravu, odporujúcu ústave. Zákon umožňoval škálu represívnych postupov a zákazov štátnej správy voči nim. Obmedzením územného pohybu a rozptylu sa ešte viac prehĺbila chudoba, bieda a aj sociálna zaostalosť rómskeho obyvateľstva. Štát vnímal Rómov ako sociálnu a kriminálnu skupinu. Obdobie II. svetovej vojny sa vo vzťahu k Rómom prejavilo aplikáciou teórie rasizmu vychádzajúcu z nacistického Nemecka na čele s Adolfom Hitlerom. Na základe spomínaných sociálnych charakteristík Rómov a neskôr na základe tzv. menejcennosti rasy, dochádzalo až k fyzickej likvidácii rómskeho obyvateľstva, a to najmä v koncentračných a vyhladzovacích táboroch na území dnešného Poľska. V špeciálnom koncentračnom tábore v Osvienčime zahynulo asi 6-7 tisíc Rómov z územia vtedajšieho Protektorátu Čiech a Moravy. Na Slovensku sa budovali pracovné tábory pre asociálov a Cigánov v Hanušovciach nad Topľou, Dubnici nad Váhom, Nižnom Hrabovci a inde. Toto obdobie patrí k najtemnejším stránkam našej histórie, nakoľko tieto tábory vznikli v čase samostatného Slovenska a túto rasistickú teóriu do praxe realizovali samotní Slováci. Po obsadení Slovenska nemeckou fašistickou armádou po Slovenskom národnom povstaní v roku 1944 prišlo na mnohých miestach k masovému vyvraždeniu Rómov a k vypáleniu niektorých rómskych osád Nemeckou armádou, ale za výdatnej pomoci aj Hlinkových gárd, teda Slovákov. Rómsky holokaust ostatne už navždy najtemnejším obdobím života Rómov v Európe. Po druhej svetovej vojne sa politika štátu orientovala na rôzne formy asimilácie Rómov s majoritným obyvateľstvom. V roku 1958 bol vydaný zákon č. 74 o trvalom osídlení kočujúcich a polokočujúcich osôb, ktorý násilne zamedzil pohyb tej časti rómskeho etnika (asi 5-10%), ktorá dovtedy kočovala. Pokračovalo sa aj v likvidácií tradičného spôsobu života. Kolektivizáciou a vznikom družstiev zanikli tradičné sezónne práce, čím zanikla tradičná ekonomická a sociálna prepojenosť rómskeho a vidieckeho obyvateľstva. V dôsledku izolácie od možností stabilného ekonomického zabezpečenia sa prehlbovali rozdiely v životnej úrovni medzi rómskym a ostatným obyvateľstvom. Tzv. cigánska otázka bola zameraná na dôslednú asimiláciu a opatrenia štátu sa orientovali prevažne len na problémy bývania – na likvidáciu zaostalých rómskych osídlení a na rôzne formy sociálnej podpory. Tomu zodpovedalo podľa Fulkovej (1994) zamlčovanie ich etnickej príslušnosti, popierala sa aj samotná existencia rómskej kultúry. Prehĺbil sa rozklad existujúcich morálnych a spoločenských noriem po stáročia fungujúci v rómskych komunitách. Cangár (2003) sa vo svojej publikácii venuje vývoju po roku 1989, keď už samostatná Slovenská republika, respektíve bývalá Česká a Slovenská federatívna republika, ratifikovala väčšinu právnych dokumentov medzinárodných inštitúcií, ktoré sa týkajú problematiky menšín, osobitne Rómov. Narpiek prijatiu Európskej charty menšinových jazykov, používanie rómštiny je zatiaľ problematické aj tým, že nie je doposiaľ kodifikovaná. Napriek tomu sa pri riešení problémov spolužitia Rómov a Nerómov objavujú aj pozitívne výsledky. Existuje nesúlad medzi vnímaním postavenia Rómov v spoločnosti a spôsobom riešenia tejto problematiky na Slovensku a v zahraničí.
+
+== Náboženstvo ==
+Rómovia sa prispôbili náboženstvu okolitých národov, medzi ktorými žili. V krajinách strednej a západnej Európy sú prevažne rímski katolíci. Menej patria k prívržencom rôznych protestantských cirkví (hlavne v protestantských krajinách). Vo východnej Európe a čiastočne na Balkáne sú pravoslávni. Na území Turecka a v mnohých balkánskych krajinách (Bosna, Kosovo, Bulharsko, Albánsko, Macedónsko) patria k vyznavačom islamu.
+
+== Kultúra ==
+[[Súbor:Romungro.jpg|thumb|Typický tanec Rómov v Maďarsku]]
+=== Divadlo ===
+[[Divadlo Romathan]] je jediné profesionálne rómske divadlo na [[Slovensko|Slovensku]]. Zriadilo ho [[Ministerstvo kultúry SR]] v máji [[1992]] v [[Košice|Košiciach]]. Jeho vedením poverilo [[Anna Koptová|Annu Koptovú]]. Od sezóny [[1998]]/[[1999]] je riaditeľom divadla [[Karel Adam]]. Divadlo vzniklo vďaka iniciatíve rómskych a nerómskych [[intelektuál]]ov. Na poslednej decembrovej schôdzi [[Národná rada Slovenskej republiky|národnej rady]] v roku [[2001]] predniesla návrh na vznik profesionálneho rómskeho divadla poslankyňa Anna Koptová. Jej návrh podporilo 53 zo 102 prítomných [[poslanec|poslancov]]. 
+Prvou premiérou Romathanu bola [[20. december|20. decembra]] [[1992]] inscenácia [[Daniela Hivešová-Šilanová|Daniely Hivešovej-Šilanovej]] [[Than prekalo Roma]] (Miesto pre Rómov). Hudobne sa na jej príprave podieľal prvý [[dirigent]] divadla [[Eugen Brindzák st.]]
+
+==== Ďalšie rómske divadlá ====
+* [[Theatre Pralipe]], [[Skopje]] ([[Macedónsko]])
+* [[Romen]], [[Moskva]] ([[Rusko]])
+
+=== Rómska hudba ===
+I bez znalosti nôt sú rómski hudobníci obľúbení pre rýchly rytmus ľudových melódií, zvlášť vynikajú v hre na husle. Rómskou hudbou boli vo svojej tvorbe ovplyvnení i známi skladatelia ako [[Franz Liszt]] a [[Johannes Brahms]].
+
+== Diskriminácia a genocída ==
+Počas vlády [[nacizmus|nacizmu]] boli Rómovia obeťou [[genocída (právo)|genocídy]]. Plánovaným hromadným vyvraždením vo [[Nacistický vyhladzovací tábor|vyhladzovacích táboroch]] sa mal tento národ vyhubiť. Počas prvej Slovenskej republiky došlo k rasovej segregácii a vysídľovaniu Rómov do oddelených osád. Mužská populácia bola nasadená v pracovných jednotkách. K štátom organizovanej deportácii Rómov na území vojnovej Slovenskej republiky nedošlo. Rómovia boli deportovaní z oblastí pod kontrolou vtedajšieho Maďarska. K rasovým útokom na rómske obyvateľstvo dochádzalo po okupácii krajiny po potlačení [[SNP]].
+
+== Referencie ==
+{{referencie}}
+
+== Pozri aj ==
+* [[Cigán]]
+* [[Cigánska osada]]
+
+== Iné projekty ==
+{{Projekt|q=Rómske príslovia|commonscat=Roma people|q_štítok=rómske príslovia}}
+
+== Externé odkazy ==
+* [http://www.jekhetane-spolu.org/ Občianske združenie Jekhetane-Spolu vydávajúce noviny Rómsky nový list - Romano nevo ľil]
+* [http://www.gipsy.sk/ Gipsy.sk]
+* [http://www.mecem.sk/rpa/ Rómska tlačová agentúra - www.mecem.sk/rpa]
+* [http://www.romea.tv/ ROMEA TV - Prvá rómska internetová televízia v ČR, založená v roku 2003]
+* [http://www.dzeno.cz/?r_id=32 Rádio Rota - rómské internetové rádio]
+* [http://www.romove.cz Stránka - rómovia v ČR - www.romove.cz] 
+* [http://www.rasizmus.sk/romovia.stm?cmd%5B35%5D=c-2-R%C3%B3movia Zaujímavosti zo života menšín]
+* [http://www.sozialfotografie.de/ Romafotografien Fotografie zo života Rómov vo východnej Európe od Helge Lindau]
+* [http://www.rommuz.cz/ Muzeum romské kultury] v [[Brno|Brne]], [[Čechy]] (po česky)
+* [http://www.romale.sk/newsread.php?newsid=2 Rómsko slovenský frazeologický slovník]
+* [http://www.europarl.europa.eu/sides/getDoc.do?pubRef=-//EP//TEXT+TA+P7-TA-2010-0312+0+DOC+XML+V0//SK Uznesenie Európskeho parlamentu o situácii Rómov]
+*[http://www.infoweby.sk/spolocnost/romovia/205-subetnicke-clenenie-europskych-romov Subetnické členenie európskych Rómov]
+[[Kategória:Rómovia| ]]
+[[Kategória:Etniká, národy a národnosti]]</text>
+      <sha1>3srieevrokrjn9emolf09xf8he52i2m</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>George Boole</title>
+    <ns>0</ns>
+    <id>908</id>
+    <revision>
+      <id>5622736</id>
+      <parentid>5288954</parentid>
+      <timestamp>2013-10-08T18:12:11Z</timestamp>
+      <contributor>
+        <username>Lenka64</username>
+        <id>14163</id>
+      </contributor>
+      <minor />
+      <comment>pridaná [[Kategória:Členovia Kráľovskej spoločnosti]] pomocou použitia HotCat</comment>
+      <text xml:space="preserve">{{Infobox Osobnosť
+  |Meno = George Boole
+  |Portrét = George Boole.jpg
+  |Popis = anglický logik a matematik
+  |Dátum narodenia = [[2. november]] [[1815]]
+  |Miesto narodenia = [[Lincoln (Anglicko)|Lincoln]], [[Spojené kráľovstvo]]
+  |Dátum úmrtia = {{duv|1864|12|8|1815|11|2}}
+  |Miesto úmrtia = [[Cork (mesto v Írsku)|Cork]], [[Írsko]]
+|}}
+'''George Boole''' (* [[2. november]] [[1815]], [[Lincoln (Anglicko)|Lincoln]], [[Spojené kráľovstvo]] – † [[8. december]] [[1864]], [[Cork (mesto v Írsku)|Cork]]) bol [[Anglicko|anglický]] [[logika|logik]] a [[matematika|matematik]]. Vymyslel systém na ohodnotenie pravdivostných hodnôt výrazov zložených z logických spojok AND, OR, NOT a logických premenných nadobúdajúcich iba dve hodnoty – 1 (PRAVDA) a 0 (NEPRAVDA).
+
+== Životopis ==
+Od svojho otca dostal základy vzdelania v [[Matematika|matematike]], [[jazyk (lingvistika)|jazyky]] študoval sám (od svojich 14 rokov ovládal [[Grécke jazyky|gréčtinu]], [[francúzština|francúzštinu]] a [[nemčina|nemčinu]]). Od svojich 15 rokov sa živil vyučovaním, pomáhal v knižnici. Ako samouk študoval diela [[Isaac Newton|Newtona]], [[Joseph Louis Lagrange|Lagrangea]] a ďalších. Stal sa knihovníkom vo vedeckom ústave, tým získal prístup k publikáciám [[Royal Society]] a mohol sledovať aktuálnu vedeckú problematiku a zapojiť sa do jej riešenia.
+Prvú vedeckú prácu napísal už v roku [[1835]]. Najprv sa zaujímal o [[diferenciálne rovnice]], vložil do ich riešenia operátory. V dielach zverejnených v rokoch [[1841]]-[[1843]] rozvinul štúdium [[invariant (matematika)|invariantov]] [[lineárne transformácie|lineárnych transformácií]], v roku [[1844]] bol vyznamenaný kráľovskou medailou za práce o operátoroch v [[matematická analýza|analýze]]. V roku [[1849]] začal učiť ako [[profesor (vedecko-pedagogická hodnosť)|profesor]] na novozaloženej [[Queen´s College]] v írskom [[Cork (mesto v Írsku)|Corku]], aj keď nemal univerzitné vzdelanie. 
+
+Boole vydal spis ''Matematická analýza logiky'' ([[1847]]), kde ukazoval, že [[logika]] by mala byť súčasťou [[Matematika|matematiky]], pretože môže mať svoj [[matematický vzorec|vzorec]] ako [[algebra]].
+Publikoval tiež práce o [[kvaternióny|kvaterniónoch]] a po roku [[1850]] prešiel k problematike teórie [[Pravdepodobnosť|pravdepodobnosti]], a to v súvislosti s algebraizáciou logiky.
+Okolo roku [[1854]] uverejnil svoju prácu: ''The Calculus of Logic'' v ktorej matematizoval [[Logika|logiku]], formuloval [[axióm]]y a dal jej zákonom algebraickú formu. [[Booleova algebra]] a funkcie sa neskôr stali hlavným matematickým aparátom, pri vývoji logiky a jej využitia v praxi. Princípy [[Booleova algebra|Booleovej algebry]] boli implementované do elektronických obvodov (v r. [[1937]] – [[Claude Elwood Shanonn|Claudom Shanonnom]]). Tento spôsob sa nakoniec v roku [[1950]] stal štandardom v [[Elektrotechnika|elektrotechnike]].
+
+Boole ako prvý úspešne zvládol program [[Gottfried Wilhelm Leibniz|G. W. Leibniza]] z konca [[17. storočie|17. storočia]] – vytvoriť symbolický vzorec, ktorý by nahradil (a zároveň kontroloval) usudzovanie. Jeho pôvodné spracovanie [[Algebra|algebry]] logiky bolo však ešte príliš viazané na číselnú algebru a analýzu. Boole sa snažil interpretovať v logike i operácie odčítania a delenia, rozvoja logickej funkcie v nekonečné rady, tzv. neurčité výrazy 0:0 apod. Neskorší autori nahradili jadro tejto [[Algebra|algebry]] lepšou voľbou základných operácií. V dnešnom poňatí ju spracoval [[Ernst Schröder|E. Schröder]] na konci [[19. storočie|19. storočia]], nazval ju preto právom Booleovým menom. V roku [[1857]] bol Boole zvolený za člena [[Royal Society]].
+Zomrel ako 49 ročný po ťažkom prechladnutí.
+
+== Externé odkazy ==
+* [http://www-gap.dcs.st-and.ac.uk/~history/Mathematicians/Boole.html George Boole]
+
+{{DEFAULTSORT:Boole, George}}
+[[Kategória:Narodenia v 1815]]
+[[Kategória:Úmrtia v 1864]]
+[[Kategória:Anglickí filozofi]]
+[[Kategória:Anglickí matematici]]
+[[Kategória:Členovia Kráľovskej spoločnosti]]</text>
+      <sha1>26n8zllsuux5bm1rcyjjie64kmae8i6</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+</mediawiki>
