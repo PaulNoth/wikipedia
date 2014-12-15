@@ -1,0 +1,56 @@
+body {
+    padding-top: 50px;
+}
+
+a.logo {
+    margin: 5px 5px 5px 5px;
+}
+
+div.search-options{
+    margin-left: auto;
+    margin-right: 0;
+}
+
+div.search-options-panel{
+    margin-top: 20px;
+}
+
+dl.dl-horizontal{
+    margin-bottom: 0;
+}
+
+div.result-area{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.panel-heading a:after {
+    font-family: 'Glyphicons Halflings';
+    content: "\e114";
+    float: right;
+    color: grey;
+}
+.panel-heading a.collapsed:after {
+    content: "\e080";
+}
+
+div.panel-heading{
+    text-align: left;
+}
+
+div.panel-body{
+    text-align: left;
+}
+
+span.search-info{
+    text-align: left;
+    font-style: italic;
+}
+
+div.feedback ul{
+    list-style-type: none;
+}
+
+span.feedbackPanelERROR{
+    color: red;
+}

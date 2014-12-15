@@ -1,0 +1,452 @@
+﻿a	92
+	mája	máj	4
+	čeština	češtin	2
+	rada	rad	2
+	martina	martin	2
+	januára	január	2
+	karola	karol	2
+	slovenska	slovensk	2
+	štúra	štúr	2
+	ramena	ramen	1
+	hattala	hattal	1
+	francúzština	francúzštin	1
+	ľudovíta	ľudovít	1
+	levoča	levoč	1
+	ríša	ríš	1
+	hurbana	hurban	1
+	júna	jún	1
+	kniežatstva	kniežatstv	1
+	hodruša	hodruš	1
+	blatina	blatin	1
+	ruština	ruštin	1
+	bula	bul	1
+	samuela	samuel	1
+	latinčina	latinčin	1
+	gramatika	gramatik	1
+	neandertálca	neandertálc	1
+	modra	modr	1
+	tatranka	tatrank	1
+	bžocha	bžoch	1
+	tibora	tibor	1
+	michala	michal	1
+	plesa	ples	1
+	voda	vod	1
+	jána	ján	1
+	zóna	zón	1
+	európa	európ	1
+	samova	samov	1
+	marína	marín	1
+	júla	júl	1
+	dunaja	dunaj	1
+	hronka	hronk	1
+	budína	budín	1
+	hodža	hodž	1
+	rakúska	rakúsk	1
+	nemecka	nemeck	1
+	vojna	vojn	1
+	štiavnica	štiavnic	1
+	univerzita	univerzit	1
+	mincovňa	mincovň	1
+	gejza	gejz	1
+	jena	jen	1
+	poľština	poľštin	1
+	vodnatieľka	vodnatieľk	1
+	lubina	lubin	1
+	kollára	kollár	1
+	lingvistika	lingvistik	1
+	škola	škol	1
+	morava	morav	1
+	augusta	august	1
+	palkoviča	palkovič	1
+	bratislava	bratislav	1
+	dĺžka	dĺžk	1
+	hebrejčina	hebrejčin	1
+	mesta	mest	1
+	šafárika	šafárik	1
+	adama	adam	1
+	angličtina	angličtin	1
+	kraja	kraj	1
+	maďarska	maďarsk	1
+	katolícka	katolíck	1
+	krupina	krupin	1
+	paláca	palác	1
+	lettricha	lettrich	1
+	šírka	šírk	1
+	devínska	devínsk	1
+	mosta	most	1
+	maďarčina	maďarčin	1
+	marca	marc	1
+	uhorska	uhorsk	1
+	praha	prah	1
+	tatrína	tatrín	1
+	matica	matic	1
+	opereta	operet	1
+
+y	26
+	rady	rad	2
+	francúzštiny	francúzštin	1
+	nemecky	nemeck	1
+	maďarčiny	maďarčin	1
+	hronky	hronk	1
+	ladzany	ladzan	1
+	operety	operet	1
+	latinčiny	latinčin	1
+	trolejbusy	trolejbus	1
+	prahy	prah	1
+	tatranky	tatrank	1
+	kuzmány	kuzmán	1
+	gramatiky	gramatik	1
+	lingvistiky	lingvistik	1
+	rusky	rusk	1
+	moravy	morav	1
+	modry	modr	1
+	šírky	šírk	1
+	poľštiny	poľštin	1
+	perovčany	perovčan	1
+	vrchy	vrch	1
+	blatiny	blatin	1
+	dĺžky	dĺžk	1
+	primaciálny	primaciáln	1
+	češtiny	češtin	1
+
+á	25
+	slovenská	slovensk	3
+	pamiatková	pamiatkov	2
+	národná	národn	2
+	svetová	svetov	2
+	banská	bansk	1
+	druhá	druh	1
+	zlatá	zlat	1
+	poštová	poštov	1
+	bratislavská	bratislavsk	1
+	veľká	veľk	1
+	evanjelická	evanjelick	1
+	veľvyslanectvá	veľvyslanectv	1
+	ministerstvá	ministerstv	1
+	vysoká	vysok	1
+	habsburská	habsbursk	1
+	prešovská	prešovsk	1
+	nová	nov	1
+	stredná	stredn	1
+	dobrá	dobr	1
+	pišlová	pišlov	1
+
+ý	21
+	slovenský	slovensk	2
+	bratislavský	bratislavsk	2
+	uhorský	uhorsk	2
+	slovanský	slovansk	1
+	prestolný	prestoln	1
+	palacký	palack	1
+	nemecký	nemeck	1
+	komenský	komensk	1
+	evanjelický	evanjelick	1
+	byzantský	byzantsk	1
+	vyšehradský	vyšehradsk	1
+	trnavský	trnavsk	1
+	maďarský	maďarsk	1
+	ruský	rusk	1
+	svätý	svät	1
+	medzinárodný	medzinárodn	1
+	liptovský	liptovsk	1
+	tatranský	tatransk	1
+
+om	19
+	memorandovom	memorandov	1
+	gejzom	gejz	1
+	samuelom	samuel	1
+	slovenskom	slovensk	1
+	ruskom	rusk	1
+	štúrom	štúr	1
+	maďarskom	maďarsk	1
+	dusíkom	dusík	1
+	jurom	jur	1
+	hlbokom	hlbok	1
+	krajom	kraj	1
+	bratislavskom	bratislavsk	1
+	hradom	hrad	1
+	ľudovítom	ľudovít	1
+	liptovskom	liptovsk	1
+	starom	star	1
+	prosbopisom	prosbopis	1
+	komenskom	komensk	1
+	jurkovičom	jurkovič	1
+
+ej	19
+	slovenskej	slovensk	3
+	národnej	národn	2
+	prešovskej	prešovsk	1
+	banskej	bansk	1
+	habsburskej	habsbursk	1
+	novej	nov	1
+	veľkej	veľk	1
+	poštovej	poštov	1
+	strednej	stredn	1
+	svetovej	svetov	1
+	dobrej	dobr	1
+	samovej	samov	1
+	devínskej	devínsk	1
+	evanjelickej	evanjelick	1
+	bratislavskej	bratislavsk	1
+	rímskej	rímsk	1
+
+e	19
+	európe	európ	1
+	češtine	češtin	1
+	berlíne	berlín	1
+	krupine	krupin	1
+	bratislave	bratislav	1
+	martine	martin	1
+	rímske	rímsk	1
+	jene	jen	1
+	trenčíne	trenčín	1
+	prahe	prah	1
+	vode	vod	1
+	matice	matic	1
+	čachtice	čachtic	1
+	ríše	ríš	1
+	sobotište	sobotišt	1
+	modre	modr	1
+	nitrianske	nitriansk	1
+	meste	mest	1
+	lubine	lubin	1
+
+ia	18
+	storočia	storoč	4
+	obrodenia	obroden	2
+	slovania	slovan	1
+	demokracia	demokrac	1
+	teológia	teológ	1
+	aglomerácia	aglomerác	1
+	rezervácia	rezervác	1
+	monarchia	monarch	1
+	filozofia	filozof	1
+	perzekúcia	perzekúc	1
+	povstania	povstan	1
+	maďarizácia	maďarizác	1
+	história	histór	1
+	únia	ún	1
+
+o	18
+	slovensko	slovensk	2
+	ministerstvo	ministerstv	1
+	uhorsko	uhorsk	1
+	mesto	mest	1
+	maďarsko	maďarsk	1
+	rameno	ramen	1
+	taliansko	taliansk	1
+	francúzsko	francúzsk	1
+	nemecko	nemeck	1
+	rakúsko	rakúsk	1
+	divadlo	divadl	1
+	byzantsko	byzantsk	1
+	rusko	rusk	1
+	veľvyslanectvo	veľvyslanectv	1
+	kniežatstvo	kniežatstv	1
+	pleso	ples	1
+	biskupstvo	biskupstv	1
+
+ého	17
+	slovenského	slovensk	4
+	uhorského	uhorsk	2
+	národného	národn	2
+	palackého	palack	1
+	štrbského	štrbsk	1
+	prestolného	prestoln	1
+	medzinárodného	medzinárodn	1
+	vyšehradského	vyšehradsk	1
+	bratislavského	bratislavsk	1
+	karloveského	karlovesk	1
+	slovanského	slovansk	1
+	starého	star	1
+
+u	16
+	snemu	snem	2
+	uhorsku	uhorsk	1
+	zjazdu	zjazd	1
+	slovensku	slovensk	1
+	ruštinu	ruštin	1
+	gramatiku	gramatik	1
+	hattalu	hattal	1
+	fondu	fond	1
+	prosbopisu	prosbopis	1
+	angličtinu	angličtin	1
+	hodžu	hodž	1
+	marínu	marín	1
+	hebrejčinu	hebrejčin	1
+	francúzsku	francúzsk	1
+	vodnatieľku	vodnatieľk	1
+
+ie	15
+	storočie	storoč	4
+	obrodenie	obroden	2
+	histórie	histór	1
+	maďarizácie	maďarizác	1
+	umenie	umen	1
+	povstanie	povstan	1
+	podhradie	podhrad	1
+	teológie	teológ	1
+	námestie	námest	1
+	únie	ún	1
+	filozofie	filozof	1
+
+i	14
+	štiavnici	štiavnic	1
+	mikuláši	mikuláš	1
+	hradci	hradc	1
+	sobotišti	sobotišt	1
+	uhrovci	uhrovc	1
+	hodruši	hodruš	1
+	radvani	radvan	1
+	germáni	germán	1
+	levoči	levoč	1
+	kraji	kraj	1
+	slováci	slovác	1
+	hrochoti	hrochot	1
+	tatránski	tatránsk	1
+	kalendári	kalendár	1
+
+ou	9
+	pamiatkovou	pamiatkov	2
+	svetovou	svetov	1
+	bulou	bul	1
+	vojnou	vojn	1
+	zlatou	zlat	1
+	mincovňou	mincovň	1
+	zónou	zón	1
+	druhou	druh	1
+
+é	9
+	slovenské	slovensk	2
+	národné	národn	2
+	hlboké	hlbok	1
+	štrbské	štrbsk	1
+	karloveské	karlovesk	1
+	strážovské	strážovsk	1
+	staré	star	1
+
+ým	7
+	bratislavským	bratislavsk	1
+	trnavským	trnavsk	1
+	prestolným	prestoln	1
+	nemeckým	nemeck	1
+	slovenským	slovensk	1
+	svätým	svät	1
+	maďarským	maďarsk	1
+
+c	4
+	marec	mare	1
+	hradec	hrade	1
+	neandertálec	neandertále	1
+	uhrovec	uhrove	1
+
+ovi	3
+	palatínovi	palatín	1
+	sergejevičovi	sergejevič	1
+	puškinovi	puškin	1
+
+ov	3
+	vrchov	vrch	1
+	slovanov	slovan	1
+	slovákov	slovák	1
+
+iu	3
+	umeniu	umen	1
+	demokraciu	demokrac	1
+	teológiu	teológ	1
+
+eho	3
+	primaciálneho	primaciáln	1
+	nitrianskeho	nitriansk	1
+	talianskeho	taliansk	1
+
+ú	3
+	pišlovú	pišlov	1
+	slovenskú	slovensk	1
+	uhorskú	uhorsk	1
+
+iou	2
+	rezerváciou	rezervác	1
+	perzekúciou	perzekúc	1
+
+och	2
+	ladzanoch	ladzan	1
+	perovčanoch	perovčan	1
+
+ii	2
+	aglomerácii	aglomerác	1
+	monarchii	monarch	1
+
+ých	2
+	vysokých	vysok	1
+	strážovských	strážovsk	1
+
+aya	2
+	bártfaya	bártf	1
+	zaya	z	1
+
+í	2
+	nárečí	náreč	1
+	námestí	námest	1
+
+ay	2
+	zay	z	1
+	bártfay	bártf	1
+
+yho	1
+	kuzmányho	kuzmán	1
+
+ských	1
+	salzburgských	salzburg	1
+
+iach	1
+	čachticiach	čachtic	1
+
+ske	1
+	germánske	germán	1
+
+ského	1
+	ostrihomského	ostrihom	1
+
+ovho	1
+	hurbanovho	hurban	1
+
+ych	1
+	katolíckych	katolíck	1
+
+ím	1
+	podhradím	podhrad	1
+
+el	1
+	divadiel	divadi	1
+
+eí	1
+	múzeí	múz	1
+
+n	1
+	jungmann	jungman	1
+
+ev	1
+	biskupstiev	biskupsti	1
+
+ký	1
+	slovenský	slovens	1
+
+vi	1
+	alexandrovi	alexandro	1
+
+t	1
+	operiet	operie	1
+
+ja	1
+	nárečja	náreč	1
+
+ovou	1
+	herderovou	herder	1
+
+stva	1
+	slovanstva	slovan	1
+
+eum	1
+	múzeum	múz	1
+

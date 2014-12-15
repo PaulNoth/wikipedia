@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html xmlns:wicket="http://wicket.apache.org">
+<wicket:panel>
+
+    <div wicket:id=resultWrapper>
+        <span class="search-info" wicket:id="searchInfo" />
+
+        <div class="row">
+            <div class="col-lg-6">
+                <dl class="dl-horizontal">
+                    <dt>
+                        <label>Labels</label>
+                    </dt>
+                    <dd>
+                        <span wicket:id="label" />
+                    </dd>
+                </dl>
+
+                <dl class="dl-horizontal">
+                    <dt>
+                        <label>Page ID</label>
+                    </dt>
+                    <dd>
+                        <span wicket:id="pageId" />
+                    </dd>
+                </dl>
+
+                <dl class="dl-horizontal">
+                    <dt>
+                        <label>Page Length</label>
+                    </dt>
+                    <dd>
+                        <span wicket:id="pageLength" />
+                    </dd>
+                </dl>
+            </div>
+
+            <div class="col-lg-6">
+                <dl class="dl-horizontal">
+                    <dt>
+                        <label>Out Degree</label>
+                    </dt>
+                    <dd>
+                        <span wicket:id="outDegree" />
+                    </dd>
+                </dl>
+
+                <dl class="dl-horizontal">
+                    <dt>
+                        <label>Revision ID</label>
+                    </dt>
+                    <dd>
+                        <span wicket:id="revisionId" />
+                    </dd>
+                </dl>
+
+                <dl class="dl-horizontal">
+                    <dt>
+                        <label>Revision URI</label>
+                    </dt>
+                    <dd>
+                        <span wicket:id="revisionUri" />
+                    </dd>
+                </dl>
+            </div>
+        </div>
+
+
+        <div class="panel-group" id="accordion">
+
+            <!-- Abstracts -->
+            <div class="panel panel-default" wicket:id=abstractsContainer>
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-target="#collapseZero" href="#collapseZero">Abstracts</a>
+                    </h4>
+                </div>
+                <div id="collapseZero" class="panel-collapse collapse in">
+                    <div class="panel-body">
+                        <dl class="dl-horizontal">
+                            <dt>
+                                <label>Short Abstracts</label>
+                            </dt>
+                            <dd>
+                                <span wicket:id="shortAbstracts" />
+                            </dd>
+                        </dl>
+
+                        <dl class="dl-horizontal">
+                            <dt>
+                                <label>Long Abstracts</label>
+                            </dt>
+                            <dd>
+                                <span wicket:id="longAbstracts" />
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Categories -->
+            <div class="panel panel-default" wicket:id="categoriesContainer">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-target="#collapseOne" href="#collapseOne">Categories</a>
+                    </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse in">
+                    <div class="panel-body">
+                        <dl class="dl-horizontal">
+                            <dt>
+                                <label>Article Categories</label>
+                            </dt>
+                            <dd>
+                                <span wicket:id="articleCategories" />
+                            </dd>
+                        </dl>
+
+                        <dl class="dl-horizontal">
+                            <dt>
+                                <label>Skos Categories</label>
+                            </dt>
+                            <dd>
+                                <span wicket:id="skosCategories" />
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Links and Redirects -->
+            <div class="panel panel-default" wicket:id="linksContainer">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-target="#collapseTwo" href="#collapseTwo">Links and Redirects</a>
+                    </h4>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse in">
+                    <div class="panel-body">
+                        <dl class="dl-horizontal">
+                            <dt>
+                                <label>Freebase Links</label>
+                            </dt>
+                            <dd>
+                                <span wicket:id="freebaseLinks" />
+                            </dd>
+                        </dl>
+
+                        <dl class="dl-horizontal">
+                            <dt>
+                                <label>Wikipedia Links</label>
+                            </dt>
+                            <dd>
+                                <span wicket:id="wikiLinks" />
+                            </dd>
+                        </dl>
+
+                        <dl class="dl-horizontal">
+                            <dt>
+                                <label>External Links</label>
+                            </dt>
+                            <dd>
+                                <span wicket:id="externalLinks" />
+                            </dd>
+                        </dl>
+
+                        <dl class="dl-horizontal">
+                            <dt>
+                                <label>Inter-Language Links</label>
+                            </dt>
+                            <dd>
+                                <span wicket:id="interLanguageLinks" />
+                            </dd>
+                        </dl>
+
+                        <dl class="dl-horizontal">
+                            <dt>
+                                <label>Page Links</label>
+                            </dt>
+                            <dd>
+                                <span wicket:id="pageLinks" />
+                            </dd>
+                        </dl>
+
+                        <dl class="dl-horizontal">
+                            <dt>
+                                <label>Redirects</label>
+                            </dt>
+                            <dd>
+                                <span wicket:id="redirects" />
+                            </dd>
+                        </dl>
+
+                        <dl class="dl-horizontal">
+                            <dt>
+                                <label>Redirects Transitive</label>
+                            </dt>
+                            <dd>
+                                <span wicket:id="redirectsTransitive" />
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Links and Redirects -->
+            <div class="panel panel-default" wicket:id="linksCzContainer">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-target="#collapseTwoCz" href="#collapseTwo">Links and Redirects (CZ)</a>
+                    </h4>
+                </div>
+                <div id="collapseTwoCz" class="panel-collapse collapse in">
+                    <div class="panel-body">
+                        <dl class="dl-horizontal">
+                            <dt>
+                                <label>Freebase Links</label>
+                            </dt>
+                            <dd>
+                                <span wicket:id="freebaseLinksCz" />
+                            </dd>
+                        </dl>
+
+                        <dl class="dl-horizontal">
+                            <dt>
+                                <label>Wikipedia Links</label>
+                            </dt>
+                            <dd>
+                                <span wicket:id="wikiLinksCz" />
+                            </dd>
+                        </dl>
+
+                        <dl class="dl-horizontal">
+                            <dt>
+                                <label>External Links</label>
+                            </dt>
+                            <dd>
+                                <span wicket:id="externalLinksCz" />
+                            </dd>
+                        </dl>
+
+                        <dl class="dl-horizontal">
+                            <dt>
+                                <label>Inter-Language Links</label>
+                            </dt>
+                            <dd>
+                                <span wicket:id="interLanguageLinksCz" />
+                            </dd>
+                        </dl>
+
+                        <dl class="dl-horizontal">
+                            <dt>
+                                <label>Page Links</label>
+                            </dt>
+                            <dd>
+                                <span wicket:id="pageLinksCz" />
+                            </dd>
+                        </dl>
+
+                        <dl class="dl-horizontal">
+                            <dt>
+                                <label>Redirects</label>
+                            </dt>
+                            <dd>
+                                <span wicket:id="redirectsCz" />
+                            </dd>
+                        </dl>
+
+                        <dl class="dl-horizontal">
+                            <dt>
+                                <label>Redirects Transitive</label>
+                            </dt>
+                            <dd>
+                                <span wicket:id="redirectsTransitiveCz" />
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Infobox Properties -->
+            <div class="panel panel-default" wicket:id="infoboxContainer">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-target="#collapseThree" href="#collapseThree">Infobox Properties</a>
+                    </h4>
+                </div>
+                <div id="collapseThree" class="panel-collapse collapse in">
+                    <div class="panel-body">
+                        <dl class="dl-horizontal">
+                            <dt>
+                                <label>Infobox Properties</label>
+                            </dt>
+                            <dd>
+                                <span wicket:id="infoboxProperties" />
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</wicket:panel>
+</html>

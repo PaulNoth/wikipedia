@@ -1,9 +1,0 @@
-Paulo_Sousa(EN) matches Paulo_Sousa(HU)
-Karl_Marx(EN) matches Karl_Marx(SK) matches Karl_Marx(HU)
-Boží_Dar(EN) matches Boží_Dar(SK)
-Brad_Pitt(EN) matches Brad Pitt(SK) matches Brad_Pitt(HU)
-
-Stats
-EN-SK 'x' matches found
-EN-HU 'y' matches found
-SK-HU 'z' matches found
