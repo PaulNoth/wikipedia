@@ -1,0 +1,1 @@
+{"http://sk.dbpedia.org/resource/Nemecko"=>["http://www.cru.uea.ac.uk/~timm/cty/obs/TYN_CY_1_1.html", "http://www.deutschland.de/en", "http://www.bundesregierung.de", "http://www.bundeskanzlerin.de", "http://www.bundestag.de/", "http://www.bundesrat.de/", "http://www.botschaft-slowakei.de/App/WCM/ZU/BerlinZU/main.nsf?Open", "http://www.pressburg.diplo.de"]}

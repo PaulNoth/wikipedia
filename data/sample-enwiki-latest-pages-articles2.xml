@@ -1,0 +1,57 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.9/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.9/ http://www.mediawiki.org/xml/export-0.9.xsd" version="0.9" xml:lang="en">  
+ <page>
+    <title>Epimetheus</title>
+    <ns>0</ns>
+    <id>10121</id>
+    <revision>
+      <id>539365352</id>
+      <parentid>484363056</parentid>
+      <timestamp>2013-02-21T05:10:44Z</timestamp>
+      <contributor>
+        <username>Legobot</username>
+        <id>7304691</id>
+      </contributor>
+      <minor />
+      <comment>Bot: Migrating langlinks to [[WP:Wikidata]] - [[d:q227368]]</comment>
+      <text xml:space="preserve">'''Epimetheus''' may mean one of several things:
+
+*[[Epimetheus (mythology)]], the Titan from Greek mythology
+*[[Epimetheus (moon)]], the moon of Saturn
+*[[1810 Epimetheus]], an asteroid
+*[[Epimetheus Society]], a [[high-IQ society]]
+
+{{disambiguation}}</text>
+      <sha1>py74le5040pvonqjlbv8x55mlc59jgd</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>EAN</title>
+    <ns>0</ns>
+    <id>10042</id>
+    <revision>
+      <id>617960794</id>
+      <parentid>617869684</parentid>
+      <timestamp>2014-07-22T08:55:51Z</timestamp>
+      <contributor>
+        <ip>86.153.57.241</ip>
+      </contributor>
+      <comment>m per new redirect</comment>
+      <text xml:space="preserve">'''EAN''' may refer to:
+* [[International Article Number (EAN)]] (originally European Article Number)
+* [[Emergency Action Notification]], an American nationwide activation of the Emergency Alert System
+* [[Enriched air nitrox]]
+* [[Ethylammonium nitrate]], a salt and ionic liquid
+* [[European Academy of Neurology]]
+
+== See also ==
+* [[Ean (disambiguation)]]
+
+{{Disambiguation}}</text>
+      <sha1>cccovsgpdwjzp2vmcd8a9ipp3c1im72</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+</mediawiki>

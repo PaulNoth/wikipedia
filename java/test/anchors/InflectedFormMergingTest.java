@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 
 import java.util.LinkedList;
 
-import mergingInflectedFormNE.FileReader;
+import mergingInflectedFormNE.FileReaderXML;
 import mergingInflectedFormNE.FileWriter;
 import mergingInflectedFormNE.LinkAnchor;
 import mergingInflectedFormNE.MergerOfInflectedForm;
@@ -27,13 +27,13 @@ public class InflectedFormMergingTest {
 	public void test() {
 		String file = "../data/sample_input_skwiki-latest-pages-articles_3-pages.xml";
 		LinkedList<Page> pageList = new LinkedList<Page>();
-		FileReader fr = new FileReader(file, pageList);
+		FileReaderXML fr = new FileReaderXML(file, pageList);
 		
 		LinkedList<LinkAnchor> la = fr.getLinkAnchor();
 		
 		TestFileCreater tfc = new TestFileCreater();
-		tfc.prepareTestData(la);
-		String sampleData = tfc.namedEntityListToString(tfc.prepareTestData(la));
+		tfc.prepareTestDataForNamedEntityMerging(la);
+		String sampleData = tfc.namedEntityListToString(tfc.prepareTestDataForNamedEntityMerging(la));
 		
 		MergerOfInflectedForm moif = new MergerOfInflectedForm(la);
 		FileWriter fw = new FileWriter();
