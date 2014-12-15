@@ -13,4 +13,3 @@ module Dbpedia
     	end 
 	end
 end
-
