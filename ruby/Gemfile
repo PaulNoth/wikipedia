@@ -4,3 +4,19 @@ gem 'rspec'
 
 gem 'activesupport'
 
+gem 'lda-ruby'
+
+gem 'google-translate'
+
+gem 'nokogiri'
+
+gem 'htmlentities' 
+
+gem 'pry'
+
+gem 'elasticsearch'
+
+gem 'rake'
+
+gem 'measurable'
+
