@@ -10,3 +10,7 @@ CODES\WikiParser\WikiParser\bin
 CODES\WikiParser\WikiParser\obj
 CODES\WikiParser\WikiParser.sln
 >>>>>>> 12e1160c34c46b7dc74f1d990464c1250fddc4dd
+.classpath
+.project
+.settings/org.eclipse.jdt.core.prefs
+.settings/org.eclipse.m2e.core.prefs
