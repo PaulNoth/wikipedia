@@ -1,5 +1,10 @@
 package wikical.parser;
 
+/**
+ * 
+ * @author Martin Polak
+ *
+ */
 public class SlovakMonthParser {
 	
 	/**

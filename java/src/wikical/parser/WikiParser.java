@@ -17,6 +17,11 @@ import org.codehaus.stax2.XMLStreamReader2;
 import wikical.dataclasses.DeathBirthParsedData;
 import wikical.settings.Settings;
 
+/**
+ * 
+ * @author Martin Polak
+ *
+ */
 public class WikiParser {
 
 	File sourceFilePath;
@@ -93,7 +98,6 @@ public class WikiParser {
 		/* titles */
 		String foundTitle = null;
 		String rawStartDate = null;
-		String rawEndDate = null;
 
 		if (currentStartTag.equals("title")) {
 			xmlStreamReader.next();

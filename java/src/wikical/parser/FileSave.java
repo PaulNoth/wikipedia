@@ -8,6 +8,11 @@ import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.io.UnsupportedEncodingException;
 
+/**
+ * 
+ * @author Martin Polak
+ *
+ */
 public class FileSave {
 
 	BufferedWriter bufferedWriter;

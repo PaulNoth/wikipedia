@@ -2,7 +2,7 @@ package wikical.dataclasses;
 
 /**
  * Data class for saving searched data
- * @author LenovoTunerX
+ * @author Martin Polak
  *
  */
 public class SearchData {

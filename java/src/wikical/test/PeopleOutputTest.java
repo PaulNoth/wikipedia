@@ -6,6 +6,11 @@ import java.io.FileReader;
 
 import wikical.settings.Settings;
 
+/**
+ * 
+ * @author Martin Polak
+ *
+ */
 public class PeopleOutputTest {
 
 	/**

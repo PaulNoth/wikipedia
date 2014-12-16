@@ -10,10 +10,7 @@ import java.awt.event.MouseListener;
 import java.io.File;
 import java.io.PrintStream;
 import java.io.UnsupportedEncodingException;
-import java.text.DateFormat;
-import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.List;
 
 import javax.swing.DefaultListModel;
@@ -46,11 +43,14 @@ import javax.swing.JList;
 import java.awt.Toolkit;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
-import java.util.Calendar;
 import com.toedter.calendar.JCalendar;
 import javax.swing.JCheckBox;
 
-
+/**
+ * 
+ * @author Martin Polak
+ *
+ */
 public class Launcher {
 
 	private JFrame frmWikicalByXpolakm;
@@ -451,7 +451,6 @@ public class Launcher {
 	/**
 	 * Action after selecting one row from list of names (calendar)
 	 */
-	@SuppressWarnings("deprecation")
 	private void mouseClickedOutputList(int selectedIndex) {
 		
 		SearchData searchData = foundSearchData.get(selectedIndex);

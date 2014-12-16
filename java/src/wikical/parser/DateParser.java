@@ -5,6 +5,11 @@ import java.util.regex.Pattern;
 
 import wikical.dataclasses.DeathBirthParsedData;
 
+/**
+ * 
+ * @author Martin Polak
+ *
+ */
 public class DateParser {
 
 	/**

@@ -19,6 +19,11 @@ import org.apache.lucene.store.FSDirectory;
 import wikical.dataclasses.SearchData;
 import wikical.settings.Settings;
 
+/**
+ * 
+ * @author Martin Polak
+ *
+ */
 public class SearchParsed {
 
 	private String txtDate;

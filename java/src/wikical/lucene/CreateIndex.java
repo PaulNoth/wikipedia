@@ -19,6 +19,11 @@ import org.apache.lucene.util.Version;
 
 import wikical.settings.Settings;
 
+/**
+ * 
+ * @author Martin Polak
+ *
+ */
 public class CreateIndex {
 
 	/**

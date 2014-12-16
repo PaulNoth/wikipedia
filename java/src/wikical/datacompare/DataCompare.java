@@ -7,6 +7,11 @@ import java.util.Date;
 
 import wikical.dataclasses.SearchData;
 
+/**
+ * 
+ * @author Martin Polak
+ *
+ */
 public class DataCompare {
 	
 	/**
