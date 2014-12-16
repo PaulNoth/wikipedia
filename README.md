@@ -3,7 +3,7 @@
 Category parsing and searching, while creting multilingual dictionary from them (at least 3 languages)
 
 ##Prerequisites
-1. Python 2.7.x
+1. Python
 2. Elasticsearch
 3. Node.js (for Calaca - http-server)
 
