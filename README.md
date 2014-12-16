@@ -12,8 +12,8 @@ Install and run Elasticsearch cluster (default-localhost:9200)
 Run and deploy Calaca on http-server (default-localhost:8080)
 
 ##Usage
-Parse your .ttl dat in /data folder using: /src/parsers/dbparse.py. 
-Run <code>dbparse.py language choose[sk,en,de], file mode[sample,full]</code>
+<p>Parse your .ttl dat in /data folder using: /src/parsers/dbparse.py. 
+Run <code>dbparse.py language choose[sk,en,de], file mode[sample,full]</code></p>
 
 ### Example: 
 <code>python dbparse.py sk sample</code>
