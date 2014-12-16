@@ -97,7 +97,7 @@ public class MainGui extends javax.swing.JFrame {
         setTitle("Vinf Alter-title analyzer");
 
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder("Choosing wiki dump"));
-        jLabel1.setText("C:\\skola\\ving\\kusok.xml");
+        jLabel1.setText("Choose your path to xml file");
         jButton1.setText("Select wikipedia dump ...");
         jButton1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
