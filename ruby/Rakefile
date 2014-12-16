@@ -1,0 +1,81 @@
+$: << File.join(File.dirname(File.absolute_path(__FILE__)), 'lib')
+
+require 'rubygems'
+require 'bundler/setup'
+
+require 'rye'
+
+def root
+  File.dirname(File.expand_path(__FILE__))
+end
+
+namespace :dbpedia do
+
+  desc 'Parse Dbpedia abstracts'
+  task :setup_dbpedia, [:file] do |t, args|
+  
+  xml = Dbpedia::Parser.parse(File.read(args['file']))
+
+  File.open(File.join(root, 'data/dbabstracts.xml'), 'w') do |file|
+    file.write(xml)
+  end
+
+  end
+
+  desc 'Import Dbpedia abstracts'
+  task :import_dbpedia do
+    index = Dbpedia::Index.new
+
+    index.import_data(File.read('data/dbabstracts.xml'))
+
+  end
+
+  desc 'Find abstract in Dbpedia'
+  task :find_dbpedia, [:query] do |t, args|
+
+    results = Dbpedia::Search.new
+
+    res = results.search(q: args['query'])
+
+    puts res.results[0].abstract
+  end
+end
+
+namespace :wikipedia do
+
+  desc 'Parse Wikipedia abstracts'
+  task :setup_wikipedia, [:file] do |t, args|
+  
+    xml = Wikipedia::Parser.parse(File.read(args['file']))
+
+    File.open(File.join(root, 'data/wikiabstracts.xml'), 'w') do |file|
+      file.write(xml)
+    end
+  end
+
+  desc 'Import Wikipedia abstracts'
+  task :import_wikipedia do
+    index = Wikipedia::Index.new
+
+    index.import_data(File.read('data/wikiabstracts.xml'))
+
+  end
+
+  desc 'Find abstract in Wikipedia'
+  task :find_wikipedia, [:query] do |t, args|
+    results = Wikipedia::Search.new
+
+    res = results.search(q: args['query'])
+
+    puts res.results[0].abstract
+  end
+end
+
+namespace :abstracts do
+  desc 'Compare abstracts from two different sources'
+  task :compare, [:query] do |t, args|
+
+    
+    Rye::Analyzer::compare(args['query'])
+  end
+end
