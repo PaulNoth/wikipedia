@@ -16,6 +16,13 @@ namespace WikiParser
         /// <summary>
         /// Constructor
         /// </summary>
+        public PageInfo()
+        {
+        }
+
+        /// <summary>
+        /// Constructor
+        /// </summary>
         /// <param name="title"></param>
         /// <param name="shortDescription"></param>
         /// <param name="longDescription"></param>

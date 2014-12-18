@@ -11,10 +11,14 @@ namespace WikiParser
     /// </summary>
     public partial class Wiki : Form
     {
-        private string rawInput = "vstup.xml";
-        private string parsedInput = "vystup3.xml";
+        private string rawInput = Environment.CurrentDirectory.Replace(@"c#\src\WikiParserSK\app\", @"data\sample_input_little_extract_from_skwiki-latest-pages-articles.xml");
+        private string parsedInput = Environment.CurrentDirectory.Replace(@"c#\src\WikiParserSK\app\", @"data\sample_output_skwiki-latest-pages-articles.xml");
         private List<DisambiguationPageInfo> disambiguationPages;
         private Parser parser;
+        private List<string> disambiguationPagesEmpty;
+        private List<string> pagesEmpty;
+        private PageInfo page;
+        private bool fromParsedDump;
 
         /// <summary>
         /// Constructor
@@ -65,6 +69,7 @@ namespace WikiParser
         /// <param name="e"></param>
         private void BtnParse_Click(object sender, EventArgs e)
         {
+            fromParsedDump = false;
             DateTime start = DateTime.Now;
             disambiguationPages = parser.GetDisambiguationPagesFromWikiDump(rawInput);
             ShowDisambPages();
@@ -105,8 +110,15 @@ namespace WikiParser
             RtbProgramInfo.Text = "";
             LbDisambPages.Items.Clear();
             LbPages.Items.Clear();
-            LbDisambPages.Items.AddRange(disambiguationPages.ToArray());
-            
+            if (fromParsedDump)
+            {
+                LbDisambPages.Items.AddRange(disambiguationPagesEmpty.ToArray());
+            }
+            else
+            {
+                LbDisambPages.Items.AddRange(disambiguationPages.ToArray());
+            }
+
             LbDisambPages.SelectedIndex = 0;
         }
 
@@ -118,7 +130,16 @@ namespace WikiParser
         private void LbDisambPages_SelectedIndexChanged(object sender, EventArgs e)
         {
             LbPages.Items.Clear();
-            LbPages.Items.AddRange(((DisambiguationPageInfo)LbDisambPages.SelectedItem).pages.ToArray());
+            if (fromParsedDump)
+            {
+                pagesEmpty = new List<string>();
+                parser.LoadEmptyPagesForDisambiguationPage(parsedInput, LbDisambPages.SelectedIndex, pagesEmpty);
+                LbPages.Items.AddRange(pagesEmpty.ToArray());
+            }
+            else
+            {
+                LbPages.Items.AddRange(((DisambiguationPageInfo)LbDisambPages.SelectedItem).pages.ToArray());
+            }
             if(LbPages.Items.Count > 0)
                 LbPages.SelectedIndex = 0;
         }
@@ -131,7 +152,16 @@ namespace WikiParser
         private void LbPages_SelectedIndexChanged(object sender, EventArgs e)
         {
             RtbPagesInfo.Clear();
-            RtbPagesInfo.Text += ((PageInfo) (LbPages.SelectedItem)).ExportTo();
+            if (fromParsedDump)
+            {
+                page = new PageInfo();
+                parser.LoadPageInfo(parsedInput, LbDisambPages.SelectedIndex, LbPages.SelectedIndex, page);
+                RtbPagesInfo.Text += page.ExportTo();
+            }
+            else
+            {
+                RtbPagesInfo.Text += ((PageInfo)(LbPages.SelectedItem)).ExportTo();
+            }
         }
 
         /// <summary>
@@ -141,19 +171,15 @@ namespace WikiParser
         /// <param name="e"></param>
         private void BtnLoad_Click(object sender, EventArgs e)
         {
+            fromParsedDump = true;
             DateTime start = DateTime.Now;
-            disambiguationPages = parser.GetDisambiguationPagesFromParsedWikiDump(parsedInput);
+            disambiguationPagesEmpty = new List<string>();
+            parser.LoadDisambiguationPagesEmpty(parsedInput, disambiguationPagesEmpty);
+
             ShowDisambPages();
             DateTime end = DateTime.Now;
             RtbProgramInfo.Text += "Elapsed time: " + String.Format("{0:g}", (end - start)) + Environment.NewLine;
-            RtbProgramInfo.Text += "Disambiguation pages: " + disambiguationPages.Count + Environment.NewLine;
-
-            int childPageCount = 0;
-            foreach (DisambiguationPageInfo disambPage in disambiguationPages)
-            {
-                childPageCount += disambPage.pages.Count;
-            }
-            RtbProgramInfo.Text += "Child pages: " + childPageCount;
+            RtbProgramInfo.Text += "Disambiguation pages: " + disambiguationPagesEmpty.Count + Environment.NewLine;
         }
 
         /// <summary>
@@ -163,7 +189,6 @@ namespace WikiParser
         /// <param name="e"></param>
         private void BtnBrowseParsedInput_Click(object sender, EventArgs e)
         {
-            OfdParsedInput.InitialDirectory = @"C:\Users\Pleto\Documents\Visual Studio 2013\Projects\WikiParser\WikiParser\bin\Debug\";
             if (OfdParsedInput.ShowDialog() == DialogResult.OK)
             {
                 parsedInput = OfdParsedInput.FileName;

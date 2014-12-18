@@ -254,6 +254,166 @@ namespace WikiParser
         }
 
         /// <summary>
+        /// Load all disambiguation pages without additional informations (only list of them)
+        /// </summary>
+        /// <param name="parsedInput"></param>
+        /// <param name="disambiguationPages"></param>
+        public void LoadDisambiguationPagesEmpty(string parsedInput, List<string> disambiguationPages)
+        {
+            using (XmlReader reader = XmlReader.Create(parsedInput))
+            {
+                reader.MoveToContent();
+                while (reader.Read())
+                {
+                    if (reader.NodeType == XmlNodeType.Element)
+                    {
+                        if (reader.Name == "dspage")
+                        {
+                            while (reader.Read())
+                            {
+                                if (reader.NodeType == XmlNodeType.Element)
+                                {
+                                    if (reader.Name == "title")
+                                    {
+                                        XElement el = XNode.ReadFrom(reader) as XElement;
+                                        disambiguationPages.Add(el.Value.Replace(" (rozlišovacia stránka)", ""));
+                                        break;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        /// <summary>
+        /// Load all pages for selected disambiguation page without additional informations (only list of them)
+        /// </summary>
+        /// <param name="parsedInput"></param>
+        /// <param name="index"></param>
+        /// <param name="pages"></param>
+        public void LoadEmptyPagesForDisambiguationPage(string parsedInput, int index, List<string> pages)
+        {
+            using (XmlReader reader = XmlReader.Create(parsedInput))
+            {
+                int localIndex = 0;
+                reader.MoveToContent();
+                while (reader.Read())
+                {
+                    if (reader.NodeType == XmlNodeType.Element)
+                    {
+                        if (reader.Name == "dspage")
+                        {
+                            if (localIndex == index)
+                            {
+                                while (reader.Read())
+                                {
+                                    if (reader.NodeType == XmlNodeType.Element)
+                                    {
+                                        if (reader.Name == "page")
+                                        {
+                                            while (reader.Read())
+                                            {
+                                                if (reader.NodeType == XmlNodeType.Element)
+                                                {
+                                                    if (reader.Name == "title")
+                                                    {
+                                                        XElement el = XNode.ReadFrom(reader) as XElement;
+                                                        pages.Add(el.Value);
+                                                    }
+                                                    else if (reader.Name == "dspage")
+                                                    {
+                                                        return;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            localIndex++;
+                        }                      
+                    }
+                }
+            }
+        }
+
+        /// <summary>
+        /// Load info about selected page
+        /// </summary>
+        /// <param name="parsedInput"></param>
+        /// <param name="indexDS"></param>
+        /// <param name="indexP"></param>
+        /// <param name="page"></param>
+        public void LoadPageInfo(string parsedInput, int indexDS, int indexP, PageInfo page)
+        {
+            using (XmlReader reader = XmlReader.Create(parsedInput))
+            {
+                int localIndexDS = 0;
+                int localIndexP = 0;
+                reader.MoveToContent();
+                while (reader.Read())
+                {
+                    if (reader.NodeType == XmlNodeType.Element)
+                    {
+                        if (reader.Name == "dspage")
+                        {
+                            if (localIndexDS == indexDS)
+                            {
+                                while (reader.Read())
+                                {
+                                    if (reader.NodeType == XmlNodeType.Element)
+                                    {
+                                        if (reader.Name == "page")
+                                        {
+                                            if (localIndexP == indexP)
+                                            {
+                                                while (reader.Read())
+                                                {
+                                                    if (reader.NodeType == XmlNodeType.Element)
+                                                    {
+                                                        if (reader.Name == "title")
+                                                        {
+                                                            XElement el = XNode.ReadFrom(reader) as XElement;
+                                                            page.title = el.Value;
+                                                        }
+                                                        else if (reader.Name == "anchor")
+                                                        {
+                                                            XElement el = XNode.ReadFrom(reader) as XElement;
+                                                            page.anchor = el.Value;
+                                                        }
+                                                        else if (reader.Name == "shortDescription")
+                                                        {
+                                                            XElement el = XNode.ReadFrom(reader) as XElement;
+                                                            page.shortDescription = el.Value;
+                                                        }
+                                                        else if (reader.Name == "longDescription")
+                                                        {
+                                                            XElement el = XNode.ReadFrom(reader) as XElement;
+                                                            page.longDescription = el.Value;
+                                                        }
+                                                        else if (reader.Name == "page")
+                                                        {
+                                                            return;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            localIndexP++;
+                                        }
+                                    }
+                                    
+                                }
+                            }
+                            localIndexDS++;
+                        }
+                    }
+                }
+            }
+        }
+
+        /// <summary>
         /// Remove pages that are duplicates
         /// </summary>
         /// <param name="disambiguationPages"></param>
