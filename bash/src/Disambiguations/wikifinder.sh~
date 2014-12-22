@@ -4,7 +4,7 @@ echo ""
 
 if [ $# -lt 1 ]
 then
-	echo "A kurva! Viete ako."
+	echo "Nedostatočný počet parametrov"
 	exit
 fi
 
@@ -12,7 +12,7 @@ DISAMB_EXISTS=`grep "^title>$1 (disambiguation)$" disambiguations.txt | wc -l`
 
 if [ $DISAMB_EXISTS -eq 0 ]
 then
-	echo "Ooo, on chce neexistujucu stranku, no to je genius! Kokot..."
+	echo "Stránka nebola nájdená"
 	exit
 fi
 

@@ -7,16 +7,13 @@ echo "Welcome to Disambiguation parser data preparation"
 echo ""
 echo "... working ..."
 
-## IMPORTANT - change to your input filename
 FILE="insert-filename-here.xml.bz2"
 
-#unpack and replace separate tags each on new line
 bzip2 -dc $FILE | tr "\n" "~" > rawdata
 cat rawdata | tr "<" "\n" > rawdata_endls
 
 rm -f rawdata
-#remove raw text file
-#prepare separate files used at runtime
+
 cat rawdata_endls | grep "^title>\|^text" | grep -A 1 "title>.*disambiguation" > disambiguation_contents.txt
 cat disambiguation_contents.txt | sed 's/\[\[/\n[[/g' | sed 's/\]\]/]]\n/g' | grep "\[\[\|^title" | sed 's/|\(.*\)\]\]/]]/g' > disambiguation_links.txt
 rm -f disambiguation_contents.txt
