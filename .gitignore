@@ -14,3 +14,22 @@ CODES\WikiParser\WikiParser.sln
 .project
 .settings/org.eclipse.jdt.core.prefs
 .settings/org.eclipse.m2e.core.prefs
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Python cache files and directories
+__pycache__/
+*.pyc
+
+# Google API key
+# Important: do not upload your
+# API key to source control.
+*api_key*
+
+# whoosh index files
+whoosh/
