@@ -1,0 +1,17 @@
+﻿DROP TABLE IF EXISTS `langlinks`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `langlinks` (
+  `ll_from` int(8) unsigned NOT NULL DEFAULT '0',
+  `ll_lang` varbinary(20) NOT NULL DEFAULT '',
+  `ll_title` varbinary(255) NOT NULL DEFAULT '',
+  UNIQUE KEY `ll_from` (`ll_from`,`ll_lang`),
+  KEY `ll_lang` (`ll_lang`,`ll_title`)
+) ENGINE=InnoDB DEFAULT CHARSET=binary;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+
+
+(10577,'sk','Fínsko')
+(10577,'no','Finland')
+(10577,'fi','Suomi')

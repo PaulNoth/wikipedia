@@ -1,9 +1,0 @@
-﻿ <article>
-	<title>
-		Presidential state car (United States)
-	</title>
-	<alt>
-		The Beast
-		Cadillac One
-	</alt>
- </article>

@@ -1,0 +1,1 @@
+{"http://sk.dbpedia.org/resource/Nemecko"=>["Krajiny_EÚ", "Členovia_NATO", "Členovia_OSN", "Štáty_v_Európe", "Nemecko"]}

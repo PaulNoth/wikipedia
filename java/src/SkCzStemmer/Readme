@@ -1,0 +1,43 @@
+***Slovak and czech stemmer***
+
+This project is used for stemming purposes in slovak and czech language. It consists of these packages:
+
+*main
+	This package consists of main class for example usage.
+	+ Main
+
+*services
+	This package contains main logic for whole solution of stemming slovak and czech words.
+	-services.extractor
+		Consists of class used for extracting anchor texts from dump file. Using SAX program extracts page text and then 
+		this text is tokenized by LUCENE simple tokenizer. These tokens are merged to get collocation of "dirty" anchor and other words.
+		Then the collocation is purified to "dirty" anchor. Output of extracting process is anchor CSV file in specific format: 
+		anchor owner(page to links); anchor occurance (page where anchor occurs); pure anchor; whole anchor found in dump
+		+ MediaWikiExtractor
+		
+	-services.data
+		Consists of classes used for creating suffix tree used for stemming process. At first the anchor file is processed, so the anchor owners 
+		and pure anchors are added to tree structure, where the root is the last character of words added to the tree. Then this tree is saved by 
+		serialization tool JAXB to XML file treeFile.xml. 
+		+ DataDeafultService
+		+ WordTreeItem
+		
+	-services.stemmer
+		Consists of classes used for stemming words in test file. This file consists of one word per line. The process begins with loading tree 
+		to memory. Then the maximal entropy algorithm is run for the word from test file using prepared suffix tree. In this algorithm 
+		the whole is cut to two parts : the stem of the word and the most probable suffix learned from suffix tree. The output is CSV file,
+		in which every line contains original word and its stem.
+		+ StemmerDefaultService
+		+ CharacterItem
+		
+*utils 
+ 	This package consists of utility class containing of file paths used in unit tests and paths to full dumps.
+ 	+ MyFilePaths
+ 	
+***USAGE***
+
+At first you have to extract anchors from dump using MediaWikiExtractor.extractMediaWikiAnchorsFromAnchorFile(), where in MediaWikiExtractor
+constructor you have to dump file. Next you have to use DataDeafultService.createTreeFromAnchorFile(anchorFile), where in 
+DataDeafultService constructor you have to add generated anchor file. At the end you use StemmerDefaultService.stemmAnchors(testFile). 
+Also in this class constructor you have to add generated tree file.
+After these easy steps you  have output where is original and stemmed word saved.

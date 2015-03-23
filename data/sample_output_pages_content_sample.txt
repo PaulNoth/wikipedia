@@ -1,0 +1,100 @@
+title>AccessibleComputing
+text xml:space="preserve">#REDIRECT [[Computer accessibility]]~~{{Redr|move|from CamelCase|up}}
+title>Anarchism
+text xml:space="preserve">{{Redirect2|Anarchist|Anarchists|the fictional character|Anarchist (comics)|other uses|Anarchists (disambiguation)}}~{{Use British English|date=January 2014}}~{{pp-move-indef}}~{{Anarchism sidebar}}~~'''Anarchism''' is a [[p
+title>AfghanistanHistory
+text xml:space="preserve">#REDIRECT [[History of Afghanistan]] {{R from CamelCase}}
+title>AfghanistanGeography
+text xml:space="preserve">#REDIRECT [[Geography of Afghanistan]] {{R from CamelCase}}
+title>AfghanistanPeople
+text xml:space="preserve">#REDIRECT [[Demographics of Afghanistan]] {{R from CamelCase}}
+title>AfghanistanCommunications
+text xml:space="preserve">#REDIRECT [[Communications in Afghanistan]] {{R from CamelCase}}
+title>AfghanistanTransportations
+text xml:space="preserve">#REDIRECT [[Transport in Afghanistan]] {{R from CamelCase}} {{R unprintworthy}}
+title>AfghanistanMilitary
+text xml:space="preserve">#REDIRECT [[Afghan Armed Forces]] {{R from CamelCase}}
+title>AfghanistanTransnationalIssues
+text xml:space="preserve">#REDIRECT [[Foreign relations of Afghanistan]] {{R from CamelCase}}
+title>AssistiveTechnology
+text xml:space="preserve">#REDIRECT [[Assistive_technology]] {{R from CamelCase}}
+title>AmoeboidTaxa
+text xml:space="preserve">#REDIRECT [[Amoeba]] {{R from CamelCase}}
+title>Autism
+text xml:space="preserve">{{Hatnote|This article is about the classic autistic disorder; some writers use the word ''autism'' when referring to the range of disorders on the [[autism spectrum]] or to the various [[pervasive developmental disorder]]s.
+title>AlbaniaHistory
+text xml:space="preserve">#REDIRECT [[History of Albania]] {{R from CamelCase}}
+title>AlbaniaPeople
+text xml:space="preserve">#REDIRECT [[Demographics of Albania]] {{R from CamelCase}}
+title>AsWeMayThink
+text xml:space="preserve">#REDIRECT [[As_We_May_Think]] {{R from CamelCase}}
+title>AlbaniaGovernment
+text xml:space="preserve">#REDIRECT [[Politics of Albania]] {{R from CamelCase}}
+title>AlbaniaEconomy
+text xml:space="preserve">#REDIRECT [[Economy of Albania]] {{R from CamelCase}}
+title>Albedo
+text xml:space="preserve">{{Other uses}}~{{Use dmy dates|date=June 2013}}~[[File:Albedo-e hg.svg|thumb|Percentage of diffusely reflected sunlight in relation to various surface conditions]]~~'''Albedo''' ({{IPAc-en|æ|l|ˈ|b|iː|d|oʊ}}), or ''reflec
+title>AfroAsiaticLanguages
+text xml:space="preserve">#REDIRECT [[Afroasiatic languages]] {{R from CamelCase}}
+title>ArtificalLanguages
+text xml:space="preserve">#REDIRECT [[Constructed language]]~~{{Redr|move|from misspelling|p2=&lt;small&gt;''(see also)''&lt;/small&gt; [[Artificial language]]s|from CamelCase|up}}
+title>AbacuS
+text xml:space="preserve">#REDIRECT [[Abacus]] {{R from CamelCase}}
+title>AbalonE
+text xml:space="preserve">#REDIRECT [[Abalone]] {{R from CamelCase}}
+title>AbbadideS
+text xml:space="preserve">#REDIRECT [[Abbadid dynasty]] {{R from CamelCase}}
+title>AbbesS
+text xml:space="preserve">#REDIRECT [[Abbess]] {{R from CamelCase}}
+title>AbbevilleFrance
+text xml:space="preserve">#REDIRECT [[Abbeville]] {{R from CamelCase}}
+title>AbbeY
+text xml:space="preserve">#REDIRECT [[Abbey]] {{R from CamelCase}}
+title>AbboT
+text xml:space="preserve">#REDIRECT [[Abbot]] {{R from CamelCase}}
+title>Abbreviations
+text xml:space="preserve">#REDIRECT [[Abbreviation]] {{R from plural}}
+title>AtlasShrugged
+text xml:space="preserve">#REDIRECT [[Atlas Shrugged]]  {{R from CamelCase}}
+title>ArtificialLanguages
+text xml:space="preserve">#REDIRECT [[Constructed language]] {{R from CamelCase}}
+title>AtlasShruggedCharacters
+text xml:space="preserve">#REDIRECT [[List of Atlas Shrugged characters]] {{R from CamelCase}}
+title>AtlasShruggedCompanies
+text xml:space="preserve">#REDIRECT [[Atlas Shrugged]] {{R from CamelCase}}
+title>AyersMusicPublishingCompany
+text xml:space="preserve">#REDIRECT [[Atlas Shrugged]] {{R from CamelCase}} {{R from phrase}}
+title>AfricanAmericanPeople
+text xml:space="preserve">#REDIRECT [[African American]] {{R from CamelCase}}
+title>AdolfHitler
+text xml:space="preserve">#REDIRECT [[Adolf Hitler]] {{R from CamelCase}}
+title>AbeceDarians
+text xml:space="preserve">#REDIRECT [[Abecedarian]] {{R from CamelCase}}
+title>AbeL
+text xml:space="preserve">#REDIRECT [[Cain and Abel]] {{R from CamelCase}}
+title>AbensbergGermany
+text xml:space="preserve">#REDIRECT [[Abensberg]] {{R from CamelCase}}
+title>AberdeenSouthDakota
+text xml:space="preserve">#REDIRECT [[Aberdeen, South Dakota]] {{R from CamelCase}}
+title>ArthurKoestler
+text xml:space="preserve">#REDIRECT [[Arthur Koestler]] {{R from CamelCase}}
+title>AynRand
+text xml:space="preserve">#REDIRECT [[Ayn Rand]] {{R from CamelCase}}
+title>AlexanderTheGreat
+text xml:space="preserve">#REDIRECT [[Alexander the Great]]{{R from CamelCase}}
+title>AnchorageAlaska
+text xml:space="preserve">#REDIRECT [[Anchorage, Alaska]]{{R from CamelCase}}
+title>ArgumentForms
+text xml:space="preserve">#REDIRECT [[Logical form]] {{R from CamelCase}}
+title>ArgumentsForTheExistenceOfGod
+text xml:space="preserve">#REDIRECT [[Existence of God]]{{R from CamelCase}}
+title>AnarchY
+text xml:space="preserve">#REDIRECT [[Anarchy]]~~{{R from CamelCase}}
+title>AsciiArt
+text xml:space="preserve">#REDIRECT [[ASCII art]]{{R from CamelCase}}
+title>AcademyAwards
+text xml:space="preserve">#REDIRECT [[Academy Awards]]{{R from CamelCase}}
+title>AcademyAwards/BestPicture
+text xml:space="preserve">#REDIRECT [[Academy Award for Best Picture]]~~{{This is a redirect|from CamelCase|from subpage}}
+title>AustriaLanguage
+text xml:space="preserve">#REDIRECT [[Austrian German]]~{{R from CamelCase}}

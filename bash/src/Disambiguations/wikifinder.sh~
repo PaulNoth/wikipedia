@@ -1,0 +1,45 @@
+#!/bin/bash
+
+echo ""
+
+if [ $# -lt 1 ]
+then
+	echo "Nedostatočný počet parametrov"
+	exit
+fi
+
+DISAMB_EXISTS=`grep "^title>$1 (disambiguation)$" disambiguations.txt | wc -l`
+
+if [ $DISAMB_EXISTS -eq 0 ]
+then
+	echo "Stránka nebola nájdená"
+	exit
+fi
+
+echo "The result for: $1 (disambiguation)"
+echo ""
+
+cat disambiguation_lookup.txt | grep "^title>$1 (disambiguation)~" | tr "~" "\n" > tmp0
+
+while read line2
+do
+ if [ "$2" == "--no-lookup" ]
+ then
+ 	echo "$line2" | grep "\[\[" | sed 's/\[\[\(.*\)\]\]/\1/g'
+ else
+	PAGE_NAME=`echo "$line2" | grep "\[\[" | sed 's/\[\[\(.*\)\]\]/\1/g'`
+	VALID=`echo $PAGE_NAME | wc -c`
+	if [ $VALID -gt 1 ]
+	then
+		echo ""
+		echo "$PAGE_NAME"
+		echo ""
+		grep -A 1 -m 1 "title>$PAGE_NAME$" pages_content.txt | tail -n 1 | cut -d ">" -f 2 | tr "~" "\n"
+		echo "- - - - -"
+	fi
+
+ fi
+done < tmp0
+rm tmp0
+
+exit

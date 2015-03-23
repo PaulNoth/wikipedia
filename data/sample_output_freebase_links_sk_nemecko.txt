@@ -1,0 +1,1 @@
+{"http://sk.dbpedia.org/resource/Nemecko"=>["http://rdf.freebase.com/ns/m.0345"]}

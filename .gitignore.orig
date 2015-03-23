@@ -1,0 +1,12 @@
+<<<<<<< HEAD
+C#/src/WikiCalendar/obj/
+C#/src/WikiCalendar/bin/
+=======
+#Visual Studio files
+CODES\CanTheyMeet\CanTheyMeet\bin
+CODES\CanTheyMeet\CanTheyMeet\obj
+CODES\CanTheyMeet\CanTheyMeet\CanTheyMeet.sln
+CODES\WikiParser\WikiParser\bin
+CODES\WikiParser\WikiParser\obj
+CODES\WikiParser\WikiParser.sln
+>>>>>>> 12e1160c34c46b7dc74f1d990464c1250fddc4dd
